@@ -78,6 +78,20 @@ proxies:
       short-id: "0c"
     flow: "xtls-rprx-vision"
   - name: "🇨🇿_2"
+    type: vless
+    server: "14.102.229.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇨🇿_3"
     type: trojan
     server: "46.8.113.142"
     port: 443
@@ -85,7 +99,7 @@ proxies:
     sni: "ch-2.bexum.fun"
     skip-cert-verify: true
     udp: true
-  - name: "🇨🇿_3"
+  - name: "🇨🇿_4"
     type: trojan
     server: "ch-2.bexum.fun"
     port: 443
@@ -110,6 +124,7 @@ proxy-groups:
       - "🇨🇿_1"
       - "🇨🇿_2"
       - "🇨🇿_3"
+      - "🇨🇿_4"
 
 
 rules:

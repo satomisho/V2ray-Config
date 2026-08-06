@@ -59,62 +59,13 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇱🇻_17"
+  - name: "🇱🇻_6"
     type: vless
-    server: "31.76.37.7"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
+    server: "85.159.228.250"
+    port: 25703
+    uuid: "7e5964d0-36b8-43ff-885b-86c4d3bfd466"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-it.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-  - name: "🇱🇻_18"
-    type: vless
-    server: "31.76.123.43"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_19"
-    type: vless
-    server: "31.76.123.27"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_20"
-    type: vless
-    server: "195.123.208.92"
-    port: 13443
-    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "auto.cendora.ru"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM"
-      short-id: "a7f3c91b2e6d84c0"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_21"
+  - name: "🇱🇻_7"
     type: vless
     server: "pro-fi.emrata.top"
     port: 443
@@ -128,136 +79,35 @@ proxies:
       public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇱🇻_22"
+  - name: "🇱🇻_8"
     type: vless
-    server: "pro-fi.emrata.top"
-    port: 443
-    uuid: "f33e604e-d0c0-4775-91e2-934cc2e8d37c"
+    server: "195.123.208.92"
+    port: 13443
+    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_23"
-    type: vless
-    server: "pro-it.emrata.top"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-it.emrata.top"
+    servername: "auto.cendora.ru"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-  - name: "🇱🇻_24"
-    type: vless
-    server: "85.159.228.250"
-    port: 25703
-    uuid: "7e5964d0-36b8-43ff-885b-86c4d3bfd466"
-    udp: true
-  - name: "🇱🇻_25"
-    type: vless
-    server: "31.76.123.27"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
+      public-key: "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM"
+      short-id: "a7f3c91b2e6d84c0"
     flow: "xtls-rprx-vision"
-  - name: "🇱🇻_26"
+  - name: "🇱🇻_9"
     type: vless
-    server: "31.76.123.47"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
+    server: "31.58.46.47"
+    port: 1683
+    uuid: "5c6d8045-9de9-45e4-b495-463fc3f1a828"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
+    servername: "celerisdigital.top"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
+      public-key: "_fz8jpa604XXSweCCf6PU9Xmd7F4sZ1RSMqNTzwBVA0"
+      short-id: "a4f8c92d"
     flow: "xtls-rprx-vision"
-  - name: "🇱🇻_27"
-    type: vless
-    server: "31.76.123.25"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_28"
-    type: vless
-    server: "pro-fi.emrata.top"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_29"
-    type: vless
-    server: "31.76.123.43"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-fi.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇻_30"
-    type: vless
-    server: "31.76.37.7"
-    port: 443
-    uuid: "95f50108-2bae-4634-948c-b22e01ae3133"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-it.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-  - name: "🇱🇻_31"
-    type: vless
-    server: "pro-it.emrata.top"
-    port: 443
-    uuid: "f33e604e-d0c0-4775-91e2-934cc2e8d37c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-it.emrata.top"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I"
-      short-id: ""
-  - name: "🇱🇻_32"
+  - name: "🇱🇻_10"
     type: trojan
     server: "31.57.61.76"
     port: 2053
@@ -307,22 +157,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -332,22 +171,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -357,22 +185,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -381,22 +198,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -406,43 +212,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇱🇻_17"
-      - "🇱🇻_18"
-      - "🇱🇻_19"
-      - "🇱🇻_20"
-      - "🇱🇻_21"
-      - "🇱🇻_22"
-      - "🇱🇻_23"
-      - "🇱🇻_24"
-      - "🇱🇻_25"
-      - "🇱🇻_26"
-      - "🇱🇻_27"
-      - "🇱🇻_28"
-      - "🇱🇻_29"
-      - "🇱🇻_30"
-      - "🇱🇻_31"
-      - "🇱🇻_32"
+      - "🇱🇻_6"
+      - "🇱🇻_7"
+      - "🇱🇻_8"
+      - "🇱🇻_9"
+      - "🇱🇻_10"
 
 rules:
   - MATCH,PROXY-BEST

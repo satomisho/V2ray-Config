@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇹🇷_11"
+  - name: "🇹🇷_10"
     type: vless
     server: "2.56.127.137"
     port: 443
@@ -74,21 +74,7 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: "mAhaNrEaliteAm.MaHkHan.iR"
-  - name: "🇹🇷_12"
-    type: vless
-    server: "pro-tr.emrata.top"
-    port: 443
-    uuid: "da86df16-a80c-48b1-90be-3e174fe0076d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-tr.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_13"
+  - name: "🇹🇷_11"
     type: vless
     server: "185.39.204.155"
     port: 8443
@@ -97,49 +83,36 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc"
+  - name: "🇹🇷_12"
+    type: vless
+    server: "86.38.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇹🇷_13"
+    type: vless
+    server: "37.221.79.169"
+    port: 2083
+    uuid: "ff6f09e0-7011-49ed-bf91-d2e53c7c5d24"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vip.degeris.ir"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/jansbsbsbeejdb"
+      headers:
+        Host: "vip.degeris.ir"
   - name: "🇹🇷_14"
-    type: vless
-    server: "2.26.94.9"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-tr.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_15"
-    type: vless
-    server: "pro-tr.emrata.top"
-    port: 443
-    uuid: "02ae7872-1c03-4214-8b95-14c126da831e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pro-tr.emrata.top"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_16"
-    type: vless
-    server: "201.50.115.23"
-    port: 443
-    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_17"
     type: trojan
     server: "195.162.69.238"
     port: 9443
@@ -147,7 +120,15 @@ proxies:
     sni: "apple.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇷_18"
+  - name: "🇹🇷_15"
+    type: trojan
+    server: "45.136.5.2"
+    port: 443
+    password: "be8b8f45-a290-4405-8699-ffeb07f3ee24"
+    sni: "16-163-218-240.nhost.00cdn.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇹🇷_16"
     type: trojan
     server: "45.67.202.101"
     port: 8443
@@ -155,19 +136,19 @@ proxies:
     sni: "Koma-YT.PAGeS.Dev"
     skip-cert-verify: true
     udp: true
-  - name: "🇹🇷_19"
-    type: ss
-    server: "38.180.113.194"
-    port: 8119
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-    udp: true
-  - name: "🇹🇷_20"
+  - name: "🇹🇷_17"
     type: ss
     server: "185.123.101.64"
     port: 2376
     cipher: "aes-256-gcm"
     password: "faBAoD54k87UJG7"
+    udp: true
+  - name: "🇹🇷_18"
+    type: ss
+    server: "38.180.113.194"
+    port: 8119
+    cipher: "aes-256-gcm"
+    password: "cdBIDV42DCwnfIN"
     udp: true
 
 proxy-groups:
@@ -211,6 +192,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -219,8 +201,6 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
   - name: "LB-CDN"
     type: load-balance
@@ -230,6 +210,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -238,8 +219,6 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -249,6 +228,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -257,8 +237,6 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
   - name: "FAST-CDN"
     type: url-test
@@ -267,6 +245,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -275,8 +254,6 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -286,6 +263,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -294,13 +272,12 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇹🇷_10"
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
@@ -309,8 +286,6 @@ proxy-groups:
       - "🇹🇷_16"
       - "🇹🇷_17"
       - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
 
 rules:
   - MATCH,PROXY-BEST

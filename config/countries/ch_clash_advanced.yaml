@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇭_7"
+  - name: "🇨🇭_4"
     type: vless
     server: "45.195.2.114"
     port: 443
@@ -68,12 +68,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "storage.yandex.net"
-    client-fingerprint: "qq"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc"
       short-id: "d515d6cfdfe60b02"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_8"
+  - name: "🇨🇭_5"
     type: vless
     server: "178.83.226.55"
     port: 443
@@ -86,49 +86,7 @@ proxies:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_9"
-    type: vless
-    server: "194.135.22.141"
-    port: 443
-    uuid: "9b4c96f9-60e8-4694-b069-c46992390555"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cloudflare.vhub.pro"
-    network: ws
-    ws-opts:
-      path: "/websocket"
-      headers:
-        Host: "cloudflare.vhub.pro"
-  - name: "🇨🇭_10"
-    type: vless
-    server: "45.59.119.36"
-    port: 8464
-    uuid: "2224085c-ab5e-48ac-bcdb-c67a983f70e2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "TGyAcC_Doy-9s59Fra8U5M-9bQCrULrJWNxfMR9mZjE"
-      short-id: "bfd331f9"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇭_11"
-    type: vless
-    server: "edges.api-gateway-dev.top"
-    port: 8464
-    uuid: "2224085c-ab5e-48ac-bcdb-c67a983f70e2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "TGyAcC_Doy-9s59Fra8U5M-9bQCrULrJWNxfMR9mZjE"
-      short-id: "bfd331f9"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇭_12"
+  - name: "🇨🇭_6"
     type: trojan
     server: "86.106.84.195"
     port: 53261
@@ -178,12 +136,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -193,12 +148,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -208,12 +160,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -222,12 +171,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -237,23 +183,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
-      - "🇨🇭_11"
-      - "🇨🇭_12"
+      - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
 
 rules:
   - MATCH,PROXY-BEST

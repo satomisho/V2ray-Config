@@ -65,38 +65,33 @@ dns:
 proxies:
   - name: "🇺🇦_1"
     type: vless
-    server: "194.152.44.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "ukraine.xiaomaimai.dpdns.org"
+    port: 20071
+    uuid: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime55.workers.dev"
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lamer.com"
+    client-fingerprint: "edge"
+    reality-opts:
+      public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
+      short-id: "a02bf9"
+    flow: "xtls-rprx-vision"
   - name: "🇺🇦_2"
     type: vless
-    server: "89.116.180.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "89.116.180.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/dula?Telegram-WangCai2"
       headers:
-        Host: "vms.lifetime09.workers.dev"
+        Host: "speed.dulacloud.store"
   - name: "🇺🇦_3"
-    type: vless
-    server: "45.135.235.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "🇺🇦_4"
     type: vless
     server: "91.236.248.20"
     port: 20071
@@ -109,18 +104,7 @@ proxies:
       public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
       short-id: "a02bf9"
     flow: "xtls-rprx-vision"
-  - name: "🇺🇦_5"
-    type: trojan
-    server: "89.116.180.49"
-    port: 443
-    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
-    sni: "0403.infinityconfig4.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/sync"
-  - name: "🇺🇦_6"
+  - name: "🇺🇦_4"
     type: trojan
     server: "130.0.236.88"
     port: 443
@@ -146,8 +130,6 @@ proxy-groups:
       - "🇺🇦_2"
       - "🇺🇦_3"
       - "🇺🇦_4"
-      - "🇺🇦_5"
-      - "🇺🇦_6"
 
 
 rules:

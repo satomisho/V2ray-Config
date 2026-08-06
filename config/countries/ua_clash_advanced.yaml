@@ -59,40 +59,35 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇺🇦_5"
+    type: vless
+    server: "ukraine.xiaomaimai.dpdns.org"
+    port: 20071
+    uuid: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lamer.com"
+    client-fingerprint: "edge"
+    reality-opts:
+      public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
+      short-id: "a02bf9"
+    flow: "xtls-rprx-vision"
+  - name: "🇺🇦_6"
+    type: vless
+    server: "89.116.180.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
   - name: "🇺🇦_7"
-    type: vless
-    server: "194.152.44.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime55.workers.dev"
-  - name: "🇺🇦_8"
-    type: vless
-    server: "89.116.180.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_9"
-    type: vless
-    server: "45.135.235.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "🇺🇦_10"
     type: vless
     server: "91.236.248.20"
     port: 20071
@@ -105,18 +100,7 @@ proxies:
       public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
       short-id: "a02bf9"
     flow: "xtls-rprx-vision"
-  - name: "🇺🇦_11"
-    type: trojan
-    server: "89.116.180.49"
-    port: 443
-    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
-    sni: "0403.infinityconfig4.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/sync"
-  - name: "🇺🇦_12"
+  - name: "🇺🇦_8"
     type: trojan
     server: "130.0.236.88"
     port: 443
@@ -166,12 +150,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -181,12 +163,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -196,12 +176,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -210,12 +188,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -225,23 +201,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇺🇦_5"
+      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
-      - "🇺🇦_12"
 
 rules:
   - MATCH,PROXY-BEST

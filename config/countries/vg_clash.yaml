@@ -65,18 +65,18 @@ dns:
 proxies:
   - name: "🇻🇬_1"
     type: vless
-    server: "142.54.23.15"
+    server: "104.234.239.7"
     port: 8443
-    uuid: "c20c6ab3-0495-48e3-bf01-77144b2a89c1"
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+    servername: "speed.dulacloud.store"
     network: ws
     ws-opts:
-      path: "/anime/project/wiki"
+      path: "/dula?Telegram-WangCai2"
       headers:
-        Host: "jacbgoff.davdlpck1znnhvqh64hl.workers.dev"
+        Host: "speed.dulacloud.store"
 
 proxy-groups:
   - name: "PROXY"

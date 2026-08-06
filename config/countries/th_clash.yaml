@@ -65,31 +65,30 @@ dns:
 proxies:
   - name: "🇹🇭_1"
     type: vless
-    server: "154.83.2.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "43.164.1.23"
+    port: 666
+    uuid: "8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "43.164.1.23"
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/proxy"
       headers:
-        Host: "vms.lifetime28.workers.dev"
+        Host: "43.164.1.23"
   - name: "🇹🇭_2"
-    type: vless
-    server: "154.83.2.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime28.workers.dev"
-  - name: "🇹🇭_3"
     type: vless
     server: "157.85.102.28"
     port: 1083
     uuid: "b93efa30-e2c5-401c-9ec7-22e30266cc60"
+    udp: true
+  - name: "🇹🇭_3"
+    type: ss
+    server: "47.81.56.202"
+    port: 44617
+    cipher: "chacha20-ietf-poly1305"
+    password: "lhuULRwO4slM6k262pAC4cbq5A1H6z8eaOHV27vi7Yw="
     udp: true
   - name: "🇹🇭_4"
     type: ss
@@ -106,13 +105,6 @@ proxies:
     password: "lhuULRwO4slM6k262pAC4cbq5A1H6z8eaOHV27vi7Yw="
     udp: true
   - name: "🇹🇭_6"
-    type: ss
-    server: "47.81.56.202"
-    port: 44617
-    cipher: "chacha20-ietf-poly1305"
-    password: "lhuULRwO4slM6k262pAC4cbq5A1H6z8eaOHV27vi7Yw="
-    udp: true
-  - name: "🇹🇭_7"
     type: ss
     server: "102.129.229.85"
     port: 31700
@@ -139,7 +131,6 @@ proxy-groups:
       - "🇹🇭_4"
       - "🇹🇭_5"
       - "🇹🇭_6"
-      - "🇹🇭_7"
 
 
 rules:

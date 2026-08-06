@@ -1,1 +1,1 @@
-vless://c20c6ab3-0495-48e3-bf01-77144b2a89c1@142.54.23.15:8443?encryption=none&security=tls&sni=jacbgoff.davdlpck1znnhvqh64hl.workers.dev&type=ws&host=jacbgoff.davdlpck1znnhvqh64hl.workers.dev&path=%2Fanime%2Fproject%2Fwiki#%F0%9F%87%BB%F0%9F%87%AC
+vless://7967bf59-57e3-4cde-9898-527b0fe60022@104.234.239.7:8443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=speed.dulacloud.store&path=%2Fdula%3FTelegram-WangCai2&security=tls&sni=speed.dulacloud.store&type=ws#%F0%9F%87%BB%F0%9F%87%AC
