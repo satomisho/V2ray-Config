@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇭_4"
+  - name: "🇨🇭_6"
     type: vless
     server: "45.195.2.114"
     port: 443
@@ -73,7 +73,7 @@ proxies:
       public-key: "8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc"
       short-id: "d515d6cfdfe60b02"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_5"
+  - name: "🇨🇭_7"
     type: vless
     server: "178.83.226.55"
     port: 443
@@ -86,13 +86,34 @@ proxies:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_6"
+  - name: "🇨🇭_8"
+    type: vless
+    server: "45.85.93.92"
+    port: 443
+    uuid: "89281585-8bde-4ef2-8807-96c603281ef8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free.ch1.laodavip.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "QZDU9ZZt6HEIijqRyeyebLxt11S692nSBIDNCKLBM3k"
+      short-id: "f5420efbe305d354"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_9"
     type: trojan
     server: "86.106.84.195"
     port: 53261
     password: "y3b03zx3tznhyo538p4c"
     sni: "86.106.84.195"
     skip-cert-verify: true
+    udp: true
+  - name: "🇨🇭_10"
+    type: ss
+    server: "146.70.26.156"
+    port: 1080
+    cipher: "chacha20-ietf-poly1305"
+    password: "XF0klw7870vXn3uQIxe19Q"
     udp: true
 
 proxy-groups:
@@ -136,9 +157,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -148,9 +171,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -160,9 +185,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -171,9 +198,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -183,17 +212,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
 
 rules:
   - MATCH,PROXY-BEST

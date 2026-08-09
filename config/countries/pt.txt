@@ -1,2 +1,1 @@
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@156.243.83.7:8443?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=speed.dulacloud.store&path=%2Fdula%3FTelegram-WangCai2&security=tls&sni=speed.dulacloud.store&type=ws#%F0%9F%87%B5%F0%9F%87%B9
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?type=tcp&security=none&encryption=none&path=/#%F0%9F%87%B5%F0%9F%87%B9
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?type=tcp&security=none&encryption=none#%F0%9F%87%B5%F0%9F%87%B9

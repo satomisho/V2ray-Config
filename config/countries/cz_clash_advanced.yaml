@@ -68,26 +68,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "yahoo.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "edge"
     reality-opts:
       public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
       short-id: "0c"
     flow: "xtls-rprx-vision"
   - name: "🇨🇿_6"
-    type: vless
-    server: "14.102.229.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇨🇿_7"
     type: trojan
     server: "46.8.113.142"
     port: 443
@@ -95,14 +81,30 @@ proxies:
     sni: "ch-2.bexum.fun"
     skip-cert-verify: true
     udp: true
-  - name: "🇨🇿_8"
+  - name: "🇨🇿_7"
     type: trojan
-    server: "ch-2.bexum.fun"
-    port: 443
-    password: "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu"
-    sni: "ch-2.bexum.fun"
+    server: "178.208.75.155"
+    port: 2053
+    password: "humanity"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
     udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "🇨🇿_8"
+    type: trojan
+    server: "178.208.75.155"
+    port: 8443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

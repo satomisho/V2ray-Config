@@ -65,45 +65,37 @@ dns:
 proxies:
   - name: "🇺🇦_1"
     type: vless
-    server: "ukraine.xiaomaimai.dpdns.org"
-    port: 20071
-    uuid: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
+    server: "45.135.235.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.lamer.com"
-    client-fingerprint: "edge"
-    reality-opts:
-      public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
-      short-id: "a02bf9"
-    flow: "xtls-rprx-vision"
-  - name: "🇺🇦_2"
-    type: vless
-    server: "89.116.180.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
     network: ws
     ws-opts:
-      path: "/dula?Telegram-WangCai2"
+      path: "/"
       headers:
-        Host: "speed.dulacloud.store"
+        Host: "vms.lifetime07.workers.dev"
+  - name: "🇺🇦_2"
+    type: vless
+    server: "89.116.180.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime09.workers.dev"
   - name: "🇺🇦_3"
     type: vless
-    server: "91.236.248.20"
-    port: 20071
-    uuid: "65c56e1f-5c41-40bc-b0b5-9346772476ca"
+    server: "194.152.44.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.lamer.com"
-    reality-opts:
-      public-key: "zX5dT9fA8VRXb3XSB8olbacIR1Dq69juoC7US2paR08"
-      short-id: "a02bf9"
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime55.workers.dev"
   - name: "🇺🇦_4"
     type: trojan
     server: "130.0.236.88"

@@ -60,24 +60,14 @@ dns:
 
 proxies:
   - name: "🇻🇳_5"
-    type: vless
-    server: "103.173.155.212"
-    port: 443
-    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "b67c99c6s591.csgfw.top"
-    flow: "xtls-rprx-vision"
-  - name: "🇻🇳_6"
     type: trojan
-    server: "36.50.134.29"
+    server: "160.30.160.134"
     port: 443
-    password: "94d219c9-1afc-4d42-b090-8b3794764380"
-    sni: "36.50.134.29"
+    password: "25a0ffa0-725c-4d6f-b0d5-c74579753075"
+    sni: "cmc5.5gsieuvip.vn"
     skip-cert-verify: true
     udp: true
-  - name: "🇻🇳_7"
+  - name: "🇻🇳_6"
     type: trojan
     server: "103.72.96.55"
     port: 443
@@ -85,12 +75,20 @@ proxies:
     sni: "hanoiidc2.5gsieutocdo.com"
     skip-cert-verify: true
     udp: true
+  - name: "🇻🇳_7"
+    type: trojan
+    server: "36.50.134.29"
+    port: 443
+    password: "94d219c9-1afc-4d42-b090-8b3794764380"
+    sni: "36.50.134.29"
+    skip-cert-verify: true
+    udp: true
   - name: "🇻🇳_8"
     type: trojan
-    server: "160.30.160.134"
+    server: "103.9.77.6"
     port: 443
-    password: "25a0ffa0-725c-4d6f-b0d5-c74579753075"
-    sni: "cmc5.5gsieuvip.vn"
+    password: "5a92d674-308c-4d95-b283-28383e63a59b"
+    sni: "103.9.77.6"
     skip-cert-verify: true
     udp: true
 

@@ -65,33 +65,19 @@ dns:
 proxies:
   - name: "🇮🇳_1"
     type: vless
-    server: "154.198.173.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    server: "5.253.30.99"
+    port: 40443
+    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
+    servername: "deepl.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
+      short-id: "88b6"
+    flow: "xtls-rprx-vision"
   - name: "🇮🇳_2"
-    type: vless
-    server: "185.149.135.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇮🇳_3"
     type: vless
     server: "5.253.42.164"
     port: 40443
@@ -100,11 +86,22 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
     flow: "xtls-rprx-vision"
+  - name: "🇮🇳_3"
+    type: vless
+    server: "108.165.152.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime61.workers.dev"
   - name: "🇮🇳_4"
     type: vless
     server: "194.61.31.126"
@@ -119,19 +116,13 @@ proxies:
       public-key: "GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0"
       short-id: "ae3ba555edc1ba0a"
   - name: "🇮🇳_5"
-    type: vless
-    server: "5.253.30.99"
-    port: 40443
-    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
-    udp: true
-    tls: true
+    type: trojan
+    server: "64.227.131.19"
+    port: 443
+    password: "21c6c7cb-332b-4a0c-9ad7-dff9c3111442"
+    sni: "us02web.zoom.us"
     skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
-    flow: "xtls-rprx-vision"
+    udp: true
   - name: "🇮🇳_6"
     type: trojan
     server: "185.67.125.119"
@@ -142,34 +133,34 @@ proxies:
     udp: true
   - name: "🇮🇳_7"
     type: trojan
-    server: "185.67.125.147"
-    port: 443
-    password: "3763495894587285504"
-    sni: "optimal-owl.goat627.mom"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_8"
-    type: trojan
-    server: "64.227.131.19"
-    port: 443
-    password: "21c6c7cb-332b-4a0c-9ad7-dff9c3111442"
-    sni: "us02web.zoom.us"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_9"
-    type: trojan
     server: "65.20.82.177"
     port: 443
     password: "Tg3RnK7Xp8B1"
     sni: "ash.d50f6225-23b4-3a7b-9f15-a0fb2fc16803.kailib.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇮🇳_10"
+  - name: "🇮🇳_8"
+    type: trojan
+    server: "185.67.125.147"
+    port: 443
+    password: "3747000103274291200"
+    sni: "polished-collie.adder289.quest"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_9"
     type: trojan
     server: "143.110.246.228"
     port: 443
     password: "3bcd9e33-8377-4b32-af33-217158577ff3"
     sni: "kdlsupport.zendesk.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_10"
+    type: trojan
+    server: "185.67.125.147"
+    port: 443
+    password: "3763495894587285504"
+    sni: "optimal-owl.goat627.mom"
     skip-cert-verify: true
     udp: true
   - name: "🇮🇳_11"
@@ -181,19 +172,18 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: "🇮🇳_12"
-    type: trojan
-    server: "185.67.125.147"
-    port: 443
-    password: "3747000103274291200"
-    sni: "polished-collie.adder289.quest"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_13"
     type: ss
     server: "172.105.39.124"
     port: 7002
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇮🇳_13"
+    type: ss
+    server: "139.59.12.34"
+    port: 1080
+    cipher: "chacha20-ietf-poly1305"
+    password: "XF0klw7870vXn3uQIxe19Q"
     udp: true
   - name: "🇮🇳_14"
     type: ss

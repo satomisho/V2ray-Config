@@ -60,13 +60,15 @@ dns:
 
 proxies:
   - name: "🇲🇾_6"
-    type: trojan
-    server: "my.singaporenodeserverone.kyiv.ua"
-    port: 443
-    password: "6e1b9a65-884f-3aa9-9469-bf6ec0f08610"
-    sni: "45.32.28.232"
-    skip-cert-verify: true
+    type: vless
+    server: "136.0.110.35"
+    port: 16865
+    uuid: "08d4e275-eb67-4878-949c-79a39e10cca1"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "136.0.110.35"
+    client-fingerprint: "chrome"
   - name: "🇲🇾_7"
     type: trojan
     server: "202.43.102.57"
@@ -76,6 +78,20 @@ proxies:
     skip-cert-verify: true
     udp: true
   - name: "🇲🇾_8"
+    type: ss
+    server: "47.250.212.59"
+    port: 2053
+    cipher: "none"
+    password: "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
+    udp: true
+  - name: "🇲🇾_9"
+    type: ss
+    server: "47.250.212.59"
+    port: 2053
+    cipher: "none"
+    password: "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
+    udp: true
+  - name: "🇲🇾_10"
     type: ss
     server: "96.126.190.196"
     port: 443
@@ -88,20 +104,6 @@ proxies:
       path: "/59fc5f8c-5697-4eb8-acf2-8ae363f203a2/?ed\\=2560"
       host: "woshinidie-et3.pages.dev"
       tls: true
-  - name: "🇲🇾_9"
-    type: ss
-    server: "47.250.212.59"
-    port: 2053
-    cipher: "none"
-    password: "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
-    udp: true
-  - name: "🇲🇾_10"
-    type: ss
-    server: "47.250.212.59"
-    port: 2053
-    cipher: "none"
-    password: "59fc5f8c-5697-4eb8-acf2-8ae363f203a2"
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
