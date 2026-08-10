@@ -31,7 +31,7 @@
     "tcp_ping_batch_rest_ms": 300,
     
     "test_urls": [
-      "http://youtube.com/generate_204"
+      "https://web.telegram.org/generate_204"
     ]
   },
   "protocols": ["vless", "trojan", "ss", "hy", "hy2"],
