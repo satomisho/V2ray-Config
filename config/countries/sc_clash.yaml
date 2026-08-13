@@ -65,47 +65,6 @@ dns:
 proxies:
   - name: "🇸🇨_1"
     type: vless
-    server: "45.130.125.138"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_2"
-    type: vless
-    server: "45.130.125.207"
-    port: 443
-    uuid: "b2f6aa3a-2550-4a1c-b2c0-1c94b1207217"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "terazhediii.info"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/hdgrbws"
-      headers:
-        Host: "terazhediii.info"
-  - name: "🇸🇨_3"
-    type: vless
-    server: "45.130.125.200"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_4"
-    type: vless
     server: "45.130.125.162"
     port: 2053
     uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
@@ -117,7 +76,57 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
+  - name: "🇸🇨_2"
+    type: vless
+    server: "45.130.125.138"
+    port: 2053
+    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "po.fastbrokencompony.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇨_3"
+    type: vless
+    server: "200.165.228.47"
+    port: 4100
+    uuid: "6620ef58-9c62-43fe-9596-ff862b200958"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/v1"
+      headers:
+        Host: "live.ok.ru"
+  - name: "🇸🇨_4"
+    type: vless
+    server: "45.130.125.158"
+    port: 2053
+    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "po.fastbrokencompony.com"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
   - name: "🇸🇨_5"
+    type: vless
+    server: "45.130.125.200"
+    port: 2053
+    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "po.fastbrokencompony.com"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇨_6"
     type: vless
     server: "45.130.125.126"
     port: 443
@@ -132,29 +141,17 @@ proxies:
       path: "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
       headers:
         Host: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-  - name: "🇸🇨_6"
+  - name: "🇸🇨_7"
     type: vless
     server: "45.130.125.114"
     port: 80
-    uuid: "1a2b3c4d-5e6f-4789-8a9b-0c1d2e3f4a5b"
+    uuid: "b3c4d5e6-f7a8-4901-9b2c-3d4e5f6a7b8c"
     udp: true
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "free-hzr01-cdn.sabzi.name.ng."
-  - name: "🇸🇨_7"
-    type: vless
-    server: "45.130.125.158"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    network: ws
-    ws-opts:
-      path: "/"
+        Host: "free-hzr109-cdn.sabzi.name.ng."
   - name: "🇸🇨_8"
     type: trojan
     server: "45.130.125.75"
@@ -183,6 +180,17 @@ proxies:
         Host: "www.calmlunch.com"
   - name: "🇸🇨_10"
     type: trojan
+    server: "45.130.125.18"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_11"
+    type: trojan
     server: "45.130.125.190"
     port: 443
     password: "humanity"
@@ -194,39 +202,6 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇸🇨_11"
-    type: trojan
-    server: "45.130.125.18"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "🇸🇨_12"
-    type: trojan
-    server: "45.130.125.112"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "🇸🇨_13"
-    type: trojan
-    server: "45.130.125.160"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
 
 proxy-groups:
   - name: "PROXY"
@@ -252,8 +227,6 @@ proxy-groups:
       - "🇸🇨_9"
       - "🇸🇨_10"
       - "🇸🇨_11"
-      - "🇸🇨_12"
-      - "🇸🇨_13"
 
 
 rules:

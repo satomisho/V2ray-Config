@@ -63,22 +63,20 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇮🇩_1"
-    type: trojan
-    server: "172.232.250.160"
+  - name: "🇧🇾_1"
+    type: vless
+    server: "144.31.129.2"
     port: 443
-    password: "788f2b96-47e2-4302-a417-511b6fd7d09c"
-    sni: "172.232.250.160"
-    skip-cert-verify: true
+    uuid: "91eb52ec-e3f5-4ab9-90da-43104995aef7"
     udp: true
-  - name: "🇮🇩_2"
-    type: trojan
-    server: "qfdfsg.wsone.icu"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "qfdfsg.wsone.icu"
+    tls: true
     skip-cert-verify: true
-    udp: true
+    servername: "by1.un1.pro"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -93,8 +91,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇮🇩_1"
-      - "🇮🇩_2"
+      - "🇧🇾_1"
 
 
 rules:

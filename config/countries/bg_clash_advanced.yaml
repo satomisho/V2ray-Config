@@ -59,18 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇬_10"
+  - name: "🇧🇬_9"
     type: vless
-    server: "89.117.112.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "82.118.18.202"
+    port: 443
+    uuid: "316dda83-17f1-4f29-a05f-b84b7f991b82"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime11.workers.dev"
-  - name: "🇧🇬_11"
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "HDiwGAN66V77CrlCWrDZupEiSQk204dkWRjJok0zYhk"
+      short-id: "720148f2fea16d0f"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_10"
     type: vless
     server: "185.82.219.152"
     port: 13443
@@ -79,40 +82,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "auto.cendora.ru"
-    client-fingerprint: "qq"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM"
       short-id: "a7f3c91b2e6d84c0"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_12"
-    type: vless
-    server: "108.165.233.223"
-    port: 443
-    uuid: "2388e166-3890-33ae-f77e-efac00000003"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "netlivpn4813.ddhshhshs.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
-      headers:
-        Host: "netlivpn4813.ddhshhshs.workers.dev"
-  - name: "🇧🇬_13"
-    type: vless
-    server: "185.82.219.152"
-    port: 443
-    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇧🇬_14"
+  - name: "🇧🇬_11"
     type: vless
     server: "108.165.233.223"
     port: 443
@@ -127,35 +102,54 @@ proxies:
       path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
       headers:
         Host: "netlivpn4813.ddhshhshs.workers.dev"
-  - name: "🇧🇬_15"
-    type: trojan
-    server: "91.227.77.87"
-    port: 443
-    password: "bpb-trojan"
-    sni: "skwygx.top"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇧🇬_16"
-    type: trojan
-    server: "193.239.160.134"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
+  - name: "🇧🇬_12"
+    type: vless
+    server: "89.117.112.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/?ed=2560"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "🇧🇬_17"
+        Host: "vms.lifetime11.workers.dev"
+  - name: "🇧🇬_13"
+    type: vless
+    server: "185.82.219.152"
+    port: 443
+    uuid: "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eu-central.cendora.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
+      short-id: "00bca5982f82d083"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_14"
+    type: vless
+    server: "108.165.233.223"
+    port: 443
+    uuid: "2388e166-3890-33ae-f77e-efac00000003"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "netlivpn4813.ddhshhshs.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
+      headers:
+        Host: "netlivpn4813.ddhshhshs.workers.dev"
+  - name: "🇧🇬_15"
     type: ss
     server: "38.244.132.14"
     port: 5499
     cipher: "aes-256-gcm"
     password: "lGqs95QkFHo2NV"
     udp: true
-  - name: "🇧🇬_18"
+  - name: "🇧🇬_16"
     type: ss
     server: "38.244.132.14"
     port: 5499
@@ -204,6 +198,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -211,8 +206,6 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
   - name: "LB-CDN"
     type: load-balance
@@ -222,6 +215,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -229,8 +223,6 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -240,6 +232,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -247,8 +240,6 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
   - name: "FAST-CDN"
     type: url-test
@@ -257,6 +248,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -264,8 +256,6 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -275,6 +265,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -282,13 +273,12 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇧🇬_9"
       - "🇧🇬_10"
       - "🇧🇬_11"
       - "🇧🇬_12"
@@ -296,8 +286,6 @@ proxy-groups:
       - "🇧🇬_14"
       - "🇧🇬_15"
       - "🇧🇬_16"
-      - "🇧🇬_17"
-      - "🇧🇬_18"
 
 rules:
   - MATCH,PROXY-BEST

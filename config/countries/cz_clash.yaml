@@ -72,33 +72,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "yahoo.com"
-    client-fingerprint: "edge"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
       short-id: "0c"
     flow: "xtls-rprx-vision"
   - name: "🇨🇿_2"
-    type: trojan
-    server: "46.8.113.142"
-    port: 443
-    password: "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu"
-    sni: "ch-2.bexum.fun"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇨🇿_3"
-    type: trojan
-    server: "178.208.75.155"
-    port: 2053
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🇨🇿_4"
     type: trojan
     server: "178.208.75.155"
     port: 8443
@@ -125,8 +104,6 @@ proxy-groups:
     proxies:
       - "🇨🇿_1"
       - "🇨🇿_2"
-      - "🇨🇿_3"
-      - "🇨🇿_4"
 
 
 rules:

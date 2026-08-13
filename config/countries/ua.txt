@@ -1,4 +1,2 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.135.235.30:8880?ed=2560&eh=Sec-WebSocket-Protocol&encryption=none&host=vms.lifetime07.workers.dev&path=%2F&security=none&type=ws#%F0%9F%87%BA%F0%9F%87%A6
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.116.180.30:8880?security=none&type=ws&path=/&host=vms.lifetime09.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%BA%F0%9F%87%A6
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@194.152.44.30:8880?type=ws&host=vms.lifetime55.workers.dev#%F0%9F%87%BA%F0%9F%87%A6
-trojan://d2adff89-5143-4d67-921f-3478464de5bb@130.0.236.88:443?sni=ua.freeguard.org&type=tcp#%F0%9F%87%BA%F0%9F%87%A6
+vless://716b4e8e-482f-462e-9c69-9df1d235e0c2@78.159.240.215:2053?encryption=none&fp=firefox&path=/websocket?ed=2560&security=tls&sni=31.56.188.26.fwqfw783rg2dad.website&type=ws#%F0%9F%87%BA%F0%9F%87%A6
+vless://40cfbd0a-f133-4174-8e03-ab0e587e1099@193.238.153.15:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=dzknsuwujuOacNHTXzdPxBLNUEJfEImiwLinPPNFmwU&sid=1ea21a140beaecc5&sni=www.cloudflare.com#%F0%9F%87%BA%F0%9F%87%A6

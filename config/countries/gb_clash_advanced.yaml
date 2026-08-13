@@ -59,59 +59,110 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇬🇧_338"
+  - name: "🇬🇧_80"
     type: vless
-    server: "82.39.171.31"
+    server: "91.110.209.46"
     port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yahoo.com"
-    reality-opts:
-      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
-      short-id: "c39cc7310a"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_339"
-    type: vless
-    server: "82.39.171.131"
-    port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "ios"
-    reality-opts:
-      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
-      short-id: "c39cc7310a"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_340"
-    type: vless
-    server: "185.232.117.113"
-    port: 443
-    uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vl03.skorostnet.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o"
-      short-id: "fdda9806fe5d8584"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_341"
-    type: vless
-    server: "185.193.28.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "🇬🇧_342"
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_81"
+    type: vless
+    server: "91.110.209.127"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_82"
+    type: vless
+    server: "91.193.59.191"
+    port: 2087
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso5.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/socks5=888:888@hkip.1d.mom:1080"
+      headers:
+        Host: "vlso5.1d.mom"
+  - name: "🇬🇧_83"
+    type: vless
+    server: "91.193.59.27"
+    port: 2096
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso300.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇬🇧_84"
+    type: vless
+    server: "91.110.209.104"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_85"
+    type: vless
+    server: "23.27.20.142"
+    port: 48537
+    uuid: "4227f293-eb63-4b2a-892f-eec72f718cd0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇬🇧_86"
+    type: vless
+    server: "91.110.209.61"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_87"
     type: vless
     server: "91.193.58.117"
     port: 443
@@ -125,21 +176,214 @@ proxies:
       path: "Telegram-WangCai2🇨🇳"
       headers:
         Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_343"
+  - name: "🇬🇧_88"
     type: vless
-    server: "91.193.58.93"
-    port: 443
-    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    server: "91.193.58.21"
+    port: 2087
+    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "jamph131-1228.pages.dev"
+    servername: "whitecreeper.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
       headers:
-        Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_344"
+        Host: "whitecreeper.pages.dev"
+  - name: "🇬🇧_89"
+    type: vless
+    server: "191.215.37.90"
+    port: 443
+    uuid: "ae1c12b0-df98-5f76-9adc-bd3380a3dbbd"
+    udp: true
+  - name: "🇬🇧_90"
+    type: vless
+    server: "91.193.58.85"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_91"
+    type: vless
+    server: "91.110.209.83"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_92"
+    type: vless
+    server: "91.110.209.80"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_93"
+    type: vless
+    server: "91.193.58.80"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_94"
+    type: vless
+    server: "57.129.130.10"
+    port: 52014
+    uuid: "395bab7e-302a-42b4-bac7-8acb7d36fdf3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+  - name: "🇬🇧_95"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "bd01efed-f999-41a5-bbb1-3d2357647f11"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+  - name: "🇬🇧_96"
+    type: vless
+    server: "23.27.20.142"
+    port: 48537
+    uuid: "3f03d985-b3a4-4e48-b317-edad1936f4f3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇬🇧_97"
+    type: vless
+    server: "185.162.229.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime61.workers.dev"
+  - name: "🇬🇧_98"
+    type: vless
+    server: "139.59.189.127"
+    port: 443
+    uuid: "8525fe74-67e6-4a55-8a26-95f227bd1384"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shy-fog-af06.alvlirm333.workers.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/proxyip=104.223.62.204,99.254.66.219,45.133.17.106,40.233.87.120,40.233.110.251,40.233.68.138,68.233.122.42,144.217.76.62"
+      headers:
+        Host: "shy-fog-af06.alvlirm333.workers.dev"
+  - name: "🇬🇧_99"
+    type: vless
+    server: "91.193.59.32"
+    port: 2083
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlsovip.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/socks5=888:888"
+      headers:
+        Host: "vlsovip.1d.mom"
+  - name: "🇬🇧_100"
+    type: vless
+    server: "185.193.29.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇬🇧_101"
+    type: vless
+    server: "57.129.130.10"
+    port: 52014
+    uuid: "bca740c6-6704-48ba-99da-7d7a31768d73"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+  - name: "🇬🇧_102"
+    type: vless
+    server: "57.129.130.200"
+    port: 52014
+    uuid: "c8b0617e-010f-43a8-b3d0-d5358febf0c9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇬🇧_103"
     type: vless
     server: "23.27.20.142"
     port: 48537
@@ -154,117 +398,35 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-  - name: "🇬🇧_345"
+  - name: "🇬🇧_104"
     type: vless
-    server: "23.27.20.142"
-    port: 48537
-    uuid: "ed79c2d4-5558-428f-87f5-af4abc97a16d"
+    server: "46.250.240.80"
+    port: 2053
+    uuid: "5c53b9e9-fbe8-4c50-a623-73cdafa3886b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_346"
-    type: vless
-    server: "130.78.216.194"
-    port: 443
-    uuid: "2a12bb81-f3a3-41bb-99ab-36febf676b4a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "calm-panther.cdn.cachefleet.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_347"
-    type: vless
-    server: "82.39.171.145"
-    port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
-      short-id: "c39cc7310a"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_348"
-    type: vless
-    server: "130.78.216.194"
-    port: 443
-    uuid: "2a12bb81-f3a3-0064-99ab-36febf676b4a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "calm-panther.cdn.cachefleet.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_349"
-    type: vless
-    server: "23.81.37.84"
-    port: 8443
-    uuid: "8fdf6dde-a1ca-456d-9b18-86b74d5768e6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sellflow.org"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_350"
+      public-key: "cevjPz2GmTrXDFXQbGizdN6t4c6m11kclJEf5nOHOTE"
+      short-id: "52dfc493bb6b6c16"
+  - name: "🇬🇧_105"
     type: vless
-    server: "45.85.118.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "91.110.209.58"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime55.workers.dev"
-  - name: "🇬🇧_351"
-    type: vless
-    server: "91.193.59.191"
-    port: 2087
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlso5.1d.mom"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇬🇧_352"
-    type: vless
-    server: "91.193.58.17"
-    port: 2083
-    uuid: "af475b0e-0c07-40fe-b4db-3dea2c0a481d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edgetunnel-cmliu.lyqnihao.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/fp=chrome"
-      headers:
-        Host: "edgetunnel-cmliu.lyqnihao.dpdns.org"
-  - name: "🇬🇧_353"
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_106"
     type: vless
     server: "144.31.213.150"
     port: 443
@@ -273,23 +435,25 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "cdn.pinecloud.net"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8"
       short-id: "6a2e3af684799b19"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_354"
+  - name: "🇬🇧_107"
     type: vless
-    server: "185.162.230.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "51.89.194.151"
+    port: 2053
+    uuid: "bb742567-ec51-4956-9d3d-099e1a4d48c4"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime02.workers.dev"
-  - name: "🇬🇧_355"
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "JH8yFK9WKJnwxF4HTGO2ZOXZDlaDqYzx3e5PvyeU8ww"
+      short-id: "6edb6b2ddfed9e1c"
+  - name: "🇬🇧_108"
     type: vless
     server: "57.129.130.200"
     port: 52014
@@ -304,72 +468,51 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-  - name: "🇬🇧_356"
+  - name: "🇬🇧_109"
     type: vless
-    server: "130.78.216.196"
-    port: 443
-    uuid: "2a12bb81-f3a3-41bb-99ab-36febf676b4a"
+    server: "91.193.59.251"
+    port: 2053
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "calm-panther.cdn.cachefleet.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_357"
-    type: vless
-    server: "185.232.117.116"
-    port: 443
-    uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vl06.skorostnet.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o"
-      short-id: "fdda9806fe5d8584"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_358"
-    type: vless
-    server: "194.150.166.12"
-    port: 443
-    uuid: "1e973bda-3a02-4431-9df8-83595f6f65d8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.avito.ru"
-    client-fingerprint: "edge"
-    reality-opts:
-      public-key: "b75SrHI--As9QxOVfRIPkGmGfXjs53CGAjbws2K99Rs"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_359"
-    type: vless
-    server: "186.190.211.188"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "186.190.211.188"
-  - name: "🇬🇧_360"
-    type: vless
-    server: "91.193.58.195"
-    port: 443
-    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jamph131-1228.pages.dev"
+    servername: "vlso6.1d.mom"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
+      path: "/socks5=888:888@hkip.1d.mom:1080"
       headers:
-        Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_361"
+        Host: "vlso6.1d.mom"
+  - name: "🇬🇧_110"
+    type: vless
+    server: "91.193.58.45"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_111"
+    type: vless
+    server: "83.147.18.3"
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
+      short-id: "fd8cf7e1173f0edb"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_112"
     type: vless
     server: "149.248.79.235"
     port: 17301
@@ -385,186 +528,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: ""
-  - name: "🇬🇧_362"
-    type: vless
-    server: "91.193.58.141"
-    port: 443
-    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jamph131-1228.pages.dev"
-    network: ws
-    ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_363"
-    type: vless
-    server: "102.177.189.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime29.workers.dev"
-  - name: "🇬🇧_364"
-    type: vless
-    server: "185.193.28.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "🇬🇧_365"
-    type: vless
-    server: "185.193.29.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime08.workers.dev"
-  - name: "🇬🇧_366"
-    type: vless
-    server: "45.12.30.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime28.workers.dev"
-  - name: "🇬🇧_367"
-    type: vless
-    server: "169.197.113.179"
-    port: 20190
-    uuid: "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b"
-    udp: true
-  - name: "🇬🇧_368"
-    type: vless
-    server: "91.193.58.21"
-    port: 2087
-    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "whitecreeper.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
-      headers:
-        Host: "whitecreeper.pages.dev"
-  - name: "🇬🇧_369"
-    type: vless
-    server: "185.162.229.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_370"
-    type: vless
-    server: "91.193.59.251"
-    port: 2053
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlso6.1d.mom"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080"
-      headers:
-        Host: "vlso6.1d.mom"
-  - name: "🇬🇧_371"
-    type: vless
-    server: "185.162.229.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_372"
-    type: vless
-    server: "91.193.58.217"
-    port: 2053
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlso200.1d.mom"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080"
-      headers:
-        Host: "vlso200.1d.mom"
-  - name: "🇬🇧_373"
-    type: vless
-    server: "23.27.20.142"
-    port: 48537
-    uuid: "4227f293-eb63-4b2a-892f-eec72f718cd0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_374"
-    type: vless
-    server: "89.125.212.82"
-    port: 8443
-    uuid: "c2d95d75-1cf6-4906-9647-a0507f860c7f"
-    udp: true
-  - name: "🇬🇧_375"
-    type: vless
-    server: "51.38.82.35"
-    port: 2053
-    uuid: "d9aa9ea3-9388-483f-a58d-a754f33ec505"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "play.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY"
-      short-id: "524efc1f88592266"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "api.v1.data"
-  - name: "🇬🇧_376"
-    type: vless
-    server: "185.162.229.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_377"
+  - name: "🇬🇧_113"
     type: vless
     server: "129.151.64.169"
     port: 31867
@@ -579,73 +543,234 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_378"
+  - name: "🇬🇧_114"
     type: vless
-    server: "89.125.212.82"
-    port: 443
-    uuid: "c2d95d75-1cf6-4906-9647-a0507f860c7f"
+    server: "51.68.208.159"
+    port: 8443
+    uuid: "dd3d8547-7c07-4318-b2ae-11d1ebae8c60"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vk.ru"
-    client-fingerprint: "qq"
+    servername: "ads.x5.ru"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "24CPApFNP76EdYVfahM7JZ62-mti6uKR10eZdmuf9yU"
-      short-id: "cdac28a0840a23bf"
+      public-key: "xTDzV2zSqFQ1-AwiuISHsDtMuHYm61rJ-T21K3gxBxA"
+      short-id: "6e8a9bf9c9982640"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_379"
+  - name: "🇬🇧_115"
     type: vless
-    server: "185.232.117.114"
+    server: "45.150.66.201"
+    port: 443
+    uuid: "19ac8928-fe6e-49af-a223-9ca127e4018f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.nvidia.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "CTduQ5Pvex1U2D1ojmFgSF4MQ1N7Yft7EfnEEBK1l1U"
+      short-id: "c571c801812c"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_116"
+    type: vless
+    server: "91.110.209.112"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_117"
+    type: vless
+    server: "185.232.117.113"
     port: 443
     uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vl04.skorostnet.space"
-    client-fingerprint: "chrome"
+    servername: "vl03.skorostnet.space"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o"
       short-id: "fdda9806fe5d8584"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_380"
+  - name: "🇬🇧_118"
     type: vless
-    server: "57.129.130.200"
-    port: 52014
-    uuid: "c8b0617e-010f-43a8-b3d0-d5358febf0c9"
+    server: "pnnsh.falsemirrov.com"
+    port: 443
+    uuid: "ff1b0b50-70dc-4bae-866e-55cff86f4d6d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    servername: "pnnsh.falsemirrov.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ"
+      short-id: "bc609efa3b2d052f"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_119"
+    type: vless
+    server: "91.193.58.17"
+    port: 2083
+    uuid: "af475b0e-0c07-40fe-b4db-3dea2c0a481d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edgetunnel-cmliu.lyqnihao.dpdns.org"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_381"
+      path: "/"
+  - name: "🇬🇧_120"
     type: vless
-    server: "89.125.212.82"
-    port: 2096
-    uuid: "c2d95d75-1cf6-4906-9647-a0507f860c7f"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "f6670498f1fb80af"
-  - name: "🇬🇧_382"
-    type: vless
-    server: "82.39.171.16"
+    server: "144.31.213.225"
     port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
+    uuid: "9e3de7f7-a595-4117-b1b6-dc41eb870ab1"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "ios"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
-      short-id: "c39cc7310a"
+      public-key: "ABNRlkjlonYV9TOFYgjWwz0wn1s6sg_yCErsLYkU_Sg"
+      short-id: "d6ff9019a77e354a"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_383"
+  - name: "🇬🇧_121"
+    type: vless
+    server: "164.37.105.2"
+    port: 443
+    uuid: "ff1b0b50-70dc-4bae-866e-55cff86f4d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pnnsh.falsemirrov.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ"
+      short-id: "bc609efa3b2d052f"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_122"
+    type: vless
+    server: "91.193.58.217"
+    port: 2053
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso200.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇬🇧_123"
+    type: vless
+    server: "91.110.209.122"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_124"
+    type: vless
+    server: "91.193.58.15"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_125"
+    type: vless
+    server: "91.193.58.52"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_126"
+    type: vless
+    server: "91.110.209.51"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_127"
+    type: vless
+    server: "91.193.58.195"
+    port: 443
+    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jamph131-1228.pages.dev"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "jamph131-1228.pages.dev"
+  - name: "🇬🇧_128"
+    type: vless
+    server: "91.193.58.93"
+    port: 443
+    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jamph131-1228.pages.dev"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "jamph131-1228.pages.dev"
+  - name: "🇬🇧_129"
+    type: vless
+    server: "91.110.182.9"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_130"
     type: vless
     server: "46.250.250.149"
     port: 2053
@@ -654,26 +779,28 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "2mp1wwmKQyvIVuGujoT0AGoAHwP1IFXlZRj8jB_UnGo"
       short-id: "61abecf0a82c31f5"
-  - name: "🇬🇧_384"
+  - name: "🇬🇧_131"
     type: vless
-    server: "91.193.59.32"
-    port: 2083
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    server: "91.110.209.75"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vlsovip.1d.mom"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇬🇧_385"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_132"
     type: vless
-    server: "5.10.215.30"
+    server: "102.177.189.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
@@ -681,35 +808,22 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime02.workers.dev"
-  - name: "🇬🇧_386"
+        Host: "vms.lifetime29.workers.dev"
+  - name: "🇬🇧_133"
     type: vless
-    server: "23.81.37.84"
+    server: "194.150.166.12"
     port: 443
-    uuid: "50e636af-b554-4526-94ad-d0f4b34adecc"
+    uuid: "1e973bda-3a02-4431-9df8-83595f6f65d8"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "gb.sellflow.org"
+    servername: "www.avito.ru"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      public-key: "b75SrHI--As9QxOVfRIPkGmGfXjs53CGAjbws2K99Rs"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_387"
-    type: vless
-    server: "46.250.240.80"
-    port: 2053
-    uuid: "5c53b9e9-fbe8-4c50-a623-73cdafa3886b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "cevjPz2GmTrXDFXQbGizdN6t4c6m11kclJEf5nOHOTE"
-      short-id: "52dfc493bb6b6c16"
-  - name: "🇬🇧_388"
+  - name: "🇬🇧_134"
     type: vless
     server: "23.27.20.142"
     port: 48537
@@ -724,78 +838,67 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-  - name: "🇬🇧_389"
+  - name: "🇬🇧_135"
     type: vless
-    server: "57.129.130.10"
-    port: 52014
-    uuid: "bca740c6-6704-48ba-99da-7d7a31768d73"
+    server: "57.128.177.198"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+    servername: "vp58.cc.cd"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/@Marisa_kristi"
+      path: "/Telegram🇨🇳 "
       headers:
-        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
-  - name: "🇬🇧_390"
+        Host: "vp58.cc.cd"
+  - name: "🇬🇧_136"
     type: vless
-    server: "67.159.56.57"
+    server: "91.193.58.141"
     port: 443
-    uuid: "52b71b75-4b77-4cec-990b-046ec1938e1f"
+    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "uk.bvps.cloud"
-    reality-opts:
-      public-key: "j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8"
-      short-id: "60debb3ab744d8ce"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_391"
+    servername: "jamph131-1228.pages.dev"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "jamph131-1228.pages.dev"
+  - name: "🇬🇧_137"
     type: vless
-    server: "vl07.skorostnet.space"
-    port: 13868
-    uuid: "06d44c57-8e1a-41f4-b9c4-65d35869e078"
+    server: "91.110.209.120"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.epicgames.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "qFHvK-8mR8GhmykivRP_WIgys1NK_-DqQJAhOJaWVW4"
-      short-id: "e852dc"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_392"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "bd01efed-f999-41a5-bbb1-3d2357647f11"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/@Marisa_kristi"
+      path: "/"
       headers:
-        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-  - name: "🇬🇧_393"
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_138"
     type: vless
-    server: "130.78.216.194"
+    server: "186.190.211.188"
     port: 443
-    uuid: "2a12bb81-f3a3-0065-99ab-36febf676b4a"
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "quiet-bear.cdn.cachefleet.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_394"
+    servername: "186.190.211.188"
+    client-fingerprint: "chrome"
+  - name: "🇬🇧_139"
+    type: vless
+    server: "169.197.113.179"
+    port: 20190
+    uuid: "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b"
+    udp: true
+  - name: "🇬🇧_140"
     type: vless
     server: "194.150.166.12"
     port: 443
@@ -804,157 +907,135 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.avito.ru"
-    client-fingerprint: "qq"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "b75SrHI--As9QxOVfRIPkGmGfXjs53CGAjbws2K99Rs"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_395"
+  - name: "🇬🇧_141"
     type: vless
-    server: "144.31.213.225"
+    server: "91.193.58.166"
+    port: 80
+    uuid: "d566d849-ab28-4695-b01f-dcd284b67f5c"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "dry-frog-8793.454-dc4.workers.dev"
+  - name: "🇬🇧_142"
+    type: vless
+    server: "91.110.209.124"
     port: 443
-    uuid: "9e3de7f7-a595-4117-b1b6-dc41eb870ab1"
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "ABNRlkjlonYV9TOFYgjWwz0wn1s6sg_yCErsLYkU_Sg"
-      short-id: "d6ff9019a77e354a"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_396"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇬🇧_143"
+    type: vless
+    server: "91.193.58.136"
+    port: 2096
+    uuid: "6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free-server.techsonic.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/free-server.techsonic.dev"
+      headers:
+        Host: "free-server.techsonic.dev"
+  - name: "🇬🇧_144"
     type: vless
     server: "23.27.20.142"
     port: 48537
-    uuid: "3f03d985-b3a4-4e48-b317-edad1936f4f3"
+    uuid: "ed79c2d4-5558-428f-87f5-af4abc97a16d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-  - name: "🇬🇧_397"
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇬🇧_145"
     type: vless
-    server: "217.179.220.67"
-    port: 8443
-    uuid: "f885cecc-a6ea-4e9b-87da-c7dc4b745348"
+    server: "91.193.58.25"
+    port: 8880
+    uuid: "12cebf33-2f96-48a3-af37-c2231e5cef75"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "avatars.mds.yandex.net"
-    reality-opts:
-      public-key: "sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg"
-      short-id: "844352756c1fabba"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-yandex"
-  - name: "🇬🇧_398"
-    type: vless
-    server: "139.59.189.127"
-    port: 443
-    uuid: "8525fe74-67e6-4a55-8a26-95f227bd1384"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "shy-fog-af06.alvlirm333.workers.dev"
-    client-fingerprint: "random"
     network: ws
     ws-opts:
-      path: "/proxyip=104.223.62.204,99.254.66.219,45.133.17.106,40.233.87.120,40.233.110.251,40.233.68.138,68.233.122.42,144.217.76.62"
+      path: "/pyip=Telegram @WangCai2"
       headers:
-        Host: "shy-fog-af06.alvlirm333.workers.dev"
-  - name: "🇬🇧_399"
+        Host: "throbbing-moon-a07c.90-ec4.workers.dev"
+  - name: "🇬🇧_146"
     type: vless
-    server: "141.227.174.108"
+    server: "164.38.155.7"
     port: 8443
-    uuid: "8fdf6dde-a1ca-456d-9b18-86b74d5768e6"
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "sellflow.org"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇬🇧_147"
+    type: vless
+    server: "91.193.58.215"
+    port: 2083
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso300.1d.mom"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇬🇧_148"
+    type: vless
+    server: "149.248.77.106"
+    port: 40443
+    uuid: "000f16e8-cc68-4951-b336-acd81996efde"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      public-key: "6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_400"
+  - name: "🇬🇧_149"
     type: vless
-    server: "185.232.117.115"
+    server: "cdn.pinecloud.net"
     port: 443
-    uuid: "c04bf2df-2b7f-44da-a893-3792d3910fd8"
+    uuid: "b052df40-d51c-456c-9bd6-57af01a87e4e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vl05.skorostnet.space"
-    client-fingerprint: "firefox"
+    servername: "cdn.pinecloud.net"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o"
-      short-id: "fdda9806fe5d8584"
+      public-key: "vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8"
+      short-id: "6a2e3af684799b19"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_401"
-    type: vless
-    server: "57.129.130.10"
-    port: 52014
-    uuid: "395bab7e-302a-42b4-bac7-8acb7d36fdf3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇬🇧_402"
-    type: vless
-    server: "s128.sspcccdn.xyz"
-    port: 443
-    uuid: "5d02517f-63d5-3e9f-b467-1bcf4d4e25d3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "u695099ueff6480ds124.gogocs.xyz"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_403"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "c2c7da10-f546-11ef-b6ee-1239d0255272"
-    sni: "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_404"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "b4305190-e617-11ef-839d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_405"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "09ec6e80-add1-11ee-b5fa-1239d0255272"
-    sni: "chatbuzzteam"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_406"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "9773a2c0-066f-11f0-a146-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_407"
+  - name: "🇬🇧_150"
     type: trojan
     server: "uk1.test3.net"
     port: 443
@@ -962,1463 +1043,39 @@ proxies:
     sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_408"
+  - name: "🇬🇧_151"
     type: trojan
     server: "uk1.test3.net"
     port: 443
-    password: "238b3530-f2dc-11ef-a7fb-1239d0255272"
-    sni: "uk1.test3.net"
+    password: "497f2520-9538-11f1-8291-1239d0255272"
+    sni: "chatbuzzteam.ir"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_409"
+  - name: "🇬🇧_152"
     type: trojan
     server: "uk1.test3.net"
     port: 443
-    password: "8ea8d6f0-e617-11ef-90c6-1239d0255272"
-    sni: "uk1.test3.net"
+    password: "fa19be80-9537-11f1-b485-1239d0255272"
+    sni: "chatbuzzteam.ir"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_410"
+  - name: "🇬🇧_153"
     type: trojan
     server: "uk1.test3.net"
     port: 443
-    password: "3f3e8a90-fd1f-11ef-93ca-1239d0255272"
-    sni: "uk1.test3.net"
+    password: "179c5360-9538-11f1-9ff7-1239d0255272"
+    sni: "chatbuzzteam.ir"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_411"
+  - name: "🇬🇧_154"
     type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "f7023960-1af3-11f0-9463-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_412"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "d8e9f5e0-1233-11f0-85ba-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_413"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3e16f550-ec7d-11ef-87a0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_414"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "5d59a6f0-48a1-11f0-94a7-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_415"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "4cc9bb80-1234-11f0-94b6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_416"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "25c41540-fd1f-11ef-ba0d-1239d0255272"
-    sni: "vkvd127.mycdn.me"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_417"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "89d019c0-f389-11ef-9c51-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_418"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "0a2bb2b0-fd1f-11ef-b88d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_419"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "587e3b70-fd1f-11ef-a75a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_420"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "41290c00-8515-11f1-aefe-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_421"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "f53247e0-fd1e-11ef-8370-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_422"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "d8e9f5e0-1233-11f0-85ba-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_423"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "1aef2a80-fd1f-11ef-b537-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_424"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3b1c8870-0a7d-11f0-944c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_425"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "7d4fa9d0-f389-11ef-b18e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_426"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "39b9e540-4684-11f0-b86f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_427"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "587e3b70-fd1f-11ef-a75a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_428"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ef70e170-7a23-11f1-a419-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_429"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "336885f0-ec7d-11ef-b28d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_430"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "8ea8d6f0-e617-11ef-90c6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_431"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "c2c694f0-4213-11f0-8c78-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_432"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "b75d3dc0-4213-11f0-bb32-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_433"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6e93a800-df39-11ef-ae10-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_434"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ec260e00-066f-11f0-8546-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_435"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "510b4540-0a7d-11f0-b23c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_436"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "1ec653e0-d295-11ef-8eee-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_437"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "c8b9db60-2132-11f0-880d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_438"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3123deb0-4684-11f0-8fc7-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_439"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6e73f720-f389-11ef-9fc3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_440"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "dd6dcb10-4683-11f0-ae79-1239d0255272"
-    sni: "51.38.65.155"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_441"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "264db530-c75d-11ef-81d2-1239d0255272"
-    sni: "www.speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_442"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "fad2ba40-1233-11f0-87bc-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_443"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "0a2bb2b0-fd1f-11ef-b88d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_444"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "fa222870-0a7d-11f0-99af-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_445"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "c2c7da10-f546-11ef-b6ee-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_446"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "19e8f800-4684-11f0-a89c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_447"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "62313560-c059-11ee-b43c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_448"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "255a0a50-3f10-11f0-b0d6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_449"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "5e861ad0-df39-11ef-a02e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_450"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "07ff3ed0-1234-11f0-bd3a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_451"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "03bb7640-df39-11ef-a9b1-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_452"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "419298f0-bf0c-11ef-bc6c-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_453"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "89d019c0-f389-11ef-9c51-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_454"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3169fbd0-c85d-11ef-807b-1239d0255272"
-    sni: "zula.ir"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_455"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "1ae2e460-1af4-11f0-a5a4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_456"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ea3ddf20-fd1e-11ef-a0e0-1239d0255272"
-    sni: "vkvd127.mycdn.me"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_457"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "34876650-48a2-11f0-8fd6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_458"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "282084b0-1234-11f0-8b34-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_459"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "093cee70-ceb9-11ef-9a9f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_460"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "40bb32c0-3f10-11f0-8c33-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_461"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "bd213170-c9cf-11ef-b198-1239d0255272"
-    sni: "telewebion.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_462"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "0ddc8080-d295-11ef-9213-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_463"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "692650a0-3f10-11f0-8e35-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_464"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "7794ad20-ec7d-11ef-b7be-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_465"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ca6e9040-e786-11ef-8d4f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_466"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "fad2ba40-1233-11f0-87bc-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_467"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ffdb22c0-fd1e-11ef-b66a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_468"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "eaf7e1e0-4683-11f0-bfef-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_469"
-    type: trojan
-    server: "132.145.51.172"
-    port: 443
-    password: "02e653c9-7c93-46a9-999d-11834bd0c577"
-    sni: "132.145.51.172"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_470"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6067e620-f389-11ef-9640-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_471"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "0d1506e0-1af4-11f0-b5d5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_472"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3b1c8870-0a7d-11f0-944c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_473"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "9e31fcb0-e617-11ef-95f3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_474"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "9518fb90-f389-11ef-bc5a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_475"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "a369a470-f614-11ef-b521-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_476"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "4ea3cdc0-ec7d-11ef-ba77-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_477"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "e3eda010-b95c-11ee-a3da-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_478"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "823fb040-ec7d-11ef-97dd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_479"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ff30cb90-d294-11ef-9b7c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_480"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ffdb22c0-fd1e-11ef-b66a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_481"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "4c923d20-fd1f-11ef-ad3e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_482"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "98a3b810-4213-11f0-8131-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_483"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ee872a10-c818-11ef-bdaf-1239d0255272"
-    sni: "telewebion.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_484"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "cf49ce10-17ed-11f0-99f9-1239d0255272"
-    sni: "tgju.org"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_485"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "32691370-fd1f-11ef-b261-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_486"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "4aca21d0-e787-11ef-9708-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_487"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "88bac5c0-066f-11f0-992d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_488"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6d446d30-066f-11f0-86ad-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_489"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "7634a410-0a7d-11f0-acfd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_490"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "07ff3ed0-1234-11f0-bd3a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_491"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "47ac2c00-0a7d-11f0-81fc-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_492"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "a369a470-f614-11ef-b521-1239d0255272"
-    sni: "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_493"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "11258980-1234-11f0-a2b3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_494"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5ab3ef0-b4ab-11eb-b65e-1239d0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_495"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "2d1321a0-df39-11ef-851e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_496"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "b4c712a0-0a7d-11f0-808d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_497"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "638b4180-0a7d-11f0-aa24-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_498"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "07301100-4684-11f0-9ffa-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_499"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "d25f91b0-522a-11ee-8d39-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_500"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3c98fd30-f2dc-11ef-95e6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_501"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "40b3f530-4d98-11ee-836a-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_502"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "4c923d20-fd1f-11ef-ad3e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_503"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239dbv0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_504"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "1aef2a80-fd1f-11ef-b537-1239d0255272"
-    sni: "vkvd127.mycdn.me"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_505"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "5f5fe3c0-066f-11f0-ba3c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_506"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "db258420-fd1e-11ef-9a77-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_507"
-    type: trojan
-    server: "54.37.18.204"
-    port: 443
-    password: "opentunnel.net-imohammad93"
-    sni: "ukt-2.opensvr.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_508"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "9a3313c0-ceb8-11ef-a476-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_509"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ce20d690-066f-11f0-b77f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_510"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "b2891d60-a993-11ee-ab8b-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_511"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "fe591200-522a-11ee-b8e4-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_512"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "52081af0-3f10-11f0-8054-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_513"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3fa0d4e0-ac52-11ee-ba13-1239d0255272"
-    sni: "dl-media.viber.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_514"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "67380160-ceb8-11ef-9941-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_515"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "970ec930-48a2-11f0-a318-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_516"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "47268f30-ceb9-11ef-9f66-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_517"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "4cc9bb80-1234-11f0-94b6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_518"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "9f3a6150-f389-11ef-8c6c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_519"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "282084b0-1234-11f0-8b34-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_520"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ef050d10-1233-11f0-ab31-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_521"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "db258420-fd1e-11ef-9a77-1239d0255272"
-    sni: "vkvd127.mycdn.me"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_522"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "326b83d0-f2dc-11ef-a44e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_523"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "fde0ff30-0a7c-11f0-a77a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_524"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "d06a14d0-ceb9-11ef-a13e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_525"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6e73f720-f389-11ef-9fc3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_526"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6e93a800-df39-11ef-ae10-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_527"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "2543a880-48a1-11f0-8578-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_528"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "42f15650-1234-11f0-89a4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_529"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "1ae2e460-1af4-11f0-a5a4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_530"
-    type: trojan
-    server: "51.24.15.245"
-    port: 443
-    password: "3763495894587285504"
-    sni: "settling-terrier.goat627.mom"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_531"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "edde4440-1af3-11f0-b64f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_532"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3c94e2e0-2133-11f0-8832-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_533"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "f06ad4c0-e786-11ef-bd28-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_534"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "a4769190-0a7d-11f0-aa61-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_535"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11ebf-b65e-1239d0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_536"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ea3ddf20-fd1e-11ef-a0e0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_537"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "2f986b10-b7ac-11ee-bb9f-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_538"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "37b04b50-1234-11f0-b5f0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_539"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "67380160-ceb8-11ef-9941-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_540"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1hRmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_541"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ff61a160-e786-11ef-98a8-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_542"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "dd714cc0-aa7f-11ee-85a1-1239d0255272"
-    sni: "chatbuzzteam"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_543"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ff30cb90-d294-11ef-9b7c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_544"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6d446d30-066f-11f0-86ad-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_545"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "d6d88710-b755-11ef-a019-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_546"
-    type: trojan
-    server: "217.217.222.230"
-    port: 20041
-    password: "ba07a8af-5544-48ac-ab62-3b6c00a44fa6"
-    sni: "217.217.222.230"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_547"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "127c3420-2133-11f0-b720-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_548"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "0e4d7fc0-5145-11ef-a0c1-1239d0255272"
-    sni: "51.38.65.155"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_549"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "2f986b10-b7ac-11ee-bb9f-1239d0255272"
-    sni: "dl-media.viber.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_550"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "255a0a50-3f10-11f0-b0d6-1239d0255272"
-    sni: "51.38.65.155"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_551"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "03bb7640-df39-11ef-a9b1-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_552"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ecd0de80-ec7d-11ef-b0dd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_553"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ee3eeb70-c85c-11ef-a0ab-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_554"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ff61a160-e786-11ef-98a8-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_555"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "336885f0-ec7d-11ef-b28d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_556"
-    type: trojan
-    server: "209.97.185.89"
-    port: 443
-    password: "ed28fc4c-a39a-420b-9631-e226b7884428"
-    sni: "termux.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_557"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3e7112b0-5d42-11f1-8311-1239d0255272"
-    sni: "yahoo.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_558"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6067e620-f389-11ef-9640-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_559"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "0ce39170-e787-11ef-a9be-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_560"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ce20d690-066f-11f0-b77f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_561"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6983bd70-ec7d-11ef-a5bc-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_562"
-    type: trojan
-    server: "209.97.185.89"
-    port: 443
-    password: "4a685948-28d8-4689-9f25-0963e658b540"
-    sni: "termux.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_563"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "5f5fe3c0-066f-11f0-ba3c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_564"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "edde4440-1af3-11f0-b64f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_565"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "688c4390-ceb9-11ef-beb0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_566"
-    type: trojan
-    server: "209.97.185.89"
-    port: 443
-    password: "ff0cfe57-39fe-4f08-8977-4674fa8b8bdb"
-    sni: "termux.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_567"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "a7c7bbf0-48a1-11f0-b880-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_568"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "c88a8f50-f614-11ef-ae62-1239d0255272"
-    sni: "wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_569"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "dd7c4ad0-b61f-11ee-af46-1239d0255272"
-    sni: "dl-media.viber.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_570"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "0ce39170-e787-11ef-a9be-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_571"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3fbac340-df39-11ef-9c20-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_572"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ec260e00-066f-11f0-8546-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_573"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "a17dec70-4213-11f0-8ece-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_574"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6bd65120-8515-11f1-8fef-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_575"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "1ec653e0-d295-11ef-8eee-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_576"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ee3eeb70-c85c-11ef-a0ab-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_577"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65ge-1239d0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_578"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "cf6c3e40-4213-11f0-bc31-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_579"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "7cbeb900-1939-11f0-ae81-1239d0255272"
-    sni: "tgju.org"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_580"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "6cf097b0-0a7d-11f0-88f5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_581"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "dd6dcb10-4683-11f0-ae79-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_582"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "9f3a6150-f389-11ef-8c6c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_583"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "b4c712a0-0a7d-11f0-808d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_584"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "0d1506e0-1af4-11f0-b5d5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_585"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "35c18c80-4d97-11ee-8629-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_586"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "32691370-fd1f-11ef-b261-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_587"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "ab052d70-48a0-11f0-bea4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_588"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "f142bc50-b755-11ef-ad1a-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_589"
-    type: trojan
     server: "uk1.test3.net"
     port: 443
-    password: "47268f30-ceb9-11ef-9f66-1239d0255272"
-    sni: "uk1.test3.net"
+    password: "dec2d020-9537-11f1-8cf7-1239d0255272"
+    sni: "chatbuzzteam.ir"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_590"
+  - name: "🇬🇧_155"
     type: trojan
     server: "217.217.222.230"
     port: 20004
@@ -2426,657 +1083,23 @@ proxies:
     sni: "hk.catxstar.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇬🇧_591"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "f1f6dad0-0622-11f0-92c5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_592"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "25c41540-fd1f-11ef-ba0d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_593"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ecd0de80-ec7d-11ef-b0dd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_594"
-    type: trojan
-    server: "185.44.76.188"
-    port: 443
-    password: "8697fe6b-1lWNFc1RmRBNk5NQU5KSnga3fa58ac5a3ef0-b4ab-11eb-b65e-1239d0255272"
-    sni: "185.44.76.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_595"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "518299d0-066f-11f0-a2c8-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_596"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "a4769190-0a7d-11f0-aa61-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_597"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "5e861ad0-df39-11ef-a02e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_598"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "823fb040-ec7d-11ef-97dd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_599"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "14e7f7e0-ec7d-11ef-948c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_600"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "8bb65e50-ec7d-11ef-96ba-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_601"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "f53247e0-fd1e-11ef-8370-1239d0255272"
-    sni: "vkvd127.mycdn.me"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_602"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "326b83d0-f2dc-11ef-a44e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_603"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3f3e8a90-fd1f-11ef-93ca-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_604"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "5a1b98a0-0a7d-11f0-9eda-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_605"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "238b3530-f2dc-11ef-a7fb-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_606"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "c8b9db60-2132-11f0-880d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_607"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "37b04b50-1234-11f0-b5f0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_608"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "1d7692c0-f51c-11ee-91eb-1239d0255272"
-    sni: "51.38.65.155"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_609"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "c88a8f50-f614-11ef-ae62-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_610"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "4ea3cdc0-ec7d-11ef-ba77-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_611"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "1c1aabf0-1234-11f0-bdf0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_612"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "9a3313c0-ceb8-11ef-a476-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_613"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "4aca21d0-e787-11ef-9708-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_614"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6cf097b0-0a7d-11f0-88f5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_615"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "518299d0-066f-11f0-a2c8-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_616"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "010bd080-2133-11f0-a064-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_617"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "11258980-1234-11f0-a2b3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_618"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3c98fd30-f2dc-11ef-95e6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_619"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "fa222870-0a7d-11f0-99af-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_620"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "aba831c0-4213-11f0-a2d6-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_621"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "62313560-c059-11ee-b43c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_622"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "9518fb90-f389-11ef-bc5a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_623"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "fde0ff30-0a7c-11f0-a77a-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_624"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "3169fbd0-c85d-11ef-807b-1239d0255272"
-    sni: "zula.ir"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_625"
-    type: trojan
-    server: "54.37.18.204"
-    port: 443
-    password: "opentunnel.net-english30day"
-    sni: "uplod.ir"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_626"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "f06ad4c0-e786-11ef-bd28-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_627"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "432f85e0-4684-11f0-b5ac-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_628"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "0e17b420-48a2-11f0-8c4d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_629"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ef050d10-1233-11f0-ab31-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_630"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "f7023960-1af3-11f0-9463-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_631"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "f1f6dad0-0622-11f0-92c5-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_632"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "5ed58460-4d98-11ee-a875-1239d0255272"
-    sni: "speedtest.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_633"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "803200a0-ceb8-11ef-9955-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_634"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "d06a14d0-ceb9-11ef-a13e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_635"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "7634a410-0a7d-11f0-acfd-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_636"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "b4305190-e617-11ef-839d-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_637"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "7794ad20-ec7d-11ef-b7be-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_638"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ca6e9040-e786-11ef-8d4f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_639"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3fbac340-df39-11ef-9c20-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_640"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "6c8f2de0-48a2-11f0-bdd4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_641"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "8bb65e50-ec7d-11ef-96ba-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_642"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "fd22a7a0-066f-11f0-ad19-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_643"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "688c4390-ceb9-11ef-beb0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_644"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "72d42540-b1ef-11ee-bd8f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_645"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "14e7f7e0-ec7d-11ef-948c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_646"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "127c3420-2133-11f0-b720-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_647"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "ac92cc40-17de-11ef-8e1b-1239d0255272"
-    sni: "chatbuzzteambhm.chatbuzzt7150.workers.dev"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_648"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "1c1aabf0-1234-11f0-bdf0-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_649"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "7d4fa9d0-f389-11ef-b18e-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_650"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "9773a2c0-066f-11f0-a146-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_651"
-    type: trojan
-    server: "195.54.161.249"
-    port: 9443
-    password: "d1a4cbb2943e4d27addae29bd449907a"
-    sni: "apple.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_652"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "9e31fcb0-e617-11ef-95f3-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_653"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "803200a0-ceb8-11ef-9955-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_654"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "510b4540-0a7d-11f0-b23c-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_655"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "093cee70-ceb9-11ef-9a9f-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_656"
-    type: trojan
-    server: "uk1.test3.net"
-    port: 443
-    password: "42f15650-1234-11f0-89a4-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_657"
-    type: trojan
-    server: "51.38.65.155"
-    port: 443
-    password: "3c94e2e0-2133-11f0-8832-1239d0255272"
-    sni: "uk1.test3.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇬🇧_658"
+  - name: "🇬🇧_156"
     type: ss
-    server: "141.98.101.182"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_659"
-    type: ss
-    server: "141.98.101.182"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_660"
-    type: ss
-    server: "194.164.92.198"
-    port: 1234
-    cipher: "chacha20-ietf-poly1305"
-    password: "zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD"
-    udp: true
-  - name: "🇬🇧_661"
-    type: ss
-    server: "141.98.101.179"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_662"
-    type: ss
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_663"
-    type: ss
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_664"
-    type: ss
-    server: "129.151.81.122"
+    server: "129.151.86.242"
     port: 61312
     cipher: "chacha20-ietf-poly1305"
     password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
     udp: true
-  - name: "🇬🇧_665"
-    type: ss
-    server: "129.151.81.122"
-    port: 61312
-    cipher: "chacha20-ietf-poly1305"
-    password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    udp: true
-  - name: "🇬🇧_666"
-    type: ss
-    server: "134.65.57.231"
-    port: 61312
-    cipher: "chacha20-ietf-poly1305"
-    password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    udp: true
-  - name: "🇬🇧_667"
+  - name: "🇬🇧_157"
     type: ss
     server: "94.156.250.148"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
-  - name: "🇬🇧_668"
+  - name: "🇬🇧_158"
     type: ss
-    server: "194.164.92.198"
-    port: 1234
-    cipher: "chacha20-ietf-poly1305"
-    password: "zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD"
-    udp: true
-  - name: "🇬🇧_669"
-    type: ss
-    server: "141.98.101.182"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_670"
-    type: ss
-    server: "134.65.56.165"
-    port: 61312
-    cipher: "chacha20-ietf-poly1305"
-    password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    udp: true
-  - name: "🇬🇧_671"
-    type: ss
-    server: "134.65.57.231"
-    port: 61312
-    cipher: "chacha20-ietf-poly1305"
-    password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    udp: true
-  - name: "🇬🇧_672"
-    type: ss
-    server: "158.173.24.73"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_673"
-    type: ss
-    server: "158.173.24.73"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_674"
-    type: ss
-    server: "134.65.56.165"
+    server: "129.151.86.242"
     port: 61312
     cipher: "chacha20-ietf-poly1305"
     password: "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
@@ -3123,343 +1146,85 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
   - name: "LB-CDN"
     type: load-balance
@@ -3469,343 +1234,85 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -3815,343 +1322,85 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
   - name: "FAST-CDN"
     type: url-test
@@ -4160,343 +1409,85 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -4506,685 +1497,169 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇬🇧_338"
-      - "🇬🇧_339"
-      - "🇬🇧_340"
-      - "🇬🇧_341"
-      - "🇬🇧_342"
-      - "🇬🇧_343"
-      - "🇬🇧_344"
-      - "🇬🇧_345"
-      - "🇬🇧_346"
-      - "🇬🇧_347"
-      - "🇬🇧_348"
-      - "🇬🇧_349"
-      - "🇬🇧_350"
-      - "🇬🇧_351"
-      - "🇬🇧_352"
-      - "🇬🇧_353"
-      - "🇬🇧_354"
-      - "🇬🇧_355"
-      - "🇬🇧_356"
-      - "🇬🇧_357"
-      - "🇬🇧_358"
-      - "🇬🇧_359"
-      - "🇬🇧_360"
-      - "🇬🇧_361"
-      - "🇬🇧_362"
-      - "🇬🇧_363"
-      - "🇬🇧_364"
-      - "🇬🇧_365"
-      - "🇬🇧_366"
-      - "🇬🇧_367"
-      - "🇬🇧_368"
-      - "🇬🇧_369"
-      - "🇬🇧_370"
-      - "🇬🇧_371"
-      - "🇬🇧_372"
-      - "🇬🇧_373"
-      - "🇬🇧_374"
-      - "🇬🇧_375"
-      - "🇬🇧_376"
-      - "🇬🇧_377"
-      - "🇬🇧_378"
-      - "🇬🇧_379"
-      - "🇬🇧_380"
-      - "🇬🇧_381"
-      - "🇬🇧_382"
-      - "🇬🇧_383"
-      - "🇬🇧_384"
-      - "🇬🇧_385"
-      - "🇬🇧_386"
-      - "🇬🇧_387"
-      - "🇬🇧_388"
-      - "🇬🇧_389"
-      - "🇬🇧_390"
-      - "🇬🇧_391"
-      - "🇬🇧_392"
-      - "🇬🇧_393"
-      - "🇬🇧_394"
-      - "🇬🇧_395"
-      - "🇬🇧_396"
-      - "🇬🇧_397"
-      - "🇬🇧_398"
-      - "🇬🇧_399"
-      - "🇬🇧_400"
-      - "🇬🇧_401"
-      - "🇬🇧_402"
-      - "🇬🇧_403"
-      - "🇬🇧_404"
-      - "🇬🇧_405"
-      - "🇬🇧_406"
-      - "🇬🇧_407"
-      - "🇬🇧_408"
-      - "🇬🇧_409"
-      - "🇬🇧_410"
-      - "🇬🇧_411"
-      - "🇬🇧_412"
-      - "🇬🇧_413"
-      - "🇬🇧_414"
-      - "🇬🇧_415"
-      - "🇬🇧_416"
-      - "🇬🇧_417"
-      - "🇬🇧_418"
-      - "🇬🇧_419"
-      - "🇬🇧_420"
-      - "🇬🇧_421"
-      - "🇬🇧_422"
-      - "🇬🇧_423"
-      - "🇬🇧_424"
-      - "🇬🇧_425"
-      - "🇬🇧_426"
-      - "🇬🇧_427"
-      - "🇬🇧_428"
-      - "🇬🇧_429"
-      - "🇬🇧_430"
-      - "🇬🇧_431"
-      - "🇬🇧_432"
-      - "🇬🇧_433"
-      - "🇬🇧_434"
-      - "🇬🇧_435"
-      - "🇬🇧_436"
-      - "🇬🇧_437"
-      - "🇬🇧_438"
-      - "🇬🇧_439"
-      - "🇬🇧_440"
-      - "🇬🇧_441"
-      - "🇬🇧_442"
-      - "🇬🇧_443"
-      - "🇬🇧_444"
-      - "🇬🇧_445"
-      - "🇬🇧_446"
-      - "🇬🇧_447"
-      - "🇬🇧_448"
-      - "🇬🇧_449"
-      - "🇬🇧_450"
-      - "🇬🇧_451"
-      - "🇬🇧_452"
-      - "🇬🇧_453"
-      - "🇬🇧_454"
-      - "🇬🇧_455"
-      - "🇬🇧_456"
-      - "🇬🇧_457"
-      - "🇬🇧_458"
-      - "🇬🇧_459"
-      - "🇬🇧_460"
-      - "🇬🇧_461"
-      - "🇬🇧_462"
-      - "🇬🇧_463"
-      - "🇬🇧_464"
-      - "🇬🇧_465"
-      - "🇬🇧_466"
-      - "🇬🇧_467"
-      - "🇬🇧_468"
-      - "🇬🇧_469"
-      - "🇬🇧_470"
-      - "🇬🇧_471"
-      - "🇬🇧_472"
-      - "🇬🇧_473"
-      - "🇬🇧_474"
-      - "🇬🇧_475"
-      - "🇬🇧_476"
-      - "🇬🇧_477"
-      - "🇬🇧_478"
-      - "🇬🇧_479"
-      - "🇬🇧_480"
-      - "🇬🇧_481"
-      - "🇬🇧_482"
-      - "🇬🇧_483"
-      - "🇬🇧_484"
-      - "🇬🇧_485"
-      - "🇬🇧_486"
-      - "🇬🇧_487"
-      - "🇬🇧_488"
-      - "🇬🇧_489"
-      - "🇬🇧_490"
-      - "🇬🇧_491"
-      - "🇬🇧_492"
-      - "🇬🇧_493"
-      - "🇬🇧_494"
-      - "🇬🇧_495"
-      - "🇬🇧_496"
-      - "🇬🇧_497"
-      - "🇬🇧_498"
-      - "🇬🇧_499"
-      - "🇬🇧_500"
-      - "🇬🇧_501"
-      - "🇬🇧_502"
-      - "🇬🇧_503"
-      - "🇬🇧_504"
-      - "🇬🇧_505"
-      - "🇬🇧_506"
-      - "🇬🇧_507"
-      - "🇬🇧_508"
-      - "🇬🇧_509"
-      - "🇬🇧_510"
-      - "🇬🇧_511"
-      - "🇬🇧_512"
-      - "🇬🇧_513"
-      - "🇬🇧_514"
-      - "🇬🇧_515"
-      - "🇬🇧_516"
-      - "🇬🇧_517"
-      - "🇬🇧_518"
-      - "🇬🇧_519"
-      - "🇬🇧_520"
-      - "🇬🇧_521"
-      - "🇬🇧_522"
-      - "🇬🇧_523"
-      - "🇬🇧_524"
-      - "🇬🇧_525"
-      - "🇬🇧_526"
-      - "🇬🇧_527"
-      - "🇬🇧_528"
-      - "🇬🇧_529"
-      - "🇬🇧_530"
-      - "🇬🇧_531"
-      - "🇬🇧_532"
-      - "🇬🇧_533"
-      - "🇬🇧_534"
-      - "🇬🇧_535"
-      - "🇬🇧_536"
-      - "🇬🇧_537"
-      - "🇬🇧_538"
-      - "🇬🇧_539"
-      - "🇬🇧_540"
-      - "🇬🇧_541"
-      - "🇬🇧_542"
-      - "🇬🇧_543"
-      - "🇬🇧_544"
-      - "🇬🇧_545"
-      - "🇬🇧_546"
-      - "🇬🇧_547"
-      - "🇬🇧_548"
-      - "🇬🇧_549"
-      - "🇬🇧_550"
-      - "🇬🇧_551"
-      - "🇬🇧_552"
-      - "🇬🇧_553"
-      - "🇬🇧_554"
-      - "🇬🇧_555"
-      - "🇬🇧_556"
-      - "🇬🇧_557"
-      - "🇬🇧_558"
-      - "🇬🇧_559"
-      - "🇬🇧_560"
-      - "🇬🇧_561"
-      - "🇬🇧_562"
-      - "🇬🇧_563"
-      - "🇬🇧_564"
-      - "🇬🇧_565"
-      - "🇬🇧_566"
-      - "🇬🇧_567"
-      - "🇬🇧_568"
-      - "🇬🇧_569"
-      - "🇬🇧_570"
-      - "🇬🇧_571"
-      - "🇬🇧_572"
-      - "🇬🇧_573"
-      - "🇬🇧_574"
-      - "🇬🇧_575"
-      - "🇬🇧_576"
-      - "🇬🇧_577"
-      - "🇬🇧_578"
-      - "🇬🇧_579"
-      - "🇬🇧_580"
-      - "🇬🇧_581"
-      - "🇬🇧_582"
-      - "🇬🇧_583"
-      - "🇬🇧_584"
-      - "🇬🇧_585"
-      - "🇬🇧_586"
-      - "🇬🇧_587"
-      - "🇬🇧_588"
-      - "🇬🇧_589"
-      - "🇬🇧_590"
-      - "🇬🇧_591"
-      - "🇬🇧_592"
-      - "🇬🇧_593"
-      - "🇬🇧_594"
-      - "🇬🇧_595"
-      - "🇬🇧_596"
-      - "🇬🇧_597"
-      - "🇬🇧_598"
-      - "🇬🇧_599"
-      - "🇬🇧_600"
-      - "🇬🇧_601"
-      - "🇬🇧_602"
-      - "🇬🇧_603"
-      - "🇬🇧_604"
-      - "🇬🇧_605"
-      - "🇬🇧_606"
-      - "🇬🇧_607"
-      - "🇬🇧_608"
-      - "🇬🇧_609"
-      - "🇬🇧_610"
-      - "🇬🇧_611"
-      - "🇬🇧_612"
-      - "🇬🇧_613"
-      - "🇬🇧_614"
-      - "🇬🇧_615"
-      - "🇬🇧_616"
-      - "🇬🇧_617"
-      - "🇬🇧_618"
-      - "🇬🇧_619"
-      - "🇬🇧_620"
-      - "🇬🇧_621"
-      - "🇬🇧_622"
-      - "🇬🇧_623"
-      - "🇬🇧_624"
-      - "🇬🇧_625"
-      - "🇬🇧_626"
-      - "🇬🇧_627"
-      - "🇬🇧_628"
-      - "🇬🇧_629"
-      - "🇬🇧_630"
-      - "🇬🇧_631"
-      - "🇬🇧_632"
-      - "🇬🇧_633"
-      - "🇬🇧_634"
-      - "🇬🇧_635"
-      - "🇬🇧_636"
-      - "🇬🇧_637"
-      - "🇬🇧_638"
-      - "🇬🇧_639"
-      - "🇬🇧_640"
-      - "🇬🇧_641"
-      - "🇬🇧_642"
-      - "🇬🇧_643"
-      - "🇬🇧_644"
-      - "🇬🇧_645"
-      - "🇬🇧_646"
-      - "🇬🇧_647"
-      - "🇬🇧_648"
-      - "🇬🇧_649"
-      - "🇬🇧_650"
-      - "🇬🇧_651"
-      - "🇬🇧_652"
-      - "🇬🇧_653"
-      - "🇬🇧_654"
-      - "🇬🇧_655"
-      - "🇬🇧_656"
-      - "🇬🇧_657"
-      - "🇬🇧_658"
-      - "🇬🇧_659"
-      - "🇬🇧_660"
-      - "🇬🇧_661"
-      - "🇬🇧_662"
-      - "🇬🇧_663"
-      - "🇬🇧_664"
-      - "🇬🇧_665"
-      - "🇬🇧_666"
-      - "🇬🇧_667"
-      - "🇬🇧_668"
-      - "🇬🇧_669"
-      - "🇬🇧_670"
-      - "🇬🇧_671"
-      - "🇬🇧_672"
-      - "🇬🇧_673"
-      - "🇬🇧_674"
+      - "🇬🇧_80"
+      - "🇬🇧_81"
+      - "🇬🇧_82"
+      - "🇬🇧_83"
+      - "🇬🇧_84"
+      - "🇬🇧_85"
+      - "🇬🇧_86"
+      - "🇬🇧_87"
+      - "🇬🇧_88"
+      - "🇬🇧_89"
+      - "🇬🇧_90"
+      - "🇬🇧_91"
+      - "🇬🇧_92"
+      - "🇬🇧_93"
+      - "🇬🇧_94"
+      - "🇬🇧_95"
+      - "🇬🇧_96"
+      - "🇬🇧_97"
+      - "🇬🇧_98"
+      - "🇬🇧_99"
+      - "🇬🇧_100"
+      - "🇬🇧_101"
+      - "🇬🇧_102"
+      - "🇬🇧_103"
+      - "🇬🇧_104"
+      - "🇬🇧_105"
+      - "🇬🇧_106"
+      - "🇬🇧_107"
+      - "🇬🇧_108"
+      - "🇬🇧_109"
+      - "🇬🇧_110"
+      - "🇬🇧_111"
+      - "🇬🇧_112"
+      - "🇬🇧_113"
+      - "🇬🇧_114"
+      - "🇬🇧_115"
+      - "🇬🇧_116"
+      - "🇬🇧_117"
+      - "🇬🇧_118"
+      - "🇬🇧_119"
+      - "🇬🇧_120"
+      - "🇬🇧_121"
+      - "🇬🇧_122"
+      - "🇬🇧_123"
+      - "🇬🇧_124"
+      - "🇬🇧_125"
+      - "🇬🇧_126"
+      - "🇬🇧_127"
+      - "🇬🇧_128"
+      - "🇬🇧_129"
+      - "🇬🇧_130"
+      - "🇬🇧_131"
+      - "🇬🇧_132"
+      - "🇬🇧_133"
+      - "🇬🇧_134"
+      - "🇬🇧_135"
+      - "🇬🇧_136"
+      - "🇬🇧_137"
+      - "🇬🇧_138"
+      - "🇬🇧_139"
+      - "🇬🇧_140"
+      - "🇬🇧_141"
+      - "🇬🇧_142"
+      - "🇬🇧_143"
+      - "🇬🇧_144"
+      - "🇬🇧_145"
+      - "🇬🇧_146"
+      - "🇬🇧_147"
+      - "🇬🇧_148"
+      - "🇬🇧_149"
+      - "🇬🇧_150"
+      - "🇬🇧_151"
+      - "🇬🇧_152"
+      - "🇬🇧_153"
+      - "🇬🇧_154"
+      - "🇬🇧_155"
+      - "🇬🇧_156"
+      - "🇬🇧_157"
+      - "🇬🇧_158"
 
 rules:
   - MATCH,PROXY-BEST

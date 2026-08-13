@@ -64,13 +64,65 @@ dns:
 
 proxies:
   - name: "🇳🇴_1"
+    type: vless
+    server: "54.240.174.44"
+    port: 443
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "d1yxsk0zprgivr.cloudfront.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇳🇴_2"
+    type: vless
+    server: "54.240.174.40"
+    port: 443
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "d1yxsk0zprgivr.cloudfront.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇳🇴_3"
+    type: vless
+    server: "54.240.174.77"
+    port: 443
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "d1yxsk0zprgivr.cloudfront.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇳🇴_4"
+    type: vless
+    server: "54.240.174.87"
+    port: 443
+    uuid: "7ce54bb3-d612-4aa7-be08-089d3c461d53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "d1yxsk0zprgivr.cloudfront.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇳🇴_5"
     type: ss
     server: "185.213.23.63"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇳🇴_2"
+  - name: "🇳🇴_6"
     type: ss
     server: "185.213.23.63"
     port: 990
@@ -93,6 +145,10 @@ proxy-groups:
     proxies:
       - "🇳🇴_1"
       - "🇳🇴_2"
+      - "🇳🇴_3"
+      - "🇳🇴_4"
+      - "🇳🇴_5"
+      - "🇳🇴_6"
 
 
 rules:

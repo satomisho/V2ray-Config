@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_5"
+  - name: "🇨🇿_3"
     type: vless
     server: "188.127.247.129"
     port: 443
@@ -68,33 +68,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "yahoo.com"
-    client-fingerprint: "edge"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
       short-id: "0c"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_6"
-    type: trojan
-    server: "46.8.113.142"
-    port: 443
-    password: "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu"
-    sni: "ch-2.bexum.fun"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇨🇿_7"
-    type: trojan
-    server: "178.208.75.155"
-    port: 2053
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🇨🇿_8"
+  - name: "🇨🇿_4"
     type: trojan
     server: "178.208.75.155"
     port: 8443
@@ -147,10 +126,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -160,10 +137,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -173,10 +148,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -185,10 +158,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -198,19 +169,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
 rules:
   - MATCH,PROXY-BEST
