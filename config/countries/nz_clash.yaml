@@ -63,20 +63,20 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇲🇾_1"
+  - name: "🇳🇿_1"
     type: vless
-    server: "205.186.67.233"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    server: "114.129.43.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "tesla.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
-    flow: "xtls-rprx-vision"
+    servername: "notls.lukongtou.eu.org"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "notls.lukongtou.eu.org"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,7 +91,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇲🇾_1"
+      - "🇳🇿_1"
 
 
 rules:

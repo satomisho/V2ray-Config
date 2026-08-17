@@ -65,22 +65,21 @@ dns:
 proxies:
   - name: "🇭🇰_1"
     type: vless
-    server: "219.76.13.167"
+    server: "114.29.238.251"
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
+    servername: "asia.cendora.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU"
+      short-id: "e53048e82bb20077"
+    flow: "xtls-rprx-vision"
   - name: "🇭🇰_2"
     type: vless
-    server: "154.38.116.8"
+    server: "202.61.87.116"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -95,7 +94,7 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_3"
     type: vless
-    server: "103.219.194.43"
+    server: "82.158.230.241"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -110,7 +109,7 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_4"
     type: vless
-    server: "43.154.131.189"
+    server: "43.154.33.183"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -125,20 +124,22 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_5"
     type: vless
-    server: "47.238.210.5"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    server: "210.3.205.158"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "tesla.com"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
   - name: "🇭🇰_6"
     type: vless
-    server: "8.218.22.14"
+    server: "207.57.129.55"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -153,21 +154,21 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_7"
     type: vless
-    server: "38.207.177.236"
-    port: 443
-    uuid: "9c64064c-aaaf-449f-9344-77632fc9ff1c"
+    server: "114.29.238.251"
+    port: 13443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    servername: "auto.cendora.ru"
+    client-fingerprint: "qq"
     reality-opts:
-      public-key: "maES4RMEtsm5emBCixDRa6Y5GvmVwmwZNBL2G4Q03D4"
-      short-id: "47de54e71fee3451"
+      public-key: "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM"
+      short-id: "a7f3c91b2e6d84c0"
     flow: "xtls-rprx-vision"
   - name: "🇭🇰_8"
     type: vless
-    server: "38.190.210.250"
+    server: "43.249.174.253"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -182,20 +183,7 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_9"
     type: vless
-    server: "35.241.98.220"
-    port: 443
-    uuid: "96563f88-f743-4395-a3b2-27ec462ae45e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo"
-      short-id: "ec2c7091fe76336c"
-  - name: "🇭🇰_10"
-    type: vless
-    server: "219.76.13.169"
+    server: "219.76.13.166"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -208,9 +196,15 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
+  - name: "🇭🇰_10"
+    type: vless
+    server: "182.16.61.4"
+    port: 45647
+    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
+    udp: true
   - name: "🇭🇰_11"
     type: vless
-    server: "219.76.13.166"
+    server: "103.20.223.150"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -225,31 +219,36 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_12"
     type: vless
-    server: "154.218.15.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "38.190.210.250"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
-        Host: "vms.lifetime47.workers.dev"
+        Host: "vp10.pages.dev"
   - name: "🇭🇰_13"
     type: vless
-    server: "34.96.200.38"
+    server: "38.207.177.236"
     port: 443
-    uuid: "2058418a-7718-4050-bdd5-db7487ffdb3b"
+    uuid: "9c64064c-aaaf-449f-9344-77632fc9ff1c"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "uoXBNYcBgR-h2YmU1NFhFyASr6qh9UghWOuo1WZIikw"
-      short-id: "17d824dd68e24aaf"
+      public-key: "maES4RMEtsm5emBCixDRa6Y5GvmVwmwZNBL2G4Q03D4"
+      short-id: "47de54e71fee3451"
+    flow: "xtls-rprx-vision"
   - name: "🇭🇰_14"
     type: vless
-    server: "8.210.29.68"
+    server: "103.219.194.43"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -264,17 +263,16 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_15"
     type: vless
-    server: "182.16.61.4"
-    port: 45647
-    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
+    server: "45.192.224.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime17.workers.dev"
   - name: "🇭🇰_16"
-    type: vless
-    server: "182.16.61.2"
-    port: 45647
-    uuid: "caec0d8d-ab2f-4247-b97d-7fb1a34ab195"
-    udp: true
-  - name: "🇭🇰_17"
     type: vless
     server: "103.192.179.132"
     port: 443
@@ -289,34 +287,48 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_18"
+  - name: "🇭🇰_17"
     type: vless
-    server: "104.129.167.4"
-    port: 80
-    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
+    server: "154.218.15.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳 @AzadWeb"
+      path: "/?ed=2560"
       headers:
-        Host: "floral-thunder-10d3.82-67d.workers.dev"
-  - name: "🇭🇰_19"
+        Host: "vms.lifetime47.workers.dev"
+  - name: "🇭🇰_18"
     type: vless
-    server: "hk3n.wxgqlfx.vip"
-    port: 35187
-    uuid: "8924529c-7ced-4ecd-b4ee-40aadf021385"
+    server: "47.238.210.5"
+    port: 13779
+    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
+    servername: "tesla.com"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
+      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
+      short-id: "af1bdd293097b664"
+  - name: "🇭🇰_19"
+    type: vless
+    server: "176.98.181.6"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
   - name: "🇭🇰_20"
     type: vless
-    server: "156.239.245.134"
+    server: "156.224.76.205"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -331,22 +343,13 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_21"
     type: vless
-    server: "47.239.4.246"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    server: "182.16.61.2"
+    port: 45647
+    uuid: "caec0d8d-ab2f-4247-b97d-7fb1a34ab195"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
   - name: "🇭🇰_22"
     type: vless
-    server: "43.168.16.112"
+    server: "43.132.231.159"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
@@ -361,6 +364,196 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_23"
     type: vless
+    server: "223.122.123.74"
+    port: 30100
+    uuid: "19bb341c-ee57-4899-b1e7-e9d3ebdf23df"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xiweini.dpdns.org"
+    client-fingerprint: "firefox"
+  - name: "🇭🇰_24"
+    type: vless
+    server: "47.83.153.19"
+    port: 59750
+    uuid: "9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.amd.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_25"
+    type: vless
+    server: "141.11.76.57"
+    port: 21001
+    uuid: "48b03015-e111-4d62-9d8e-b84a1ecabebd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "itunes.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA"
+      short-id: "dfa28122"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_26"
+    type: vless
+    server: "182.16.61.3"
+    port: 45647
+    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
+    udp: true
+  - name: "🇭🇰_27"
+    type: vless
+    server: "8.210.29.68"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_28"
+    type: vless
+    server: "209.33.160.61"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_29"
+    type: vless
+    server: "156.239.245.134"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_30"
+    type: vless
+    server: "154.38.116.8"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_31"
+    type: vless
+    server: "35.241.98.220"
+    port: 443
+    uuid: "96563f88-f743-4395-a3b2-27ec462ae45e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo"
+      short-id: "ec2c7091fe76336c"
+  - name: "🇭🇰_32"
+    type: vless
+    server: "8.218.22.14"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_33"
+    type: vless
+    server: "34.96.200.38"
+    port: 443
+    uuid: "2058418a-7718-4050-bdd5-db7487ffdb3b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "uoXBNYcBgR-h2YmU1NFhFyASr6qh9UghWOuo1WZIikw"
+      short-id: "17d824dd68e24aaf"
+  - name: "🇭🇰_34"
+    type: vless
+    server: "47.239.4.246"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_35"
+    type: vless
+    server: "210.3.205.167"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_36"
+    type: vless
+    server: "43.168.16.112"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_37"
+    type: vless
     server: "219.76.13.181"
     port: 443
     uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
@@ -374,7 +567,124 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_24"
+  - name: "🇭🇰_38"
+    type: vless
+    server: "87.229.25.243"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_39"
+    type: vless
+    server: "103.84.110.68"
+    port: 24443
+    uuid: "a68d59e6-bc1e-47ed-91bf-c3e02b18e5df"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "09Cv8GzDb5G9R9MS37ajZQ8o489874sF9umFuNdCeEc"
+      short-id: "ba2e8b0452447037"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_40"
+    type: vless
+    server: "124.244.55.157"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_41"
+    type: vless
+    server: "103.149.183.198"
+    port: 13779
+    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tesla.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
+      short-id: "af1bdd293097b664"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_42"
+    type: vless
+    server: "103.135.34.196"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_43"
+    type: vless
+    server: "103.193.149.123"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_44"
+    type: vless
+    server: "219.76.13.169"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_45"
+    type: vless
+    server: "124.156.182.132"
+    port: 443
+    uuid: "1b6de5d8-3285-422c-b6fe-2989918f528b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "CdNLdccy_ALnjDvwZa14eP31CoJ_BLqJAS2OLCNwogg"
+      short-id: "d19dcb524604e214"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_46"
     type: vless
     server: "219.76.13.177"
     port: 443
@@ -389,41 +699,59 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_25"
+  - name: "🇭🇰_47"
     type: vless
-    server: "182.16.61.3"
-    port: 45647
-    uuid: "431fe973-a43a-4fac-bf83-2a772e0d0625"
-    udp: true
-  - name: "🇭🇰_26"
-    type: vless
-    server: "156.226.168.221"
-    port: 35187
-    uuid: "8924529c-7ced-4ecd-b4ee-40aadf021385"
+    server: "219.76.13.167"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_27"
-    type: vless
-    server: "47.83.153.19"
-    port: 59750
-    uuid: "9e76cfb8-b7a6-40f6-c2aa-9905aa19f31b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.amd.com"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_28"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_48"
+    type: vless
+    server: "43.154.131.189"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_49"
+    type: vless
+    server: "103.118.252.45"
+    port: 13131
+    uuid: "bc155a59-a4db-45e7-addf-db634b79757b"
+    udp: true
+  - name: "🇭🇰_50"
+    type: trojan
+    server: "194.99.79.189"
+    port: 443
+    password: "AE62539071"
+    sni: "humorous-parakeet.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_51"
+    type: trojan
+    server: "ideal-robin.rooster465.autos"
+    port: 443
+    password: "PQ05174892"
+    sni: "ideal-robin.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_52"
     type: trojan
     server: "185.244.208.13"
     port: 443
@@ -431,7 +759,7 @@ proxies:
     sni: "ace-starling.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_29"
+  - name: "🇭🇰_53"
     type: trojan
     server: "novel-mouse.rooster465.autos"
     port: 443
@@ -439,47 +767,47 @@ proxies:
     sni: "novel-mouse.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_30"
+  - name: "🇭🇰_54"
     type: trojan
-    server: "dynamic-grubworm.rooster465.autos"
+    server: "well-marmot.rooster465.autos"
+    port: 443
+    password: "PQ05174892"
+    sni: "well-marmot.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_55"
+    type: trojan
+    server: "185.244.208.219"
+    port: 443
+    password: "AE62539071"
+    sni: "upright-bedbug.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_56"
+    type: trojan
+    server: "91.199.84.120"
     port: 443
     password: "AE62539071"
     sni: "dynamic-grubworm.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_31"
+  - name: "🇭🇰_57"
     type: trojan
-    server: "119.246.1.143"
+    server: "strong-haddock.rooster465.autos"
     port: 443
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
+    password: "FH72359861"
+    sni: "strong-haddock.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_32"
+  - name: "🇭🇰_58"
     type: trojan
-    server: "185.244.208.210"
+    server: "185.14.47.228"
     port: 443
-    password: "ND91608427"
-    sni: "upright-hamster.rooster465.autos"
+    password: "AE62539071"
+    sni: "wealthy-loon.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_33"
-    type: trojan
-    server: "18.162.120.218"
-    port: 11035
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇭🇰_34"
-    type: trojan
-    server: "91.199.84.120"
-    port: 443
-    password: "ND91608427"
-    sni: "dynamic-grubworm.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇭🇰_35"
+  - name: "🇭🇰_59"
     type: trojan
     server: "smiling-ray.rooster465.autos"
     port: 443
@@ -487,13 +815,156 @@ proxies:
     sni: "smiling-ray.rooster465.autos"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_36"
+  - name: "🇭🇰_60"
     type: trojan
-    server: "upright-bedbug.rooster465.autos"
+    server: "18.162.120.218"
+    port: 11035
+    password: "BxceQaOe"
+    sni: "18.162.120.218"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_61"
+    type: trojan
+    server: "185.244.208.69"
     port: 443
     password: "AE62539071"
-    sni: "upright-bedbug.rooster465.autos"
+    sni: "strong-haddock.rooster465.autos"
     skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_62"
+    type: trojan
+    server: "smiling-ray.rooster465.autos"
+    port: 443
+    password: "PQ05174892"
+    sni: "smiling-ray.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_63"
+    type: trojan
+    server: "194.99.79.197"
+    port: 443
+    password: "AE62539071"
+    sni: "smiling-ray.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_64"
+    type: trojan
+    server: "smiling-ray.rooster465.autos"
+    port: 443
+    password: "FH72359861"
+    sni: "smiling-ray.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_65"
+    type: trojan
+    server: "91.199.84.120"
+    port: 443
+    password: "ND91608427"
+    sni: "dynamic-grubworm.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_66"
+    type: trojan
+    server: "185.244.208.210"
+    port: 443
+    password: "ND91608427"
+    sni: "upright-hamster.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_67"
+    type: trojan
+    server: "185.14.47.125"
+    port: 443
+    password: "HC04361579"
+    sni: "eminent-lamb.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_68"
+    type: trojan
+    server: "185.14.47.238"
+    port: 443
+    password: "AE62539071"
+    sni: "magical-kodiak.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_69"
+    type: trojan
+    server: "194.99.79.121"
+    port: 443
+    password: "AE62539071"
+    sni: "modest-foal.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_70"
+    type: trojan
+    server: "185.14.47.234"
+    port: 443
+    password: "AE62539071"
+    sni: "novel-mouse.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_71"
+    type: trojan
+    server: "18.162.120.218"
+    port: 50887
+    password: "6ec301428255a78a1d826988d86cc87e"
+    sni: "www.nintendogames.net"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_72"
+    type: trojan
+    server: "dynamic-grubworm.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+    sni: "dynamic-grubworm.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_73"
+    type: trojan
+    server: "strong-haddock.rooster465.autos"
+    port: 443
+    password: "PQ05174892"
+    sni: "strong-haddock.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_74"
+    type: trojan
+    server: "119.246.1.143"
+    port: 443
+    password: "BxceQaOe"
+    sni: "t.me/ripaojiedian"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_75"
+    type: trojan
+    server: "91.199.84.155"
+    port: 443
+    password: "FH72359861"
+    sni: "modern-bedbug.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_76"
+    type: trojan
+    server: "modest-foal.rooster465.autos"
+    port: 443
+    password: "AE62539071"
+    sni: "modest-foal.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_77"
+    type: trojan
+    server: "wealthy-loon.rooster465.autos"
+    port: 443
+    password: "PQ05174892"
+    sni: "wealthy-loon.rooster465.autos"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_78"
+    type: ss
+    server: "176.97.64.144"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "TFElG2FVqyqG"
     udp: true
 
 proxy-groups:
@@ -545,6 +1016,48 @@ proxy-groups:
       - "🇭🇰_34"
       - "🇭🇰_35"
       - "🇭🇰_36"
+      - "🇭🇰_37"
+      - "🇭🇰_38"
+      - "🇭🇰_39"
+      - "🇭🇰_40"
+      - "🇭🇰_41"
+      - "🇭🇰_42"
+      - "🇭🇰_43"
+      - "🇭🇰_44"
+      - "🇭🇰_45"
+      - "🇭🇰_46"
+      - "🇭🇰_47"
+      - "🇭🇰_48"
+      - "🇭🇰_49"
+      - "🇭🇰_50"
+      - "🇭🇰_51"
+      - "🇭🇰_52"
+      - "🇭🇰_53"
+      - "🇭🇰_54"
+      - "🇭🇰_55"
+      - "🇭🇰_56"
+      - "🇭🇰_57"
+      - "🇭🇰_58"
+      - "🇭🇰_59"
+      - "🇭🇰_60"
+      - "🇭🇰_61"
+      - "🇭🇰_62"
+      - "🇭🇰_63"
+      - "🇭🇰_64"
+      - "🇭🇰_65"
+      - "🇭🇰_66"
+      - "🇭🇰_67"
+      - "🇭🇰_68"
+      - "🇭🇰_69"
+      - "🇭🇰_70"
+      - "🇭🇰_71"
+      - "🇭🇰_72"
+      - "🇭🇰_73"
+      - "🇭🇰_74"
+      - "🇭🇰_75"
+      - "🇭🇰_76"
+      - "🇭🇰_77"
+      - "🇭🇰_78"
 
 
 rules:

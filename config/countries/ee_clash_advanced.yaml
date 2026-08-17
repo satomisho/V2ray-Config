@@ -59,21 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇪🇪_15"
-    type: vless
-    server: "95.85.224.76"
-    port: 443
-    uuid: "76713d07-5a6b-49c2-abd8-bc450a2fa7fc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ee-download.spectrum.vu"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ"
-      short-id: "7b1c7d9a3f2a"
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇪_16"
+  - name: "🇪🇪_19"
     type: vless
     server: "95.85.224.3"
     port: 8443
@@ -82,18 +68,93 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc"
-  - name: "🇪🇪_17"
+  - name: "🇪🇪_20"
     type: vless
-    server: "138.124.100.128"
+    server: "185.155.97.241"
     port: 443
-    uuid: "551955b3-46e9-5129-95c9-e7474c15ed6b"
+    uuid: "0b9bcbc1-b289-4a64-86fa-a5b731b65384"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ee4.fast-connect-service.site"
-    client-fingerprint: "chrome"
+    servername: "web.max.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4"
+      short-id: "15aa18f971da1f81"
     flow: "xtls-rprx-vision"
-  - name: "🇪🇪_18"
+  - name: "🇪🇪_21"
+    type: vless
+    server: "94.183.170.135"
+    port: 8443
+    uuid: "06c4e938-2954-478f-a870-ca1b163e30e9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "estproxy4.lockdwn.com"
+    client-fingerprint: "firefox"
+  - name: "🇪🇪_22"
+    type: vless
+    server: "185.159.247.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime59.workers.dev"
+  - name: "🇪🇪_23"
+    type: vless
+    server: "45.80.110.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime51.workers.dev"
+  - name: "🇪🇪_24"
+    type: vless
+    server: "64.188.82.152"
+    port: 443
+    uuid: "7836b28e-8451-4596-ad3e-e3601b2335ba"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cloudflare.vhub.pro"
+    client-fingerprint: "safari"
+    network: ws
+    ws-opts:
+      path: "/websocket?ed=2560"
+      headers:
+        Host: "cloudflare.vhub.pro"
+  - name: "🇪🇪_25"
+    type: vless
+    server: "93.123.39.158"
+    port: 2066
+    uuid: "24f8209b-6689-4e7a-b067-f886e04dfc43"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ads.x5.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "XIBKbglsQ9pI4eo26LoUkmNxnVqlKtxZRO0H91v3jF0"
+      short-id: "1b2a3f"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇪_26"
+    type: vless
+    server: "45.80.110.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime51.workers.dev"
+  - name: "🇪🇪_27"
     type: vless
     server: "94.183.170.231"
     port: 8443
@@ -103,7 +164,7 @@ proxies:
     skip-cert-verify: true
     servername: "estproxy2.lockdwn.com"
     client-fingerprint: "firefox"
-  - name: "🇪🇪_19"
+  - name: "🇪🇪_28"
     type: vless
     server: "95.85.224.51"
     port: 443
@@ -117,7 +178,7 @@ proxies:
       public-key: "WWeAHWUVD-phmnjNJ823cer0c4CMIbEs08AhsuEZmDc"
       short-id: "a696de84963656de"
     flow: "xtls-rprx-vision"
-  - name: "🇪🇪_20"
+  - name: "🇪🇪_29"
     type: vless
     server: "45.80.108.236"
     port: 443
@@ -132,32 +193,7 @@ proxies:
       path: "/proxyip=167.71.48.187"
       headers:
         Host: "lively-resonance-4e12.electrocellco-cf-059.workers.dev"
-  - name: "🇪🇪_21"
-    type: vless
-    server: "138.124.100.128"
-    port: 443
-    uuid: "8033102198"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ee4.fast-connect-service.site"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇪_22"
-    type: vless
-    server: "185.155.97.58"
-    port: 45176
-    uuid: "dc7940e0-6bff-45e3-853d-4007561803c3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.googletagmanager.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "A1Qf_rMG4KDfLzfCK-M5R9qW_0uThfeSosQnv6LBL1M"
-      short-id: "8433cb66b6c3ab6d"
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇪_23"
+  - name: "🇪🇪_30"
     type: vless
     server: "94.183.170.231"
     port: 443
@@ -166,49 +202,45 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇪🇪_24"
+  - name: "🇪🇪_31"
     type: vless
-    server: "185.155.97.241"
+    server: "45.80.108.123"
     port: 443
-    uuid: "0b9bcbc1-b289-4a64-86fa-a5b731b65384"
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "web.max.ru"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "SJkDT_L0eziQR2afDGrkN7-uRxjYu6bZxIGXlKeCvX4"
-      short-id: "15aa18f971da1f81"
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇪_25"
+    servername: "notls.lukongtou.eu.org"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇪🇪_32"
     type: vless
-    server: "91.235.234.186"
+    server: "38.180.230.27"
     port: 443
-    uuid: "4593aa27-a2a1-412f-935f-3829495c0970"
+    uuid: "278412f2-ef42-48e2-a4c0-243b173e612b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "us7fs3.proxen.pdevinfra.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇪_26"
+    servername: "ee2.mehab.me"
+    client-fingerprint: "firefox"
+  - name: "🇪🇪_33"
     type: vless
-    server: "ee-2-gatev1.dedicated.cdnnow.xyz"
-    port: 12303
-    uuid: "fd65311a-5b25-4e20-963b-bb7500f74d40"
+    server: "95.85.242.241"
+    port: 443
+    uuid: "bf840e65-ae71-4d9d-afe8-bf77f032c63b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "music.yandex.ru"
-    client-fingerprint: "chrome"
+    servername: "www.amd.com"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "ens3hLP8kjd-Zye3nW1Q_CC2kJFo0PdPbplj9VLwkWg"
-      short-id: "9dca5fc4ebb92cc6"
+      public-key: "Qks2gZB7vFN7X2mhq0toWVvbi0ZGZM0my_VGMtaDIH0"
+      short-id: "a81d2e"
     flow: "xtls-rprx-vision"
-  - name: "🇪🇪_27"
+  - name: "🇪🇪_34"
     type: trojan
     server: "185.36.141.81"
     port: 443
@@ -219,7 +251,15 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
-  - name: "🇪🇪_28"
+  - name: "🇪🇪_35"
+    type: trojan
+    server: "109.206.241.10"
+    port: 449
+    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
+    sni: "russiapower.accesscam.org"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇪🇪_36"
     type: trojan
     server: "80.77.25.142"
     port: 443
@@ -274,10 +314,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -288,6 +324,14 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
   - name: "LB-CDN"
     type: load-balance
@@ -297,10 +341,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -311,6 +351,14 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -320,10 +368,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -334,6 +378,14 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
   - name: "FAST-CDN"
     type: url-test
@@ -342,10 +394,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -356,6 +404,14 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -365,10 +421,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -379,15 +431,19 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇪🇪_15"
-      - "🇪🇪_16"
-      - "🇪🇪_17"
-      - "🇪🇪_18"
       - "🇪🇪_19"
       - "🇪🇪_20"
       - "🇪🇪_21"
@@ -398,6 +454,14 @@ proxy-groups:
       - "🇪🇪_26"
       - "🇪🇪_27"
       - "🇪🇪_28"
+      - "🇪🇪_29"
+      - "🇪🇪_30"
+      - "🇪🇪_31"
+      - "🇪🇪_32"
+      - "🇪🇪_33"
+      - "🇪🇪_34"
+      - "🇪🇪_35"
+      - "🇪🇪_36"
 
 rules:
   - MATCH,PROXY-BEST

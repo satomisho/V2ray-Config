@@ -1,4 +1,5 @@
-vless://5f4845b4-11dc-41d6-9508-4ff6a02e36c1@45.131.4.192:80?encryption=none&host=silent-paper-fa57.fipiyag989.workers.dev&path=%2F&security=none&type=ws#%F0%9F%87%AE%F0%9F%87%B7
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@185.143.234.238:2086?security=none&type=ws&path=%2F&host=parsi.parsi.sbs&sni=parsi.parsi.sbs&encryption=none#%F0%9F%87%AE%F0%9F%87%B7
-vless://1ee1f28d-4975-4d7c-95c7-76172c20eed5@snapp.ir:2086?path=%2F&security=none&encryption=none&host=parsi.parsi.sbs&type=ws#%F0%9F%87%AE%F0%9F%87%B7
+vless://440d1fb3-7a10-4569-82c2-71602cef26c7@87.236.38.139:2036?security=tls&type=ws&path=%2F&host=world.ashahan.ir&sni=world.ashahan.ir&fp=chrome&encryption=none#%F0%9F%87%AE%F0%9F%87%B7
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?type=ws&host=vms.lifetime59.workers.dev#%F0%9F%87%AE%F0%9F%87%B7
+trojan://f18d6149-e214-8554-e737-f7523c8b2eea@45.131.4.118:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#%F0%9F%87%AE%F0%9F%87%B7
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#%F0%9F%87%AE%F0%9F%87%B7
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#%F0%9F%87%AE%F0%9F%87%B7

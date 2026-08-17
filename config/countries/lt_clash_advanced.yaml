@@ -59,47 +59,36 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇱🇹_8"
+  - name: "🇱🇹_6"
     type: vless
-    server: "88.216.69.144"
+    server: "31.76.83.114"
     port: 443
-    uuid: "50414e45-4c5f-5a45-5553-4d64f1370eeb"
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "r5zenrelur2s.pqzdileiu8es.workers.dev"
-    client-fingerprint: "ios"
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0"
-      headers:
-        Host: "r5zenrelur2s.pqzdileiu8es.workers.dev"
-  - name: "🇱🇹_9"
+    servername: "baltic.cendora.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik"
+      short-id: "4a46213c935e2ee4"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_7"
     type: vless
-    server: "88.216.69.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "185.237.185.182"
+    port: 2053
+    uuid: "c7e9c591-2764-423a-afca-efbd010fd396"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "forfreeuse.rtqa.ru"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime06.workers.dev"
-  - name: "🇱🇹_10"
-    type: vless
-    server: "84.32.51.241"
-    port: 443
-    uuid: "ff1b0b50-70dc-4bae-866e-55cff86f4d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt.nosok-top.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc"
-      short-id: "4fa44664f6a566d3"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_11"
+        Host: "forfreeuse.rtqa.ru"
+  - name: "🇱🇹_8"
     type: vless
     server: "84.32.209.7"
     port: 443
@@ -113,35 +102,18 @@ proxies:
       public-key: "00n9LplaZ0VGvRS57548s7xe0deFC10pw2fkFHFPplM"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇱🇹_12"
+  - name: "🇱🇹_9"
     type: vless
-    server: "84.32.51.253"
-    port: 443
-    uuid: "ff1b0b50-70dc-4bae-866e-55cff86f4d6d"
+    server: "88.216.69.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt.nosok-top.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "AYQOZFxjvHN-RIzKYEibwFiFsp03cdlWGdCmyFfuNVc"
-      short-id: "4fa44664f6a566d3"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_13"
-    type: vless
-    server: "ltu-01.node.lumixnet.com"
-    port: 443
-    uuid: "56ae4ec4-6705-43d0-bf3a-bc36ab3b3545"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ltu-01.node.lumixnet.com"
-    client-fingerprint: "hellochrome_120"
-    reality-opts:
-      public-key: "vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A"
-      short-id: "bd8a588cebc3395a"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_14"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime06.workers.dev"
+  - name: "🇱🇹_10"
     type: trojan
     server: "195.181.244.216"
     port: 443
@@ -196,13 +168,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
   - name: "LB-CDN"
     type: load-balance
@@ -212,13 +182,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -228,13 +196,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
   - name: "FAST-CDN"
     type: url-test
@@ -243,13 +209,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -259,25 +223,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇱🇹_6"
+      - "🇱🇹_7"
       - "🇱🇹_8"
       - "🇱🇹_9"
       - "🇱🇹_10"
-      - "🇱🇹_11"
-      - "🇱🇹_12"
-      - "🇱🇹_13"
-      - "🇱🇹_14"
 
 rules:
   - MATCH,PROXY-BEST

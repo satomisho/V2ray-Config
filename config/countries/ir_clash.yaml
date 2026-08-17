@@ -65,38 +65,49 @@ dns:
 proxies:
   - name: "🇮🇷_1"
     type: vless
-    server: "45.131.4.192"
-    port: 80
-    uuid: "5f4845b4-11dc-41d6-9508-4ff6a02e36c1"
+    server: "87.236.38.139"
+    port: 2036
+    uuid: "440d1fb3-7a10-4569-82c2-71602cef26c7"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "world.ashahan.ir"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "silent-paper-fa57.fipiyag989.workers.dev"
+        Host: "world.ashahan.ir"
   - name: "🇮🇷_2"
     type: vless
-    server: "185.143.234.238"
-    port: 2086
-    uuid: "1ee1f28d-4975-4d7c-95c7-76172c20eed5"
+    server: "45.131.4.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "parsi.parsi.sbs"
+        Host: "vms.lifetime59.workers.dev"
   - name: "🇮🇷_3"
-    type: vless
-    server: "snapp.ir"
-    port: 2086
-    uuid: "1ee1f28d-4975-4d7c-95c7-76172c20eed5"
+    type: trojan
+    server: "45.131.4.118"
+    port: 443
+    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
+    sni: "0403.infinityconfig4.workers.dev"
+    skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-      headers:
-        Host: "parsi.parsi.sbs"
+      path: "/sync"
   - name: "🇮🇷_4"
+    type: ss
+    server: "193.29.139.168"
+    port: 8080
+    cipher: "chacha20-ietf-poly1305"
+    password: "QCXDxuDlTTMD7jtgHUjIoj"
+    udp: true
+  - name: "🇮🇷_5"
     type: ss
     server: "82.38.31.57"
     port: 443
@@ -121,6 +132,7 @@ proxy-groups:
       - "🇮🇷_2"
       - "🇮🇷_3"
       - "🇮🇷_4"
+      - "🇮🇷_5"
 
 
 rules:
