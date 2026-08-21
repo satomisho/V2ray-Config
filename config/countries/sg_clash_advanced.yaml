@@ -59,218 +59,146 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇬_120"
+  - name: "🇸🇬_71"
     type: vless
-    server: "139.162.61.57"
+    server: "163.128.98.110"
     port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "139.162.61.57"
-  - name: "🇸🇬_121"
-    type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "6b0ff21f-8d44-47fe-a296-431150d7ba93"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-  - name: "🇸🇬_122"
-    type: vless
-    server: "217.217.254.126"
-    port: 2053
-    uuid: "6b408e62-c5d5-45e1-ae3a-4c9833d46d82"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ"
-      short-id: "fb7ebc9996caf9ac"
-  - name: "🇸🇬_123"
-    type: vless
-    server: "178.128.52.52"
-    port: 443
-    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zoom.us"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI"
-      short-id: "5a42dbd7e26a0415"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_124"
-    type: vless
-    server: "52.74.176.20"
-    port: 443
-    uuid: "5ad0bed3-68ac-495e-b778-8b2d0e1dc176"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬_125"
-    type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "137a8a89-b85b-4735-abe2-d0ea330fa305"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-  - name: "🇸🇬_126"
-    type: vless
-    server: "54.179.79.12"
-    port: 53646
-    uuid: "d57b9436-a238-4066-8b11-d23ae57c5982"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-  - name: "🇸🇬_127"
-    type: vless
-    server: "194.233.75.66"
-    port: 443
-    uuid: "55d61055-1a7f-4bc5-aca2-4ee78c738b60"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sahanwickramasinghevip.shop"
-    client-fingerprint: "firefox"
-  - name: "🇸🇬_128"
-    type: vless
-    server: "152.42.217.27"
-    port: 4321
-    uuid: "b8f3a337-ad39-4064-95f1-33a725a65877"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0"
-      short-id: "950e9d42106bedae"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_129"
-    type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "f2a97245-bf76-4eca-9119-110a9ebf38e4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-  - name: "🇸🇬_130"
-    type: vless
-    server: "104.64.207.134"
-    port: 443
-    uuid: "1bc380b1-cff7-446f-b13f-5c0ad29fc75a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zero.csmaster.ggff.net"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬_131"
-    type: vless
-    server: "45.8.211.57"
-    port: 443
-    uuid: "03707fb7-0990-440f-88f6-b0e0f7242a38"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "de-new-1.ariyuz.org"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬_132"
-    type: vless
-    server: "206.206.78.36"
-    port: 443
-    uuid: "e3f0c894-0f76-4683-a751-6a93da8fd14d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ"
-      short-id: "133a3f10a1581047"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_133"
-    type: vless
-    server: "103.106.229.190"
-    port: 13898
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    uuid: "f67e149c-e1f4-4162-876b-a34591b8349f"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
+      public-key: "f7ysLjHXSTFqwfeUvS26zrbLmjwpvsa0xtfMYz46OjQ"
+      short-id: "0123456789abcdef"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_134"
+  - name: "🇸🇬_72"
     type: vless
-    server: "178.128.112.70"
+    server: "77.93.90.231"
     port: 443
-    uuid: "9206ae06-88ee-49b1-a558-531ade80fcaa"
+    uuid: "548df4ba-0b7f-4850-ac84-716bbb68a4ba"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.amazon.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "-O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY"
-      short-id: "7f7f"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_135"
+    servername: "fm3.pages.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "fm3.pages.dev"
+  - name: "🇸🇬_73"
     type: vless
-    server: "91.192.81.214"
+    server: "152.42.221.198"
     port: 443
-    uuid: "607801ac-dbdd-4938-a167-129015d9978e"
+    uuid: "49c86212-ae0b-430e-9abb-244e715b533f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "paid.sshehi.ggff.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬_74"
+    type: vless
+    server: "163.128.99.73"
+    port: 443
+    uuid: "f3ed1945-dc1e-478a-b067-12b71badbea9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc"
-      short-id: "d1742269"
+      public-key: "ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk"
+      short-id: "693f679d3294f967"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_136"
+  - name: "🇸🇬_75"
+    type: vless
+    server: "zero.csmaster.ggff.net"
+    port: 443
+    uuid: "63360c4f-875f-4c1a-a44c-3cfe4543a0de"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zero.csmaster.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬_76"
+    type: vless
+    server: "162.128.69.118"
+    port: 443
+    uuid: "e1497c37-4943-4b99-918b-ee52a0976d29"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "l7JQh1wolRUB1fiUDIMjbgKksM2hMfQaOr4yeFUZLQk"
+      short-id: "905354e3cbb8e2fb"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_77"
+    type: vless
+    server: "162.128.71.140"
+    port: 443
+    uuid: "e89fe855-e988-49f4-b905-069c844ca99b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "2NkRth1EwaiVxU1u5nEnxODXViT7uxi87G3Wt2p8blI"
+      short-id: "22e1f6b69da7c5d2"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_78"
+    type: vless
+    server: "163.128.99.2"
+    port: 443
+    uuid: "f04e0769-91f9-447f-9c88-71e3f004ce87"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "6us83yF7C-acsnMkvu_Cs8hkDv8R0zsO_j-0y2eaT1U"
+      short-id: "5bbf5ea7c71168f4"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_79"
+    type: vless
+    server: "154.196.139.50"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "asia.cendora.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU"
+      short-id: "e53048e82bb20077"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_80"
+    type: vless
+    server: "e4ur-1936et2.startora.top"
+    port: 443
+    uuid: "690ad3be-991b-4a2c-b351-42dd06789d03"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "3ZKNZEktRaPxt-XoWmx68EGsFwglnICVkvIl96973iA"
+      short-id: "4014ce9b0d82ad9d"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_81"
     type: vless
     server: "3.0.111.82"
     port: 10574
@@ -284,91 +212,147 @@ proxies:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_137"
+  - name: "🇸🇬_82"
     type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "0dd51e1e-aa95-493b-bb3a-c98cb3c7cb5e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
-  - name: "🇸🇬_138"
-    type: vless
-    server: "154.196.139.50"
+    server: "178.128.112.70"
     port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    uuid: "9206ae06-88ee-49b1-a558-531ade80fcaa"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "asia.cendora.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU"
-      short-id: "e53048e82bb20077"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_139"
-    type: vless
-    server: "104.64.207.134"
-    port: 443
-    uuid: "840476ec-64a2-496e-b406-c5a0ca1e4a13"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zero.csmaster.ggff.net"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇬_140"
-    type: vless
-    server: "111.119.235.145"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tesla.com"
+    servername: "www.amazon.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
+      public-key: "-O8QFkqeMAc6TzQp6eY1s38my_8jhBd7HDHxNki6QlY"
+      short-id: "7f7f"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_141"
+  - name: "🇸🇬_83"
+    type: vless
+    server: "152.42.217.27"
+    port: 4321
+    uuid: "b8f3a337-ad39-4064-95f1-33a725a65877"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "iFKNWOLqlwrSmvR8wkxap1u85leVrr6YqEBy3Vn8WX0"
+      short-id: "950e9d42106bedae"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_84"
     type: vless
     server: "103.106.229.190"
-    port: 19261
+    port: 13898
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_85"
+    type: vless
+    server: "206.206.78.36"
+    port: 443
+    uuid: "e3f0c894-0f76-4683-a751-6a93da8fd14d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "UOLfRKeEoVxkp-APTF2OlvFkKSoiR2mWzUuhSWxcVmQ"
+      short-id: "133a3f10a1581047"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_86"
+    type: vless
+    server: "163.128.98.254"
+    port: 443
+    uuid: "ada01ec8-a49e-4223-82dd-e1abe768b767"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "gAhXIWc39CLI_9Si6KwYNPh3ciFpH8g6RDcFYDCiyjQ"
+      short-id: "f9fa109f0584f0bf"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_87"
+    type: vless
+    server: "162.128.84.142"
+    port: 443
+    uuid: "6179bb85-fd73-4aa1-a10d-a7c017306c1b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "t3_QIEko7K1ONUIWGr4L84HNHszQ3zB_kOqkALiacRg"
+      short-id: "43a85ad1c112e5d8"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_88"
+    type: vless
+    server: "163.128.99.228"
+    port: 443
+    uuid: "76876e43-13df-46e8-a431-48bb547002e7"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
+      public-key: "wwZ3zZidTQVJ-xEXstZ0eY7uN-0XPWZBgNx21hMuIl4"
+      short-id: "2f61efb7233f32c7"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_142"
+  - name: "🇸🇬_89"
     type: vless
-    server: "140.245.50.174"
-    port: 10000
-    uuid: "af6904c1-4349-4448-8e99-0024824a0c33"
+    server: "178.128.52.52"
+    port: 443
+    uuid: "efd11a89-7506-44ce-95b6-6654859f155b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "gateway.icloud.com"
+    servername: "zoom.us"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EeLAX-BAjzSdRes-zpUFzVOYsBedmP8lUOHhXXJFXyI"
+      short-id: "5a42dbd7e26a0415"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_90"
+    type: vless
+    server: "162.128.87.50"
+    port: 443
+    uuid: "be154d71-04ca-4389-8a89-d14219b25cd7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "xELgry1aUBwZLDAAvyiBkLTXsIi1M-mKhuqvwiP6FxU"
-      short-id: "3b0b73e5"
+      public-key: "kwZBG2HBA1WN4eZW1GK0D9OVC4TPEs5J-ZeeBA2bVBw"
+      short-id: "08f1620e7ad50ca8"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_143"
+  - name: "🇸🇬_91"
+    type: vless
+    server: "163.128.99.217"
+    port: 443
+    uuid: "853d2e30-ea80-41e6-99d3-820c1bbf6860"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "8tDuCgf0_I1q5Ib_KgSR3v13Gb1QY6Q7AVTuU0xQXVc"
+      short-id: "c6a6326c7e249a68"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_92"
     type: vless
     server: "8.222.193.153"
     port: 443
@@ -383,21 +367,20 @@ proxies:
       path: "/"
       headers:
         Host: "white-forest-2c01.alvlirm222.workers.dev"
-  - name: "🇸🇬_144"
+  - name: "🇸🇬_93"
     type: vless
-    server: "3.0.111.82"
-    port: 17623
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    server: "zero.csmaster.ggff.net"
+    port: 443
+    uuid: "840476ec-64a2-496e-b406-c5a0ca1e4a13"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇬_145"
+    servername: "zero.csmaster.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬_94"
     type: vless
     server: "54.254.145.25"
     port: 6768
@@ -412,21 +395,79 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
-  - name: "🇸🇬_146"
+  - name: "🇸🇬_95"
     type: vless
-    server: "13.251.77.78"
-    port: 8686
-    uuid: "1a17b19d-4896-4531-af79-6e91d8ef8228"
+    server: "3.0.111.82"
+    port: 12972
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw"
-      short-id: "628b3c90c98ead4f"
-  - name: "🇸🇬_147"
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_96"
     type: vless
-    server: "154.194.12.30"
+    server: "152.42.232.41"
+    port: 443
+    uuid: "c27949e6-d897-415f-8aed-01a18bbff1a5"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "fm3.pages.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "fm3.pages.dev"
+  - name: "🇸🇬_97"
+    type: vless
+    server: "104.64.207.134"
+    port: 443
+    uuid: "1bc380b1-cff7-446f-b13f-5c0ad29fc75a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zero.csmaster.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬_98"
+    type: vless
+    server: "103.106.229.190"
+    port: 19261
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_99"
+    type: vless
+    server: "162.128.71.118"
+    port: 443
+    uuid: "690ad3be-991b-4a2c-b351-42dd06789d03"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "3ZKNZEktRaPxt-XoWmx68EGsFwglnICVkvIl96973iA"
+      short-id: "4014ce9b0d82ad9d"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_100"
+    type: vless
+    server: "194.53.53.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
@@ -434,33 +475,8 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime35.workers.dev"
-  - name: "🇸🇬_148"
-    type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "a78e7841-1e26-4873-aed4-0d185d0a5128"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "o-85ley6knn8ut.6nvkygqh144t7xtdyvh0y3o4gzo3ujhnk8n.workers.dev"
-  - name: "🇸🇬_149"
-    type: vless
-    server: "sahanwickramasinghevip.shop"
-    port: 443
-    uuid: "55d61055-1a7f-4bc5-aca2-4ee78c738b60"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sahanwickramasinghevip.shop"
-    client-fingerprint: "chrome"
-  - name: "🇸🇬_150"
+        Host: "vms.lifetime51.workers.dev"
+  - name: "🇸🇬_101"
     type: vless
     server: "54.254.145.25"
     port: 6768
@@ -475,51 +491,121 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "bapj1qapjk4.0sds0li1bwcz0i76it0gjxv1.workers.dev"
-  - name: "🇸🇬_151"
+  - name: "🇸🇬_102"
     type: vless
-    server: "194.53.53.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "104.64.207.134"
+    port: 443
+    uuid: "63360c4f-875f-4c1a-a44c-3cfe4543a0de"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zero.csmaster.ggff.net"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "vms.lifetime51.workers.dev"
-  - name: "🇸🇬_152"
+  - name: "🇸🇬_103"
     type: vless
-    server: "54.254.145.25"
-    port: 6768
-    uuid: "cca8aeef-2beb-4579-8611-5a6f44273de3"
+    server: "91.192.81.214"
+    port: 443
+    uuid: "607801ac-dbdd-4938-a167-129015d9978e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇸🇬_153"
+    reality-opts:
+      public-key: "bMcyxNueltQhz5Kuxcf8odDStWHowYfLhKNdCbUweDc"
+      short-id: "d1742269"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_104"
     type: vless
-    server: "13.212.82.58"
-    port: 2000
-    uuid: "e60ff37f-1a8d-40fb-9083-38e9767eb8ed"
+    server: "134.122.154.210"
+    port: 443
+    uuid: "7f549a50-4655-46b6-962d-183cfc532fc9"
+    udp: true
+  - name: "🇸🇬_105"
+    type: vless
+    server: "45.8.211.57"
+    port: 443
+    uuid: "03707fb7-0990-440f-88f6-b0e0f7242a38"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-    client-fingerprint: "chrome"
+    servername: "de-new.ariyuz.org"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇸🇬_154"
+      path: "/"
+  - name: "🇸🇬_106"
+    type: vless
+    server: "194.233.75.66"
+    port: 443
+    uuid: "55d61055-1a7f-4bc5-aca2-4ee78c738b60"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sahanwickramasinghevip.shop"
+    client-fingerprint: "firefox"
+  - name: "🇸🇬_107"
+    type: vless
+    server: "163.128.99.49"
+    port: 443
+    uuid: "6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo"
+      short-id: "93a993bbc8b86684"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_108"
+    type: vless
+    server: "163.128.98.79"
+    port: 443
+    uuid: "3b25e77f-e46e-43b0-b2f2-d5d9660e5246"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "qQ12uczE0IuwcNF2CXk-XfS8u8p4e9ADS8u0ufIccXQ"
+      short-id: "a35c5d9c853afea0"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_109"
+    type: vless
+    server: "104.64.207.134"
+    port: 443
+    uuid: "840476ec-64a2-496e-b406-c5a0ca1e4a13"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zero.csmaster.ggff.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇬_110"
+    type: vless
+    server: "162.128.44.164"
+    port: 443
+    uuid: "8d1e0577-bfcb-4cbd-91c0-1f8788d4ba44"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "rJ-aDop3jUC-FzyETfI2uDSXQ659PFlehr7XWm5Cm0A"
+      short-id: "fe1a104caf309f5a"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇬_111"
     type: vless
     server: "3.0.111.82"
-    port: 12972
+    port: 17623
     uuid: "814bd064-544d-4255-a070-5705c03f6da9"
     udp: true
     tls: true
@@ -530,391 +616,7 @@ proxies:
       public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
       short-id: "48050fab"
     flow: "xtls-rprx-vision"
-  - name: "🇸🇬_155"
-    type: trojan
-    server: "54.169.241.164"
-    port: 443
-    password: "AE62539071"
-    sni: "rested-osprey.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_156"
-    type: trojan
-    server: "47.129.119.44"
-    port: 443
-    password: "PQ05174892"
-    sni: "right-mastiff.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_157"
-    type: trojan
-    server: "13.212.204.216"
-    port: 443
-    password: "FH72359861"
-    sni: "funny-hawk.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_158"
-    type: trojan
-    server: "13.212.173.162"
-    port: 443
-    password: "FH72359861"
-    sni: "integral-quetzal.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_159"
-    type: trojan
-    server: "13.212.186.116"
-    port: 443
-    password: "PQ05174892"
-    sni: "eminent-panther.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_160"
-    type: trojan
-    server: "13.229.47.93"
-    port: 443
-    password: "PQ05174892"
-    sni: "happy-gibbon.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_161"
-    type: trojan
-    server: "54.169.117.161"
-    port: 443
-    password: "AE62539071"
-    sni: "simple-rodent.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_162"
-    type: trojan
-    server: "immense-eagle.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "immense-eagle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_163"
-    type: trojan
-    server: "47.128.224.11"
-    port: 443
-    password: "PQ05174892"
-    sni: "vast-werewolf.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_164"
-    type: trojan
-    server: "47.129.157.81"
-    port: 443
-    password: "AE62539071"
-    sni: "noted-bass.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_165"
-    type: trojan
-    server: "funny-hawk.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "funny-hawk.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_166"
-    type: trojan
-    server: "13.250.119.54"
-    port: 443
-    password: "FH72359861"
-    sni: "casual-basilisk.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_167"
-    type: trojan
-    server: "13.212.91.165"
-    port: 443
-    password: "PQ05174892"
-    sni: "composed-sheep.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_168"
-    type: trojan
-    server: "right-mastiff.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "right-mastiff.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_169"
-    type: trojan
-    server: "13.229.94.200"
-    port: 443
-    password: "AE62539071"
-    sni: "massive-terrapin.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_170"
-    type: trojan
-    server: "13.229.94.200"
-    port: 443
-    password: "FH72359861"
-    sni: "massive-terrapin.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_171"
-    type: trojan
-    server: "54.254.213.145"
-    port: 443
-    password: "PQ05174892"
-    sni: "pleased-raptor.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_172"
-    type: trojan
-    server: "smooth-hornet.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "smooth-hornet.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_173"
-    type: trojan
-    server: "simple-sunbeam.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "simple-sunbeam.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_174"
-    type: trojan
-    server: "47.129.7.255"
-    port: 443
-    password: "FH72359861"
-    sni: "stable-racer.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_175"
-    type: trojan
-    server: "13.212.153.252"
-    port: 443
-    password: "PQ05174892"
-    sni: "on-airedale.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_176"
-    type: trojan
-    server: "47.129.0.251"
-    port: 443
-    password: "PQ05174892"
-    sni: "sharing-filly.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_177"
-    type: trojan
-    server: "52.220.197.180"
-    port: 443
-    password: "PQ05174892"
-    sni: "immense-eagle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_178"
-    type: trojan
-    server: "excited-alien.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "excited-alien.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_179"
-    type: trojan
-    server: "47.131.225.150"
-    port: 443
-    password: "AE62539071"
-    sni: "sacred-anemone.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_180"
-    type: trojan
-    server: "47.129.156.223"
-    port: 443
-    password: "FH72359861"
-    sni: "immune-grackle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_181"
-    type: trojan
-    server: "54.169.117.191"
-    port: 443
-    password: "AE62539071"
-    sni: "excited-sole.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_182"
-    type: trojan
-    server: "52.74.232.63"
-    port: 443
-    password: "PQ05174892"
-    sni: "casual-emu.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_183"
-    type: trojan
-    server: "139.59.238.97"
-    port: 50573
-    password: "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M"
-    sni: "139.59.238.97"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_184"
-    type: trojan
-    server: "13.212.116.190"
-    port: 443
-    password: "PQ05174892"
-    sni: "musical-terrier.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_185"
-    type: trojan
-    server: "13.250.65.224"
-    port: 443
-    password: "PQ05174892"
-    sni: "cunning-midge.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_186"
-    type: trojan
-    server: "52.77.218.157"
-    port: 443
-    password: "PQ05174892"
-    sni: "simple-sunbeam.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_187"
-    type: trojan
-    server: "13.212.44.180"
-    port: 443
-    password: "AE62539071"
-    sni: "smooth-hornet.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_188"
-    type: trojan
-    server: "in-mongrel.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "in-mongrel.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_189"
-    type: trojan
-    server: "13.229.109.201"
-    port: 443
-    password: "FH72359861"
-    sni: "relative-labrador.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_190"
-    type: trojan
-    server: "3.1.61.129"
-    port: 443
-    password: "PQ05174892"
-    sni: "pro-mako.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_191"
-    type: trojan
-    server: "47.129.157.81"
-    port: 443
-    password: "FH72359861"
-    sni: "noted-bass.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_192"
-    type: trojan
-    server: "47.129.183.20"
-    port: 443
-    password: "PQ05174892"
-    sni: "welcome-monitor.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_193"
-    type: trojan
-    server: "47.128.150.245"
-    port: 443
-    password: "AE62539071"
-    sni: "stirred-buck.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_194"
-    type: trojan
-    server: "13.212.35.252"
-    port: 443
-    password: "AE62539071"
-    sni: "adapted-whippet.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_195"
-    type: trojan
-    server: "13.212.174.21"
-    port: 443
-    password: "PQ05174892"
-    sni: "fleet-pony.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_196"
-    type: trojan
-    server: "54.169.254.65"
-    port: 443
-    password: "PQ05174892"
-    sni: "next-jaybird.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_197"
-    type: trojan
-    server: "13.251.133.9"
-    port: 443
-    password: "PQ05174892"
-    sni: "infinite-anteater.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_198"
-    type: trojan
-    server: "13.212.44.180"
-    port: 443
-    password: "PQ05174892"
-    sni: "smooth-hornet.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_199"
-    type: trojan
-    server: "13.229.56.205"
-    port: 443
-    password: "FH72359861"
-    sni: "exciting-turtle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_200"
-    type: trojan
-    server: "13.212.77.228"
-    port: 443
-    password: "FH72359861"
-    sni: "probable-weasel.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_201"
-    type: trojan
-    server: "54.169.255.178"
-    port: 443
-    password: "PQ05174892"
-    sni: "tops-owl.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_202"
-    type: trojan
-    server: "stable-python.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "stable-python.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_203"
+  - name: "🇸🇬_112"
     type: trojan
     server: "86.38.247.109"
     port: 2087
@@ -922,280 +624,202 @@ proxies:
     sni: "ul-singapore1.09vpn.com"
     skip-cert-verify: true
     udp: true
-  - name: "🇸🇬_204"
+  - name: "🇸🇬_113"
     type: trojan
-    server: "47.128.147.181"
-    port: 443
-    password: "AE62539071"
-    sni: "rich-mule.rooster465.autos"
+    server: "139.59.238.97"
+    port: 50573
+    password: "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M"
+    sni: "139.59.238.97"
     skip-cert-verify: true
     udp: true
-  - name: "🇸🇬_205"
-    type: trojan
-    server: "54.169.228.116"
-    port: 443
-    password: "PQ05174892"
-    sni: "amusing-grub.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_206"
-    type: trojan
-    server: "noted-bass.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "noted-bass.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_207"
-    type: trojan
-    server: "56.10.68.131"
-    port: 443
-    password: "PQ05174892"
-    sni: "excited-alien.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_208"
-    type: trojan
-    server: "13.212.33.67"
-    port: 443
-    password: "PQ05174892"
-    sni: "intense-monarch.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_209"
-    type: trojan
-    server: "promoted-rattler.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "promoted-rattler.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_210"
-    type: trojan
-    server: "52.220.98.46"
-    port: 443
-    password: "PQ05174892"
-    sni: "pleased-albacore.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_211"
-    type: trojan
-    server: "13.212.173.162"
-    port: 443
-    password: "AE62539071"
-    sni: "integral-quetzal.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_212"
-    type: trojan
-    server: "54.254.197.1"
-    port: 443
-    password: "PQ05174892"
-    sni: "allowing-ram.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_213"
-    type: trojan
-    server: "47.131.229.80"
-    port: 443
-    password: "AE62539071"
-    sni: "elegant-marten.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_214"
-    type: trojan
-    server: "172.236.133.188"
-    port: 52
-    password: "fVZMat1g9H"
-    sni: "172.236.133.188"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_215"
-    type: trojan
-    server: "54.254.235.88"
-    port: 443
-    password: "FH72359861"
-    sni: "charming-ox.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_216"
-    type: trojan
-    server: "adapted-martin.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "adapted-martin.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_217"
-    type: trojan
-    server: "13.212.87.164"
-    port: 443
-    password: "PQ05174892"
-    sni: "sharp-feline.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_218"
-    type: trojan
-    server: "18.143.132.167"
-    port: 443
-    password: "FH72359861"
-    sni: "worthy-perch.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_219"
-    type: trojan
-    server: "13.212.117.165"
-    port: 443
-    password: "PQ05174892"
-    sni: "in-mongrel.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_220"
-    type: trojan
-    server: "13.250.126.30"
-    port: 443
-    password: "PQ05174892"
-    sni: "adapted-martin.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_221"
-    type: trojan
-    server: "13.212.213.236"
-    port: 443
-    password: "PQ05174892"
-    sni: "closing-moose.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_222"
-    type: trojan
-    server: "adapted-worm.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "adapted-worm.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_223"
-    type: trojan
-    server: "47.131.249.13"
-    port: 443
-    password: "PQ05174892"
-    sni: "exotic-turtle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_224"
-    type: trojan
-    server: "integral-quetzal.rooster465.autos"
-    port: 443
-    password: "FH72359861"
-    sni: "integral-quetzal.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_225"
-    type: trojan
-    server: "13.250.126.30"
-    port: 443
-    password: "AE62539071"
-    sni: "adapted-martin.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_226"
-    type: trojan
-    server: "fleet-pony.rooster465.autos"
-    port: 443
-    password: "PQ05174892"
-    sni: "fleet-pony.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_227"
-    type: trojan
-    server: "13.212.59.213"
-    port: 443
-    password: "FH72359861"
-    sni: "guided-ferret.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_228"
-    type: trojan
-    server: "54.169.174.154"
-    port: 443
-    password: "AE62539071"
-    sni: "absolute-hare.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_229"
-    type: trojan
-    server: "13.212.77.186"
-    port: 443
-    password: "PQ05174892"
-    sni: "promoted-rattler.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_230"
-    type: trojan
-    server: "noted-bass.rooster465.autos"
-    port: 443
-    password: "AE62539071"
-    sni: "noted-bass.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_231"
-    type: trojan
-    server: "47.128.15.18"
-    port: 443
-    password: "PQ05174892"
-    sni: "bold-eagle.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_232"
-    type: trojan
-    server: "13.212.196.153"
-    port: 443
-    password: "PQ05174892"
-    sni: "adapted-worm.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_233"
-    type: trojan
-    server: "54.179.23.28"
-    port: 443
-    password: "FH72359861"
-    sni: "boss-sailfish.rooster465.autos"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇸🇬_234"
+  - name: "🇸🇬_114"
     type: ss
-    server: "167.150.100.115"
-    port: 27755
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31001
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
     udp: true
-  - name: "🇸🇬_235"
+  - name: "🇸🇬_115"
+    type: ss
+    server: "194.233.94.119"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "5QCeIKUZUEp4mR9Z"
+    udp: true
+  - name: "🇸🇬_116"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31303
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_117"
+    type: ss
+    server: "139.180.133.90"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "jSU7bGKupQ96YFvf"
+    udp: true
+  - name: "🇸🇬_118"
+    type: ss
+    server: "194.233.94.119"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "5QCeIKUZUEp4mR9Z"
+    udp: true
+  - name: "🇸🇬_119"
     type: ss
     server: "176.97.64.144"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "TFElG2FVqyqG"
     udp: true
-  - name: "🇸🇬_236"
+  - name: "🇸🇬_120"
     type: ss
-    server: "167.150.100.115"
-    port: 27755
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    server: "138.2.81.62"
+    port: 56927
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ZVv41ijfHYM4T4gSUm9qqxMGkXswk5GNBGIFZz5sN6c="
     udp: true
-  - name: "🇸🇬_237"
+  - name: "🇸🇬_121"
     type: ss
-    server: "167.150.100.115"
-    port: 27755
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31402
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
     udp: true
-  - name: "🇸🇬_238"
+  - name: "🇸🇬_122"
+    type: ss
+    server: "194.233.94.119"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "5QCeIKUZUEp4mR9Z"
+    udp: true
+  - name: "🇸🇬_123"
     type: ss
     server: "176.97.64.144"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "TFElG2FVqyqG"
+    udp: true
+  - name: "🇸🇬_124"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31001
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_125"
+    type: ss
+    server: "161.118.236.226"
+    port: 56927
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "mK3U4CcxreExT+4ZbQ+ixTCRA0PpbwB2qEYHsgySaLU="
+    udp: true
+  - name: "🇸🇬_126"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31301
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_127"
+    type: ss
+    server: "138.2.81.62"
+    port: 56927
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ZVv41ijfHYM4T4gSUm9qqxMGkXswk5GNBGIFZz5sN6c="
+    udp: true
+  - name: "🇸🇬_128"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31404
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_129"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31001
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_130"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31003
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_131"
+    type: ss
+    server: "139.180.133.90"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "jSU7bGKupQ96YFvf"
+    udp: true
+  - name: "🇸🇬_132"
+    type: ss
+    server: "167.150.100.115"
+    port: 27755
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    udp: true
+  - name: "🇸🇬_133"
+    type: ss
+    server: "139.180.133.90"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "jSU7bGKupQ96YFvf"
+    udp: true
+  - name: "🇸🇬_134"
+    type: ss
+    server: "139.180.133.90"
+    port: 80
+    cipher: "aes-256-gcm"
+    password: "jSU7bGKupQ96YFvf"
+    udp: true
+  - name: "🇸🇬_135"
+    type: ss
+    server: "167.150.100.115"
+    port: 27755
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    udp: true
+  - name: "🇸🇬_136"
+    type: ss
+    server: "167.150.100.115"
+    port: 27755
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "fnvo82p9y4AKykZXyIFtnodFy6fQmWnVlI2SvGleOB0="
+    udp: true
+  - name: "🇸🇬_137"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31402
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_138"
+    type: ss
+    server: "evjd8xfji5of.cdn000.com"
+    port: 31301
+    cipher: "2022-blake3-aes-128-gcm"
+    password: "Y2FkNzhhZWQ0MzA1NzlhZA==:ODNiMjQ4NDMtYTY2Mi00Mg=="
+    udp: true
+  - name: "🇸🇬_139"
+    type: ss
+    server: "194.233.94.119"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "5QCeIKUZUEp4mR9Z"
+    udp: true
+  - name: "🇸🇬_140"
+    type: ss
+    server: "161.118.236.226"
+    port: 56927
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "mK3U4CcxreExT+4ZbQ+ixTCRA0PpbwB2qEYHsgySaLU="
     udp: true
 
 proxy-groups:
@@ -1239,6 +863,55 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1260,104 +933,6 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
   - name: "LB-CDN"
     type: load-balance
@@ -1367,6 +942,55 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1388,104 +1012,6 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -1495,6 +1021,55 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1516,104 +1091,6 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
   - name: "FAST-CDN"
     type: url-test
@@ -1622,6 +1099,55 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1643,104 +1169,6 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -1750,6 +1178,55 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1771,109 +1248,60 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇸🇬_71"
+      - "🇸🇬_72"
+      - "🇸🇬_73"
+      - "🇸🇬_74"
+      - "🇸🇬_75"
+      - "🇸🇬_76"
+      - "🇸🇬_77"
+      - "🇸🇬_78"
+      - "🇸🇬_79"
+      - "🇸🇬_80"
+      - "🇸🇬_81"
+      - "🇸🇬_82"
+      - "🇸🇬_83"
+      - "🇸🇬_84"
+      - "🇸🇬_85"
+      - "🇸🇬_86"
+      - "🇸🇬_87"
+      - "🇸🇬_88"
+      - "🇸🇬_89"
+      - "🇸🇬_90"
+      - "🇸🇬_91"
+      - "🇸🇬_92"
+      - "🇸🇬_93"
+      - "🇸🇬_94"
+      - "🇸🇬_95"
+      - "🇸🇬_96"
+      - "🇸🇬_97"
+      - "🇸🇬_98"
+      - "🇸🇬_99"
+      - "🇸🇬_100"
+      - "🇸🇬_101"
+      - "🇸🇬_102"
+      - "🇸🇬_103"
+      - "🇸🇬_104"
+      - "🇸🇬_105"
+      - "🇸🇬_106"
+      - "🇸🇬_107"
+      - "🇸🇬_108"
+      - "🇸🇬_109"
+      - "🇸🇬_110"
+      - "🇸🇬_111"
+      - "🇸🇬_112"
+      - "🇸🇬_113"
+      - "🇸🇬_114"
+      - "🇸🇬_115"
+      - "🇸🇬_116"
+      - "🇸🇬_117"
+      - "🇸🇬_118"
+      - "🇸🇬_119"
       - "🇸🇬_120"
       - "🇸🇬_121"
       - "🇸🇬_122"
@@ -1895,104 +1323,6 @@ proxy-groups:
       - "🇸🇬_138"
       - "🇸🇬_139"
       - "🇸🇬_140"
-      - "🇸🇬_141"
-      - "🇸🇬_142"
-      - "🇸🇬_143"
-      - "🇸🇬_144"
-      - "🇸🇬_145"
-      - "🇸🇬_146"
-      - "🇸🇬_147"
-      - "🇸🇬_148"
-      - "🇸🇬_149"
-      - "🇸🇬_150"
-      - "🇸🇬_151"
-      - "🇸🇬_152"
-      - "🇸🇬_153"
-      - "🇸🇬_154"
-      - "🇸🇬_155"
-      - "🇸🇬_156"
-      - "🇸🇬_157"
-      - "🇸🇬_158"
-      - "🇸🇬_159"
-      - "🇸🇬_160"
-      - "🇸🇬_161"
-      - "🇸🇬_162"
-      - "🇸🇬_163"
-      - "🇸🇬_164"
-      - "🇸🇬_165"
-      - "🇸🇬_166"
-      - "🇸🇬_167"
-      - "🇸🇬_168"
-      - "🇸🇬_169"
-      - "🇸🇬_170"
-      - "🇸🇬_171"
-      - "🇸🇬_172"
-      - "🇸🇬_173"
-      - "🇸🇬_174"
-      - "🇸🇬_175"
-      - "🇸🇬_176"
-      - "🇸🇬_177"
-      - "🇸🇬_178"
-      - "🇸🇬_179"
-      - "🇸🇬_180"
-      - "🇸🇬_181"
-      - "🇸🇬_182"
-      - "🇸🇬_183"
-      - "🇸🇬_184"
-      - "🇸🇬_185"
-      - "🇸🇬_186"
-      - "🇸🇬_187"
-      - "🇸🇬_188"
-      - "🇸🇬_189"
-      - "🇸🇬_190"
-      - "🇸🇬_191"
-      - "🇸🇬_192"
-      - "🇸🇬_193"
-      - "🇸🇬_194"
-      - "🇸🇬_195"
-      - "🇸🇬_196"
-      - "🇸🇬_197"
-      - "🇸🇬_198"
-      - "🇸🇬_199"
-      - "🇸🇬_200"
-      - "🇸🇬_201"
-      - "🇸🇬_202"
-      - "🇸🇬_203"
-      - "🇸🇬_204"
-      - "🇸🇬_205"
-      - "🇸🇬_206"
-      - "🇸🇬_207"
-      - "🇸🇬_208"
-      - "🇸🇬_209"
-      - "🇸🇬_210"
-      - "🇸🇬_211"
-      - "🇸🇬_212"
-      - "🇸🇬_213"
-      - "🇸🇬_214"
-      - "🇸🇬_215"
-      - "🇸🇬_216"
-      - "🇸🇬_217"
-      - "🇸🇬_218"
-      - "🇸🇬_219"
-      - "🇸🇬_220"
-      - "🇸🇬_221"
-      - "🇸🇬_222"
-      - "🇸🇬_223"
-      - "🇸🇬_224"
-      - "🇸🇬_225"
-      - "🇸🇬_226"
-      - "🇸🇬_227"
-      - "🇸🇬_228"
-      - "🇸🇬_229"
-      - "🇸🇬_230"
-      - "🇸🇬_231"
-      - "🇸🇬_232"
-      - "🇸🇬_233"
-      - "🇸🇬_234"
-      - "🇸🇬_235"
-      - "🇸🇬_236"
-      - "🇸🇬_237"
-      - "🇸🇬_238"
 
 rules:
   - MATCH,PROXY-BEST

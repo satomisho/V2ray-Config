@@ -65,31 +65,32 @@ dns:
 proxies:
   - name: "🇨🇭_1"
     type: vless
-    server: "193.151.108.186"
+    server: "45.90.56.231"
     port: 443
-    uuid: "c245122a-f149-4e32-8eaa-e875e88a5ab6"
+    uuid: "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "shop.magazinetut.online"
-    client-fingerprint: "firefox"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
+      short-id: "e2e66f4537770cef"
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_2"
     type: vless
-    server: "176.65.144.248"
+    server: "152.233.31.77"
     port: 443
-    uuid: "62a08ea5-0564-47b4-a92c-25be07ad6358"
+    uuid: "f04037b7-125e-4666-841f-4b6bdbc9823d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "360.yandex.ru"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A"
-      short-id: "6ba85179e30d4fc2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
+      public-key: "cFmHbKSQO1BQnCBGd26-EA0CU-zYmduwk0Wqu0fhuT0"
+      short-id: "7e8d2954eb836947"
+    flow: "xtls-rprx-vision"
   - name: "🇨🇭_3"
     type: vless
     server: "31.76.4.103"
@@ -99,7 +100,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
       short-id: "00bca5982f82d083"
@@ -120,34 +121,54 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_5"
     type: vless
-    server: "176.65.144.248"
-    port: 443
-    uuid: "fa98f221-29e1-4a7e-8797-3bf294aeda35"
+    server: "178.83.226.142"
+    port: 8443
+    uuid: "4cb63132-e084-4676-ac67-1ed6b60be05a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "360.yandex.ru"
-    client-fingerprint: "firefox"
+    servername: "refersion.com"
+    client-fingerprint: "qq"
     reality-opts:
-      public-key: "ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A"
-      short-id: "6ba85179e30d4fc2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
+      public-key: "-x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I"
+      short-id: "aa6988d03cc11454"
+    flow: "xtls-rprx-vision"
   - name: "🇨🇭_6"
     type: vless
-    server: "45.90.56.231"
+    server: "140.238.208.210"
     port: 443
-    uuid: "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0"
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "vod.ensf.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/api/v1/irc"
+      headers:
+        Host: "vod.ensf.top"
+  - name: "🇨🇭_7"
+    type: vless
+    server: "45.196.193.138"
+    port: 443
+    uuid: "b55dd203-630d-46a3-b506-c52ebcafa77c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "storage.yandex.net"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
-      short-id: "e2e66f4537770cef"
+      public-key: "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY"
+      short-id: "40ce08cf20c67003"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇭_8"
+    type: ss
+    server: "15.235.75.71"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "FD3rCuOsxOay"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -168,6 +189,8 @@ proxy-groups:
       - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
 
 
 rules:

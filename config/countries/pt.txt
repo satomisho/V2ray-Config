@@ -1,1 +1,2 @@
-vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?type=tcp&security=none&encryption=none#%F0%9F%87%B5%F0%9F%87%B9
+vless://060a5db6-7ff9-4a64-87c1-8a27be4f11ab@93.119.168.215:60771?security=none&type=tcp&packetEncoding=none#%F0%9F%87%B5%F0%9F%87%B9
+trojan://MiTiVPN@156.243.83.240:443?sni=8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle&allowInsecure=1&type=ws&path=%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Ff-l%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN&alpn=http%2F1.1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B9

@@ -76,15 +76,15 @@ proxies:
         Host: "vms.lifetime28.workers.dev"
   - name: "🇹🇭_2"
     type: vless
-    server: "154.83.2.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "18.239.134.69"
+    port: 80
+    uuid: "de27291c-15a9-4256-9ba7-ad517569877e"
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
-        Host: "vms.lifetime28.workers.dev"
+        Host: "d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com"
   - name: "🇹🇭_3"
     type: ss
     server: "102.129.229.85"

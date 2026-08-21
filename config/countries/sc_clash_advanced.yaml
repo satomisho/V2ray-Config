@@ -59,50 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇨_13"
-    type: vless
-    server: "200.165.228.114"
-    port: 9871
-    uuid: "f4685d27-73e3-4588-9622-add50b84046a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
-      short-id: "aa"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇸🇨_14"
-    type: vless
-    server: "45.130.125.114"
-    port: 8443
-    uuid: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ssl.soren-app.com."
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "free-hzr113-cdn.soren-app.com."
-  - name: "🇸🇨_15"
-    type: vless
-    server: "45.130.125.158"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_16"
+  - name: "🇸🇨_17"
     type: vless
     server: "45.130.125.207"
     port: 8443
@@ -110,57 +67,39 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
+    servername: "SquarE-saLaD-EbDe.ZDFGVcCfgUUYgGG.wOrKeRS.DEV"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
       headers:
         Host: "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
-  - name: "🇸🇨_17"
+  - name: "🇸🇨_18"
     type: vless
-    server: "45.130.125.138"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
+    server: "45.130.125.114"
+    port: 80
+    uuid: "e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇸🇨_18"
-    type: vless
-    server: "200.165.228.114"
-    port: 9871
-    uuid: "2a650f3b-d95b-4bd6-aadf-16ccc0717155"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
-      short-id: "aabb"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
+      headers:
+        Host: "new-scale08-cdn.sabzi.name.ng."
   - name: "🇸🇨_19"
     type: vless
-    server: "45.130.125.126"
+    server: "45.130.125.158"
     port: 443
-    uuid: "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9"
+    uuid: "4311bd3f-4f66-4538-a624-221b87690b2c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-    client-fingerprint: "chrome"
+    servername: "mjtbknetmkhremge.ordak.qzz.io"
+    client-fingerprint: "ios"
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
+      path: "/fl?ed"
       headers:
-        Host: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+        Host: "mjtbknetmkhremge.ordak.qzz.io"
   - name: "🇸🇨_20"
     type: vless
     server: "45.130.125.200"
@@ -176,18 +115,20 @@ proxies:
       path: "/"
   - name: "🇸🇨_21"
     type: vless
-    server: "45.130.125.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "45.130.125.162"
+    port: 2053
+    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "po.fastbrokencompony.com"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
+      path: "/"
   - name: "🇸🇨_22"
     type: vless
-    server: "45.130.125.162"
+    server: "45.130.125.158"
     port: 2053
     uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
     udp: true
@@ -199,6 +140,91 @@ proxies:
     ws-opts:
       path: "/"
   - name: "🇸🇨_23"
+    type: vless
+    server: "45.130.125.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇸🇨_24"
+    type: vless
+    server: "45.130.125.207"
+    port: 80
+    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/http"
+      headers:
+        Host: "de.vpnbase.net"
+  - name: "🇸🇨_25"
+    type: vless
+    server: "45.130.125.114"
+    port: 8443
+    uuid: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ssl.soren-app.com."
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "free-hzr113-cdn.soren-app.com."
+  - name: "🇸🇨_26"
+    type: vless
+    server: "45.130.125.138"
+    port: 2053
+    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "po.fastbrokencompony.com"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇨_27"
+    type: vless
+    server: "200.165.229.168"
+    port: 8449
+    uuid: "9ddd1219-bc7f-4524-ad7c-5b110e7c37bc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "lcLyifIUyL1UnMABv4u7mVSh7VRmOVaZinSDfSKB13g"
+      short-id: "60ccd0e5ab46ac4f"
+    flow: "xtls-rprx-vision"
+  - name: "🇸🇨_28"
+    type: trojan
+    server: "45.130.125.18"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_29"
+    type: trojan
+    server: "45.130.125.75"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_30"
     type: trojan
     server: "45.130.125.190"
     port: 443
@@ -211,9 +237,20 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇸🇨_24"
+  - name: "🇸🇨_31"
     type: trojan
-    server: "45.130.125.18"
+    server: "45.130.125.126"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_32"
+    type: trojan
+    server: "45.130.125.160"
     port: 443
     password: "humanity"
     sni: "www.calmlunch.com"
@@ -264,10 +301,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -276,6 +309,14 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
   - name: "LB-CDN"
     type: load-balance
@@ -285,10 +326,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -297,6 +334,14 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -306,10 +351,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -318,6 +359,14 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
   - name: "FAST-CDN"
     type: url-test
@@ -326,10 +375,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -338,6 +383,14 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -347,10 +400,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -359,15 +408,19 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇸🇨_13"
-      - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
       - "🇸🇨_17"
       - "🇸🇨_18"
       - "🇸🇨_19"
@@ -376,6 +429,14 @@ proxy-groups:
       - "🇸🇨_22"
       - "🇸🇨_23"
       - "🇸🇨_24"
+      - "🇸🇨_25"
+      - "🇸🇨_26"
+      - "🇸🇨_27"
+      - "🇸🇨_28"
+      - "🇸🇨_29"
+      - "🇸🇨_30"
+      - "🇸🇨_31"
+      - "🇸🇨_32"
 
 rules:
   - MATCH,PROXY-BEST

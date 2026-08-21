@@ -59,34 +59,35 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇭_7"
+  - name: "🇨🇭_9"
     type: vless
-    server: "193.151.108.186"
+    server: "45.90.56.231"
     port: 443
-    uuid: "c245122a-f149-4e32-8eaa-e875e88a5ab6"
+    uuid: "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "shop.magazinetut.online"
-    client-fingerprint: "firefox"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
+      short-id: "e2e66f4537770cef"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_8"
+  - name: "🇨🇭_10"
     type: vless
-    server: "176.65.144.248"
+    server: "152.233.31.77"
     port: 443
-    uuid: "62a08ea5-0564-47b4-a92c-25be07ad6358"
+    uuid: "f04037b7-125e-4666-841f-4b6bdbc9823d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "360.yandex.ru"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A"
-      short-id: "6ba85179e30d4fc2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇨🇭_9"
+      public-key: "cFmHbKSQO1BQnCBGd26-EA0CU-zYmduwk0Wqu0fhuT0"
+      short-id: "7e8d2954eb836947"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_11"
     type: vless
     server: "31.76.4.103"
     port: 443
@@ -95,12 +96,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
       short-id: "00bca5982f82d083"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_10"
+  - name: "🇨🇭_12"
     type: vless
     server: "178.83.226.55"
     port: 443
@@ -114,36 +115,56 @@ proxies:
       public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_11"
+  - name: "🇨🇭_13"
     type: vless
-    server: "176.65.144.248"
-    port: 443
-    uuid: "fa98f221-29e1-4a7e-8797-3bf294aeda35"
+    server: "178.83.226.142"
+    port: 8443
+    uuid: "4cb63132-e084-4676-ac67-1ed6b60be05a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "360.yandex.ru"
-    client-fingerprint: "firefox"
+    servername: "refersion.com"
+    client-fingerprint: "qq"
     reality-opts:
-      public-key: "ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A"
-      short-id: "6ba85179e30d4fc2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇨🇭_12"
-    type: vless
-    server: "45.90.56.231"
-    port: 443
-    uuid: "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
-      short-id: "e2e66f4537770cef"
+      public-key: "-x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I"
+      short-id: "aa6988d03cc11454"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇭_14"
+    type: vless
+    server: "140.238.208.210"
+    port: 443
+    uuid: "e911c552-3a98-41e0-b5fb-0dd3879887b7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vod.ensf.top"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/api/v1/irc"
+      headers:
+        Host: "vod.ensf.top"
+  - name: "🇨🇭_15"
+    type: vless
+    server: "45.196.193.138"
+    port: 443
+    uuid: "b55dd203-630d-46a3-b506-c52ebcafa77c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "storage.yandex.net"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY"
+      short-id: "40ce08cf20c67003"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_16"
+    type: ss
+    server: "15.235.75.71"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "FD3rCuOsxOay"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -186,12 +207,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -201,12 +224,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -216,12 +241,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -230,12 +257,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -245,23 +274,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇭_7"
-      - "🇨🇭_8"
       - "🇨🇭_9"
       - "🇨🇭_10"
       - "🇨🇭_11"
       - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
 rules:
   - MATCH,PROXY-BEST

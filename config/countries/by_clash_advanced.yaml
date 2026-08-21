@@ -61,7 +61,7 @@ dns:
 proxies:
   - name: "🇧🇾_3"
     type: vless
-    server: "189.74.124.42"
+    server: "45.134.26.97"
     port: 443
     uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     udp: true
@@ -75,17 +75,17 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇧🇾_4"
     type: vless
-    server: "191.44.32.103"
-    port: 5000
-    uuid: "ead060e5-21f9-5369-b9f9-175ab7faa20f"
+    server: "189.74.124.42"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.vk.com"
+    servername: "nordic.cendora.ru"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SLrTZEGZV42hDpfoCkqPZwwVK2V57Db3y6LxKbxexGU"
-      short-id: "ec4a18"
+      public-key: "YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU"
+      short-id: "2186a755ed67b034"
     flow: "xtls-rprx-vision"
 
 proxy-groups:

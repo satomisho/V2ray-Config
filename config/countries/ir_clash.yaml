@@ -65,30 +65,30 @@ dns:
 proxies:
   - name: "🇮🇷_1"
     type: vless
-    server: "87.236.38.139"
-    port: 2036
-    uuid: "440d1fb3-7a10-4569-82c2-71602cef26c7"
+    server: "mAiLgAtEWAy7-BAsEStREAM3-poRTnodehUb9.CloUDSYNC9.Com"
+    port: 443
+    uuid: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "world.ashahan.ir"
+    servername: "NodeLinkbAsE7-ApiWeBstREam3-daTAcOReNEt.cloUDsyNc9.Com"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/pdpZR63Sn1BgoYh8"
       headers:
-        Host: "world.ashahan.ir"
+        Host: "noDeLiNKbaSe7-ApIWEBStreaM3-dATaCoreNET.cloUDsYnc9.COM"
   - name: "🇮🇷_2"
     type: vless
-    server: "45.131.4.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "45.131.4.115"
+    port: 80
+    uuid: "a7b22989-6c1f-4b59-b0f3-0605401813c4"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
       headers:
-        Host: "vms.lifetime59.workers.dev"
+        Host: "worker3.gigak25604.workers.dev"
   - name: "🇮🇷_3"
     type: trojan
     server: "45.131.4.118"
@@ -101,18 +101,31 @@ proxies:
     ws-opts:
       path: "/sync"
   - name: "🇮🇷_4"
+    type: trojan
+    server: "MAILGateWAy7-baSeSTREaM3-pORTNOdEHub9.clOUDsYNC9.Com"
+    port: 443
+    password: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
+    sni: "nodelInKBasE7-aPIWebStrEam3-DaTAcOrENET.cloUdsYNc9.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/JqME6Sln1BgoYh8"
+      headers:
+        Host: "NoDeLiNkBase7-ApiwebStREam3-DatacOREnET.CLoUdSYNC9.cOM"
+  - name: "🇮🇷_5"
+    type: ss
+    server: "51.255.13.232"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "BqnqToih0PbU"
+    udp: true
+  - name: "🇮🇷_6"
     type: ss
     server: "193.29.139.168"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "QCXDxuDlTTMD7jtgHUjIoj"
-    udp: true
-  - name: "🇮🇷_5"
-    type: ss
-    server: "82.38.31.57"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
 
 proxy-groups:
@@ -133,6 +146,7 @@ proxy-groups:
       - "🇮🇷_3"
       - "🇮🇷_4"
       - "🇮🇷_5"
+      - "🇮🇷_6"
 
 
 rules:

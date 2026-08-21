@@ -63,19 +63,33 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇮🇱_1"
+  - name: "🇻🇳_1"
     type: vless
-    server: "185.159.73.247"
+    server: "103.225.197.237"
     port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    uuid: "432ab7a2-6e2b-4f0b-be4a-06bdcc714624"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
+    servername: "www.bing.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
+      public-key: "mCDHZBY0AYAeY7Aj7COGaegrm7QAwfueYYSC02vqbSY"
+      short-id: "0d8ca7e0b3d26321"
+    flow: "xtls-rprx-vision"
+  - name: "🇻🇳_2"
+    type: vless
+    server: "216.133.158.108"
+    port: 443
+    uuid: "c08c499f-21bd-46ba-9146-5c770204342b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Kh1-hdn9zTY5a1-3qP8L_6UTRL2iNZ1pIr_X8U94OQM"
+      short-id: "872303cf1e28389f"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -91,7 +105,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇮🇱_1"
+      - "🇻🇳_1"
+      - "🇻🇳_2"
 
 
 rules:

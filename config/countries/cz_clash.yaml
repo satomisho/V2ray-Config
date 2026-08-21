@@ -65,34 +65,6 @@ dns:
 proxies:
   - name: "🇨🇿_1"
     type: vless
-    server: "78.159.247.253"
-    port: 2027
-    uuid: "851ed0d8-a37b-452d-8ef2-5b6c2d28a060"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "storage.yandex.net"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo"
-      short-id: "dc8109baf0f607ea"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇿_2"
-    type: vless
-    server: "5.39.202.65"
-    port: 443
-    uuid: "670decfe-68cc-499e-8cb1-22b39c20acbb"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cz.helper-internet.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇿_3"
-    type: vless
     server: "188.127.247.129"
     port: 443
     uuid: "33aa2b47-484b-49f6-8f23-fb34602d221f"
@@ -105,39 +77,24 @@ proxies:
       public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
       short-id: "0c"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_4"
+  - name: "🇨🇿_2"
     type: vless
-    server: "103.119.19.208"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    server: "78.159.247.253"
+    port: 2027
+    uuid: "851ed0d8-a37b-452d-8ef2-5b6c2d28a060"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
+    servername: "storage.yandex.net"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
+      public-key: "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo"
+      short-id: "dc8109baf0f607ea"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_5"
-    type: vless
-    server: "195.85.23.120"
-    port: 443
-    uuid: "50414e45-4c5f-5a45-5553-fc68f701cca5"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lwzw2revus0s.bikhabi.workers.dev"
-    client-fingerprint: "unsafe"
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/fc68f701cca5/loc-0"
-      headers:
-        Host: "lwzw2revus0s.bikhabi.workers.dev"
-  - name: "🇨🇿_6"
+  - name: "🇨🇿_3"
     type: trojan
     server: "178.208.75.155"
-    port: 2053
+    port: 8443
     password: "humanity"
     sni: "www.calmlunch.com"
     skip-cert-verify: true
@@ -145,12 +102,10 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "🇨🇿_7"
+  - name: "🇨🇿_4"
     type: trojan
     server: "178.208.75.155"
-    port: 8443
+    port: 2053
     password: "humanity"
     sni: "www.calmlunch.com"
     skip-cert-verify: true
@@ -176,9 +131,6 @@ proxy-groups:
       - "🇨🇿_2"
       - "🇨🇿_3"
       - "🇨🇿_4"
-      - "🇨🇿_5"
-      - "🇨🇿_6"
-      - "🇨🇿_7"
 
 
 rules:

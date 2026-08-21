@@ -65,79 +65,60 @@ dns:
 proxies:
   - name: "🇹🇷_1"
     type: vless
-    server: "193.124.46.65"
-    port: 8443
-    uuid: "68bdc1ee-c6ee-4d91-ab52-35ce0d368302"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "193.124.46.65"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_2"
-    type: vless
-    server: "103.83.87.238"
-    port: 443
-    uuid: "670decfe-68cc-499e-8cb1-22b39c20acbb"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tur4.helper-internet.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_3"
-    type: vless
-    server: "193.124.45.154"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_4"
-    type: vless
     server: "151.241.226.201"
     port: 2053
-    uuid: "a7a98347-5fe4-4615-9a89-7f1ba759265e"
+    uuid: "52b1aca9-a2ba-4249-9e9f-d488f89c1445"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "_jsI5uVVqXkzCZ0OGJ5U7waecxOEiu2lm-8f8ZyW5mc"
-      short-id: "f5d596282182b440"
-  - name: "🇹🇷_5"
+      public-key: "dUFJ3jZPMH9WvjtAnUc9wYhO_IX1czIi-CidF_HdFDA"
+      short-id: "c267be657e1539ea"
+  - name: "🇹🇷_2"
     type: vless
-    server: "78.135.77.96"
-    port: 443
-    uuid: "bef7acd0-8b81-431d-bcce-a76c3da658ae"
+    server: "158.94.216.61"
+    port: 24949
+    uuid: "13efddd3-1a20-49f3-bbbe-f5b530398bb6"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "w.wiki"
+    servername: "www.yahoo.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "xyMx8lBZ6dn2EO6G3Alt_7bQueu_eZgQ4kZEbMFXL3E"
-      short-id: "ce"
-  - name: "🇹🇷_6"
+      public-key: "qjRHJ5qtLh5zJymurmhkrpBHl1yN0EeRByRznftR3Hw"
+      short-id: "e5cdac"
+  - name: "🇹🇷_3"
     type: vless
-    server: "185.39.204.155"
+    server: "86.38.214.7"
     port: 8443
-    uuid: "7e8f7489-e65f-4be6-93ed-867a74ec6759"
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
-  - name: "🇹🇷_7"
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇹🇷_4"
+    type: vless
+    server: "153.52.92.23"
+    port: 1000
+    uuid: "97883b3a-f0b5-4e88-a61b-e9b24e18423d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sony.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "NLmekXQAhK-GC7wZhk2RcDHFI41iq6ojzZea1ppEazM"
+      short-id: "06cc092d6f372b5e"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_5"
     type: vless
     server: "216.9.224.172"
     port: 443
@@ -151,50 +132,131 @@ proxies:
       public-key: "OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇹🇷_8"
-    type: trojan
-    server: "193.124.46.134"
-    port: 8441
-    password: "tunnel-ljlcf"
-    sni: "193.124.46.134"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇹🇷_9"
-    type: trojan
-    server: "193.124.46.65"
+  - name: "🇹🇷_6"
+    type: vless
+    server: "bg.cloudtechone.org"
     port: 443
-    password: "8bS8vVC5CQ2GsckhMh8IT1jv"
-    sni: "193.124.46.65"
-    skip-cert-verify: true
+    uuid: "0b596551-26c0-4d8d-8a4a-231b54418c28"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bg.cloudtechone.org"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo"
+      short-id: "f93c9d5127e622e4"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_7"
+    type: vless
+    server: "103.83.86.190"
+    port: 8443
+    uuid: "8e85752d-c04f-427d-9d70-b10d144c8492"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ads.x5.ru"
+    client-fingerprint: "edge"
+    reality-opts:
+      public-key: "CzI1Zft9ToNgciMIfMhtn_Q5RRO0Q3AyURYvrvnKL14"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_8"
+    type: vless
+    server: "tr.savesafe.cc"
+    port: 443
+    uuid: "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tr.savesafe.cc"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14"
+      short-id: "95d36da964f4e951"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_9"
+    type: vless
+    server: "155.103.70.158"
+    port: 443
+    uuid: "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tr.savesafe.cc"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14"
+      short-id: "95d36da964f4e951"
+    flow: "xtls-rprx-vision"
   - name: "🇹🇷_10"
-    type: trojan
-    server: "tr-1.stunnel.cc"
-    port: 8441
-    password: "tunnel-ljlcf"
-    sni: "tr-1.stunnel.cc"
+    type: vless
+    server: "158.94.216.61"
+    port: 57728
+    uuid: "13efddd3-1a20-49f3-bbbe-f5b530398bb6"
+    udp: true
+    tls: true
     skip-cert-verify: true
-    udp: true
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "_msWT9DtUixMc55dabeo7IqbWGikrSNz35GkoGllFBM"
+      short-id: "85436cc1"
   - name: "🇹🇷_11"
-    type: ss
-    server: "tr-1.stunnel.cc"
-    port: 8444
-    cipher: "chacha20-ietf-poly1305"
-    password: "tunnel-fbrof"
+    type: vless
+    server: "155.103.70.160"
+    port: 443
+    uuid: "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tr.savesafe.cc"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14"
+      short-id: "95d36da964f4e951"
+    flow: "xtls-rprx-vision"
   - name: "🇹🇷_12"
-    type: ss
-    server: "193.124.46.134"
-    port: 8444
-    cipher: "chacha20-ietf-poly1305"
-    password: "tunnel-fbrof"
+    type: vless
+    server: "185.39.204.155"
+    port: 8443
+    uuid: "7e8f7489-e65f-4be6-93ed-867a74ec6759"
     udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc"
   - name: "🇹🇷_13"
-    type: ss
-    server: "tr-1.stunnel.cc"
-    port: 8444
-    cipher: "chacha20-ietf-poly1305"
-    password: "tunnel-fbrof"
+    type: vless
+    server: "193.124.45.154"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eu-central.cendora.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
+      short-id: "00bca5982f82d083"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_14"
+    type: vless
+    server: "212.64.193.42"
+    port: 443
+    uuid: "0b596551-26c0-4d8d-8a4a-231b54418c28"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bg.cloudtechone.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo"
+      short-id: "f93c9d5127e622e4"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_15"
+    type: vless
+    server: "130.185.123.32"
+    port: 19896
+    uuid: "c6c03582-a4d2-4efe-9af1-83e730b11f9a"
     udp: true
 
 proxy-groups:
@@ -223,6 +285,8 @@ proxy-groups:
       - "🇹🇷_11"
       - "🇹🇷_12"
       - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
 
 
 rules:

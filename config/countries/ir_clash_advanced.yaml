@@ -59,33 +59,33 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇷_6"
+  - name: "🇮🇷_7"
     type: vless
-    server: "87.236.38.139"
-    port: 2036
-    uuid: "440d1fb3-7a10-4569-82c2-71602cef26c7"
+    server: "mAiLgAtEWAy7-BAsEStREAM3-poRTnodehUb9.CloUDSYNC9.Com"
+    port: 443
+    uuid: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "world.ashahan.ir"
+    servername: "NodeLinkbAsE7-ApiWeBstREam3-daTAcOReNEt.cloUDsyNc9.Com"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/pdpZR63Sn1BgoYh8"
       headers:
-        Host: "world.ashahan.ir"
-  - name: "🇮🇷_7"
+        Host: "noDeLiNKbaSe7-ApIWEBStreaM3-dATaCoreNET.cloUDsYnc9.COM"
+  - name: "🇮🇷_8"
     type: vless
-    server: "45.131.4.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "45.131.4.115"
+    port: 80
+    uuid: "a7b22989-6c1f-4b59-b0f3-0605401813c4"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
       headers:
-        Host: "vms.lifetime59.workers.dev"
-  - name: "🇮🇷_8"
+        Host: "worker3.gigak25604.workers.dev"
+  - name: "🇮🇷_9"
     type: trojan
     server: "45.131.4.118"
     port: 443
@@ -96,19 +96,32 @@ proxies:
     network: ws
     ws-opts:
       path: "/sync"
-  - name: "🇮🇷_9"
+  - name: "🇮🇷_10"
+    type: trojan
+    server: "MAILGateWAy7-baSeSTREaM3-pORTNOdEHub9.clOUDsYNC9.Com"
+    port: 443
+    password: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
+    sni: "nodelInKBasE7-aPIWebStrEam3-DaTAcOrENET.cloUdsYNc9.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/JqME6Sln1BgoYh8"
+      headers:
+        Host: "NoDeLiNkBase7-ApiwebStREam3-DatacOREnET.CLoUdSYNC9.cOM"
+  - name: "🇮🇷_11"
+    type: ss
+    server: "51.255.13.232"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "BqnqToih0PbU"
+    udp: true
+  - name: "🇮🇷_12"
     type: ss
     server: "193.29.139.168"
     port: 8080
     cipher: "chacha20-ietf-poly1305"
     password: "QCXDxuDlTTMD7jtgHUjIoj"
-    udp: true
-  - name: "🇮🇷_10"
-    type: ss
-    server: "82.38.31.57"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
 
 proxy-groups:
@@ -152,11 +165,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -166,11 +180,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -180,11 +195,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -193,11 +209,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -207,21 +224,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇷_6"
       - "🇮🇷_7"
       - "🇮🇷_8"
       - "🇮🇷_9"
       - "🇮🇷_10"
+      - "🇮🇷_11"
+      - "🇮🇷_12"
 
 rules:
   - MATCH,PROXY-BEST

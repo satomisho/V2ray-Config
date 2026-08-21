@@ -72,11 +72,10 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "web-socket.tgdaosheng.ggff.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=bpb.yousef.isegaro.comfp=chrome"
-      headers:
-        Host: "web-socket.tgdaosheng.ggff.net"
+      path: "/"
 
 proxy-groups:
   - name: "PROXY"

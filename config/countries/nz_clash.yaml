@@ -74,7 +74,7 @@ proxies:
     servername: "notls.lukongtou.eu.org"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
+      path: "Telegram-WangCai2"
       headers:
         Host: "notls.lukongtou.eu.org"
 
