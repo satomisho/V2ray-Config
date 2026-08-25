@@ -59,51 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇬_6"
+  - name: "🇧🇬_3"
     type: vless
-    server: "213.183.63.187"
-    port: 8443
-    uuid: "8e85752d-c04f-427d-9d70-b10d144c8492"
+    server: "84.238.133.104"
+    port: 443
+    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "bunny.net"
+    servername: "swed2.helper-internet.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc"
-      short-id: ""
+      public-key: "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U"
+      short-id: "6aa2d2e950441a9a"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_7"
-    type: vless
-    server: "108.165.233.223"
-    port: 443
-    uuid: "2388e166-3890-33ae-f77e-efac00000003"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "netlivpn4813.ddhshhshs.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
-      headers:
-        Host: "netlivpn4813.ddhshhshs.workers.dev"
-  - name: "🇧🇬_8"
-    type: vless
-    server: "108.165.233.223"
-    port: 443
-    uuid: "2388e166-3890-33ae-f77e-efac00000001"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "netlivpn4813.ddhshhshs.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
-      headers:
-        Host: "netlivpn4813.ddhshhshs.workers.dev"
-  - name: "🇧🇬_9"
+  - name: "🇧🇬_4"
     type: vless
     server: "82.118.18.202"
     port: 443
@@ -117,17 +87,6 @@ proxies:
       public-key: "HDiwGAN66V77CrlCWrDZupEiSQk204dkWRjJok0zYhk"
       short-id: "720148f2fea16d0f"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_10"
-    type: trojan
-    server: "193.239.160.134"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -170,11 +129,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -184,11 +140,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -198,11 +151,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -211,11 +161,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -225,21 +172,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
 
 rules:
   - MATCH,PROXY-BEST

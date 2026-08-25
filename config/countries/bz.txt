@@ -1,7 +1,2 @@
-vless://Telegram🇨🇳 @WangCai2@45.131.7.2:443?security=tls&type=ws&path=%2Fsg-amz&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&fp=chrome&encryption=none#%F0%9F%87%A7%F0%9F%87%BF
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.6.30:8880/?type=ws&encryption=none&flow=&host=vms.lifetime61.workers.dev&path=%2F#%F0%9F%87%A7%F0%9F%87%BF
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.210.30:8880?security=none&type=ws&path=/&host=vms.lifetime05.workers.dev&packetEncoding=xudp&sni=vms.lifetime05.workers.dev#%F0%9F%87%A7%F0%9F%87%BF
-vless://7967bf59-57e3-4cde-9898-527b0fe60022@45.131.6.7:8443?security=tls&type=ws&path=%2Fdula%3FTelegram-WangCai2&host=speed.dulacloud.store&ed=2560&sni=speed.dulacloud.store&fp=chrome&encryption=none#%F0%9F%87%A7%F0%9F%87%BF
 vless://Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2@45.131.7.2:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws&host=support.zoom.us.yxls.eu.cc&path=/sg-amz&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%BF
-vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.131.7.123:443?type=ws&headerType=none&security=tls&encryption=none&sni=notls.lukongtou.eu.org&path=%2F&insecure=0#%F0%9F%87%A7%F0%9F%87%BF
-vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.131.6.123:443?security=tls&type=ws&path=/Telegram-WangCai2🇨🇳&host=notls.lukongtou.eu.org&packetEncoding=xudp&sni=notls.lukongtou.eu.org&fp=chrome&encryption=none#%F0%9F%87%A7%F0%9F%87%BF
+vless://Telegram🇨🇳 @WangCai2@45.131.7.2:443?security=tls&type=ws&path=%2Fsg-amz&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&fp=chrome&encryption=none#%F0%9F%87%A7%F0%9F%87%BF

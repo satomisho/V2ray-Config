@@ -65,17 +65,6 @@ dns:
 proxies:
   - name: "🇧🇷_1"
     type: vless
-    server: "45.194.53.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime19.workers.dev"
-  - name: "🇧🇷_2"
-    type: vless
     server: "23.251.56.78"
     port: 443
     uuid: "9638a83e-f1f7-4cc8-a602-924965d9534f"
@@ -88,7 +77,146 @@ proxies:
       public-key: "E6Y9lNizCXo8tJ6EXwLYQIjyIwmxIs4foyRlY2MgkjA"
       short-id: "59ccabb0a1483c4b"
     flow: "xtls-rprx-vision"
+  - name: "🇧🇷_2"
+    type: vless
+    server: "201.24.53.247"
+    port: 8443
+    uuid: "a237ca49-48d5-466f-aee5-c44f728a99ab"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "Z3dT5WeVvmrbBtZycHfI3kO6kyoLH3tAqpT_ReaMaxI"
+      short-id: "4f676caa93313eab"
+    flow: "xtls-rprx-vision"
   - name: "🇧🇷_3"
+    type: vless
+    server: "201.24.53.247"
+    port: 443
+    uuid: "42a6ff62-1d4e-4065-8e44-bab910e19e3b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "MFVPHZoccZWr4YZLcIaVedY07BhRfdT4y1XWpp2IWnA"
+      short-id: "97fbc6738543f9dc"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_4"
+    type: vless
+    server: "cdn14.cloud-vk.com"
+    port: 8443
+    uuid: "a2c21c9d-cde2-4a33-a19b-fb6567e2e851"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "api.bitrix24.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "uWffyYV5PSa38qThOfFUG_9aHyV4ZbKJ0xc1UK79NUg"
+      short-id: "44"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_5"
+    type: vless
+    server: "201.24.53.247"
+    port: 8448
+    uuid: "b3198f79-b4e6-4da0-9088-a9ec89e5f8d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "WvMqlTcY5BY7WbrsGCwtA4VzhXGaP-FkjoOHn-yMsSI"
+      short-id: "a94eb0e19d010373"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_6"
+    type: vless
+    server: "201.24.49.130"
+    port: 9871
+    uuid: "14777bd9-56a5-46f6-a94f-826b4800dc05"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
+      short-id: "aabb"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇧🇷_7"
+    type: vless
+    server: "201.24.53.247"
+    port: 2083
+    uuid: "51afc65b-70f9-46f9-bbf5-6dab07fb94c6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "UPNrOP5K4VMKioVmi1o15crjzHP3tkeMQr-ivgBNNQU"
+      short-id: "eb95c48c14152f51"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_8"
+    type: vless
+    server: "201.24.49.19"
+    port: 2200
+    uuid: "716903b1-e6bf-4420-9e27-65e4451692e9"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/v1"
+      headers:
+        Host: "rzd.ru"
+  - name: "🇧🇷_9"
+    type: vless
+    server: "201.24.53.247"
+    port: 2053
+    uuid: "246bf902-1b08-4bc4-b851-c4987d804bac"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "CmkWD75j7txo_SEUQ7XzKI2b0_Odd0jc7cv_HqaTTAc"
+      short-id: "688c54e7b1ebddec"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_10"
+    type: vless
+    server: "201.24.53.247"
+    port: 2084
+    uuid: "a95974c3-29ed-4548-ab42-b588b321a5ce"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "mrsI2kSF8FmNnFKn_-bpDU8VS6Tews7wkABJGdwMUAg"
+      short-id: "3578bd8a4032dcab"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_11"
+    type: vless
+    server: "201.24.53.247"
+    port: 8449
+    uuid: "9ddd1219-bc7f-4524-ad7c-5b110e7c37bc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.rumedia-cdn.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "lcLyifIUyL1UnMABv4u7mVSh7VRmOVaZinSDfSKB13g"
+      short-id: "60ccd0e5ab46ac4f"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇷_12"
     type: vless
     server: "23.251.55.216"
     port: 443
@@ -102,94 +230,32 @@ proxies:
       public-key: "m89wjPa2LxODyi8U5pRVI4E1fwVawIaftC3fLY0ZLw4"
       short-id: "9ea177c3c147119b"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇷_4"
-    type: vless
-    server: "201.24.49.233"
-    port: 4100
-    uuid: "64bd5231-8c49-44f4-8bc0-998eef787d05"
+  - name: "🇧🇷_13"
+    type: trojan
+    server: "172.237.62.103"
+    port: 28443
+    password: "bfc55a0e-6d1b-4010-8bf6-0d9726d151a3"
+    sni: "vpn-node.internal"
+    skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/v1"
+      path: "/xVpnTrojanWsSvc7f3a"
       headers:
-        Host: "live.ok.ru"
-  - name: "🇧🇷_5"
-    type: ss
-    server: "163.176.194.118"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "lpYNiPiwJ1rV1HSmT5yzHLcLsv9qVgXIXWSuNw3ohhY="
-    udp: true
-  - name: "🇧🇷_6"
-    type: ss
-    server: "163.176.194.118"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "lpYNiPiwJ1rV1HSmT5yzHLcLsv9qVgXIXWSuNw3ohhY="
-    udp: true
-  - name: "🇧🇷_7"
-    type: ss
-    server: "163.176.6.223"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "SP1M0IipjvtsuKVyn9U2iK+ZKuuQ0afVhLCicK9pO8Y="
-    udp: true
-  - name: "🇧🇷_8"
-    type: ss
-    server: "129.148.44.181"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "HWBXhJoxrIyNrENJIipt9FVnzqRABmuXjSW0HtgNGI0="
-    udp: true
-  - name: "🇧🇷_9"
-    type: ss
-    server: "129.148.44.181"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "HWBXhJoxrIyNrENJIipt9FVnzqRABmuXjSW0HtgNGI0="
-    udp: true
-  - name: "🇧🇷_10"
-    type: ss
-    server: "163.176.6.223"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "SP1M0IipjvtsuKVyn9U2iK+ZKuuQ0afVhLCicK9pO8Y="
-    udp: true
-  - name: "🇧🇷_11"
-    type: ss
-    server: "147.15.93.240"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "Chs0Qn4jilfzYjjcg2EuX/6ZMqqzz1jRPB5yRkSzdbE="
-    udp: true
-  - name: "🇧🇷_12"
-    type: ss
-    server: "163.176.6.223"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "SP1M0IipjvtsuKVyn9U2iK+ZKuuQ0afVhLCicK9pO8Y="
-    udp: true
-  - name: "🇧🇷_13"
-    type: ss
-    server: "129.148.44.181"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "HWBXhJoxrIyNrENJIipt9FVnzqRABmuXjSW0HtgNGI0="
-    udp: true
+        Host: "vpn-node.internal"
   - name: "🇧🇷_14"
-    type: ss
-    server: "147.15.93.240"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "Chs0Qn4jilfzYjjcg2EuX/6ZMqqzz1jRPB5yRkSzdbE="
+    type: trojan
+    server: "172.237.54.237"
+    port: 28443
+    password: "3a383805-40a2-4b6f-a0e5-7f34c1d6152c"
+    sni: "vpn-node.internal"
+    skip-cert-verify: true
     udp: true
-  - name: "🇧🇷_15"
-    type: ss
-    server: "163.176.194.118"
-    port: 59319
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "lpYNiPiwJ1rV1HSmT5yzHLcLsv9qVgXIXWSuNw3ohhY="
-    udp: true
+    network: ws
+    ws-opts:
+      path: "/xVpnTrojanWsSvc7f3a"
+      headers:
+        Host: "vpn-node.internal"
 
 proxy-groups:
   - name: "PROXY"
@@ -218,7 +284,6 @@ proxy-groups:
       - "🇧🇷_12"
       - "🇧🇷_13"
       - "🇧🇷_14"
-      - "🇧🇷_15"
 
 
 rules:

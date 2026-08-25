@@ -63,23 +63,34 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇵🇹_1"
+  - name: "🇻🇮_1"
     type: vless
-    server: "93.119.168.215"
-    port: 60771
-    uuid: "060a5db6-7ff9-4a64-87c1-8a27be4f11ab"
-    udp: true
-  - name: "🇵🇹_2"
-    type: trojan
-    server: "156.243.83.240"
+    server: "2.27.27.29"
     port: 443
-    password: "MiTiVPN"
-    sni: "8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle"
-    skip-cert-verify: true
+    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN"
+    tls: true
+    skip-cert-verify: true
+    servername: "www.ray-balance.space"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇻🇮_2"
+    type: vless
+    server: "2.27.27.30"
+    port: 443
+    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.ray-balance.space"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
+      short-id: ""
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -94,8 +105,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇵🇹_1"
-      - "🇵🇹_2"
+      - "🇻🇮_1"
+      - "🇻🇮_2"
 
 
 rules:

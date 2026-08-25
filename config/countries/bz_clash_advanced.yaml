@@ -59,7 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇿_8"
+  - name: "🇧🇿_3"
+    type: vless
+    server: "45.131.7.2"
+    port: 443
+    uuid: "Telegram🇨🇳 @WangCai2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "support.zoom.us.yxls.eu.cc"
+    network: ws
+    ws-opts:
+      path: "/sg-amz"
+      headers:
+        Host: "support.zoom.us.yxls.eu.cc"
+  - name: "🇧🇿_4"
     type: vless
     server: "45.131.7.2"
     port: 443
@@ -74,84 +88,6 @@ proxies:
       path: "/sg-amz"
       headers:
         Host: "support.zoom.us.yxls.eu.cc"
-  - name: "🇧🇿_9"
-    type: vless
-    server: "45.131.6.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇧🇿_10"
-    type: vless
-    server: "45.131.210.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime05.workers.dev"
-  - name: "🇧🇿_11"
-    type: vless
-    server: "45.131.6.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇧🇿_12"
-    type: vless
-    server: "45.131.7.2"
-    port: 443
-    uuid: "Telegram🇨🇳 @WangCai2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "support.zoom.us.yxls.eu.cc"
-    network: ws
-    ws-opts:
-      path: "/sg-amz"
-      headers:
-        Host: "support.zoom.us.yxls.eu.cc"
-  - name: "🇧🇿_13"
-    type: vless
-    server: "45.131.7.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇧🇿_14"
-    type: vless
-    server: "45.131.6.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "notls.lukongtou.eu.org"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -194,13 +130,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -210,13 +141,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -226,13 +152,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -241,13 +162,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -257,25 +173,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
+      - "🇧🇿_3"
+      - "🇧🇿_4"
 
 rules:
   - MATCH,PROXY-BEST

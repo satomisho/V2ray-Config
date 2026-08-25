@@ -63,17 +63,20 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇭🇷_1"
-    type: trojan
-    server: "213.182.199.137"
-    port: 443
-    password: "MiTiVPN"
-    sni: "66-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle"
-    skip-cert-verify: true
+  - name: "🇨🇱_1"
+    type: ss
+    server: "129.151.99.94"
+    port: 23345
+    cipher: "chacha20-ietf-poly1305"
+    password: "be6cbb46-ebb0-4726-9202-6a3bac1d0afb"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN"
+  - name: "🇨🇱_2"
+    type: ss
+    server: "129.151.99.94"
+    port: 23345
+    cipher: "chacha20-ietf-poly1305"
+    password: "be6cbb46-ebb0-4726-9202-6a3bac1d0afb"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -88,7 +91,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇭🇷_1"
+      - "🇨🇱_1"
+      - "🇨🇱_2"
 
 
 rules:

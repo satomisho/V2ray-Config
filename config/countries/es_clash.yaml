@@ -65,40 +65,32 @@ dns:
 proxies:
   - name: "🇪🇸_1"
     type: vless
-    server: "185.18.250.245"
+    server: "2.27.26.49"
     port: 443
-    uuid: "f77299ea-e13d-417d-8cdc-ce5566dfc94b"
+    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "edu.ruangguru.com.r3xxe.eu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/nl-tw"
-      headers:
-        Host: "edu.ruangguru.com.r3xxe.eu.cc"
+    servername: "www.ray-balance.space"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇪🇸_2"
     type: vless
-    server: "85.90.217.42"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    server: "212.227.235.66"
+    port: 2053
+    uuid: "6fbdbd3c-7696-4b9a-9a10-bcecc26e0f6f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "85.90.217.42"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "XrPOJwmpnq8NeCXu6K68Mp59gQ56Dr4YYboxI70kqzA"
+      short-id: "866af6e56606f2bc"
   - name: "🇪🇸_3"
-    type: vless
-    server: "185.18.250.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime47.workers.dev"
-  - name: "🇪🇸_4"
     type: vless
     server: "185.18.250.30"
     port: 8880
@@ -109,7 +101,7 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime47.workers.dev"
-  - name: "🇪🇸_5"
+  - name: "🇪🇸_4"
     type: trojan
     server: "185.18.250.245"
     port: 443
@@ -122,19 +114,26 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇪🇸_6"
-    type: ss
-    server: "108.181.121.226"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "WSyL4XTwNsdv"
-    udp: true
-  - name: "🇪🇸_7"
+  - name: "🇪🇸_5"
     type: ss
     server: "140.174.184.5"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "qItG8SueYQcP"
+    udp: true
+  - name: "🇪🇸_6"
+    type: ss
+    server: "140.174.184.5"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "qItG8SueYQcP"
+    udp: true
+  - name: "🇪🇸_7"
+    type: ss
+    server: "108.181.121.226"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "WSyL4XTwNsdv"
     udp: true
   - name: "🇪🇸_8"
     type: ss
@@ -142,13 +141,6 @@ proxies:
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "WSyL4XTwNsdv"
-    udp: true
-  - name: "🇪🇸_9"
-    type: ss
-    server: "140.174.184.5"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "qItG8SueYQcP"
     udp: true
 
 proxy-groups:
@@ -172,7 +164,6 @@ proxy-groups:
       - "🇪🇸_6"
       - "🇪🇸_7"
       - "🇪🇸_8"
-      - "🇪🇸_9"
 
 
 rules:

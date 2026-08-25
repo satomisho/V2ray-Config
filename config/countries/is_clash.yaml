@@ -63,13 +63,20 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇴🇲_1"
-    type: ss
-    server: "154.205.147.166"
-    port: 11201
-    cipher: "chacha20-ietf-poly1305"
-    password: "93069d226f003fab"
+  - name: "🇮🇸_1"
+    type: vless
+    server: "151.236.24.67"
+    port: 8443
+    uuid: "85cc845e-644c-0045-8288-f0c03c83c1ec"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "auto.quattro-tech.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
+      short-id: "43dcff53849b81e6"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -84,7 +91,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇴🇲_1"
+      - "🇮🇸_1"
 
 
 rules:

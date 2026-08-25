@@ -65,7 +65,7 @@ dns:
 proxies:
   - name: "🇦🇹_1"
     type: vless
-    server: "as.tunnelx.space"
+    server: "152.53.114.186"
     port: 443
     uuid: "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2"
     udp: true
@@ -79,7 +79,7 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇹_2"
     type: vless
-    server: "152.53.114.186"
+    server: "as.tunnelx.space"
     port: 443
     uuid: "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2"
     udp: true
@@ -91,28 +91,6 @@ proxies:
       public-key: "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA"
       short-id: "4e9b0c2d1a3f5768"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇹_3"
-    type: vless
-    server: "212.183.88.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime23.workers.dev"
-  - name: "🇦🇹_4"
-    type: trojan
-    server: "212.183.88.136"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
 
 proxy-groups:
   - name: "PROXY"
@@ -129,8 +107,6 @@ proxy-groups:
     proxies:
       - "🇦🇹_1"
       - "🇦🇹_2"
-      - "🇦🇹_3"
-      - "🇦🇹_4"
 
 
 rules:

@@ -65,20 +65,80 @@ dns:
 proxies:
   - name: "🇨🇷_1"
     type: vless
-    server: "190.93.245.176"
+    server: "190.93.245.229"
     port: 443
-    uuid: "7493883f-6047-46a7-8d95-f59e137ffaec"
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "auto-749388.rohawmk.workers.dev"
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
+      path: "/sync"
       headers:
-        Host: "auto-749388.rohawmk.workers.dev"
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
   - name: "🇨🇷_2"
+    type: vless
+    server: "190.93.246.1"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇨🇷_3"
+    type: vless
+    server: "190.93.246.208"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇨🇷_4"
+    type: vless
+    server: "190.93.245.225"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇨🇷_5"
+    type: vless
+    server: "190.93.245.255"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇨🇷_6"
     type: vless
     server: "190.93.247.2"
     port: 443
@@ -92,7 +152,7 @@ proxies:
       path: "/sg-amz"
       headers:
         Host: "support.zoom.us.yxls.eu.cc"
-  - name: "🇨🇷_3"
+  - name: "🇨🇷_7"
     type: vless
     server: "190.93.247.2"
     port: 443
@@ -107,6 +167,21 @@ proxies:
       path: "/sg-amz"
       headers:
         Host: "support.zoom.us.yxls.eu.cc"
+  - name: "🇨🇷_8"
+    type: vless
+    server: "190.93.245.176"
+    port: 443
+    uuid: "7493883f-6047-46a7-8d95-f59e137ffaec"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "auto-749388.rohawmk.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
+      headers:
+        Host: "auto-749388.rohawmk.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -124,6 +199,11 @@ proxy-groups:
       - "🇨🇷_1"
       - "🇨🇷_2"
       - "🇨🇷_3"
+      - "🇨🇷_4"
+      - "🇨🇷_5"
+      - "🇨🇷_6"
+      - "🇨🇷_7"
+      - "🇨🇷_8"
 
 
 rules:

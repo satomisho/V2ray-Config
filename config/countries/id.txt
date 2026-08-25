@@ -1,1 +1,2 @@
-vless://22419260-5475-49d8-a29c-01905c54d1b8@202.155.14.176:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UdeZc5DrXa8lWOET4wlBp55-nXskqsvoU-2kVvd3zBg&sid=7a3f9e2b1c8d4f6a&sni=id.cdn-global.pro#%F0%9F%87%AE%F0%9F%87%A9
+trojan://e0019b1b-ecbc-4b5f-80c7-0940a8568d65@172.232.249.14:28443?security=tls&sni=vpn-node.internal&allowInsecure=1&fp=chrome&alpn=http/1.1&type=ws&path=/xVpnTrojanWsSvc7f3a&host=vpn-node.internal#%F0%9F%87%AE%F0%9F%87%A9
+trojan://M7v%w11Se*@qfdfsg.wsone.icu:443?allowInsecure=1&type=tcp&security=tls&fp=ios&sni=qfdfsg.wsone.icu#%F0%9F%87%AE%F0%9F%87%A9

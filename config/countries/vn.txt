@@ -1,2 +1,1 @@
-vless://432ab7a2-6e2b-4f0b-be4a-06bdcc714624@103.225.197.237:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=mCDHZBY0AYAeY7Aj7COGaegrm7QAwfueYYSC02vqbSY&sid=0d8ca7e0b3d26321&sni=www.bing.com#%F0%9F%87%BB%F0%9F%87%B3
-vless://c08c499f-21bd-46ba-9146-5c770204342b@216.133.158.108:443?security=reality&type=tcp&sni=www.apple.com&fp=firefox&flow=xtls-rprx-vision&sid=872303cf1e28389f&pbk=Kh1-hdn9zTY5a1-3qP8L_6UTRL2iNZ1pIr_X8U94OQM&encryption=none#%F0%9F%87%BB%F0%9F%87%B3
+vless://710fc22f-06b2-4b6d-bb3e-f57c17b670a6@2.27.27.98:443?security=reality&type=tcp&sni=www.ray-balance.space&fp=firefox&flow=xtls-rprx-vision&pbk=d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI#%F0%9F%87%BB%F0%9F%87%B3

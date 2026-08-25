@@ -61,31 +61,55 @@ dns:
 proxies:
   - name: "🇮🇷_7"
     type: vless
-    server: "mAiLgAtEWAy7-BAsEStREAM3-poRTnodehUb9.CloUDSYNC9.Com"
+    server: "185.143.233.5"
+    port: 80
+    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
+  - name: "🇮🇷_8"
+    type: vless
+    server: "fr-gra-ovh-01.sfproxy.fuck-rkn.dev"
     port: 443
-    uuid: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
+    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "NodeLinkbAsE7-ApiWeBstREam3-daTAcOReNEt.cloUDsyNc9.Com"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/pdpZR63Sn1BgoYh8"
-      headers:
-        Host: "noDeLiNKbaSe7-ApIWEBStreaM3-dATaCoreNET.cloUDsYnc9.COM"
-  - name: "🇮🇷_8"
+    servername: "jobinvest.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇷_9"
     type: vless
     server: "45.131.4.115"
     port: 80
-    uuid: "a7b22989-6c1f-4b59-b0f3-0605401813c4"
+    uuid: "74ed78f1-4095-47e6-b043-094e494fb7e5"
     udp: true
     network: ws
     ws-opts:
-      path: "/eyJqdW5rIjoiQXoydFJwaWM0WSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      path: "/sVnT0vhrV7WAl52Z"
       headers:
-        Host: "worker3.gigak25604.workers.dev"
-  - name: "🇮🇷_9"
+        Host: "worker3.gisenoj224.workers.dev"
+  - name: "🇮🇷_10"
+    type: vless
+    server: "fr-gra-ovh-02.fuck-rkn.dev"
+    port: 443
+    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jobinvest.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇷_11"
     type: trojan
     server: "45.131.4.118"
     port: 443
@@ -96,26 +120,6 @@ proxies:
     network: ws
     ws-opts:
       path: "/sync"
-  - name: "🇮🇷_10"
-    type: trojan
-    server: "MAILGateWAy7-baSeSTREaM3-pORTNOdEHub9.clOUDsYNC9.Com"
-    port: 443
-    password: "3ccbd6a4-bb95-4a93-bf7a-ad4a0bde9054"
-    sni: "nodelInKBasE7-aPIWebStrEam3-DaTAcOrENET.cloUdsYNc9.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/JqME6Sln1BgoYh8"
-      headers:
-        Host: "NoDeLiNkBase7-ApiwebStREam3-DatacOREnET.CLoUdSYNC9.cOM"
-  - name: "🇮🇷_11"
-    type: ss
-    server: "51.255.13.232"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "BqnqToih0PbU"
-    udp: true
   - name: "🇮🇷_12"
     type: ss
     server: "193.29.139.168"
