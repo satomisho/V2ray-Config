@@ -65,31 +65,6 @@ dns:
 proxies:
   - name: "🇮🇷_1"
     type: vless
-    server: "185.143.233.5"
-    port: 80
-    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
-  - name: "🇮🇷_2"
-    type: vless
-    server: "fr-gra-ovh-01.sfproxy.fuck-rkn.dev"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_3"
-    type: vless
     server: "45.131.4.115"
     port: 80
     uuid: "74ed78f1-4095-47e6-b043-094e494fb7e5"
@@ -99,21 +74,7 @@ proxies:
       path: "/sVnT0vhrV7WAl52Z"
       headers:
         Host: "worker3.gisenoj224.workers.dev"
-  - name: "🇮🇷_4"
-    type: vless
-    server: "fr-gra-ovh-02.fuck-rkn.dev"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_5"
+  - name: "🇮🇷_2"
     type: trojan
     server: "45.131.4.118"
     port: 443
@@ -124,7 +85,7 @@ proxies:
     network: ws
     ws-opts:
       path: "/sync"
-  - name: "🇮🇷_6"
+  - name: "🇮🇷_3"
     type: ss
     server: "193.29.139.168"
     port: 8080
@@ -148,9 +109,6 @@ proxy-groups:
       - "🇮🇷_1"
       - "🇮🇷_2"
       - "🇮🇷_3"
-      - "🇮🇷_4"
-      - "🇮🇷_5"
-      - "🇮🇷_6"
 
 
 rules:

@@ -65,6 +65,36 @@ dns:
 proxies:
   - name: "🇲🇩_1"
     type: vless
+    server: "81.180.92.55"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇲🇩_2"
+    type: vless
+    server: "193.36.38.222"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇲🇩_3"
+    type: vless
     server: "144.31.131.241"
     port: 8443
     uuid: "b406bc51-9002-474c-beae-b194b02c91da"
@@ -72,11 +102,26 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "mold.speedload.online"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs"
       short-id: "a20d3ed244c76426"
     flow: "xtls-rprx-vision"
+  - name: "🇲🇩_4"
+    type: vless
+    server: "193.36.38.17"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,6 +137,9 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇲🇩_1"
+      - "🇲🇩_2"
+      - "🇲🇩_3"
+      - "🇲🇩_4"
 
 
 rules:

@@ -59,33 +59,19 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇵🇭_3"
+  - name: "🇵🇭_2"
     type: vless
-    server: "sk1i-il4mxi.sparkra.top"
+    server: "8.212.177.111"
     port: 443
-    uuid: "907a940c-bad0-4356-a280-7dec12f1479e"
+    uuid: "38e1c7e8-fdcd-4396-a84c-550b05737308"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.bing.com"
+    servername: "ph1.hat.onl"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "zVJVCkcnyPjMZvx-GMQnnbkEgNiws80sppKB6A0uqBY"
-      short-id: "83dee8596e65d99e"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇭_4"
-    type: vless
-    server: "66.253.10.22"
-    port: 443
-    uuid: "907a940c-bad0-4356-a280-7dec12f1479e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.bing.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "zVJVCkcnyPjMZvx-GMQnnbkEgNiws80sppKB6A0uqBY"
-      short-id: "83dee8596e65d99e"
+      public-key: "me6tyn-I8IolkgJK4sggSsC9sinhkLPBdPwtVlPk5TI"
+      short-id: "0d6903ea350815e1"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -129,8 +115,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -140,8 +125,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -151,8 +135,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -161,8 +144,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -172,15 +154,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇵🇭_3"
-      - "🇵🇭_4"
+      - "🇵🇭_2"
 
 rules:
   - MATCH,PROXY-BEST

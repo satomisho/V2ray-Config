@@ -64,19 +64,20 @@ dns:
 
 proxies:
   - name: "🇨🇱_1"
-    type: ss
-    server: "129.151.99.94"
-    port: 23345
-    cipher: "chacha20-ietf-poly1305"
-    password: "be6cbb46-ebb0-4726-9202-6a3bac1d0afb"
+    type: vless
+    server: "64.176.4.154"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
-  - name: "🇨🇱_2"
-    type: ss
-    server: "129.151.99.94"
-    port: 23345
-    cipher: "chacha20-ietf-poly1305"
-    password: "be6cbb46-ebb0-4726-9202-6a3bac1d0afb"
-    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,7 +93,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇱_1"
-      - "🇨🇱_2"
 
 
 rules:

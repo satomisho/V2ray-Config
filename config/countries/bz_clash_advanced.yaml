@@ -61,33 +61,30 @@ dns:
 proxies:
   - name: "🇧🇿_3"
     type: vless
-    server: "45.131.7.2"
+    server: "45.131.6.123"
     port: 443
-    uuid: "Telegram🇨🇳 @WangCai2"
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "support.zoom.us.yxls.eu.cc"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/sg-amz"
-      headers:
-        Host: "support.zoom.us.yxls.eu.cc"
+      path: "/"
   - name: "🇧🇿_4"
     type: vless
-    server: "45.131.7.2"
+    server: "45.131.7.123"
     port: 443
-    uuid: "Telegram🇨🇳@WangCai2"
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "support.zoom.us.yxls.eu.cc"
-    client-fingerprint: "chrome"
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/sg-amz"
-      headers:
-        Host: "support.zoom.us.yxls.eu.cc"
+      path: "/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

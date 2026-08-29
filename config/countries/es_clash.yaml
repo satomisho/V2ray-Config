@@ -65,31 +65,32 @@ dns:
 proxies:
   - name: "🇪🇸_1"
     type: vless
-    server: "2.27.26.49"
+    server: "193.238.154.39"
     port: 443
-    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.ray-balance.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇪🇸_2"
-    type: vless
-    server: "212.227.235.66"
-    port: 2053
-    uuid: "6fbdbd3c-7696-4b9a-9a10-bcecc26e0f6f"
+    uuid: "4c1b7e3f-6a2d-493f-b6c4-4ef37db6fcfc"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "XrPOJwmpnq8NeCXu6K68Mp59gQ56Dr4YYboxI70kqzA"
-      short-id: "866af6e56606f2bc"
+      public-key: "G7hjy9PEKopcPUP4mQXhwIaKIO9TCra_5LHZWuM_RjM"
+      short-id: "641a87d5ecdfaeb3"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇸_2"
+    type: vless
+    server: "193.238.154.18"
+    port: 443
+    uuid: "2297ea1f-2415-4a2c-be20-4a3a978283a2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "es1.hat.onl"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "V3uMWEfDQAPFP6o5ED8Jtk0rJBPs7IlOLf_Wh8w_jXc"
+      short-id: "76132b3b39704c44"
+    flow: "xtls-rprx-vision"
   - name: "🇪🇸_3"
     type: vless
     server: "185.18.250.30"
@@ -102,6 +103,85 @@ proxies:
       headers:
         Host: "vms.lifetime47.workers.dev"
   - name: "🇪🇸_4"
+    type: vless
+    server: "93.189.94.67"
+    port: 48296
+    uuid: "898537d9-ce3a-4937-bbef-c0fa61c07791"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.sony.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "ga1wUMMknP4pwJfUNOOvD9I35XV4q3c73byXPYbRxBE"
+      short-id: "109657bb2dbe99"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇸_5"
+    type: vless
+    server: "212.227.235.66"
+    port: 2053
+    uuid: "6fbdbd3c-7696-4b9a-9a10-bcecc26e0f6f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "XrPOJwmpnq8NeCXu6K68Mp59gQ56Dr4YYboxI70kqzA"
+      short-id: "866af6e56606f2bc"
+  - name: "🇪🇸_6"
+    type: vless
+    server: "185.253.152.198"
+    port: 34710
+    uuid: "dd7429eb-b77b-4a8d-be86-c34cac86faf7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.nvidia.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "MXOVePed0T2SVOfYSEtecn2yApnsVC12dJ6nkujWTVU"
+      short-id: "14b0eb7919eb7d"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇸_7"
+    type: vless
+    server: "85.90.217.42"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "85.90.217.42"
+  - name: "🇪🇸_8"
+    type: vless
+    server: "185.254.205.79"
+    port: 19842
+    uuid: "43c23116-1115-4af4-a0f0-56f02841a605"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.tesla.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "sfOfuQeJBlKfDnPL_EMWUxMIiFAN8BNKjtWDUvlsjzM"
+      short-id: "25ebc9e0a912"
+    flow: "xtls-rprx-vision"
+  - name: "🇪🇸_9"
+    type: vless
+    server: "141.253.194.63"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇪🇸_10"
     type: trojan
     server: "185.18.250.245"
     port: 443
@@ -114,28 +194,55 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇪🇸_5"
-    type: ss
-    server: "140.174.184.5"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "qItG8SueYQcP"
+  - name: "🇪🇸_11"
+    type: trojan
+    server: "185.18.250.252"
+    port: 443
+    password: "74480619-b6a8-4ab8-94e1-1132fc18b2fa"
+    sni: "unnes.ac.id.r3xxe.eu.cc"
+    skip-cert-verify: true
     udp: true
-  - name: "🇪🇸_6"
+    network: ws
+    ws-opts:
+      path: "/au-mt"
+      headers:
+        Host: "unnes.ac.id.r3xxe.eu.cc"
+  - name: "🇪🇸_12"
     type: ss
-    server: "140.174.184.5"
-    port: 8388
+    server: "82.38.31.155"
+    port: 8080
     cipher: "chacha20-ietf-poly1305"
-    password: "qItG8SueYQcP"
+    password: "oZIoA69Q8yhcQV8ka3Pa3A"
     udp: true
-  - name: "🇪🇸_7"
+  - name: "🇪🇸_13"
     type: ss
     server: "108.181.121.226"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "WSyL4XTwNsdv"
     udp: true
-  - name: "🇪🇸_8"
+  - name: "🇪🇸_14"
+    type: ss
+    server: "51.83.192.80"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
+    udp: true
+  - name: "🇪🇸_15"
+    type: ss
+    server: "140.174.184.5"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "qItG8SueYQcP"
+    udp: true
+  - name: "🇪🇸_16"
+    type: ss
+    server: "140.174.184.5"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "qItG8SueYQcP"
+    udp: true
+  - name: "🇪🇸_17"
     type: ss
     server: "108.181.121.226"
     port: 8388
@@ -164,6 +271,15 @@ proxy-groups:
       - "🇪🇸_6"
       - "🇪🇸_7"
       - "🇪🇸_8"
+      - "🇪🇸_9"
+      - "🇪🇸_10"
+      - "🇪🇸_11"
+      - "🇪🇸_12"
+      - "🇪🇸_13"
+      - "🇪🇸_14"
+      - "🇪🇸_15"
+      - "🇪🇸_16"
+      - "🇪🇸_17"
 
 
 rules:

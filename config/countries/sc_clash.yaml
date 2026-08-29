@@ -64,122 +64,29 @@ dns:
 
 proxies:
   - name: "🇸🇨_1"
-    type: vless
-    server: "45.130.125.138"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_2"
-    type: vless
-    server: "45.130.125.200"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_3"
-    type: vless
-    server: "45.130.125.162"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_4"
-    type: vless
-    server: "200.165.235.98"
-    port: 9892
-    uuid: "14777bd9-56a5-46f6-a94f-826b4800dc05"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0"
-      short-id: "aa"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇸🇨_5"
-    type: vless
-    server: "45.130.125.158"
-    port: 2053
-    uuid: "e7961655-9674-4cbd-a36f-ec0d5d7d660c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "po.fastbrokencompony.com"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇨_6"
-    type: vless
-    server: "cdn10.cloud-vk.com"
-    port: 10443
-    uuid: "a2c21c9d-cde2-4a33-a19b-fb6567e2e851"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "api.bitrix24.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "mHLLGFyBV3dltnNROx4KrZ_EpVrdk6Pc5U8PEmNvcWU"
-      short-id: "57"
-    flow: "xtls-rprx-vision"
-  - name: "🇸🇨_7"
     type: trojan
-    server: "45.130.125.190"
+    server: "45.130.125.0"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
+    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/us-gllc"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "🇸🇨_8"
+        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
+  - name: "🇸🇨_2"
     type: trojan
-    server: "45.130.125.112"
+    server: "45.130.125.160"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
+    sni: "go.appsflyer.com.r3xxe.eu.cc"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
-  - name: "🇸🇨_9"
-    type: trojan
-    server: "45.130.125.18"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
+      path: "/br-orcl"
 
 proxy-groups:
   - name: "PROXY"
@@ -196,13 +103,6 @@ proxy-groups:
     proxies:
       - "🇸🇨_1"
       - "🇸🇨_2"
-      - "🇸🇨_3"
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
-      - "🇸🇨_9"
 
 
 rules:

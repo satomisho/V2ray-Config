@@ -1,2 +1,2 @@
-vless://Telegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2@45.131.7.2:443?encryption=none&security=tls&sni=support.zoom.us.yxls.eu.cc&type=ws&host=support.zoom.us.yxls.eu.cc&path=/sg-amz&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%BF
-vless://Telegram🇨🇳 @WangCai2@45.131.7.2:443?security=tls&type=ws&path=%2Fsg-amz&host=support.zoom.us.yxls.eu.cc&sni=support.zoom.us.yxls.eu.cc&fp=chrome&encryption=none#%F0%9F%87%A7%F0%9F%87%BF
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.131.6.123:443?type=ws&security=tls&fp=firefox&sni=notls.lukongtou.eu.org#%F0%9F%87%A7%F0%9F%87%BF
+vless://1d16c6e0-1bbe-435b-b661-90043fee999c@45.131.7.123:443?type=ws&security=tls&fp=firefox&sni=notls.lukongtou.eu.org#%F0%9F%87%A7%F0%9F%87%BF

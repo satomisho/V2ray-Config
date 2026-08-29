@@ -59,46 +59,36 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇳_4"
+  - name: "🇮🇱_3"
     type: vless
-    server: "2.27.27.168"
+    server: "192.71.27.237"
     port: 443
-    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.ray-balance.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇳_5"
-    type: trojan
-    server: "221.230.19.73"
-    port: 48966
-    password: "1addb6f6-c65a-4652-91e7-cbf3c6fa6f95"
-    sni: "vpn-node.internal"
-    skip-cert-verify: true
-    udp: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
+      path: "/"
       headers:
-        Host: "vpn-node.internal"
-  - name: "🇨🇳_6"
-    type: trojan
-    server: "221.181.169.52"
-    port: 49319
-    password: "47c270a9-bce5-450e-8622-f2631070a012"
-    sni: "vpn-node.internal"
-    skip-cert-verify: true
+        Host: "eded-52n.pages.dev"
+  - name: "🇮🇱_4"
+    type: vless
+    server: "64.176.170.68"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
+      path: "/"
       headers:
-        Host: "vpn-node.internal"
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -141,9 +131,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -153,9 +142,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -165,9 +153,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -176,9 +163,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -188,17 +174,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇳_4"
-      - "🇨🇳_5"
-      - "🇨🇳_6"
+      - "🇮🇱_3"
+      - "🇮🇱_4"
 
 rules:
   - MATCH,PROXY-BEST

@@ -59,32 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇷_7"
-    type: vless
-    server: "185.143.233.5"
-    port: 80
-    uuid: "38dd06a1-e1cb-492b-bb87-218ce05d0d67"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir"
-  - name: "🇮🇷_8"
-    type: vless
-    server: "fr-gra-ovh-01.sfproxy.fuck-rkn.dev"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_9"
+  - name: "🇮🇷_4"
     type: vless
     server: "45.131.4.115"
     port: 80
@@ -95,21 +70,7 @@ proxies:
       path: "/sVnT0vhrV7WAl52Z"
       headers:
         Host: "worker3.gisenoj224.workers.dev"
-  - name: "🇮🇷_10"
-    type: vless
-    server: "fr-gra-ovh-02.fuck-rkn.dev"
-    port: 443
-    uuid: "8ff82100-8aad-4281-bf41-f318519d7182"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_11"
+  - name: "🇮🇷_5"
     type: trojan
     server: "45.131.4.118"
     port: 443
@@ -120,7 +81,7 @@ proxies:
     network: ws
     ws-opts:
       path: "/sync"
-  - name: "🇮🇷_12"
+  - name: "🇮🇷_6"
     type: ss
     server: "193.29.139.168"
     port: 8080
@@ -169,12 +130,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -184,12 +142,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -199,12 +154,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -213,12 +165,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -228,23 +177,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇷_7"
-      - "🇮🇷_8"
-      - "🇮🇷_9"
-      - "🇮🇷_10"
-      - "🇮🇷_11"
-      - "🇮🇷_12"
+      - "🇮🇷_4"
+      - "🇮🇷_5"
+      - "🇮🇷_6"
 
 rules:
   - MATCH,PROXY-BEST

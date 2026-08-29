@@ -76,6 +76,21 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
+  - name: "🇸🇰_2"
+    type: vless
+    server: "89.46.42.141"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,6 +106,7 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇸🇰_1"
+      - "🇸🇰_2"
 
 
 rules:

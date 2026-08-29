@@ -59,20 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇸_2"
+  - name: "🇩🇴_2"
     type: vless
-    server: "151.236.24.67"
-    port: 8443
-    uuid: "85cc845e-644c-0045-8288-f0c03c83c1ec"
+    server: "181.36.229.212"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "auto.quattro-tech.ru"
+    servername: "eded-52n.pages.dev"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
-      short-id: "43dcff53849b81e6"
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -115,7 +116,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +126,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +136,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +145,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +155,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇸_2"
+      - "🇩🇴_2"
 
 rules:
   - MATCH,PROXY-BEST

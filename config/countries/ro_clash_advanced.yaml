@@ -59,7 +59,43 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇷🇴_2"
+  - name: "🇷🇴_5"
+    type: vless
+    server: "82.117.255.26"
+    port: 443
+    uuid: "ee9e2135-c444-4adb-aaa5-a0efa1a74fdf"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "gMcijHp0RNZF6l556BaOxu1bKNIFON0_JjXhJzpioAk"
+      short-id: "b395baf965957d93"
+    flow: "xtls-rprx-vision"
+  - name: "🇷🇴_6"
+    type: vless
+    server: "185.39.30.18"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇷🇴_7"
+    type: ss
+    server: "bogging-eyeteeth-fly.freesocks.work"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "QFWzCw2uX9B9i6qAYeFBIE"
+    udp: true
+  - name: "🇷🇴_8"
     type: ss
     server: "154.46.31.106"
     port: 443
@@ -108,7 +144,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -118,7 +157,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -128,7 +170,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -137,7 +182,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -147,13 +195,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇷🇴_2"
+      - "🇷🇴_5"
+      - "🇷🇴_6"
+      - "🇷🇴_7"
+      - "🇷🇴_8"
 
 rules:
   - MATCH,PROXY-BEST

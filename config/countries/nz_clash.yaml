@@ -63,20 +63,20 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇮🇸_1"
+  - name: "🇳🇿_1"
     type: vless
-    server: "151.236.24.67"
-    port: 8443
-    uuid: "85cc845e-644c-0045-8288-f0c03c83c1ec"
+    server: "114.129.43.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "auto.quattro-tech.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
-      short-id: "43dcff53849b81e6"
-    flow: "xtls-rprx-vision"
+    servername: "notls.lukongtou.eu.org"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2"
+      headers:
+        Host: "notls.lukongtou.eu.org"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,7 +91,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇮🇸_1"
+      - "🇳🇿_1"
 
 
 rules:

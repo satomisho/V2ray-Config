@@ -65,19 +65,89 @@ dns:
 proxies:
   - name: "🇦🇺_1"
     type: vless
-    server: "51.161.204.242"
+    server: "51.161.199.124"
     port: 443
-    uuid: "a14b736b-a92a-48d6-a596-5d31f7378ded"
+    uuid: "fea159e1-08e5-4dbe-9ffe-8e8511ca64fe"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "suetinklerartglass.co.uk"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE"
-      short-id: "d15c17cef9b2e456"
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
     flow: "xtls-rprx-vision"
   - name: "🇦🇺_2"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "17a8652c-6f1b-4371-9193-8ac4ddd54ba7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_3"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "a407c73c-acca-4530-97d9-13f99768b6bf"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_4"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "57e8207e-f080-4ad9-adf9-e9996b3b00b9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_5"
+    type: vless
+    server: "192.65.217.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇦🇺_6"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "da222922-fbd5-4a7f-9c8a-9ba0cc49b527"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_7"
     type: vless
     server: "172.105.169.70"
     port: 443
@@ -86,19 +156,230 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "172.105.169.70"
-  - name: "🇦🇺_3"
+  - name: "🇦🇺_8"
     type: vless
-    server: "16.176.42.97"
+    server: "51.161.199.124"
     port: 443
-    uuid: "1bc380b1-cff7-446f-b13f-5c0ad29fc75a"
+    uuid: "61e7c286-6b7d-4667-955c-430d89979c4d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "zero.csmaster.ggff.net"
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_9"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "8c06ed32-28f1-4480-8a40-a2549d960138"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
     client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_10"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "cb90334f-8b30-4333-b82d-8f9e2fa1a6dd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_11"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "643cdd4d-8731-440b-9e46-9496f593aa27"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_12"
+    type: vless
+    server: "3.25.92.214"
+    port: 44717
+    uuid: "f4ae4cd4-7e7b-47a0-9817-e81ffa826b53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.sony.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "TsJcNVjxAYCcp5vc8XPAgQQrXe2u6bDJ6igc4MYmvkk"
+      short-id: "e4a5aeecb8319d"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_13"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "6a23c91d-4ee1-4e9c-851e-ad079261c02d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_14"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "f5baa407-9c59-4b5a-82b1-b28698b6f16d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_15"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "ff3bb912-0fac-40ce-8d67-084f26826aac"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_16"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "57f9fc56-5649-48b0-adfc-2483ec77302a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_17"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "a014310a-96ad-4b54-8acb-a835a3850552"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_18"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "6c7b03f6-4bd6-4dc3-b125-1100573f199e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_19"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "3622f803-8a8e-407d-9fff-249a2e84b06e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_20"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "a763a884-deee-4598-9f5c-0cdc5fda71f7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_21"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "aeeff70d-5bf4-48dc-9120-0593eda94cdb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_22"
+    type: vless
+    server: "51.161.204.242"
+    port: 443
+    uuid: "a14b736b-a92a-48d6-a596-5d31f7378ded"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE"
+      short-id: "d15c17cef9b2e456"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_23"
+    type: vless
+    server: "51.161.199.124"
+    port: 443
+    uuid: "cba066ac-45d9-4bbc-bcbe-672a9faed36b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "suetinklerartglass.co.uk"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "qM0uZ1Gp_Ve59S_iKPyFqQXjfjkUqf6iSHH_fxFt7w0"
+      short-id: "0f4d3210977f51a5"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -116,6 +397,26 @@ proxy-groups:
       - "🇦🇺_1"
       - "🇦🇺_2"
       - "🇦🇺_3"
+      - "🇦🇺_4"
+      - "🇦🇺_5"
+      - "🇦🇺_6"
+      - "🇦🇺_7"
+      - "🇦🇺_8"
+      - "🇦🇺_9"
+      - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
+      - "🇦🇺_13"
+      - "🇦🇺_14"
+      - "🇦🇺_15"
+      - "🇦🇺_16"
+      - "🇦🇺_17"
+      - "🇦🇺_18"
+      - "🇦🇺_19"
+      - "🇦🇺_20"
+      - "🇦🇺_21"
+      - "🇦🇺_22"
+      - "🇦🇺_23"
 
 
 rules:

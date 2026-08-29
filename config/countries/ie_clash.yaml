@@ -64,6 +64,36 @@ dns:
 
 proxies:
   - name: "🇮🇪_1"
+    type: vless
+    server: "167.160.177.68"
+    port: 2096
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇮🇪_2"
+    type: vless
+    server: "194.87.245.205"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇮🇪_3"
     type: trojan
     server: "54.216.143.197"
     port: 443
@@ -74,6 +104,13 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
+  - name: "🇮🇪_4"
+    type: ss
+    server: "4.231.221.11"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "yI1ivWgzRqPnR6FE"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -89,6 +126,9 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇮🇪_1"
+      - "🇮🇪_2"
+      - "🇮🇪_3"
+      - "🇮🇪_4"
 
 
 rules:

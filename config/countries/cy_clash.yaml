@@ -74,17 +74,6 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: "vms.lifetime58.workers.dev"
-  - name: "🇨🇾_2"
-    type: vless
-    server: "154.92.9.2"
-    port: 8880
-    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "old-violet-a5ce.29-440.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -100,7 +89,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇾_1"
-      - "🇨🇾_2"
 
 
 rules:

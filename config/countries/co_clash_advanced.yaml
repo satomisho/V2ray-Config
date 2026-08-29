@@ -59,63 +59,9 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇴_11"
+  - name: "🇨🇴_2"
     type: vless
-    server: "157.137.210.33"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_12"
-    type: vless
-    server: "149.130.173.227"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_13"
-    type: vless
-    server: "149.130.176.117"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_14"
-    type: vless
-    server: "157.137.210.127"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_15"
-    type: vless
-    server: "157.137.239.241"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_16"
-    type: vless
-    server: "149.130.172.240"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_17"
-    type: vless
-    server: "157.137.235.154"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_18"
-    type: vless
-    server: "149.130.165.253"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_19"
-    type: vless
-    server: "149.130.175.172"
-    port: 62145
-    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
-    udp: true
-  - name: "🇨🇴_20"
-    type: vless
-    server: "149.130.165.145"
+    server: "157.137.217.171"
     port: 62145
     uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
     udp: true
@@ -161,16 +107,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -180,16 +117,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -199,16 +127,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -217,16 +136,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -236,31 +146,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇴_11"
-      - "🇨🇴_12"
-      - "🇨🇴_13"
-      - "🇨🇴_14"
-      - "🇨🇴_15"
-      - "🇨🇴_16"
-      - "🇨🇴_17"
-      - "🇨🇴_18"
-      - "🇨🇴_19"
-      - "🇨🇴_20"
+      - "🇨🇴_2"
 
 rules:
   - MATCH,PROXY-BEST

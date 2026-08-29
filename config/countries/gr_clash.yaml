@@ -63,46 +63,34 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇨🇳_1"
+  - name: "🇬🇷_1"
     type: vless
-    server: "2.27.27.168"
+    server: "85.90.197.91"
     port: 443
-    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.ray-balance.space"
+    servername: "gr.freeinternat.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
-      short-id: ""
+      public-key: "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk"
+      short-id: "ff776ff77be48b88"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇳_2"
-    type: trojan
-    server: "221.230.19.73"
-    port: 48966
-    password: "1addb6f6-c65a-4652-91e7-cbf3c6fa6f95"
-    sni: "vpn-node.internal"
-    skip-cert-verify: true
+  - name: "🇬🇷_2"
+    type: vless
+    server: "217.12.194.226"
+    port: 443
+    uuid: "b8cff836-8a21-4b72-a77d-231c8678c711"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
-      headers:
-        Host: "vpn-node.internal"
-  - name: "🇨🇳_3"
-    type: trojan
-    server: "221.181.169.52"
-    port: 49319
-    password: "47c270a9-bce5-450e-8622-f2631070a012"
-    sni: "vpn-node.internal"
+    tls: true
     skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
-      headers:
-        Host: "vpn-node.internal"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "oOp4xgD1R9MGm17qYp4XIHiq1dAfTaknr39UvhOv8Gc"
+      short-id: "ab55ed2e71e8f58e"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -117,9 +105,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇨🇳_1"
-      - "🇨🇳_2"
-      - "🇨🇳_3"
+      - "🇬🇷_1"
+      - "🇬🇷_2"
 
 
 rules:

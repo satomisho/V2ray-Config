@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇽_2"
+  - name: "🇲🇽_5"
     type: vless
     server: "45.134.9.133"
     port: 8443
@@ -74,6 +74,48 @@ proxies:
       path: "/vless/"
       headers:
         Host: "ul-mexico1.09vpn.com"
+  - name: "🇲🇽_6"
+    type: vless
+    server: "216.238.88.154"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇲🇽_7"
+    type: vless
+    server: "216.238.86.91"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇲🇽_8"
+    type: vless
+    server: "UL-Mexico1.09vpn.com"
+    port: 8443
+    uuid: "a6d20e79-d326-42c1-bc20-f4cecc6dc42d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "UL-Mexico1.09vpn.com"
+    network: ws
+    ws-opts:
+      path: "/vless/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -116,7 +158,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -126,7 +171,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -136,7 +184,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -145,7 +196,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -155,13 +209,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇽_2"
+      - "🇲🇽_5"
+      - "🇲🇽_6"
+      - "🇲🇽_7"
+      - "🇲🇽_8"
 
 rules:
   - MATCH,PROXY-BEST

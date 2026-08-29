@@ -65,32 +65,17 @@ dns:
 proxies:
   - name: "🇬🇪_1"
     type: vless
-    server: "2.27.27.202"
-    port: 443
-    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
+    server: "217.11.167.94"
+    port: 2046
+    uuid: "8535e46f-4c0b-4b02-9369-d4d553c9a892"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.ray-balance.space"
+    servername: "f5link.ru"
     client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇪_2"
-    type: vless
-    server: "bc-ge-hn.ray-balance.space"
-    port: 443
-    uuid: "710fc22f-06b2-4b6d-bb3e-f57c17b670a6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.ray-balance.space"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -106,7 +91,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇬🇪_1"
-      - "🇬🇪_2"
 
 
 rules:
