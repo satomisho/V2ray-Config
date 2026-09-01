@@ -63,21 +63,33 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇱🇺_1"
+  - name: "🇺🇿_1"
     type: vless
-    server: "193.239.179.138"
-    port: 443
-    uuid: "cb10c0a7-b570-4ae8-a40c-2a8e31bc5a26"
+    server: "189.74.97.47"
+    port: 2087
+    uuid: "894fe9f0-b998-49c0-8003-a5007de921e1"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sb6anj3uz4gy.bosfiles.net"
-    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/v1/data/sync"
-      headers:
-        Host: "sb6anj3uz4gy.bosfiles.net"
+      path: "/755276b33b6f"
+  - name: "🇺🇿_2"
+    type: vless
+    server: "157.22.133.130"
+    port: 2087
+    uuid: "e6d369db-22be-4f30-8685-455c717aaa8c"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/5021201ef53f"
+  - name: "🇺🇿_3"
+    type: vless
+    server: "189.74.97.43"
+    port: 2087
+    uuid: "10f7eb2d-d96d-4778-9d36-aff11e9d6629"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/73b6faea2d00"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,7 +104,9 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇱🇺_1"
+      - "🇺🇿_1"
+      - "🇺🇿_2"
+      - "🇺🇿_3"
 
 
 rules:

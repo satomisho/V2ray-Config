@@ -61,15 +61,19 @@ dns:
 proxies:
   - name: "🇹🇭_2"
     type: vless
-    server: "18.239.134.69"
-    port: 80
-    uuid: "de27291c-15a9-4256-9ba7-ad517569877e"
+    server: "45.150.131.246"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com"
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

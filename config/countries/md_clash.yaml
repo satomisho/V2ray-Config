@@ -65,7 +65,7 @@ dns:
 proxies:
   - name: "🇲🇩_1"
     type: vless
-    server: "81.180.92.55"
+    server: "193.36.38.17"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
@@ -80,6 +80,49 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇲🇩_2"
     type: vless
+    server: "144.31.131.241"
+    port: 8443
+    uuid: "b406bc51-9002-474c-beae-b194b02c91da"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "mold.speedload.online"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs"
+      short-id: "a20d3ed244c76426"
+    flow: "xtls-rprx-vision"
+  - name: "🇲🇩_3"
+    type: vless
+    server: "217.156.67.86"
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇲🇩_4"
+    type: vless
+    server: "80.96.109.223"
+    port: 443
+    uuid: "74f73fb2-49cc-4744-bd37-97c5f83963ab"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hotcoals.aeternavpn.space"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI"
+      short-id: "a1b2c3d4"
+    flow: "xtls-rprx-vision"
+  - name: "🇲🇩_5"
+    type: vless
     server: "193.36.38.222"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
@@ -93,23 +136,9 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇲🇩_3"
+  - name: "🇲🇩_6"
     type: vless
-    server: "144.31.131.241"
-    port: 8443
-    uuid: "b406bc51-9002-474c-beae-b194b02c91da"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mold.speedload.online"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs"
-      short-id: "a20d3ed244c76426"
-    flow: "xtls-rprx-vision"
-  - name: "🇲🇩_4"
-    type: vless
-    server: "193.36.38.17"
+    server: "81.180.92.55"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
@@ -140,6 +169,8 @@ proxy-groups:
       - "🇲🇩_2"
       - "🇲🇩_3"
       - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
 
 rules:

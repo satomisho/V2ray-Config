@@ -78,19 +78,6 @@ proxies:
       path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
       headers:
         Host: "auto-749388.rohawmk.workers.dev"
-  - name: "🇨🇷_2"
-    type: vless
-    server: "190.93.246.148"
-    port: 443
-    uuid: "d44ef49e-829f-4216-aac5-0565190fcd3b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "testcf.motherfuck.dpdns.org"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -106,7 +93,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇷_1"
-      - "🇨🇷_2"
 
 
 rules:

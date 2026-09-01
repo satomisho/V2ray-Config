@@ -1,3 +1,1 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=%2F&host=uae.unixzone.us&sni=uae.unixzone.us#%F0%9F%87%A6%F0%9F%87%AA
-vless://8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479@31.57.228.66:10000?encryption=none&security=reality&sni=amp-api-edge.apps.apple.com&fp=chrome&pbk=Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM&sid=cd0a1986719e44c8&type=tcp&headerType=none#%F0%9F%87%A6%F0%9F%87%AA
-vless://8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479@emirates-sgood.wopd.butnorwa.butter.silicore.ir:10000?type=raw&security=reality&fp=chrome&pbk=Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM&sid=cd0a1986719e44c8&sni=amp-api-edge.apps.apple.com#%F0%9F%87%A6%F0%9F%87%AA
+vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@84.235.250.237:443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%A6%F0%9F%87%AA

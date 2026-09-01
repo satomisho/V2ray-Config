@@ -59,21 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇱_6"
-    type: vless
-    server: "193.108.112.245"
-    port: 443
-    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "alban.freeinternat.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk"
-      short-id: "ff776ff77be48b88"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇱_7"
+  - name: "🇦🇱_8"
     type: vless
     server: "89.125.139.115"
     port: 443
@@ -88,7 +74,21 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇦🇱_8"
+  - name: "🇦🇱_9"
+    type: vless
+    server: "45.89.60.235"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "alblack.vodniki.monster"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "wTITbZ7gXSeLOTMLOVC4ePziVIyELIgQeaPihXrbqAk"
+      short-id: "946b7ff3ebdd350c"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇱_10"
     type: vless
     server: "91.239.6.40"
     port: 443
@@ -103,26 +103,62 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇦🇱_9"
+  - name: "🇦🇱_11"
     type: vless
-    server: "85.155.228.197"
-    port: 10000
-    uuid: "8ad85ca5-7572-4ee7-8a42-a2e5c9a0e479"
+    server: "45.82.13.150"
+    port: 8443
+    uuid: "51231507-67c3-4141-ab08-a69eb121c716"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "amp-api-edge.apps.apple.com"
+    servername: "tradingview.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "Du5pk4KuMNA1sRcSpmuoLuC0HmxDBmFljFNfUzqxKiM"
-      short-id: "cd0a1986719e44c8"
-  - name: "🇦🇱_10"
-    type: ss
-    server: "130.49.189.158"
-    port: 10792
-    cipher: "chacha20-ietf-poly1305"
-    password: "ywnqwonyK1LRGwJibFQ0aM"
+      public-key: "B0S7A-ceRt0c3aRqbeQG69FVSkK-si6NWLBEM_QuC3U"
+      short-id: "1688"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇱_12"
+    type: vless
+    server: "alban.freeinternat.com"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "alban.freeinternat.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk"
+      short-id: "ff776ff77be48b88"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇱_13"
+    type: vless
+    server: "alblack.vodniki.monster"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "alblack.vodniki.monster"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "wTITbZ7gXSeLOTMLOVC4ePziVIyELIgQeaPihXrbqAk"
+      short-id: "946b7ff3ebdd350c"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇱_14"
+    type: vless
+    server: "193.108.112.245"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "alban.freeinternat.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk"
+      short-id: "ff776ff77be48b88"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -165,11 +201,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
   - name: "LB-CDN"
     type: load-balance
@@ -179,11 +217,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -193,11 +233,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
   - name: "FAST-CDN"
     type: url-test
@@ -206,11 +248,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -220,21 +264,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇱_6"
-      - "🇦🇱_7"
       - "🇦🇱_8"
       - "🇦🇱_9"
       - "🇦🇱_10"
+      - "🇦🇱_11"
+      - "🇦🇱_12"
+      - "🇦🇱_13"
+      - "🇦🇱_14"
 
 rules:
   - MATCH,PROXY-BEST

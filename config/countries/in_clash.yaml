@@ -65,32 +65,33 @@ dns:
 proxies:
   - name: "🇮🇳_1"
     type: vless
-    server: "5.253.30.99"
-    port: 40443
-    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_2"
-    type: vless
-    server: "154.198.173.30"
+    server: "65.20.85.14"
     port: 443
-    uuid: "50414e45-4c5f-5a45-5553-1f6869e9b4fb"
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "zeuspanel-render.onrender.com"
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/stream/PANEL_ZEUS/1f6869e9b4fb"
+      path: "/"
       headers:
-        Host: "zeuspanel-render.onrender.com"
+        Host: "eded-52n.pages.dev"
+  - name: "🇮🇳_2"
+    type: vless
+    server: "148.113.5.44"
+    port: 443
+    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
+      short-id: "221873918e0bb74d"
+    flow: "xtls-rprx-vision"
   - name: "🇮🇳_3"
     type: vless
     server: "194.61.31.126"
@@ -106,6 +107,20 @@ proxies:
       short-id: "29fe4205ddc971a8"
   - name: "🇮🇳_4"
     type: vless
+    server: "preview.netraidly.ru"
+    port: 40443
+    uuid: "15fd22d1-8931-4d41-af37-8ba6711e93fe"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo"
+      short-id: "84fc"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_5"
+    type: vless
     server: "172.237.44.80"
     port: 19567
     uuid: "0faaa1ee-f3d2-49ec-92af-3228329f3000"
@@ -118,7 +133,21 @@ proxies:
       public-key: "tzm4xWHOerooioq4QQkI7VCvIapECgody_vJGDzX3UI"
       short-id: "87714fc3c52a"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_5"
+  - name: "🇮🇳_6"
+    type: vless
+    server: "5.253.42.164"
+    port: 40443
+    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
+      short-id: "68a8"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_7"
     type: vless
     server: "5.253.42.163"
     port: 40443
@@ -132,49 +161,20 @@ proxies:
       public-key: "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo"
       short-id: "84fc"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_6"
+  - name: "🇮🇳_8"
     type: vless
-    server: "5.253.42.164"
+    server: "5.253.30.99"
     port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
+    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "qq"
     reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
+      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
+      short-id: "88b6"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_7"
-    type: vless
-    server: "148.113.5.44"
-    port: 443
-    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
-      short-id: "221873918e0bb74d"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_8"
-    type: vless
-    server: "65.20.85.14"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
   - name: "🇮🇳_9"
     type: vless
     server: "20.235.220.189"
@@ -190,13 +190,6 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇮🇳_10"
-    type: ss
-    server: "172.105.39.124"
-    port: 7002
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -220,7 +213,6 @@ proxy-groups:
       - "🇮🇳_7"
       - "🇮🇳_8"
       - "🇮🇳_9"
-      - "🇮🇳_10"
 
 
 rules:

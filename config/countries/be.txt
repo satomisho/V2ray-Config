@@ -1,1 +1,1 @@
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5dHcyYXdu@54.36.174.134:443#%F0%9F%87%A7%F0%9F%87%AA
+vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@188.190.26.243:443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%A7%F0%9F%87%AA

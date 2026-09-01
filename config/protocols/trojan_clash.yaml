@@ -63,20 +63,31 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "@DeltaKroneckerGithub_4245"
+  - name: "@DeltaKroneckerGithub_5043"
     type: trojan
-    server: "104.19.220.130"
+    server: "172.64.152.241"
     port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
+    password: "87d1bfd4-574e-4c96-ad42-0426f27461ff"
+    sni: "_acme-challenge.sb.cloudns.biz"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4247"
+  - name: "@DeltaKroneckerGithub_5045"
     type: trojan
-    server: "172.64.152.241"
+    server: "5er0m2i2ens2ulpg7sjd45ugqs.87fcvt2k11501yno2txm6yw-mipj2kr.workers.dev"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "5Er0m2I2eNS2ULPg7Sjd45UGQs.87FCVt2K11501YnO2txm6yw-MiPJ2KR.worKERs.dEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/VCf8OF27gyXfyS3GNQ1ejyY7sy4?ed=2560"
+  - name: "@DeltaKroneckerGithub_5047"
+    type: trojan
+    server: "cf.090227.xyz"
     port: 443
     password: "xhl549341"
     sni: "tro.baiyi.cloudns.org"
@@ -85,369 +96,10 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4249"
+  - name: "@DeltaKroneckerGithub_5049"
     type: trojan
-    server: "104.18.32.47"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4251"
-    type: trojan
-    server: "161.34.39.108"
-    port: 443
-    password: "tsuchiya"
-    sni: "aa.ccmusic.jp"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4252"
-    type: trojan
-    server: "14.1.28.76"
-    port: 50740
-    password: "r49gssuondznyu2eex83"
-    sni: "14.1.28.76"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4253"
-    type: trojan
-    server: "104.18.153.182"
-    port: 443
-    password: "19877587-ed94-4033-88cd-4ac50a5e8718"
-    sni: "dimskiee.biz.id"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/WangCai-8"
-      headers:
-        Host: "dimskiee.biz.id"
-  - name: "@DeltaKroneckerGithub_4255"
-    type: trojan
-    server: "162.159.153.212"
-    port: 2087
-    password: "r137979f"
-    sni: "sheleqaz.emotionreza.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "sheleqaz.emotionreza.workers.dev"
-  - name: "@DeltaKroneckerGithub_4257"
-    type: trojan
-    server: "104.21.103.254"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4259"
-    type: trojan
-    server: "104.21.89.41"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "tO6r63-kkChIGHQM2.VxZ0dDUq7To7su0cdqf.wORKeRS.dEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/j6tUJYR3oc4EhmK7TiULZCYQO?ed=2560"
-  - name: "@DeltaKroneckerGithub_4261"
-    type: trojan
-    server: "104.24.212.28"
-    port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4263"
-    type: trojan
-    server: "109.206.241.10"
-    port: 449
-    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
-    sni: "russiapower.accesscam.org"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4264"
-    type: trojan
-    server: "104.21.60.109"
-    port: 2053
-    password: "netra"
-    sni: "LatE-fROSt-9da7.shoaMeNi5.woRkERs.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/RWyQSqDDvOL421WNrUZNhdX5N7uE4lS7?ed=2560"
-      headers:
-        Host: "late-frost-9da7.shoameni5.workers.dev"
-  - name: "@DeltaKroneckerGithub_4266"
-    type: trojan
-    server: "172.67.195.227"
-    port: 2083
-    password: "netra"
-    sni: "lATE-fROST-9DA7.ShOAmEni5.workErs.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/8vQPIrFg42fBSCLIHOgLi?ed=2560"
-  - name: "@DeltaKroneckerGithub_4268"
-    type: trojan
-    server: "104.16.180.203"
-    port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/sync"
-  - name: "@DeltaKroneckerGithub_4270"
-    type: trojan
-    server: "172.67.218.196"
-    port: 443
-    password: "8d19cac6-defb-46d1-a84a-a8100a86fd11"
-    sni: "shazira.app"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/Novan-ID10"
-      headers:
-        Host: "shazira.app"
-  - name: "@DeltaKroneckerGithub_4272"
-    type: trojan
-    server: "64.94.95.114"
-    port: 57142
-    password: "kkzh2prsyr2ik47as615"
-    sni: "static.rutube.ru"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4273"
-    type: trojan
-    server: "172.67.156.87"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/yqf0HmXRcvB67eWDKZARhVo4Ts4?ed=2560"
-  - name: "@DeltaKroneckerGithub_4275"
-    type: trojan
-    server: "107.150.105.84"
-    port: 27732
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4276"
-    type: trojan
-    server: "us01.duotg.top"
-    port: 27732
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4277"
-    type: trojan
-    server: "104.21.16.123"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "7X7o3VTq5z6ymu3Hv1fH-Op9BlT.hYa6LOSM6lZNOXHm6w3MK.woRKErS.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/qL8YIeH28wNcXfNTPgLCwOhNFEr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4279"
-    type: trojan
-    server: "172.64.80.1"
-    port: 443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/cmh"
-  - name: "@DeltaKroneckerGithub_4281"
-    type: trojan
-    server: "us01.duotg.top"
-    port: 54657
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4282"
-    type: trojan
-    server: "162.159.91.211"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4284"
-    type: trojan
-    server: "restless-base-fe24.alirezahabibi20009.workers.dev"
-    port: 443
-    password: "uR0TSWA@N^%u,Bni"
-    sni: "rESTless-basE-fe24.aLiReZaHabibi20009.woRKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiM2VVWXFtczhRUVN5SHpGMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-  - name: "@DeltaKroneckerGithub_4286"
-    type: trojan
-    server: "188.114.98.0"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4288"
-    type: trojan
-    server: "by01.botovod.space"
-    port: 500
-    password: "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
-    sni: "by01.botovod.space"
-    skip-cert-verify: true
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "@DeltaKroneckerGithub_4289"
-    type: trojan
-    server: "172.67.143.54"
-    port: 2096
-    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
-    sni: "aged-silence-8d7d.tahaggs.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/taha3"
-  - name: "@DeltaKroneckerGithub_4291"
-    type: trojan
-    server: "34.94.125.227"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "mxlo.wsone.icu"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4292"
-    type: trojan
-    server: "172.67.135.88"
-    port: 443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4294"
-    type: trojan
-    server: "172.67.191.121"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "47hr9Isj-655383SND63hjaP38q6t.K-f3VpqALtfSxbtAXe.WORKerS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/V2VWNDZAAEIdXVjOCkLfJnefnR5Pum"
-  - name: "@DeltaKroneckerGithub_4296"
-    type: trojan
-    server: "45.130.125.0"
-    port: 443
-    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
-    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/us-gllc"
-      headers:
-        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4298"
-    type: trojan
-    server: "www.speedtest.net"
-    port: 443
-    password: "A4u^p(_UR*F6"
-    sni: "027.ELeCTroCelLco-CF-027.wORkERS.dEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-      headers:
-        Host: "027.electrocellco-cf-027.workers.dev"
-  - name: "@DeltaKroneckerGithub_4300"
-    type: trojan
-    server: "104.16.72.70"
-    port: 443
-    password: "45c47cfa-67da-47e0-b20b-5efa674e6a9b"
-    sni: "unnes.ac.id.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/us-gllc"
-      headers:
-        Host: "unnes.ac.id.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4302"
-    type: trojan
-    server: "104.16.72.70"
-    port: 443
-    password: "74480619-b6a8-4ab8-94e1-1132fc18b2fa"
-    sni: "unnes.ac.id.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/au-mt"
-      headers:
-        Host: "unnes.ac.id.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4304"
-    type: trojan
-    server: "104.21.17.125"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/hYgAqUlh5GyczDyXP?ed"
-  - name: "@DeltaKroneckerGithub_4306"
-    type: trojan
-    server: "0xs3ced9.zzzqwdbwq.workers.dev"
-    port: 443
+    server: "172.67.132.145"
+    port: 8443
     password: "letiranbreath-x@^f"
     sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
     skip-cert-verify: true
@@ -457,61 +109,28 @@ proxies:
       path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
         Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_4308"
+  - name: "@DeltaKroneckerGithub_5051"
     type: trojan
-    server: "us01.duotg.top"
-    port: 38261
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "us01.duotg.top"
+    server: "38.55.199.26"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4309"
+  - name: "@DeltaKroneckerGithub_5052"
     type: trojan
-    server: "104.19.164.155"
-    port: 2083
-    password: "988sR-269PKCKlb&3pMrFTEr"
-    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ"
-  - name: "@DeltaKroneckerGithub_4311"
-    type: trojan
-    server: "104.21.43.90"
-    port: 443
-    password: "0b5fa773-6f37-4134-87d4-0c349742b6f6"
-    sni: "app-538961.user-y0o4gm.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4313"
-    type: trojan
-    server: "104.21.76.194"
+    server: "172.67.182.52"
     port: 443
     password: "Telegram_healer_config"
-    sni: "X8xus4X7UTZMDozv2.bZuH25LZINNeTwTOcXYIcx.WORkERs.deV"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/tr/nDuppKYyUqsEcG0rcQEg5sghG0?ed=2560"
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
       headers:
-        Host: "x8xus4x7utzmdozv2.bzuh25lzinnetwtocxyicx.workers.dev"
-  - name: "@DeltaKroneckerGithub_4315"
-    type: trojan
-    server: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
-  - name: "@DeltaKroneckerGithub_4317"
+        Host: "6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev"
+  - name: "@DeltaKroneckerGithub_5054"
     type: trojan
     server: "104.16.75.127"
     port: 443
@@ -524,270 +143,69 @@ proxies:
       path: "/us-gllc"
       headers:
         Host: "unnes.ac.id.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4319"
+  - name: "@DeltaKroneckerGithub_5056"
     type: trojan
-    server: "aged-silence-8d7d.tahaggs.workers.dev"
-    port: 443
-    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
-    sni: "aged-silence-8d7d.tahaggs.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/taha3"
-  - name: "@DeltaKroneckerGithub_4321"
-    type: trojan
-    server: "172.64.80.1"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
-      headers:
-        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-  - name: "@DeltaKroneckerGithub_4323"
-    type: trojan
-    server: "172.67.176.194"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "30f67sBQ8JjwmT7gYtfc14.0M68-QZ3HQYFnLAr6N3IQ.wOrkerS.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/VKQiUREJ9PL5qHi1r4bkL9Rm8?ed=2560"
-  - name: "@DeltaKroneckerGithub_4325"
-    type: trojan
-    server: "185.18.250.245"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4327"
-    type: trojan
-    server: "cf.090227.xyz"
-    port: 443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4329"
-    type: trojan
-    server: "107.150.105.84"
-    port: 38261
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4330"
-    type: trojan
-    server: "141.193.213.11"
-    port: 443
-    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
-    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/us-gllc"
-      headers:
-        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4332"
-    type: trojan
-    server: "jp200m.jiasu.asia"
+    server: "43.165.185.191"
     port: 50000
-    password: "5259333f-7f21-47a1-80fa-2a0c23db8e4f"
+    password: "0964f6b7-6aab-4b84-9e80-dd078ed1f269"
     sni: "jp200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4333"
+  - name: "@DeltaKroneckerGithub_5057"
     type: trojan
-    server: "172.64.80.1"
+    server: "64.94.95.115"
+    port: 57142
+    password: "kkzh2prsyr2ik47as615"
+    sni: "64.94.95.115"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5058"
+    type: trojan
+    server: "104.24.212.28"
     port: 443
-    password: "bpb-trojan"
-    sni: "vless.herogoing.top"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4335"
-    type: trojan
-    server: "172.67.218.196"
-    port: 443
-    password: "257d8622-6701-4c98-a432-67a9696f58ae"
-    sni: "shazira.app"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/Novan-ID9"
-  - name: "@DeltaKroneckerGithub_4337"
-    type: trojan
-    server: "us01.duotg.top"
-    port: 43022
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4338"
-    type: trojan
-    server: "104.17.238.76"
-    port: 443
-    password: "407ecce0-dc85-465f-89f5-e520e9378baf"
-    sni: "ld.223350.xyz"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "ld.223350.xyz"
-  - name: "@DeltaKroneckerGithub_4340"
-    type: trojan
-    server: "45.131.4.118"
-    port: 443
-    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
-    sni: "0403.infinityconfig4.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/sync"
-  - name: "@DeltaKroneckerGithub_4342"
-    type: trojan
-    server: "104.21.60.109"
-    port: 2087
-    password: "netra"
-    sni: "LAtE-FroST-9DA7.ShOamEni5.woRKers.Dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/WcvMTQZ5OFOfnBZDZ?ed=2560"
-  - name: "@DeltaKroneckerGithub_4344"
-    type: trojan
-    server: "104.17.148.22"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560"
-      headers:
-        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
-  - name: "@DeltaKroneckerGithub_4346"
-    type: trojan
-    server: "104.24.174.94"
-    port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4/loc-0"
-      headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4348"
-    type: trojan
-    server: "r0z7tee8ugxs.tlzzfveeuqcs.workers.dev"
-    port: 443
-    password: "50414e45-4c5f-5a45-5553-729bb8924e5b"
-    sni: "r0z7tee8ugxs.tlzzfveeuqcs.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/729bb8924e5b"
-      headers:
-        Host: "r0z7tee8ugxs.tlzzfveeuqcs.workers.dev"
-  - name: "@DeltaKroneckerGithub_4350"
-    type: trojan
-    server: "104.21.72.201"
-    port: 2096
-    password: "0hbl*0RB4T,LSk;JK"
-    sni: "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/d2y5re8Z9iqkUtWNtSR?ed=2560"
-      headers:
-        Host: "14sw2krbeo0wv7gz32h3bnj.halabia061.workers.dev"
-  - name: "@DeltaKroneckerGithub_4352"
-    type: trojan
-    server: "80.77.25.142"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4354"
-    type: trojan
-    server: "blackshadow.dpdns.org"
-    port: 443
-    password: "trojan"
-    sni: "blackshadow.dpdns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "//195.123.218.174-443"
-      headers:
-        Host: "blackshadow.dpdns.org"
-  - name: "@DeltaKroneckerGithub_4356"
-    type: trojan
-    server: "45.87.41.18"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4358"
-    type: trojan
-    server: "167.68.4.199"
-    port: 2053
-    password: "Aimer"
-    sni: "epge.muarua.filegear-sg.me"
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4360"
+  - name: "@DeltaKroneckerGithub_5060"
     type: trojan
-    server: "64.94.95.117"
-    port: 57142
-    password: "kkzh2prsyr2ik47as615"
-    sni: "64.94.95.117"
+    server: "104.17.147.22"
+    port: 443
+    password: "A4u^p(_UR*F6"
+    sni: "027.ELeCTroCelLco-CF-027.wORkERS.dEv"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4361"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+  - name: "@DeltaKroneckerGithub_5061"
+    type: trojan
+    server: "34.94.125.227"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "mxlo.wsone.icu"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5062"
+    type: trojan
+    server: "5.180.21.146"
+    port: 4443
+    password: "owefv0_92Z540k2F_nx83245_J9130oS_tY"
+    sni: "borat-hopp.bumbleshrimp.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5063"
+    type: trojan
+    server: "43.165.185.191"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    sni: "jp200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5064"
     type: trojan
     server: "join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz"
     port: 443
@@ -798,123 +216,28 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4363"
+  - name: "@DeltaKroneckerGithub_5066"
     type: trojan
-    server: "157.254.38.210"
-    port: 20068
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-    sni: "hk.catxstar.com"
+    server: "us01.duotg.top"
+    port: 43022
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4364"
+  - name: "@DeltaKroneckerGithub_5067"
     type: trojan
-    server: "172.66.44.113"
-    port: 443
-    password: "8oUrvxh0mGkzTknV"
-    sni: "X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/umNfhlIvgJV03yVilevkSR5ZotMtq"
-      headers:
-        Host: "X4FTa9t-k6QyJ-z3Ic12A2ALP.pAGes.DEV"
-  - name: "@DeltaKroneckerGithub_4366"
-    type: trojan
-    server: "194.9.172.236"
-    port: 1105
-    password: "kakashka13222"
-    sni: "194.9.172.236"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4367"
-    type: trojan
-    server: "172.64.152.241"
-    port: 443
-    password: "87d1bfd4-574e-4c96-ad42-0426f27461ff"
-    sni: "_acme-challenge.sb.cloudns.biz"
+    server: "104.19.164.155"
+    port: 2083
+    password: "988sR-269PKCKlb&3pMrFTEr"
+    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4369"
+      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ"
+  - name: "@DeltaKroneckerGithub_5069"
     type: trojan
-    server: "aa.ccmusic.jp"
-    port: 443
-    password: "tsuchiya"
-    sni: "aa.ccmusic.jp"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4370"
-    type: trojan
-    server: "86.38.247.109"
-    port: 2087
-    password: "sshs8_6481354771"
-    sni: "ul-singapore1.09vpn.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4371"
-    type: trojan
-    server: "119.246.1.143"
-    port: 443
-    password: "BxceQaOe"
-    sni: "119.246.1.143"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4372"
-    type: trojan
-    server: "185.18.250.252"
-    port: 443
-    password: "74480619-b6a8-4ab8-94e1-1132fc18b2fa"
-    sni: "unnes.ac.id.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/au-mt"
-      headers:
-        Host: "unnes.ac.id.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4374"
-    type: trojan
-    server: "104.18.32.47"
-    port: 8443
-    password: "ppmk"
-    sni: "flat-firefly-6022.rixewi3168.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "flat-firefly-6022.rixewi3168.workers.dev"
-  - name: "@DeltaKroneckerGithub_4376"
-    type: trojan
-    server: "0xs3ced9.zzzqwdbwq.workers.dev"
-    port: 2053
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_4378"
-    type: trojan
-    server: "104.18.35.15"
-    port: 443
-    password: "87d1bfd4-574e-4c96-ad42-0426f27461ff"
-    sni: "_acme-challenge.sb.cloudns.biz"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4380"
-    type: trojan
-    server: "54.216.143.197"
+    server: "www.calmlunch.com"
     port: 443
     password: "humanity"
     sni: "www.calmlunch.com"
@@ -923,119 +246,20 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4382"
-    type: trojan
-    server: "45.85.118.52"
-    port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4/loc-1"
       headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4384"
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5071"
     type: trojan
-    server: "0xs3ced9.zzzqwdbwq.workers.dev"
-    port: 8443
-    password: "letiranbreath-x@^f"
-    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
-      headers:
-        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_4386"
-    type: trojan
-    server: "aged-silence-8d7d.tahaggs.workers.dev"
-    port: 2096
-    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
-    sni: "aged-silence-8d7d.tahaggs.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4388"
-    type: trojan
-    server: "104.21.38.41"
+    server: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
     port: 443
-    password: "8d19cac6-defb-46d1-a84a-a8100a86fd11"
-    sni: "shazira.app"
+    password: "Telegram_healer_config"
+    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/Novan-ID10"
-      headers:
-        Host: "shazira.app"
-  - name: "@DeltaKroneckerGithub_4390"
-    type: trojan
-    server: "104.21.38.41"
-    port: 443
-    password: "257d8622-6701-4c98-a432-67a9696f58ae"
-    sni: "shazira.app"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/Novan-ID9"
-  - name: "@DeltaKroneckerGithub_4392"
-    type: trojan
-    server: "104.18.155.119"
-    port: 443
-    password: "988sR-269PKCKlb&3pMrFTEr"
-    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
-  - name: "@DeltaKroneckerGithub_4394"
-    type: trojan
-    server: "107.150.105.84"
-    port: 46292
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4395"
-    type: trojan
-    server: "104.21.83.135"
-    port: 443
-    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
-    sni: "id1.nathaya.web.id"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/trojan"
-  - name: "@DeltaKroneckerGithub_4397"
-    type: trojan
-    server: "47.250.84.25"
-    port: 443
-    password: "5931134d1cde66bf83a54acdfebe7ab2"
-    sni: "moltbot.doctoroyy.net"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4398"
-    type: trojan
-    server: "172.67.233.165"
-    port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4"
-      headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4400"
+      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
+  - name: "@DeltaKroneckerGithub_5073"
     type: trojan
     server: "216.24.57.6"
     port: 443
@@ -1048,120 +272,91 @@ proxies:
       path: "/br-orcl"
       headers:
         Host: "unnes.ac.id.r3xxe.eu.cc"
-  - name: "@DeltaKroneckerGithub_4402"
+  - name: "@DeltaKroneckerGithub_5075"
     type: trojan
-    server: "104.19.101.210"
+    server: "172.64.80.1"
     port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
+    password: "Telegram_healer_config"
+    sni: "To6R63-kKChiGHqm2.vxz0Dduq7to7Su0CDQf.worKERs.DEV"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4/loc-0"
+      path: "/tr/xwtrOUcg21SS0Ega?ed=2560"
       headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4404"
+        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+  - name: "@DeltaKroneckerGithub_5077"
     type: trojan
-    server: "5.180.21.146"
-    port: 4443
-    password: "owefv0_92Z540k2F_nx83245_J9130oS_tY"
-    sni: "borat-hopp.bumbleshrimp.com"
+    server: "104.18.156.119"
+    port: 443
+    password: "988sR-269PKCKlb&3pMrFTEr"
+    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4405"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+  - name: "@DeltaKroneckerGithub_5079"
     type: trojan
-    server: "104.24.156.119"
+    server: "by01.botovod.space"
+    port: 500
+    password: "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
+    sni: "by01.botovod.space"
+    skip-cert-verify: true
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
+  - name: "@DeltaKroneckerGithub_5080"
+    type: trojan
+    server: "172.67.132.19"
     port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
+    password: "Telegram_healer_config"
+    sni: "VRE6R9qRbQI0t25TG.SRTB0M3hdbwr2cJZ8fjUr.WoRKeRS.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/bDodLFtTQwCZ6EX3ffMYJ06j9EjLse4d?ed=2560"
+      headers:
+        Host: "vre6r9qrbqi0t25tg.srtb0m3hdbwr2cjz8fjur.workers.dev"
+  - name: "@DeltaKroneckerGithub_5082"
+    type: trojan
+    server: "104.16.72.70"
+    port: 443
+    password: "45c47cfa-67da-47e0-b20b-5efa674e6a9b"
+    sni: "unnes.ac.id.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/us-gllc"
+      headers:
+        Host: "unnes.ac.id.r3xxe.eu.cc"
+  - name: "@DeltaKroneckerGithub_5084"
+    type: trojan
+    server: "hk03.qianmoip.win"
+    port: 50222
+    password: "302cf77d-6fb7-4ac8-ae61-88e286340d59"
+    sni: "taobao.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5085"
+    type: trojan
+    server: "104.18.32.47"
+    port: 8443
+    password: "ppmk"
+    sni: "flat-firefly-6022.rixewi3168.workers.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4407"
-    type: trojan
-    server: "104.21.88.77"
-    port: 443
-    password: "容解析错误trojan"
-    sni: "blackshadow.dpdns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "//195.123.218.174-443"
       headers:
-        Host: "blackshadow.dpdns.org"
-  - name: "@DeltaKroneckerGithub_4409"
+        Host: "flat-firefly-6022.rixewi3168.workers.dev"
+  - name: "@DeltaKroneckerGithub_5087"
     type: trojan
-    server: "104.17.148.22"
-    port: 443
-    password: "A4u^p(_UR*F6"
-    sni: "027.ELeCTroCelLco-CF-027.wORkERS.dEv"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
-      headers:
-        Host: "027.electrocellco-cf-027.workers.dev"
-  - name: "@DeltaKroneckerGithub_4411"
-    type: trojan
-    server: "us01.duotg.top"
-    port: 20065
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "www.microsoft.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4412"
-    type: trojan
-    server: "45.95.232.189"
-    port: 443
-    password: "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi"
-    sni: "tr-switzerlandgopota.unlimited-access.ru"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4413"
-    type: trojan
-    server: "107.150.105.84"
-    port: 59385
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "us01.duotg.top"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4414"
-    type: trojan
-    server: "107.150.105.84"
-    port: 54657
-    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
-    sni: "us01.duotg.top"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4415"
-    type: trojan
-    server: "139.59.238.97"
-    port: 50573
-    password: "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M"
-    sni: "139.59.238.97"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4416"
-    type: trojan
-    server: "104.21.68.68"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "47HR9isJ-655383snD63HjAp38q6T.k-f3VPQAltFSxbTaxe.WorkERS.DEV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/kp0IOvZwWV0X35ln0vIh?ed=2560"
-      headers:
-        Host: "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev"
-  - name: "@DeltaKroneckerGithub_4418"
-    type: trojan
-    server: "195.181.244.216"
+    server: "185.18.250.245"
     port: 443
     password: "humanity"
     sni: "www.calmlunch.com"
@@ -1172,7 +367,131 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4420"
+  - name: "@DeltaKroneckerGithub_5089"
+    type: trojan
+    server: "64.94.95.114"
+    port: 57142
+    password: "kkzh2prsyr2ik47as615"
+    sni: "static.rutube.ru"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5090"
+    type: trojan
+    server: "104.21.56.225"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "IJM8X9UgwPIQRmN-Lo-s.ZTl55ltkpuB38y36MCTGM.wOrKERs.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/MyONKU8UND5ZRBBUz6C?ed=2560"
+      headers:
+        Host: "ijm8x9ugwpiqrmn-lo-s.ztl55ltkpub38y36mctgm.workers.dev"
+  - name: "@DeltaKroneckerGithub_5092"
+    type: trojan
+    server: "172.67.156.87"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "tO6R63-kkCHIgHQM2.vXZ0dDUq7to7SU0cdQF.wOrKERS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/yqf0HmXRcvB67eWDKZARhVo4Ts4?ed=2560"
+  - name: "@DeltaKroneckerGithub_5094"
+    type: trojan
+    server: "172.67.156.62"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "IJM8x9uGWPIQrMN-lo-S.ztl55lTKPUB38y36MCtgm.WOrKeRs.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/8g28WHK4FygFkZFa?ed=2560"
+      headers:
+        Host: "ijm8x9ugwpiqrmn-lo-s.ztl55ltkpub38y36mctgm.workers.dev"
+  - name: "@DeltaKroneckerGithub_5096"
+    type: trojan
+    server: "107.150.105.84"
+    port: 38261
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "107.150.105.84"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5097"
+    type: trojan
+    server: "45.130.125.160"
+    port: 443
+    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
+    sni: "go.appsflyer.com.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/br-orcl"
+  - name: "@DeltaKroneckerGithub_5099"
+    type: trojan
+    server: "104.21.4.228"
+    port: 443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5101"
+    type: trojan
+    server: "185.18.250.252"
+    port: 443
+    password: "74480619-b6a8-4ab8-94e1-1132fc18b2fa"
+    sni: "unnes.ac.id.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/au-mt"
+      headers:
+        Host: "unnes.ac.id.r3xxe.eu.cc"
+  - name: "@DeltaKroneckerGithub_5103"
+    type: trojan
+    server: "162.159.153.212"
+    port: 2087
+    password: "r137979f"
+    sni: "sheleqaz.emotionreza.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "sheleqaz.emotionreza.workers.dev"
+  - name: "@DeltaKroneckerGithub_5105"
+    type: trojan
+    server: "172.67.132.145"
+    port: 2096
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5107"
+    type: trojan
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5"
+    sni: "jp200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5108"
     type: trojan
     server: "64.94.95.118"
     port: 57142
@@ -1180,44 +499,28 @@ proxies:
     sni: "64.94.95.118"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4421"
+  - name: "@DeltaKroneckerGithub_5109"
     type: trojan
-    server: "104.18.32.47"
-    port: 443
-    password: "A4u^p(_UR*F6"
-    sni: "027.eLECTROcelLCO-cf-027.WorKerS.Dev"
+    server: "109.206.241.10"
+    port: 449
+    password: "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
+    sni: "russiapower.accesscam.org"
     skip-cert-verify: true
     udp: true
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoidDJ0UDljR2ZIaVBQakg2byIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
-      headers:
-        Host: "027.electrocellco-cf-027.workers.dev"
-  - name: "@DeltaKroneckerGithub_4423"
+  - name: "@DeltaKroneckerGithub_5110"
     type: trojan
-    server: "104.16.148.5"
-    port: 443
-    password: "19877587-ed94-4033-88cd-4ac50a5e8718"
-    sni: "dimskiee.biz.id"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/WangCai-8"
-  - name: "@DeltaKroneckerGithub_4425"
-    type: trojan
-    server: "188.114.97.6"
-    port: 443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
+    server: "us003.421421.xyz"
+    port: 20230
+    password: "e20fd145-65f1-4aa3-96be-da0524bbb16e"
+    sni: "www.alibaba.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4427"
+  - name: "@DeltaKroneckerGithub_5112"
     type: trojan
-    server: "172.67.174.10"
+    server: "blackshadow.dpdns.org"
     port: 443
     password: "容解析错误trojan"
     sni: "blackshadow.dpdns.org"
@@ -1228,7 +531,110 @@ proxies:
       path: "//195.123.218.174-443"
       headers:
         Host: "blackshadow.dpdns.org"
-  - name: "@DeltaKroneckerGithub_4429"
+  - name: "@DeltaKroneckerGithub_5114"
+    type: trojan
+    server: "104.16.72.70"
+    port: 443
+    password: "74480619-b6a8-4ab8-94e1-1132fc18b2fa"
+    sni: "unnes.ac.id.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/au-mt"
+      headers:
+        Host: "unnes.ac.id.r3xxe.eu.cc"
+  - name: "@DeltaKroneckerGithub_5116"
+    type: trojan
+    server: "188.42.145.180"
+    port: 443
+    password: "humanity"
+    sni: "www.volumeroot.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "@DeltaKroneckerGithub_5118"
+    type: trojan
+    server: "64.94.95.117"
+    port: 57142
+    password: "kkzh2prsyr2ik47as615"
+    sni: "64.94.95.117"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5119"
+    type: trojan
+    server: "45.130.125.0"
+    port: 443
+    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
+    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/us-gllc"
+      headers:
+        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
+  - name: "@DeltaKroneckerGithub_5121"
+    type: trojan
+    server: "172.64.152.241"
+    port: 443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560/ahmadv2ray"
+      headers:
+        Host: "tro.baiyi.cloudns.org"
+  - name: "@DeltaKroneckerGithub_5123"
+    type: trojan
+    server: "104.21.83.220"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "6m1rGyIEclMRx9HeF1.Z6-0hlNUbJIBwZPa85.wOrKerS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/GaQvfFwT5sWgVxHig8YaXjtiuQPZNI?ed=2560"
+      headers:
+        Host: "6m1rgyieclmrx9hef1.z6-0hlnubjibwzpa85.workers.dev"
+  - name: "@DeltaKroneckerGithub_5125"
+    type: trojan
+    server: "141.193.213.11"
+    port: 443
+    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
+    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/us-gllc"
+      headers:
+        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
+  - name: "@DeltaKroneckerGithub_5127"
+    type: trojan
+    server: "us01.duotg.top"
+    port: 27732
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5128"
+    type: trojan
+    server: "104.24.156.119"
+    port: 443
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5130"
     type: trojan
     server: "188.114.96.3"
     port: 443
@@ -1241,42 +647,226 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "@DeltaKroneckerGithub_4431"
+  - name: "@DeltaKroneckerGithub_5132"
     type: trojan
-    server: "104.17.122.10"
-    port: 2083
-    password: "123444"
-    sni: "northrendserver.sherekontop.workers.dev"
+    server: "104.21.4.228"
+    port: 2053
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
-        Host: "northrendserver.sherekontop.workers.dev"
-  - name: "@DeltaKroneckerGithub_4433"
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5134"
     type: trojan
-    server: "172.67.176.157"
-    port: 443
-    password: "018b8e7b-7813-4dcb-84a5-3c98f1521e00"
-    sni: "id1.nathaya.web.id"
+    server: "167.68.4.199"
+    port: 2053
+    password: "Aimer"
+    sni: "epge.muarua.filegear-sg.me"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/trojan"
-  - name: "@DeltaKroneckerGithub_4435"
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5136"
     type: trojan
-    server: "104.21.39.47"
-    port: 443
-    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
-    sni: "aged-silence-8d7d.tahaggs.workers.dev"
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "0964f6b7-6aab-4b84-9e80-dd078ed1f269"
+    sni: "jp200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5137"
+    type: trojan
+    server: "node8.quaxly.com"
+    port: 25040
+    password: "Km/pIG4AGCjCOiGWj5FsWA=="
+    sni: "/gay-anal"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/taha3"
-  - name: "@DeltaKroneckerGithub_4437"
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5139"
+    type: trojan
+    server: "213.182.199.137"
+    port: 443
+    password: "humanity"
+    sni: "www.pleadcourt.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
+  - name: "@DeltaKroneckerGithub_5141"
+    type: trojan
+    server: "107.150.105.84"
+    port: 59385
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5142"
+    type: trojan
+    server: "104.18.32.47"
+    port: 443
+    password: "A4u^p(_UR*F6"
+    sni: "027.eLECTROcelLCO-cf-027.WorKerS.Dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidDJ0UDljR2ZIaVBQakg2byIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0="
+      headers:
+        Host: "027.electrocellco-cf-027.workers.dev"
+  - name: "@DeltaKroneckerGithub_5144"
+    type: trojan
+    server: "104.21.4.176"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "5Er0m2i2eNS2uLpg7SJd45UGqS.87fcvT2k11501YnO2TXm6yw-miPJ2Kr.worKerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/5cJhuZZi5ZL6KKmZ5vKVeM?ed=2560"
+      headers:
+        Host: "5er0m2i2ens2ulpg7sjd45ugqs.87fcvt2k11501yno2txm6yw-mipj2kr.workers.dev"
+  - name: "@DeltaKroneckerGithub_5146"
+    type: trojan
+    server: "104.18.35.15"
+    port: 443
+    password: "87d1bfd4-574e-4c96-ad42-0426f27461ff"
+    sni: "_acme-challenge.sb.cloudns.biz"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5148"
+    type: trojan
+    server: "107.150.105.84"
+    port: 27732
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5149"
+    type: trojan
+    server: "107.150.105.84"
+    port: 46292
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5150"
+    type: trojan
+    server: "188.114.97.7"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "TH1R714O73d1P35f.mr2esNK29L620Xo76Kpuv-QUb4B7IDfR.WOrkeRS.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/gtMkuJkm42JnKfAr?ed=2560"
+  - name: "@DeltaKroneckerGithub_5152"
+    type: trojan
+    server: "104.16.3.189"
+    port: 443
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5154"
+    type: trojan
+    server: "107.150.105.84"
+    port: 54657
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5155"
+    type: trojan
+    server: "104.18.35.15"
+    port: 443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560/ahmadv2ray"
+      headers:
+        Host: "tro.baiyi.cloudns.org"
+  - name: "@DeltaKroneckerGithub_5157"
+    type: trojan
+    server: "104.21.17.125"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "30f67sBQ8jJwMt7GYtfc14.0M68-Qz3hqYfnLAR6n3Iq.wORkErs.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/hYgAqUlh5GyczDyXP?ed"
+      headers:
+        Host: "30f67sbq8jjwmt7gytfc14.0m68-qz3hqyfnlar6n3iq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5159"
+    type: trojan
+    server: "104.17.148.22"
+    port: 443
+    password: "A4u^p(_UR*F6"
+    sni: "027.ELeCTroCelLco-CF-027.wORkERS.dEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+  - name: "@DeltaKroneckerGithub_5160"
+    type: trojan
+    server: "104.21.90.36"
+    port: 443
+    password: "uR0TSWA@N^%u,Bni"
+    sni: "rESTless-basE-fe24.aLiReZaHabibi20009.woRKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiM2VVWXFtczhRUVN5SHpGMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+  - name: "@DeltaKroneckerGithub_5162"
+    type: trojan
+    server: "v2jp.k1.ssnss.live"
+    port: 44184
+    password: "d050aca3-9df2-4461-90ec-92373c1d7636"
+    sni: "v2jp.k1.ssnss.live"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5163"
+    type: trojan
+    server: "43.165.185.191"
+    port: 50000
+    password: "d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5"
+    sni: "jp200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5164"
+    type: trojan
+    server: "us01.duotg.top"
+    port: 59385
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "us01.duotg.top"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5165"
     type: trojan
     server: "104.18.12.149"
     port: 443
@@ -1289,149 +879,68 @@ proxies:
       path: "/"
       headers:
         Host: "subb.nrshop198.workers.dev"
-  - name: "@DeltaKroneckerGithub_4439"
+  - name: "@DeltaKroneckerGithub_5167"
     type: trojan
-    server: "64.74.163.118"
-    port: 58536
-    password: "lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths"
-    sni: "64.74.163.118"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4440"
-    type: trojan
-    server: "104.24.88.105"
-    port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4442"
-    type: trojan
-    server: "172.64.150.28"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4444"
-    type: trojan
-    server: "104.17.147.22"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "BjSa2yGfiTzJtho8uCZE29Xf2M2Q9C.g3fIAjPF0erM9k3X6wW-YeGZl2.WORkERS.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/VQ1n6VuZtSQv0vvjjCG?ed=2560"
-  - name: "@DeltaKroneckerGithub_4446"
-    type: trojan
-    server: "45.130.125.160"
-    port: 443
-    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
-    sni: "go.appsflyer.com.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/br-orcl"
-  - name: "@DeltaKroneckerGithub_4448"
-    type: trojan
-    server: "ld.223350.xyz"
-    port: 443
-    password: "407ecce0-dc85-465f-89f5-e520e9378baf"
-    sni: "ld.223350.xyz"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4450"
-    type: trojan
-    server: "104.18.42.98"
-    port: 443
-    password: "xhl549341"
-    sni: "tro.baiyi.cloudns.org"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4452"
-    type: trojan
-    server: "157.254.38.210"
-    port: 20066
-    password: "a126f35c-e832-4115-8593-b723ade3f7be"
-    sni: "hk.catxstar.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4453"
-    type: trojan
-    server: "104.18.37.228"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "@DeltaKroneckerGithub_4455"
-    type: trojan
-    server: "64.94.95.115"
-    port: 57142
-    password: "kkzh2prsyr2ik47as615"
-    sni: "static.rutube.ru"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4456"
-    type: trojan
-    server: "172.67.143.54"
-    port: 443
-    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
-    sni: "aged-silence-8d7d.tahaggs.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/taha3"
-  - name: "@DeltaKroneckerGithub_4458"
-    type: trojan
-    server: "188.114.97.7"
-    port: 443
-    password: "Telegram_healer_config"
-    sni: "TH1R714O73d1P35f.mr2esNK29L620Xo76Kpuv-QUb4B7IDfR.WOrkeRS.DeV"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/tr/gtMkuJkm42JnKfAr?ed=2560"
-  - name: "@DeltaKroneckerGithub_4460"
-    type: trojan
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "0964f6b7-6aab-4b84-9e80-dd078ed1f269"
-    sni: "jp200m.jiasu.asia"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4461"
-    type: trojan
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "d9ac7c6d-9ca8-4e1b-af9f-d268f69249b5"
-    sni: "jp200m.jiasu.asia"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4462"
-    type: trojan
-    server: "0xs3ced9.zzzqwdbwq.workers.dev"
+    server: "104.21.72.201"
     port: 2096
+    password: "0hbl*0RB4T,LSk;JK"
+    sni: "14SW2KRBEO0wv7GZ32H3BnJ.HalABiA061.workeRs.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/d2y5re8Z9iqkUtWNtSR?ed=2560"
+      headers:
+        Host: "14sw2krbeo0wv7gz32h3bnj.halabia061.workers.dev"
+  - name: "@DeltaKroneckerGithub_5169"
+    type: trojan
+    server: "119.246.1.143"
+    port: 443
+    password: "BxceQaOe"
+    sni: "119.246.1.143"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5170"
+    type: trojan
+    server: "107.150.105.84"
+    port: 20065
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5171"
+    type: trojan
+    server: "hk04.qianmoip.win"
+    port: 52224
+    password: "302cf77d-6fb7-4ac8-ae61-88e286340d59"
+    sni: "taobao.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5172"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5173"
+    type: trojan
+    server: "104.21.70.21"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5175"
+    type: trojan
+    server: "172.67.132.145"
+    port: 443
     password: "letiranbreath-x@^f"
     sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
     skip-cert-verify: true
@@ -1441,26 +950,85 @@ proxies:
       path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
         Host: "0xs3ced9.zzzqwdbwq.workers.dev"
-  - name: "@DeltaKroneckerGithub_4464"
+  - name: "@DeltaKroneckerGithub_5177"
     type: trojan
-    server: "jp200m.jiasu.asia"
-    port: 50000
-    password: "fd3f82cc-bf25-4d3a-a379-09834800ade9"
-    sni: "jp200m.jiasu.asia"
-    skip-cert-verify: true
-    udp: true
-  - name: "@DeltaKroneckerGithub_4465"
-    type: trojan
-    server: "104.16.3.189"
+    server: "www.speedtest.net"
     port: 443
-    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
-    sni: "ezpanslll.samankarami0686.workers.dev"
+    password: "A4u^p(_UR*F6"
+    sni: "027.ELeCTroCelLco-CF-027.wORkERS.dEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-  - name: "@DeltaKroneckerGithub_4467"
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+      headers:
+        Host: "027.electrocellco-cf-027.workers.dev"
+  - name: "@DeltaKroneckerGithub_5179"
+    type: trojan
+    server: "172.67.176.194"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "30f67sBQ8JjwmT7gYtfc14.0M68-QZ3HQYFnLAr6N3IQ.wOrkerS.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/VKQiUREJ9PL5qHi1r4bkL9Rm8?ed=2560"
+  - name: "@DeltaKroneckerGithub_5181"
+    type: trojan
+    server: "104.21.39.47"
+    port: 443
+    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
+    sni: "aged-silence-8d7d.tahaggs.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/taha3"
+  - name: "@DeltaKroneckerGithub_5183"
+    type: trojan
+    server: "aged-silence-8d7d.tahaggs.workers.dev"
+    port: 443
+    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
+    sni: "aged-silence-8d7d.tahaggs.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/taha3"
+  - name: "@DeltaKroneckerGithub_5185"
+    type: trojan
+    server: "178.172.227.178"
+    port: 500
+    password: "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
+    sni: "by01.botovod.space"
+    skip-cert-verify: true
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
+  - name: "@DeltaKroneckerGithub_5186"
+    type: trojan
+    server: "ww12.levikogjgfdd.ir"
+    port: 50573
+    password: "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M"
+    sni: "ww12.levikogjgfdd.ir"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5187"
+    type: trojan
+    server: "104.21.70.21"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/kp0IOvZwWV0X35ln0vIh?ed=2560"
+      headers:
+        Host: "47hr9isj-655383snd63hjap38q6t.k-f3vpqaltfsxbtaxe.workers.dev"
+  - name: "@DeltaKroneckerGithub_5189"
     type: trojan
     server: "app-538961.user-y0o4gm.workers.dev"
     port: 443
@@ -1471,53 +1039,384 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "@DeltaKroneckerGithub_4469"
+  - name: "@DeltaKroneckerGithub_5191"
     type: trojan
     server: "107.150.105.84"
+    port: 43022
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5192"
+    type: trojan
+    server: "104.19.220.130"
+    port: 443
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5194"
+    type: trojan
+    server: "jp200m.jiasu.asia"
+    port: 50000
+    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    sni: "jp200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5195"
+    type: trojan
+    server: "aa.ccmusic.jp"
+    port: 443
+    password: "tsuchiya"
+    sni: "aa.ccmusic.jp"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5196"
+    type: trojan
+    server: "188.114.97.6"
+    port: 443
+    password: "xhl549341"
+    sni: "tro.baiyi.cloudns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5198"
+    type: trojan
+    server: "172.67.143.54"
+    port: 2096
+    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
+    sni: "aged-silence-8d7d.tahaggs.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/taha3"
+  - name: "@DeltaKroneckerGithub_5200"
+    type: trojan
+    server: "restless-base-fe24.alirezahabibi20009.workers.dev"
+    port: 443
+    password: "uR0TSWA@N^%u,Bni"
+    sni: "rESTless-basE-fe24.aLiReZaHabibi20009.woRKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiM2VVWXFtczhRUVN5SHpGMyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
+  - name: "@DeltaKroneckerGithub_5202"
+    type: trojan
+    server: "172.64.150.28"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5204"
+    type: trojan
+    server: "104.21.8.63"
+    port: 443
+    password: "5855d6850594830f"
+    sni: "AkbARIan34.j9Z65Ce2uyks.WoRKeRS.DEV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/w2O3K3xXNYDKIxwOIw7?ed=2560"
+      headers:
+        Host: "akbarian34.j9z65ce2uyks.workers.dev"
+  - name: "@DeltaKroneckerGithub_5206"
+    type: trojan
+    server: "104.21.4.228"
+    port: 8443
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5208"
+    type: trojan
+    server: "45.85.88.194"
+    port: 2234
+    password: "tripitropa994825"
+    sni: "vps.tropicalhosting.net"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5209"
+    type: trojan
+    server: "104.16.180.203"
+    port: 443
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/sync"
+  - name: "@DeltaKroneckerGithub_5211"
+    type: trojan
+    server: "us01.duotg.top"
+    port: 46292
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5212"
+    type: trojan
+    server: "188.114.98.0"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "@DeltaKroneckerGithub_5214"
+    type: trojan
+    server: "104.24.88.105"
+    port: 443
+    password: "fd5d3c04-9a43-7702-e70d-a3c53ff216f4"
+    sni: "ezpanslll.samankarami0686.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "@DeltaKroneckerGithub_5216"
+    type: trojan
+    server: "58.152.46.127"
+    port: 28443
+    password: "0f3963f9-0530-434d-be2c-87e9b61143c8"
+    sni: "vpn-node.internal"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/xVpnTrojanWsSvc7f3a"
+      headers:
+        Host: "vpn-node.internal"
+  - name: "@DeltaKroneckerGithub_5218"
+    type: trojan
+    server: "154.90.62.70"
+    port: 56127
+    password: "p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B"
+    sni: "154.90.62.70"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5219"
+    type: trojan
+    server: "139.59.238.97"
+    port: 50573
+    password: "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M"
+    sni: "139.59.238.97"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5220"
+    type: trojan
+    server: "blackshadow.dpdns.org"
+    port: 443
+    password: "trojan"
+    sni: "blackshadow.dpdns.org"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "//195.123.218.174-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "@DeltaKroneckerGithub_5222"
+    type: trojan
+    server: "47.250.84.25"
+    port: 443
+    password: "5931134d1cde66bf83a54acdfebe7ab2"
+    sni: "moltbot.doctoroyy.net"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5223"
+    type: trojan
+    server: "90.156.218.126"
+    port: 2223
+    password: "47SXGr72f1wpGNkZzLUUExRDHuVQypaW"
+    sni: "vkc7.secured-by-tenzo.sbs"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5224"
+    type: trojan
+    server: "104.17.148.22"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560"
+      headers:
+        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+  - name: "@DeltaKroneckerGithub_5226"
+    type: trojan
+    server: "104.17.147.22"
+    port: 443
+    password: "Telegram_healer_config"
+    sni: "TO6R63-KKChIGHQM2.VxZ0DDUq7tO7su0cDqF.WoRKeRs.DeV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/tr/mPZ7O1CUbIBPGNPZQ2HeV?ed=2560"
+      headers:
+        Host: "to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev"
+  - name: "@DeltaKroneckerGithub_5228"
+    type: trojan
+    server: "64.74.163.118"
+    port: 58536
+    password: "lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths"
+    sni: "64.74.163.118"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5229"
+    type: trojan
+    server: "172.67.143.54"
+    port: 443
+    password: "b0c94dd5-0c4c-6e1e-7ecf-84c386f7c748"
+    sni: "aged-silence-8d7d.tahaggs.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/taha3"
+  - name: "@DeltaKroneckerGithub_5231"
+    type: trojan
+    server: "jquery.com"
+    port: 443
+    password: "988sR-269PKCKlb&3pMrFTEr"
+    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+  - name: "@DeltaKroneckerGithub_5233"
+    type: trojan
+    server: "172.67.132.145"
+    port: 2053
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
+      headers:
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5235"
+    type: trojan
+    server: "194.9.172.236"
+    port: 1105
+    password: "kakashka13222"
+    sni: "194.9.172.236"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5236"
+    type: trojan
+    server: "152.175.28.15"
+    port: 28443
+    password: "04e30e9f-661a-4a40-9973-4f2961298e99"
+    sni: "vpn-node.internal"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/xVpnTrojanWsSvc7f3a"
+      headers:
+        Host: "vpn-node.internal"
+  - name: "@DeltaKroneckerGithub_5238"
+    type: trojan
+    server: "104.18.155.119"
+    port: 443
+    password: "988sR-269PKCKlb&3pMrFTEr"
+    sni: "LetiRanbrEaTh-7RrkEvFu2HJBIs5UHCXWztz24T5Vp6trF1oka8Dkrw0n.HE3fmQ6z0mfSZSK3Xy2E.wOrkers.deV"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoicGpncHl4eVZoSnZQcFRTIiwicHJvdG9jb2wiOiJ0ciIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==?ed=2560"
+  - name: "@DeltaKroneckerGithub_5240"
+    type: trojan
+    server: "us01.duotg.top"
     port: 20065
     password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
     sni: "www.microsoft.com"
     skip-cert-verify: true
     udp: true
-  - name: "@DeltaKroneckerGithub_4470"
+  - name: "@DeltaKroneckerGithub_5241"
     type: trojan
-    server: "104.17.38.50"
+    server: "104.21.70.21"
     port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
+    password: "A4u^p(_UR*F6"
+    sni: "027.electrocellco-cf-027.workers.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4"
+      path: "/eyJqdW5rIjoidlhnMXN5OXFUSiIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=?ed=2560"
       headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4472"
+        Host: "027.electrocellco-cf-027.workers.dev"
+  - name: "@DeltaKroneckerGithub_5243"
     type: trojan
-    server: "104.16.29.250"
+    server: "89.116.180.49"
     port: 443
-    password: "50414e45-4c5f-5a45-5553-865be6c6aed4"
-    sni: "yvzagcelunqs.73927482.workers.dev"
+    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
+    sni: "0403.infinityconfig4.workers.dev"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/stream/PANEL_ZEUS/865be6c6aed4"
-      headers:
-        Host: "yvzagcelunqs.73927482.workers.dev"
-  - name: "@DeltaKroneckerGithub_4474"
+      path: "/sync"
+  - name: "@DeltaKroneckerGithub_5245"
     type: trojan
-    server: "104.19.63.25"
-    port: 443
-    password: "r137979f"
-    sni: "sheleqaz.emotionreza.workers.dev"
+    server: "104.21.4.228"
+    port: 2096
+    password: "letiranbreath-x@^f"
+    sni: "0XS3Ced9.zZzqwdBWq.wOrKErS.DEv"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/eyJqdW5rIjoiYmx1NXI3dml6NjB3NW9nZyIsInByb3RvY29sIjoidHIiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwNC4yOC4yNTUuNzQiXX0=?ed=2560"
       headers:
-        Host: "sheleqaz.emotionreza.workers.dev"
+        Host: "0xs3ced9.zzzqwdbwq.workers.dev"
+  - name: "@DeltaKroneckerGithub_5247"
+    type: trojan
+    server: "us01.duotg.top"
+    port: 54657
+    password: "02cd3bac-2a78-4dbb-82b9-6b64084ddd8e"
+    sni: "www.microsoft.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "@DeltaKroneckerGithub_5248"
+    type: trojan
+    server: "161.34.39.108"
+    port: 443
+    password: "tsuchiya"
+    sni: "aa.ccmusic.jp"
+    skip-cert-verify: true
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -1532,139 +1431,132 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "@DeltaKroneckerGithub_4245"
-      - "@DeltaKroneckerGithub_4247"
-      - "@DeltaKroneckerGithub_4249"
-      - "@DeltaKroneckerGithub_4251"
-      - "@DeltaKroneckerGithub_4252"
-      - "@DeltaKroneckerGithub_4253"
-      - "@DeltaKroneckerGithub_4255"
-      - "@DeltaKroneckerGithub_4257"
-      - "@DeltaKroneckerGithub_4259"
-      - "@DeltaKroneckerGithub_4261"
-      - "@DeltaKroneckerGithub_4263"
-      - "@DeltaKroneckerGithub_4264"
-      - "@DeltaKroneckerGithub_4266"
-      - "@DeltaKroneckerGithub_4268"
-      - "@DeltaKroneckerGithub_4270"
-      - "@DeltaKroneckerGithub_4272"
-      - "@DeltaKroneckerGithub_4273"
-      - "@DeltaKroneckerGithub_4275"
-      - "@DeltaKroneckerGithub_4276"
-      - "@DeltaKroneckerGithub_4277"
-      - "@DeltaKroneckerGithub_4279"
-      - "@DeltaKroneckerGithub_4281"
-      - "@DeltaKroneckerGithub_4282"
-      - "@DeltaKroneckerGithub_4284"
-      - "@DeltaKroneckerGithub_4286"
-      - "@DeltaKroneckerGithub_4288"
-      - "@DeltaKroneckerGithub_4289"
-      - "@DeltaKroneckerGithub_4291"
-      - "@DeltaKroneckerGithub_4292"
-      - "@DeltaKroneckerGithub_4294"
-      - "@DeltaKroneckerGithub_4296"
-      - "@DeltaKroneckerGithub_4298"
-      - "@DeltaKroneckerGithub_4300"
-      - "@DeltaKroneckerGithub_4302"
-      - "@DeltaKroneckerGithub_4304"
-      - "@DeltaKroneckerGithub_4306"
-      - "@DeltaKroneckerGithub_4308"
-      - "@DeltaKroneckerGithub_4309"
-      - "@DeltaKroneckerGithub_4311"
-      - "@DeltaKroneckerGithub_4313"
-      - "@DeltaKroneckerGithub_4315"
-      - "@DeltaKroneckerGithub_4317"
-      - "@DeltaKroneckerGithub_4319"
-      - "@DeltaKroneckerGithub_4321"
-      - "@DeltaKroneckerGithub_4323"
-      - "@DeltaKroneckerGithub_4325"
-      - "@DeltaKroneckerGithub_4327"
-      - "@DeltaKroneckerGithub_4329"
-      - "@DeltaKroneckerGithub_4330"
-      - "@DeltaKroneckerGithub_4332"
-      - "@DeltaKroneckerGithub_4333"
-      - "@DeltaKroneckerGithub_4335"
-      - "@DeltaKroneckerGithub_4337"
-      - "@DeltaKroneckerGithub_4338"
-      - "@DeltaKroneckerGithub_4340"
-      - "@DeltaKroneckerGithub_4342"
-      - "@DeltaKroneckerGithub_4344"
-      - "@DeltaKroneckerGithub_4346"
-      - "@DeltaKroneckerGithub_4348"
-      - "@DeltaKroneckerGithub_4350"
-      - "@DeltaKroneckerGithub_4352"
-      - "@DeltaKroneckerGithub_4354"
-      - "@DeltaKroneckerGithub_4356"
-      - "@DeltaKroneckerGithub_4358"
-      - "@DeltaKroneckerGithub_4360"
-      - "@DeltaKroneckerGithub_4361"
-      - "@DeltaKroneckerGithub_4363"
-      - "@DeltaKroneckerGithub_4364"
-      - "@DeltaKroneckerGithub_4366"
-      - "@DeltaKroneckerGithub_4367"
-      - "@DeltaKroneckerGithub_4369"
-      - "@DeltaKroneckerGithub_4370"
-      - "@DeltaKroneckerGithub_4371"
-      - "@DeltaKroneckerGithub_4372"
-      - "@DeltaKroneckerGithub_4374"
-      - "@DeltaKroneckerGithub_4376"
-      - "@DeltaKroneckerGithub_4378"
-      - "@DeltaKroneckerGithub_4380"
-      - "@DeltaKroneckerGithub_4382"
-      - "@DeltaKroneckerGithub_4384"
-      - "@DeltaKroneckerGithub_4386"
-      - "@DeltaKroneckerGithub_4388"
-      - "@DeltaKroneckerGithub_4390"
-      - "@DeltaKroneckerGithub_4392"
-      - "@DeltaKroneckerGithub_4394"
-      - "@DeltaKroneckerGithub_4395"
-      - "@DeltaKroneckerGithub_4397"
-      - "@DeltaKroneckerGithub_4398"
-      - "@DeltaKroneckerGithub_4400"
-      - "@DeltaKroneckerGithub_4402"
-      - "@DeltaKroneckerGithub_4404"
-      - "@DeltaKroneckerGithub_4405"
-      - "@DeltaKroneckerGithub_4407"
-      - "@DeltaKroneckerGithub_4409"
-      - "@DeltaKroneckerGithub_4411"
-      - "@DeltaKroneckerGithub_4412"
-      - "@DeltaKroneckerGithub_4413"
-      - "@DeltaKroneckerGithub_4414"
-      - "@DeltaKroneckerGithub_4415"
-      - "@DeltaKroneckerGithub_4416"
-      - "@DeltaKroneckerGithub_4418"
-      - "@DeltaKroneckerGithub_4420"
-      - "@DeltaKroneckerGithub_4421"
-      - "@DeltaKroneckerGithub_4423"
-      - "@DeltaKroneckerGithub_4425"
-      - "@DeltaKroneckerGithub_4427"
-      - "@DeltaKroneckerGithub_4429"
-      - "@DeltaKroneckerGithub_4431"
-      - "@DeltaKroneckerGithub_4433"
-      - "@DeltaKroneckerGithub_4435"
-      - "@DeltaKroneckerGithub_4437"
-      - "@DeltaKroneckerGithub_4439"
-      - "@DeltaKroneckerGithub_4440"
-      - "@DeltaKroneckerGithub_4442"
-      - "@DeltaKroneckerGithub_4444"
-      - "@DeltaKroneckerGithub_4446"
-      - "@DeltaKroneckerGithub_4448"
-      - "@DeltaKroneckerGithub_4450"
-      - "@DeltaKroneckerGithub_4452"
-      - "@DeltaKroneckerGithub_4453"
-      - "@DeltaKroneckerGithub_4455"
-      - "@DeltaKroneckerGithub_4456"
-      - "@DeltaKroneckerGithub_4458"
-      - "@DeltaKroneckerGithub_4460"
-      - "@DeltaKroneckerGithub_4461"
-      - "@DeltaKroneckerGithub_4462"
-      - "@DeltaKroneckerGithub_4464"
-      - "@DeltaKroneckerGithub_4465"
-      - "@DeltaKroneckerGithub_4467"
-      - "@DeltaKroneckerGithub_4469"
-      - "@DeltaKroneckerGithub_4470"
-      - "@DeltaKroneckerGithub_4472"
-      - "@DeltaKroneckerGithub_4474"
+      - "@DeltaKroneckerGithub_5043"
+      - "@DeltaKroneckerGithub_5045"
+      - "@DeltaKroneckerGithub_5047"
+      - "@DeltaKroneckerGithub_5049"
+      - "@DeltaKroneckerGithub_5051"
+      - "@DeltaKroneckerGithub_5052"
+      - "@DeltaKroneckerGithub_5054"
+      - "@DeltaKroneckerGithub_5056"
+      - "@DeltaKroneckerGithub_5057"
+      - "@DeltaKroneckerGithub_5058"
+      - "@DeltaKroneckerGithub_5060"
+      - "@DeltaKroneckerGithub_5061"
+      - "@DeltaKroneckerGithub_5062"
+      - "@DeltaKroneckerGithub_5063"
+      - "@DeltaKroneckerGithub_5064"
+      - "@DeltaKroneckerGithub_5066"
+      - "@DeltaKroneckerGithub_5067"
+      - "@DeltaKroneckerGithub_5069"
+      - "@DeltaKroneckerGithub_5071"
+      - "@DeltaKroneckerGithub_5073"
+      - "@DeltaKroneckerGithub_5075"
+      - "@DeltaKroneckerGithub_5077"
+      - "@DeltaKroneckerGithub_5079"
+      - "@DeltaKroneckerGithub_5080"
+      - "@DeltaKroneckerGithub_5082"
+      - "@DeltaKroneckerGithub_5084"
+      - "@DeltaKroneckerGithub_5085"
+      - "@DeltaKroneckerGithub_5087"
+      - "@DeltaKroneckerGithub_5089"
+      - "@DeltaKroneckerGithub_5090"
+      - "@DeltaKroneckerGithub_5092"
+      - "@DeltaKroneckerGithub_5094"
+      - "@DeltaKroneckerGithub_5096"
+      - "@DeltaKroneckerGithub_5097"
+      - "@DeltaKroneckerGithub_5099"
+      - "@DeltaKroneckerGithub_5101"
+      - "@DeltaKroneckerGithub_5103"
+      - "@DeltaKroneckerGithub_5105"
+      - "@DeltaKroneckerGithub_5107"
+      - "@DeltaKroneckerGithub_5108"
+      - "@DeltaKroneckerGithub_5109"
+      - "@DeltaKroneckerGithub_5110"
+      - "@DeltaKroneckerGithub_5112"
+      - "@DeltaKroneckerGithub_5114"
+      - "@DeltaKroneckerGithub_5116"
+      - "@DeltaKroneckerGithub_5118"
+      - "@DeltaKroneckerGithub_5119"
+      - "@DeltaKroneckerGithub_5121"
+      - "@DeltaKroneckerGithub_5123"
+      - "@DeltaKroneckerGithub_5125"
+      - "@DeltaKroneckerGithub_5127"
+      - "@DeltaKroneckerGithub_5128"
+      - "@DeltaKroneckerGithub_5130"
+      - "@DeltaKroneckerGithub_5132"
+      - "@DeltaKroneckerGithub_5134"
+      - "@DeltaKroneckerGithub_5136"
+      - "@DeltaKroneckerGithub_5137"
+      - "@DeltaKroneckerGithub_5139"
+      - "@DeltaKroneckerGithub_5141"
+      - "@DeltaKroneckerGithub_5142"
+      - "@DeltaKroneckerGithub_5144"
+      - "@DeltaKroneckerGithub_5146"
+      - "@DeltaKroneckerGithub_5148"
+      - "@DeltaKroneckerGithub_5149"
+      - "@DeltaKroneckerGithub_5150"
+      - "@DeltaKroneckerGithub_5152"
+      - "@DeltaKroneckerGithub_5154"
+      - "@DeltaKroneckerGithub_5155"
+      - "@DeltaKroneckerGithub_5157"
+      - "@DeltaKroneckerGithub_5159"
+      - "@DeltaKroneckerGithub_5160"
+      - "@DeltaKroneckerGithub_5162"
+      - "@DeltaKroneckerGithub_5163"
+      - "@DeltaKroneckerGithub_5164"
+      - "@DeltaKroneckerGithub_5165"
+      - "@DeltaKroneckerGithub_5167"
+      - "@DeltaKroneckerGithub_5169"
+      - "@DeltaKroneckerGithub_5170"
+      - "@DeltaKroneckerGithub_5171"
+      - "@DeltaKroneckerGithub_5172"
+      - "@DeltaKroneckerGithub_5173"
+      - "@DeltaKroneckerGithub_5175"
+      - "@DeltaKroneckerGithub_5177"
+      - "@DeltaKroneckerGithub_5179"
+      - "@DeltaKroneckerGithub_5181"
+      - "@DeltaKroneckerGithub_5183"
+      - "@DeltaKroneckerGithub_5185"
+      - "@DeltaKroneckerGithub_5186"
+      - "@DeltaKroneckerGithub_5187"
+      - "@DeltaKroneckerGithub_5189"
+      - "@DeltaKroneckerGithub_5191"
+      - "@DeltaKroneckerGithub_5192"
+      - "@DeltaKroneckerGithub_5194"
+      - "@DeltaKroneckerGithub_5195"
+      - "@DeltaKroneckerGithub_5196"
+      - "@DeltaKroneckerGithub_5198"
+      - "@DeltaKroneckerGithub_5200"
+      - "@DeltaKroneckerGithub_5202"
+      - "@DeltaKroneckerGithub_5204"
+      - "@DeltaKroneckerGithub_5206"
+      - "@DeltaKroneckerGithub_5208"
+      - "@DeltaKroneckerGithub_5209"
+      - "@DeltaKroneckerGithub_5211"
+      - "@DeltaKroneckerGithub_5212"
+      - "@DeltaKroneckerGithub_5214"
+      - "@DeltaKroneckerGithub_5216"
+      - "@DeltaKroneckerGithub_5218"
+      - "@DeltaKroneckerGithub_5219"
+      - "@DeltaKroneckerGithub_5220"
+      - "@DeltaKroneckerGithub_5222"
+      - "@DeltaKroneckerGithub_5223"
+      - "@DeltaKroneckerGithub_5224"
+      - "@DeltaKroneckerGithub_5226"
+      - "@DeltaKroneckerGithub_5228"
+      - "@DeltaKroneckerGithub_5229"
+      - "@DeltaKroneckerGithub_5231"
+      - "@DeltaKroneckerGithub_5233"
+      - "@DeltaKroneckerGithub_5235"
+      - "@DeltaKroneckerGithub_5236"
+      - "@DeltaKroneckerGithub_5238"
+      - "@DeltaKroneckerGithub_5240"
+      - "@DeltaKroneckerGithub_5241"
+      - "@DeltaKroneckerGithub_5243"
+      - "@DeltaKroneckerGithub_5245"
+      - "@DeltaKroneckerGithub_5247"
+      - "@DeltaKroneckerGithub_5248"
 
 
 rules:

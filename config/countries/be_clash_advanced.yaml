@@ -60,12 +60,20 @@ dns:
 
 proxies:
   - name: "🇧🇪_2"
-    type: ss
-    server: "54.36.174.134"
+    type: vless
+    server: "188.190.26.243"
     port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "ytw2awn"
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

@@ -59,6 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇮🇪_4"
+    type: vless
+    server: "194.87.245.205"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
   - name: "🇮🇪_5"
     type: vless
     server: "167.160.177.68"
@@ -76,8 +91,8 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇮🇪_6"
     type: vless
-    server: "194.87.245.205"
-    port: 8443
+    server: "198.55.102.68"
+    port: 2083
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
@@ -89,24 +104,6 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇮🇪_7"
-    type: trojan
-    server: "54.216.143.197"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-  - name: "🇮🇪_8"
-    type: ss
-    server: "4.231.221.11"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "yI1ivWgzRqPnR6FE"
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -149,10 +146,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -162,10 +158,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -175,10 +170,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -187,10 +181,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -200,19 +193,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
-      - "🇮🇪_7"
-      - "🇮🇪_8"
 
 rules:
   - MATCH,PROXY-BEST

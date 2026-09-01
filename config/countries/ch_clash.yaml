@@ -65,6 +65,34 @@ dns:
 proxies:
   - name: "🇨🇭_1"
     type: vless
+    server: "31.76.4.128"
+    port: 5001
+    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "fi.aeternavpn.space"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ"
+      short-id: "a1b2c3d4"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_2"
+    type: vless
+    server: "45.90.58.216"
+    port: 443
+    uuid: "2e8077d9-7bd9-444b-b2e3-de940d2eb35e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc"
+      short-id: "77d7abe2c55892f1"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_3"
+    type: vless
     server: "31.76.4.103"
     port: 443
     uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
@@ -77,21 +105,7 @@ proxies:
       public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
       short-id: "00bca5982f82d083"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_2"
-    type: vless
-    server: "45.90.58.216"
-    port: 443
-    uuid: "2e8077d9-7bd9-444b-b2e3-de940d2eb35e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc"
-      short-id: "77d7abe2c55892f1"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇭_3"
+  - name: "🇨🇭_4"
     type: vless
     server: "45.90.56.231"
     port: 443
@@ -100,26 +114,11 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
       short-id: "e2e66f4537770cef"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_4"
-    type: trojan
-    server: "45.95.232.189"
-    port: 443
-    password: "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi"
-    sni: "tr-switzerlandgopota.unlimited-access.ru"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇨🇭_5"
-    type: ss
-    server: "15.235.75.71"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "FD3rCuOsxOay"
-    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -138,7 +137,6 @@ proxy-groups:
       - "🇨🇭_2"
       - "🇨🇭_3"
       - "🇨🇭_4"
-      - "🇨🇭_5"
 
 
 rules:

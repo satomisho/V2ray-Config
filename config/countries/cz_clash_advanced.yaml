@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_6"
+  - name: "🇨🇿_9"
     type: vless
     server: "46.28.70.12"
     port: 443
@@ -73,7 +73,65 @@ proxies:
       public-key: "HlbEJFdMTNcNofda44mGt2RFxnWN0iO6toeMoqiwyF4"
       short-id: "1c44e37b4134d40f"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_7"
+  - name: "🇨🇿_10"
+    type: vless
+    server: "193.124.57.19"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇨🇿_11"
+    type: vless
+    server: "cz1.kovsh.lol"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cz1.kovsh.lol"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
+      short-id: "2cec07a8614696e5"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_12"
+    type: vless
+    server: "5.39.202.130"
+    port: 443
+    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cz1.kovsh.lol"
+    client-fingerprint: "ios"
+    reality-opts:
+      public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
+      short-id: "2cec07a8614696e5"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_13"
+    type: vless
+    server: "92.61.71.49"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇨🇿_14"
     type: vless
     server: "212.102.38.25"
     port: 443
@@ -87,7 +145,7 @@ proxies:
       public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
       short-id: "e90360ec7cc61b20"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_8"
+  - name: "🇨🇿_15"
     type: vless
     server: "194.182.80.100"
     port: 443
@@ -102,7 +160,7 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇨🇿_9"
+  - name: "🇨🇿_16"
     type: vless
     server: "188.127.247.129"
     port: 443
@@ -111,24 +169,10 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "yahoo.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
       short-id: "0c"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇿_10"
-    type: vless
-    server: "103.119.19.208"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -172,11 +216,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -186,11 +233,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -200,11 +250,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -213,11 +266,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -227,21 +283,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇿_6"
-      - "🇨🇿_7"
-      - "🇨🇿_8"
       - "🇨🇿_9"
       - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
+      - "🇨🇿_16"
 
 rules:
   - MATCH,PROXY-BEST

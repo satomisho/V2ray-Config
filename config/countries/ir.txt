@@ -1,3 +1,0 @@
-vless://74ed78f1-4095-47e6-b043-094e494fb7e5@45.131.4.115:80?security=none&type=ws&path=/sVnT0vhrV7WAl52Z&host=worker3.gisenoj224.workers.dev&ed=2560&packetEncoding=xudp&sni=worker3.gisenoj224.workers.dev#%F0%9F%87%AE%F0%9F%87%B7
-trojan://f18d6149-e214-8554-e737-f7523c8b2eea@45.131.4.118:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#%F0%9F%87%AE%F0%9F%87%B7
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#%F0%9F%87%AE%F0%9F%87%B7

@@ -65,37 +65,34 @@ dns:
 proxies:
   - name: "🇹🇷_1"
     type: vless
-    server: "91.228.227.112"
-    port: 110
-    uuid: "87f91f87-9077-4414-99ff-26eb8309284b"
-    udp: true
-  - name: "🇹🇷_2"
-    type: vless
-    server: "144.225.65.111"
-    port: 46142
-    uuid: "255386a8-aec5-4425-bfe7-ca49b7448deb"
+    server: "156.67.63.231"
+    port: 443
+    uuid: "b052df40-d51c-456c-9bd6-57af01a87e4e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.yahoo.com"
+    servername: "sync-bridge.org"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk"
-      short-id: "39feeba3085c"
-  - name: "🇹🇷_3"
+      public-key: "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI"
+      short-id: "5606d4a25c99e7af"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_2"
     type: vless
-    server: "155.103.69.93"
+    server: "138.124.107.35"
     port: 443
-    uuid: "133f016d-81ad-4ed3-8fe1-e431a4134dca"
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "plan.tabrizonlinemaku.ir"
+    servername: "eded-52n.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇹🇷_4"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇹🇷_3"
     type: vless
     server: "201.50.115.175"
     port: 443
@@ -109,16 +106,7 @@ proxies:
       public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
       short-id: "00bca5982f82d083"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇷_5"
-    type: vless
-    server: "212.87.199.76"
-    port: 2053
-    uuid: "e2c6905e-46ec-434b-8400-0bc5bf0363e6"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "v-grpc"
-  - name: "🇹🇷_6"
+  - name: "🇹🇷_4"
     type: vless
     server: "151.241.226.201"
     port: 2053
@@ -131,30 +119,91 @@ proxies:
     reality-opts:
       public-key: "dUFJ3jZPMH9WvjtAnUc9wYhO_IX1czIi-CidF_HdFDA"
       short-id: "c267be657e1539ea"
-  - name: "🇹🇷_7"
+  - name: "🇹🇷_5"
     type: vless
-    server: "91.228.227.112"
-    port: 110
-    uuid: "889732ce-171c-4aa6-8b17-d2646d7a8974"
-    udp: true
-  - name: "🇹🇷_8"
-    type: vless
-    server: "45.74.178.12"
-    port: 1824
-    uuid: "9c62ffbf-1f35-4108-b444-81835e6d3be1"
+    server: "premium-tr.geodema.network"
+    port: 8443
+    uuid: "78eb4455-0d07-4bc2-93e3-7c8654f11d74"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "amp-api-edge.apps.apple.com"
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_6"
+    type: vless
+    server: "amator.mrgang.shop"
+    port: 8082
+    uuid: "bfb3f06c-e33f-41ac-b101-012c8325a689"
+    udp: true
+  - name: "🇹🇷_7"
+    type: vless
+    server: "212.87.199.122"
+    port: 58416
+    uuid: "5626ce32-dad0-468b-952c-e53d609100f1"
+    udp: true
+  - name: "🇹🇷_8"
+    type: vless
+    server: "144.225.65.111"
+    port: 46142
+    uuid: "255386a8-aec5-4425-bfe7-ca49b7448deb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.yahoo.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo"
-      short-id: "8390ee7a5996648b"
+      public-key: "l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk"
+      short-id: "39feeba3085c"
   - name: "🇹🇷_9"
     type: vless
-    server: "91.228.227.112"
-    port: 110
-    uuid: "4003d537-6128-4206-b86a-3444f88990c4"
+    server: "138.249.20.37"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eu-central.cendora.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
+      short-id: "00bca5982f82d083"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_10"
+    type: vless
+    server: "turj2.surup.shop"
+    port: 46142
+    uuid: "255386a8-aec5-4425-bfe7-ca49b7448deb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk"
+      short-id: "39feeba3085c"
+  - name: "🇹🇷_11"
+    type: vless
+    server: "185.123.100.56"
+    port: 8443
+    uuid: "78eb4455-0d07-4bc2-93e3-7c8654f11d74"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_12"
+    type: vless
+    server: "37.221.79.31"
+    port: 8082
+    uuid: "bfb3f06c-e33f-41ac-b101-012c8325a689"
     udp: true
 
 proxy-groups:
@@ -179,6 +228,9 @@ proxy-groups:
       - "🇹🇷_7"
       - "🇹🇷_8"
       - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
 
 
 rules:

@@ -59,21 +59,33 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇱🇺_2"
+  - name: "🇺🇿_4"
     type: vless
-    server: "193.239.179.138"
-    port: 443
-    uuid: "cb10c0a7-b570-4ae8-a40c-2a8e31bc5a26"
+    server: "189.74.97.47"
+    port: 2087
+    uuid: "894fe9f0-b998-49c0-8003-a5007de921e1"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sb6anj3uz4gy.bosfiles.net"
-    client-fingerprint: "firefox"
     network: ws
     ws-opts:
-      path: "/v1/data/sync"
-      headers:
-        Host: "sb6anj3uz4gy.bosfiles.net"
+      path: "/755276b33b6f"
+  - name: "🇺🇿_5"
+    type: vless
+    server: "157.22.133.130"
+    port: 2087
+    uuid: "e6d369db-22be-4f30-8685-455c717aaa8c"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/5021201ef53f"
+  - name: "🇺🇿_6"
+    type: vless
+    server: "189.74.97.43"
+    port: 2087
+    uuid: "10f7eb2d-d96d-4778-9d36-aff11e9d6629"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/73b6faea2d00"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -116,7 +128,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -126,7 +140,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -136,7 +152,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -145,7 +163,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -155,13 +175,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇱🇺_2"
+      - "🇺🇿_4"
+      - "🇺🇿_5"
+      - "🇺🇿_6"
 
 rules:
   - MATCH,PROXY-BEST

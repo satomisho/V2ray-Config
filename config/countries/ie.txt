@@ -1,4 +1,3 @@
-vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@167.160.177.68:2096?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%AE%F0%9F%87%AA
 vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@194.87.245.205:8443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%AE%F0%9F%87%AA
-trojan://humanity@54.216.143.197:443?path=%2Fassignment&security=tls&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=www.calmlunch.com#%F0%9F%87%AE%F0%9F%87%AA
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5STFpdldnelJxUG5SNkZF@4.231.221.11:443#%F0%9F%87%AE%F0%9F%87%AA
+vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@167.160.177.68:2096?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%AE%F0%9F%87%AA
+vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@198.55.102.68:2083?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%AE%F0%9F%87%AA

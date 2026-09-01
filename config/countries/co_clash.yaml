@@ -65,7 +65,19 @@ dns:
 proxies:
   - name: "🇨🇴_1"
     type: vless
-    server: "157.137.217.171"
+    server: "149.130.184.116"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    udp: true
+  - name: "🇨🇴_2"
+    type: vless
+    server: "149.130.179.13"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
+    udp: true
+  - name: "🇨🇴_3"
+    type: vless
+    server: "157.137.237.11"
     port: 62145
     uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
     udp: true
@@ -84,6 +96,8 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇴_1"
+      - "🇨🇴_2"
+      - "🇨🇴_3"
 
 
 rules:

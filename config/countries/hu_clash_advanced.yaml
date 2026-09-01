@@ -59,7 +59,36 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇭🇺_4"
+  - name: "🇭🇺_6"
+    type: vless
+    server: "141.11.202.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇭🇺_7"
+    type: vless
+    server: "37.221.210.113"
+    port: 443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
+  - name: "🇭🇺_8"
     type: vless
     server: "38.180.109.174"
     port: 443
@@ -74,21 +103,22 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇭🇺_5"
+  - name: "🇭🇺_9"
     type: vless
-    server: "141.11.202.123"
+    server: "38.180.108.148"
     port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2"
+      path: "/"
       headers:
-        Host: "notls.lukongtou.eu.org"
-  - name: "🇭🇺_6"
+        Host: "eded-52n.pages.dev"
+  - name: "🇭🇺_10"
     type: vless
     server: "180.149.37.38"
     port: 8443
@@ -145,9 +175,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -157,9 +189,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -169,9 +203,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -180,9 +216,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -192,17 +230,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇭🇺_4"
-      - "🇭🇺_5"
       - "🇭🇺_6"
+      - "🇭🇺_7"
+      - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
 
 rules:
   - MATCH,PROXY-BEST

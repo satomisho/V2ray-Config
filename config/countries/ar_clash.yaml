@@ -67,21 +67,21 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "d7297202-5d6f-4682-b550-ecf916b0cd01"
+    uuid: "bf5a02f8-945f-4431-ba62-d949275b5aa3"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "zvukipro.com"
-    client-fingerprint: "qq"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
       short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_2"
     type: vless
-    server: "149.33.19.143"
+    server: "38.180.186.202"
     port: 443
-    uuid: "a4101305-0901-4864-9ebf-da3c23b95307"
+    uuid: "c49e0537-9efe-4f0f-ae5d-dba2f3cc2bc4"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -95,12 +95,12 @@ proxies:
     type: vless
     server: "149.33.19.143"
     port: 443
-    uuid: "25acff7f-3aff-4c68-bc5e-bbc68589f459"
+    uuid: "5567bf8c-e870-469d-b117-770c644c2682"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "zvukipro.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
       short-id: "fd55b698ee8c3629"
@@ -123,7 +123,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "f631578d-7b57-47b6-8dd5-1d558bb54a92"
+    uuid: "8f0faee5-b051-4349-b726-d6d7b83d24e0"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -135,9 +135,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_6"
     type: vless
-    server: "38.180.186.202"
+    server: "149.33.19.143"
     port: 443
-    uuid: "bdc97169-ccbe-41b6-8c72-adcfc57c15c0"
+    uuid: "7554d102-a926-4ac6-9f5d-1ad2264b431c"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -148,48 +148,6 @@ proxies:
       short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_7"
-    type: vless
-    server: "38.180.186.202"
-    port: 443
-    uuid: "7f32fb1f-9f6f-4e40-a359-de8f0369d981"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zvukipro.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇷_8"
-    type: vless
-    server: "38.180.186.202"
-    port: 443
-    uuid: "8f0faee5-b051-4349-b726-d6d7b83d24e0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zvukipro.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇷_9"
-    type: vless
-    server: "38.180.186.202"
-    port: 443
-    uuid: "c49e0537-9efe-4f0f-ae5d-dba2f3cc2bc4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zvukipro.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇷_10"
     type: vless
     server: "149.33.19.143"
     port: 443
@@ -203,11 +161,53 @@ proxies:
       public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
       short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇷_11"
+  - name: "🇦🇷_8"
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "8695f319-5c61-4933-afed-a17dab92d9bb"
+    uuid: "5695ff2a-d23c-45f8-85f4-19e2a80314cc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zvukipro.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
+      short-id: "fd55b698ee8c3629"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇷_9"
+    type: vless
+    server: "38.180.186.202"
+    port: 443
+    uuid: "bbe48cb4-1a71-4a6f-a50f-eac7e36c1052"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zvukipro.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
+      short-id: "fd55b698ee8c3629"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇷_10"
+    type: vless
+    server: "38.180.186.202"
+    port: 443
+    uuid: "9cacc6bf-840f-405a-991b-abef7ad86a1d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zvukipro.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
+      short-id: "fd55b698ee8c3629"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇷_11"
+    type: vless
+    server: "149.33.19.143"
+    port: 443
+    uuid: "b2508986-719e-4bb0-8d1e-f75bc216b48e"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -221,7 +221,7 @@ proxies:
     type: vless
     server: "149.33.19.143"
     port: 443
-    uuid: "b2508986-719e-4bb0-8d1e-f75bc216b48e"
+    uuid: "a4101305-0901-4864-9ebf-da3c23b95307"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -247,9 +247,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_14"
     type: vless
-    server: "38.180.186.202"
+    server: "149.33.19.143"
     port: 443
-    uuid: "fbb2a729-592a-4d3b-9f47-8a355b7751c9"
+    uuid: "5e5afd7c-d342-4143-940d-c57e90cc4d47"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -263,7 +263,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "bbe48cb4-1a71-4a6f-a50f-eac7e36c1052"
+    uuid: "8695f319-5c61-4933-afed-a17dab92d9bb"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -277,7 +277,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "bf5a02f8-945f-4431-ba62-d949275b5aa3"
+    uuid: "7f32fb1f-9f6f-4e40-a359-de8f0369d981"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -289,9 +289,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_17"
     type: vless
-    server: "149.33.19.143"
+    server: "38.180.186.202"
     port: 443
-    uuid: "5567bf8c-e870-469d-b117-770c644c2682"
+    uuid: "fbb2a729-592a-4d3b-9f47-8a355b7751c9"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -305,7 +305,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41"
+    uuid: "be77dc02-5753-4018-8115-2e91f8b92823"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -317,9 +317,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_19"
     type: vless
-    server: "149.33.19.143"
+    server: "38.180.186.202"
     port: 443
-    uuid: "5e5afd7c-d342-4143-940d-c57e90cc4d47"
+    uuid: "d7297202-5d6f-4682-b550-ecf916b0cd01"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -333,7 +333,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "1199c55b-f7ed-451a-bcbc-387d0ed84117"
+    uuid: "f631578d-7b57-47b6-8dd5-1d558bb54a92"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -345,9 +345,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_21"
     type: vless
-    server: "149.33.19.143"
+    server: "38.180.186.202"
     port: 443
-    uuid: "0530cbe4-d441-402a-be2e-1627beb458f5"
+    uuid: "1199c55b-f7ed-451a-bcbc-387d0ed84117"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -361,7 +361,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "be77dc02-5753-4018-8115-2e91f8b92823"
+    uuid: "18b476f8-d1ca-4bf5-a397-c6fbf8ef4d41"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -373,19 +373,33 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_23"
     type: vless
-    server: "38.180.186.202"
+    server: "149.33.19.143"
     port: 443
-    uuid: "ddc16e82-b242-43c3-9c9c-96c0f1cce41b"
+    uuid: "25acff7f-3aff-4c68-bc5e-bbc68589f459"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "zvukipro.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
       short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_24"
+    type: vless
+    server: "38.180.186.202"
+    port: 443
+    uuid: "bdc97169-ccbe-41b6-8c72-adcfc57c15c0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "zvukipro.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
+      short-id: "fd55b698ee8c3629"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇷_25"
     type: vless
     server: "38.180.186.202"
     port: 443
@@ -399,25 +413,11 @@ proxies:
       public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
       short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇷_25"
-    type: vless
-    server: "149.33.19.143"
-    port: 443
-    uuid: "7554d102-a926-4ac6-9f5d-1ad2264b431c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "zvukipro.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
   - name: "🇦🇷_26"
     type: vless
     server: "149.33.19.143"
     port: 443
-    uuid: "81dae76a-3ce4-4c5f-a5a4-ef67e4490cd6"
+    uuid: "732d967a-b82c-48e8-9de9-a133d8148b3d"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -431,7 +431,7 @@ proxies:
     type: vless
     server: "149.33.19.143"
     port: 443
-    uuid: "6a7847c6-69e0-46c1-b685-b1a1cca9eb4c"
+    uuid: "81dae76a-3ce4-4c5f-a5a4-ef67e4490cd6"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -443,9 +443,9 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇦🇷_28"
     type: vless
-    server: "38.180.186.202"
+    server: "149.33.19.143"
     port: 443
-    uuid: "9cacc6bf-840f-405a-991b-abef7ad86a1d"
+    uuid: "0530cbe4-d441-402a-be2e-1627beb458f5"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -459,7 +459,7 @@ proxies:
     type: vless
     server: "38.180.186.202"
     port: 443
-    uuid: "5695ff2a-d23c-45f8-85f4-19e2a80314cc"
+    uuid: "ddc16e82-b242-43c3-9c9c-96c0f1cce41b"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -473,7 +473,7 @@ proxies:
     type: vless
     server: "149.33.19.143"
     port: 443
-    uuid: "732d967a-b82c-48e8-9de9-a133d8148b3d"
+    uuid: "6a7847c6-69e0-46c1-b685-b1a1cca9eb4c"
     udp: true
     tls: true
     skip-cert-verify: true

@@ -1,2 +1,1 @@
 vless://7493883f-6047-46a7-8d95-f59e137ffaec@190.93.245.176:443?path=/?TELEGRAM-TOOTFFARANGI?ed=2560&security=tls&alpn=http/1.1&encryption=none&insecure=0&host=auto-749388.rohawmk.workers.dev&fp=chrome&type=ws&allowInsecure=0&sni=auto-749388.rohawmk.workers.dev#%F0%9F%87%A8%F0%9F%87%B7
-vless://d44ef49e-829f-4216-aac5-0565190fcd3b@190.93.246.148:443?type=ws&security=tls&fp=random&sni=testcf.motherfuck.dpdns.org#%F0%9F%87%A8%F0%9F%87%B7

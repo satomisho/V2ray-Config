@@ -59,9 +59,9 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇩_5"
+  - name: "🇲🇩_7"
     type: vless
-    server: "81.180.92.55"
+    server: "193.36.38.17"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
@@ -74,7 +74,50 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇲🇩_6"
+  - name: "🇲🇩_8"
+    type: vless
+    server: "144.31.131.241"
+    port: 8443
+    uuid: "b406bc51-9002-474c-beae-b194b02c91da"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "mold.speedload.online"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs"
+      short-id: "a20d3ed244c76426"
+    flow: "xtls-rprx-vision"
+  - name: "🇲🇩_9"
+    type: vless
+    server: "217.156.67.86"
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇲🇩_10"
+    type: vless
+    server: "80.96.109.223"
+    port: 443
+    uuid: "74f73fb2-49cc-4744-bd37-97c5f83963ab"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hotcoals.aeternavpn.space"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "RWu6ktBE4DFbUz_prmz-5KuolLhO53ehh19mNxhP-wI"
+      short-id: "a1b2c3d4"
+    flow: "xtls-rprx-vision"
+  - name: "🇲🇩_11"
     type: vless
     server: "193.36.38.222"
     port: 443
@@ -89,23 +132,9 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇲🇩_7"
+  - name: "🇲🇩_12"
     type: vless
-    server: "144.31.131.241"
-    port: 8443
-    uuid: "b406bc51-9002-474c-beae-b194b02c91da"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mold.speedload.online"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs"
-      short-id: "a20d3ed244c76426"
-    flow: "xtls-rprx-vision"
-  - name: "🇲🇩_8"
-    type: vless
-    server: "193.36.38.17"
+    server: "81.180.92.55"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
@@ -160,10 +189,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -173,10 +204,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -186,10 +219,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -198,10 +233,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -211,19 +248,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇩_5"
-      - "🇲🇩_6"
       - "🇲🇩_7"
       - "🇲🇩_8"
+      - "🇲🇩_9"
+      - "🇲🇩_10"
+      - "🇲🇩_11"
+      - "🇲🇩_12"
 
 rules:
   - MATCH,PROXY-BEST

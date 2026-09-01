@@ -72,7 +72,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
@@ -85,7 +85,7 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"

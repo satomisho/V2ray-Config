@@ -64,6 +64,47 @@ dns:
 
 proxies:
   - name: "🇸🇨_1"
+    type: vless
+    server: "200.165.231.209"
+    port: 443
+    uuid: "ff0b6ba8-bed0-4c4d-bbc9-23af47582615"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "200.165.231.209"
+    network: ws
+    ws-opts:
+      path: "/api/connect"
+      headers:
+        Host: "wstg.datasynctrue.online"
+  - name: "🇸🇨_2"
+    type: vless
+    server: "200.165.235.43"
+    port: 2053
+    uuid: "41f33146-7eb4-11f1-855a-d60b69bb56c6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dzen.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0"
+      short-id: "2c60309fa586eb60"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-direct"
+  - name: "🇸🇨_3"
+    type: trojan
+    server: "45.130.125.160"
+    port: 443
+    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
+    sni: "go.appsflyer.com.r3xxe.eu.cc"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/br-orcl"
+  - name: "🇸🇨_4"
     type: trojan
     server: "45.130.125.0"
     port: 443
@@ -76,17 +117,6 @@ proxies:
       path: "/us-gllc"
       headers:
         Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-  - name: "🇸🇨_2"
-    type: trojan
-    server: "45.130.125.160"
-    port: 443
-    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
-    sni: "go.appsflyer.com.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/br-orcl"
 
 proxy-groups:
   - name: "PROXY"
@@ -103,6 +133,8 @@ proxy-groups:
     proxies:
       - "🇸🇨_1"
       - "🇸🇨_2"
+      - "🇸🇨_3"
+      - "🇸🇨_4"
 
 
 rules:

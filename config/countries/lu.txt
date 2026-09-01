@@ -1,1 +1,0 @@
-vless://cb10c0a7-b570-4ae8-a40c-2a8e31bc5a26@193.239.179.138:443?alpn=http/1.1&encryption=none&fp=firefox&host=sb6anj3uz4gy.bosfiles.net&path=/v1/data/sync&security=tls&sni=sb6anj3uz4gy.bosfiles.net&type=ws#%F0%9F%87%B1%F0%9F%87%BA

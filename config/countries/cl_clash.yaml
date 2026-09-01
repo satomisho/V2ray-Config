@@ -65,6 +65,36 @@ dns:
 proxies:
   - name: "🇨🇱_1"
     type: vless
+    server: "64.176.11.9"
+    port: 8443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇨🇱_2"
+    type: vless
+    server: "64.176.12.48"
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇨🇱_3"
+    type: vless
     server: "64.176.4.154"
     port: 8443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
@@ -93,6 +123,8 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇱_1"
+      - "🇨🇱_2"
+      - "🇨🇱_3"
 
 
 rules:

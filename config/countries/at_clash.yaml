@@ -65,21 +65,33 @@ dns:
 proxies:
   - name: "🇦🇹_1"
     type: vless
-    server: "94.228.163.241"
-    port: 2053
-    uuid: "c7ae1368-b6ca-4d11-beef-bb76f68d1b80"
+    server: "152.53.114.186"
+    port: 443
+    uuid: "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "dl.google.com"
+    servername: "as.tunnelx.space"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "PsJ_TTwvE06Du6qrgNqjqb7d0A1nA4Uh5FsuapOVKCE"
-      short-id: "7709f1853d63def9"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc"
+      public-key: "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA"
+      short-id: "4e9b0c2d1a3f5768"
+    flow: "xtls-rprx-vision"
   - name: "🇦🇹_2"
+    type: vless
+    server: "31.76.69.40"
+    port: 443
+    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eu-central.cendora.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
+      short-id: "00bca5982f82d083"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_3"
     type: vless
     server: "152.53.1.40"
     port: 443
@@ -92,20 +104,6 @@ proxies:
     reality-opts:
       public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
       short-id: "43dcff53849b81e6"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_3"
-    type: vless
-    server: "152.53.114.186"
-    port: 443
-    uuid: "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "as.tunnelx.space"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA"
-      short-id: "4e9b0c2d1a3f5768"
     flow: "xtls-rprx-vision"
 
 proxy-groups:

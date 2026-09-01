@@ -59,21 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇬_7"
-    type: vless
-    server: "82.118.18.202"
-    port: 443
-    uuid: "316dda83-17f1-4f29-a05f-b84b7f991b82"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "HDiwGAN66V77CrlCWrDZupEiSQk204dkWRjJok0zYhk"
-      short-id: "720148f2fea16d0f"
-    flow: "xtls-rprx-vision"
-  - name: "🇧🇬_8"
+  - name: "🇧🇬_21"
     type: vless
     server: "82.118.18.224"
     port: 443
@@ -87,7 +73,21 @@ proxies:
       public-key: "mx0NhP2x4HYUumJ1r0RV411imRCjKQDfDf5ApSz5cCE"
       short-id: "63499b2eceaee61e"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_9"
+  - name: "🇧🇬_22"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "d324d4f0-f68e-49f2-8492-9cbc4bb09fd8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_23"
     type: vless
     server: "45.39.241.116"
     port: 443
@@ -102,35 +102,133 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇧🇬_10"
+  - name: "🇧🇬_24"
     type: vless
-    server: "131.123.42.150"
+    server: "82.118.18.202"
     port: 443
-    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
+    uuid: "316dda83-17f1-4f29-a05f-b84b7f991b82"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "bul2.helper-internet.com"
+    servername: "www.cloudflare.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
+      public-key: "HDiwGAN66V77CrlCWrDZupEiSQk204dkWRjJok0zYhk"
+      short-id: "720148f2fea16d0f"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_11"
+  - name: "🇧🇬_25"
     type: vless
-    server: "84.238.133.186"
+    server: "sof.edgeptr.org"
     port: 443
-    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
+    uuid: "6e07414e-335e-4a9a-b426-f6733e1c6a1d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "swed2.helper-internet.com"
+    servername: "www.lovelive-anime.jp"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U"
-      short-id: "6aa2d2e950441a9a"
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_12"
+  - name: "🇧🇬_26"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "6097ffb6-8022-4c86-b5d5-9c2aeab5f19d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_27"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "978170a3-723c-4284-ba9e-108a12586b90"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "0a1b2c3d4e5f6071"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_28"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "88a6bbff-0375-4852-b147-75eeeaaa5559"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_29"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "de5d31f6-c0a7-479d-8cf4-c085b43b17d3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_30"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "c9fbc5c5-7d61-4687-a27f-253396ce7bb7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_31"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "68ef57c2-fc11-4468-9e68-625704c5eee8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_32"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "6efac528-80cf-4531-adab-c4daeecbb68a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_33"
     type: vless
     server: "84.238.133.104"
     port: 443
@@ -143,6 +241,103 @@ proxies:
     reality-opts:
       public-key: "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U"
       short-id: "6aa2d2e950441a9a"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_34"
+    type: vless
+    server: "84.238.133.186"
+    port: 443
+    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "swed2.helper-internet.com"
+    reality-opts:
+      public-key: "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U"
+      short-id: "6aa2d2e950441a9a"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_35"
+    type: vless
+    server: "194.110.87.8"
+    port: 443
+    uuid: "331e1d4d-21c7-4458-89c1-2e009690f9d9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_36"
+    type: vless
+    server: "194.110.87.8"
+    port: 443
+    uuid: "d9fc2109-33ee-4f57-b67a-7c6ea3a1c645"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_37"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "880c9f58-0607-4a11-8c40-1b4e08718c1b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_38"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "5f388864-412d-4a9d-9b3b-802bd3a03511"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_39"
+    type: vless
+    server: "sof.edgeptr.org"
+    port: 443
+    uuid: "7be52d6e-d933-4ed9-8e62-a3aa644536b1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_40"
+    type: vless
+    server: "194.110.87.8"
+    port: 443
+    uuid: "03ab04d1-3dcf-41dd-9b38-fd2875047549"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0"
+      short-id: "f0eb800bd980b00b"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -186,12 +381,26 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
   - name: "LB-CDN"
     type: load-balance
@@ -201,12 +410,26 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -216,12 +439,26 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
   - name: "FAST-CDN"
     type: url-test
@@ -230,12 +467,26 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -245,23 +496,51 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
-      - "🇧🇬_12"
+      - "🇧🇬_21"
+      - "🇧🇬_22"
+      - "🇧🇬_23"
+      - "🇧🇬_24"
+      - "🇧🇬_25"
+      - "🇧🇬_26"
+      - "🇧🇬_27"
+      - "🇧🇬_28"
+      - "🇧🇬_29"
+      - "🇧🇬_30"
+      - "🇧🇬_31"
+      - "🇧🇬_32"
+      - "🇧🇬_33"
+      - "🇧🇬_34"
+      - "🇧🇬_35"
+      - "🇧🇬_36"
+      - "🇧🇬_37"
+      - "🇧🇬_38"
+      - "🇧🇬_39"
+      - "🇧🇬_40"
 
 rules:
   - MATCH,PROXY-BEST

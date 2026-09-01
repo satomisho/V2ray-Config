@@ -59,7 +59,35 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇨🇭_5"
+    type: vless
+    server: "31.76.4.128"
+    port: 5001
+    uuid: "5a92a9d2-3067-49cd-bfc5-989bbdfc5d52"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "fi.aeternavpn.space"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ"
+      short-id: "a1b2c3d4"
+    flow: "xtls-rprx-vision"
   - name: "🇨🇭_6"
+    type: vless
+    server: "45.90.58.216"
+    port: 443
+    uuid: "2e8077d9-7bd9-444b-b2e3-de940d2eb35e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc"
+      short-id: "77d7abe2c55892f1"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_7"
     type: vless
     server: "31.76.4.103"
     port: 443
@@ -73,20 +101,6 @@ proxies:
       public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
       short-id: "00bca5982f82d083"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_7"
-    type: vless
-    server: "45.90.58.216"
-    port: 443
-    uuid: "2e8077d9-7bd9-444b-b2e3-de940d2eb35e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc"
-      short-id: "77d7abe2c55892f1"
-    flow: "xtls-rprx-vision"
   - name: "🇨🇭_8"
     type: vless
     server: "45.90.56.231"
@@ -96,26 +110,11 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
       short-id: "e2e66f4537770cef"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_9"
-    type: trojan
-    server: "45.95.232.189"
-    port: 443
-    password: "kxHw-Dk-e9dffgzYszMlEqLJ92AnY3Pi"
-    sni: "tr-switzerlandgopota.unlimited-access.ru"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇨🇭_10"
-    type: ss
-    server: "15.235.75.71"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "FD3rCuOsxOay"
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -158,11 +157,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -172,11 +170,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -186,11 +183,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -199,11 +195,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -213,21 +208,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇨🇭_5"
       - "🇨🇭_6"
       - "🇨🇭_7"
       - "🇨🇭_8"
-      - "🇨🇭_9"
-      - "🇨🇭_10"
 
 rules:
   - MATCH,PROXY-BEST

@@ -63,20 +63,19 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇵🇪_1"
-    type: vless
-    server: "107.151.250.183"
+  - name: "🇭🇷_1"
+    type: trojan
+    server: "213.182.199.137"
     port: 443
-    uuid: "4caaaae0-516b-4026-b2b2-69fea69df19a"
-    udp: true
-    tls: true
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     skip-cert-verify: true
-    servername: "www.bing.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "LDpWYUJjGRJomvaN-gfgY96EJOF2DDHiFcNPEBLtoW0"
-      short-id: "9019bbea8ff8781e"
-    flow: "xtls-rprx-vision"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,7 +90,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇵🇪_1"
+      - "🇭🇷_1"
 
 
 rules:
