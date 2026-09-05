@@ -61,19 +61,6 @@ dns:
 proxies:
   - name: "🇸🇰_3"
     type: vless
-    server: "185.112.249.201"
-    port: 8443
-    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "web-socket.tgdaosheng.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇸🇰_4"
-    type: vless
     server: "89.46.42.141"
     port: 8443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
@@ -87,6 +74,19 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
+  - name: "🇸🇰_4"
+    type: vless
+    server: "185.112.249.201"
+    port: 8443
+    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "web-socket.tgdaosheng.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

@@ -65,15 +65,6 @@ dns:
 proxies:
   - name: "🇺🇿_1"
     type: vless
-    server: "189.74.97.47"
-    port: 2087
-    uuid: "894fe9f0-b998-49c0-8003-a5007de921e1"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/755276b33b6f"
-  - name: "🇺🇿_2"
-    type: vless
     server: "157.22.133.130"
     port: 2087
     uuid: "e6d369db-22be-4f30-8685-455c717aaa8c"
@@ -81,15 +72,6 @@ proxies:
     network: ws
     ws-opts:
       path: "/5021201ef53f"
-  - name: "🇺🇿_3"
-    type: vless
-    server: "189.74.97.43"
-    port: 2087
-    uuid: "10f7eb2d-d96d-4778-9d36-aff11e9d6629"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/73b6faea2d00"
 
 proxy-groups:
   - name: "PROXY"
@@ -105,8 +87,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇺🇿_1"
-      - "🇺🇿_2"
-      - "🇺🇿_3"
 
 
 rules:

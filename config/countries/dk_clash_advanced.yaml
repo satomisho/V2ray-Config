@@ -59,35 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇩🇰_5"
-    type: vless
-    server: "144.31.242.1"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇩🇰_6"
-    type: vless
-    server: "46.29.235.9"
-    port: 443
-    uuid: "d67af820-f54c-48ab-862c-19086357f276"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "telegraf.lv"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI"
-      short-id: "a1b2c3d4"
-    flow: "xtls-rprx-vision"
-  - name: "🇩🇰_7"
+  - name: "🇩🇰_3"
     type: vless
     server: "77.37.97.204"
     port: 8443
@@ -102,7 +74,7 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇩🇰_8"
+  - name: "🇩🇰_4"
     type: vless
     server: "193.181.212.80"
     port: 443
@@ -111,12 +83,10 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "kv.074167.xyz"
-    client-fingerprint: "random"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "kv.074167.xyz"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -159,10 +129,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -172,10 +140,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -185,10 +151,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -197,10 +161,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -210,19 +172,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇩🇰_5"
-      - "🇩🇰_6"
-      - "🇩🇰_7"
-      - "🇩🇰_8"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
 rules:
   - MATCH,PROXY-BEST

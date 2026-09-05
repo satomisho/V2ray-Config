@@ -96,17 +96,17 @@ proxies:
     type: vless
     server: "38.180.109.174"
     port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "eded-52n.pages.dev"
+        Host: "kv.074167.xyz"
   - name: "🇭🇺_4"
     type: vless
     server: "38.180.108.148"
@@ -124,8 +124,8 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇭🇺_5"
     type: vless
-    server: "180.149.37.38"
-    port: 8443
+    server: "38.180.109.174"
+    port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
     tls: true
@@ -137,6 +137,22 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
+  - name: "🇭🇺_6"
+    type: trojan
+    server: "hu2.vpnjantit.com"
+    port: 4443
+    password: "C0ldyfh-vpnjantit.com"
+    sni: "hu2.vpnjantit.com"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇺_7"
+    type: trojan
+    server: "46.29.142.57"
+    port: 4443
+    password: "C0ldyfh-vpnjantit.com"
+    sni: "hu2.vpnjantit.com"
+    skip-cert-verify: true
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -156,6 +172,8 @@ proxy-groups:
       - "🇭🇺_3"
       - "🇭🇺_4"
       - "🇭🇺_5"
+      - "🇭🇺_6"
+      - "🇭🇺_7"
 
 
 rules:

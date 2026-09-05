@@ -59,6 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇨🇭_4"
+    type: vless
+    server: "ch-1.kihsuyhf8jkiugsxb.cfd"
+    port: 443
+    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ch-1.kihsuyhf8jkiugsxb.cfd"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bnUUlOHnKSj_dwJQP-zMTTVjJ9IierDOleYNKA_kpn4"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇨🇭_5"
     type: vless
     server: "31.76.4.128"
@@ -68,52 +82,24 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "fi.aeternavpn.space"
-    client-fingerprint: "qq"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ"
       short-id: "a1b2c3d4"
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_6"
     type: vless
-    server: "45.90.58.216"
+    server: "194.154.29.149"
     port: 443
-    uuid: "2e8077d9-7bd9-444b-b2e3-de940d2eb35e"
+    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc"
-      short-id: "77d7abe2c55892f1"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇭_7"
-    type: vless
-    server: "31.76.4.103"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
+    servername: "ch-1.kihsuyhf8jkiugsxb.cfd"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇭_8"
-    type: vless
-    server: "45.90.56.231"
-    port: 443
-    uuid: "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0"
-      short-id: "e2e66f4537770cef"
+      public-key: "bnUUlOHnKSj_dwJQP-zMTTVjJ9IierDOleYNKA_kpn4"
+      short-id: ""
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -157,10 +143,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -170,10 +155,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -183,10 +167,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -195,10 +178,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -208,19 +190,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇨🇭_4"
       - "🇨🇭_5"
       - "🇨🇭_6"
-      - "🇨🇭_7"
-      - "🇨🇭_8"
 
 rules:
   - MATCH,PROXY-BEST

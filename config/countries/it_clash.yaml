@@ -65,97 +65,6 @@ dns:
 proxies:
   - name: "🇮🇹_1"
     type: vless
-    server: "172.238.232.239"
-    port: 32833
-    uuid: "167ed405-7de9-4bff-b1ea-6e3d49c76b0b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.intel.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20"
-      short-id: "a0a305ccc8e94aa8"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇹_2"
-    type: vless
-    server: "204.216.216.23"
-    port: 10086
-    uuid: "9f0285ee-20ca-4953-bcdb-86a920652923"
-    udp: true
-  - name: "🇮🇹_3"
-    type: vless
-    server: "ov-italy1.09vpn.com"
-    port: 8443
-    uuid: "dc0d0eda-2293-4001-aa03-bd6c9431ed24"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ov-italy1.09vpn.com"
-    network: ws
-    ws-opts:
-      path: "/vless/"
-      headers:
-        Host: "ov-italy1.09vpn.com"
-  - name: "🇮🇹_4"
-    type: vless
-    server: "172.232.196.241"
-    port: 32396
-    uuid: "bd6ebd72-25cd-4209-a418-a8c72946da90"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.sony.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU"
-      short-id: "dd6ce6af95001a"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇹_5"
-    type: vless
-    server: "OV-Italy1.09vpn.com"
-    port: 80
-    uuid: "049e56d8-0ba0-49e3-b764-ee04122b9f00"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/vless/"
-  - name: "🇮🇹_6"
-    type: vless
-    server: "57.131.32.191"
-    port: 8443
-    uuid: "dc0d0eda-2293-4001-aa03-bd6c9431ed24"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ov-italy1.09vpn.com"
-    network: ws
-    ws-opts:
-      path: "/vless/"
-      headers:
-        Host: "ov-italy1.09vpn.com"
-  - name: "🇮🇹_7"
-    type: vless
-    server: "ov-italy1.09vpn.com"
-    port: 80
-    uuid: "049e56d8-0ba0-49e3-b764-ee04122b9f00"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/vless/"
-      headers:
-        Host: "ov-italy1.09vpn.com"
-  - name: "🇮🇹_8"
-    type: vless
-    server: "OV-Italy1.09vpn.com"
-    port: 80
-    uuid: "1e280316-0408-47c4-b058-05b8f1f17f02"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/vless/"
-  - name: "🇮🇹_9"
-    type: vless
     server: "204.216.216.23"
     port: 1114
     uuid: "6ba2eac6-0ec9-44ca-a42b-a8e23aafb530"
@@ -168,25 +77,7 @@ proxies:
       public-key: "WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ"
       short-id: "79a1e14b"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇹_10"
-    type: vless
-    server: "151.241.215.109"
-    port: 443
-    uuid: "699ce9a1-abbb-4525-988e-b940381352e8"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇮🇹_11"
-    type: vless
-    server: "151.243.198.104"
-    port: 443
-    uuid: "e4737ce4-c646-44cc-9067-390e13c2a5f6"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇮🇹_12"
+  - name: "🇮🇹_2"
     type: vless
     server: "89.46.70.144"
     port: 443
@@ -201,7 +92,91 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇮🇹_13"
+  - name: "🇮🇹_3"
+    type: vless
+    server: "116.204.164.5"
+    port: 7443
+    uuid: "d25fa7ff-f71e-4cc2-88e6-a340b86fdebf"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇮🇹_4"
+    type: vless
+    server: "204.216.216.23"
+    port: 10086
+    uuid: "9f0285ee-20ca-4953-bcdb-86a920652923"
+    udp: true
+  - name: "🇮🇹_5"
+    type: vless
+    server: "57.131.38.163"
+    port: 2053
+    uuid: "d4b08cd6-0903-411a-9dac-45dbdf5c9712"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc"
+      short-id: "5b8a942318178e7b"
+  - name: "🇮🇹_6"
+    type: vless
+    server: "151.241.215.109"
+    port: 443
+    uuid: "699ce9a1-abbb-4525-988e-b940381352e8"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇮🇹_7"
+    type: vless
+    server: "it.monkora.org"
+    port: 443
+    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "it.monkora.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU"
+      short-id: ""
+  - name: "🇮🇹_8"
+    type: vless
+    server: "57.131.32.191"
+    port: 8443
+    uuid: "dc0d0eda-2293-4001-aa03-bd6c9431ed24"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ov-italy1.09vpn.com"
+    network: ws
+    ws-opts:
+      path: "/vless/"
+      headers:
+        Host: "ov-italy1.09vpn.com"
+  - name: "🇮🇹_9"
+    type: vless
+    server: "172.238.232.239"
+    port: 32833
+    uuid: "167ed405-7de9-4bff-b1ea-6e3d49c76b0b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.intel.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20"
+      short-id: "a0a305ccc8e94aa8"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇹_10"
     type: vless
     server: "31.77.154.14"
     port: 8443
@@ -217,19 +192,20 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc-tunnel"
-  - name: "🇮🇹_14"
-    type: vless
-    server: "57.131.38.163"
-    port: 2053
-    uuid: "d4b08cd6-0903-411a-9dac-45dbdf5c9712"
+  - name: "🇮🇹_11"
+    type: ss
+    server: "57.131.48.45"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Ej2H5ucT7qKegYcT8wODdlxa-cLHr7F4hDVUHzAhcnc"
-      short-id: "5b8a942318178e7b"
+  - name: "🇮🇹_12"
+    type: ss
+    server: "57.131.48.45"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "itzvpn@321"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -256,8 +232,6 @@ proxy-groups:
       - "🇮🇹_10"
       - "🇮🇹_11"
       - "🇮🇹_12"
-      - "🇮🇹_13"
-      - "🇮🇹_14"
 
 
 rules:

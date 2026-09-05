@@ -59,20 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇩_2"
-    type: vless
-    server: "31.56.189.27"
-    port: 8765
-    uuid: "df9f5aca-eda0-428f-a752-e53866153d12"
+  - name: "🇮🇩_3"
+    type: ss
+    server: "103.160.63.199"
+    port: 31348
+    cipher: "chacha20-ietf-poly1305"
+    password: "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "srv-21bac9.vless.monster"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "M08l5tDmJUYELykZCNYQyFgtR9Zc-A4ZGlUSLcUeS2c"
-      short-id: "1bcc9177f3124b25"
-    flow: "xtls-rprx-vision"
+  - name: "🇮🇩_4"
+    type: ss
+    server: "103.160.63.199"
+    port: 31348
+    cipher: "chacha20-ietf-poly1305"
+    password: "8C5valhOd8vfwaTXUSZ6Zyb0Ip34lRR5z7P8az"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -115,7 +115,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +126,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +137,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +147,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +158,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇩_2"
+      - "🇮🇩_3"
+      - "🇮🇩_4"
 
 rules:
   - MATCH,PROXY-BEST

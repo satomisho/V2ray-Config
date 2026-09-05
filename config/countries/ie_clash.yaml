@@ -95,19 +95,15 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇮🇪_3"
     type: vless
-    server: "198.55.102.68"
-    port: 2083
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    server: "86.54.83.75"
+    port: 443
+    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
+    servername: "ie.easyemploy.org"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"

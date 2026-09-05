@@ -65,13 +65,32 @@ dns:
 proxies:
   - name: "🇵🇭_1"
     type: vless
-    server: "149.104.109.17"
-    port: 2087
-    uuid: "9ed3dcb3-b71a-4ae1-8210-95e33615d7e6"
+    server: "ph-1.kihsuyhf8jkiugsxb.cfd"
+    port: 443
+    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/04461917b179"
+    tls: true
+    skip-cert-verify: true
+    servername: "ph-1.kihsuyhf8jkiugsxb.cfd"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "19h48_R3YFHGEKiWsZi0kHgum4AJgyPsuJuui7K8q3A"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇵🇭_2"
+    type: vless
+    server: "61.245.11.164"
+    port: 443
+    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ph-1.kihsuyhf8jkiugsxb.cfd"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "19h48_R3YFHGEKiWsZi0kHgum4AJgyPsuJuui7K8q3A"
+      short-id: ""
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -87,6 +106,7 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇵🇭_1"
+      - "🇵🇭_2"
 
 
 rules:

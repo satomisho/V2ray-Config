@@ -59,7 +59,67 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇹_4"
+  - name: "🇦🇹_8"
+    type: vless
+    server: "159.195.244.171"
+    port: 2054
+    uuid: "75079a7f-75b5-418b-8a65-f7b2f438cd4a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.ibm.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "0-HIOsSIQTrTYc5PdFT0OSKGBiBUiGrJzgV6ctal8Fg"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇦🇹_9"
+    type: vless
+    server: "147.45.41.193"
+    port: 8443
+    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "amazon.de"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "17riEzmqVZyqgLiJkEITsiJc0NcXDfPq6RzQJmH830c"
+      short-id: "ef01859eafef126d"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_10"
+    type: vless
+    server: "87.251.69.114"
+    port: 443
+    uuid: "cf80b5fc-c445-0008-87e6-f8a22ad10d81"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at.monkeyisland.xyz"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4"
+      short-id: "ecca56e9a9963ed7"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_11"
+    type: vless
+    server: "159.195.244.37"
+    port: 2054
+    uuid: "75079a7f-75b5-418b-8a65-f7b2f438cd4a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.ibm.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "l6_Nvc_H8uxGpNI3j3MxqlRoPBs313ENeVM4K3uP9BQ"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇦🇹_12"
     type: vless
     server: "152.53.114.186"
     port: 443
@@ -73,21 +133,21 @@ proxies:
       public-key: "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA"
       short-id: "4e9b0c2d1a3f5768"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇹_5"
+  - name: "🇦🇹_13"
     type: vless
-    server: "31.76.69.40"
+    server: "141.227.164.161"
     port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    uuid: "0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
+    servername: "at.sellflow.org"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇦🇹_6"
+  - name: "🇦🇹_14"
     type: vless
     server: "152.53.1.40"
     port: 443
@@ -143,9 +203,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
   - name: "LB-CDN"
     type: load-balance
@@ -155,9 +219,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -167,9 +235,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
   - name: "FAST-CDN"
     type: url-test
@@ -178,9 +250,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -190,17 +266,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇹_4"
-      - "🇦🇹_5"
-      - "🇦🇹_6"
+      - "🇦🇹_8"
+      - "🇦🇹_9"
+      - "🇦🇹_10"
+      - "🇦🇹_11"
+      - "🇦🇹_12"
+      - "🇦🇹_13"
+      - "🇦🇹_14"
 
 rules:
   - MATCH,PROXY-BEST

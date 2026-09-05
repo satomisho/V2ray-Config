@@ -59,62 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇰🇷_37"
-    type: vless
-    server: "31.77.183.88"
-    port: 5000
-    uuid: "74f73fb2-49cc-4744-bd37-97c5f83963ab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "max.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs"
-      short-id: "a1b2c3d4"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_38"
-    type: vless
-    server: "151.245.106.49"
-    port: 2053
-    uuid: "9f7dddc4-6c77-4e2c-bfa4-7e5afdfd48f8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "Wg07hKwQjSVmOsEHn7X1iLAXR2wkKRSyv8TZmq9ZsRA"
-      short-id: "58186df4a95a1504"
-  - name: "🇰🇷_39"
-    type: vless
-    server: "31.77.182.49"
-    port: 8443
-    uuid: "74f73fb2-49cc-4744-bd37-97c5f83963ab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "fr.aeternavpn.space"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk"
-      short-id: "a1b2c3d4"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_40"
-    type: vless
-    server: "152.67.211.233"
-    port: 8899
-    uuid: "d95e62f8-b961-4362-bb07-e1e421b02274"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.lovelive-anime.jp"
-    client-fingerprint: "ios"
-    reality-opts:
-      public-key: "B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk"
-      short-id: "11d27eb4"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_41"
+  - name: "🇰🇷_31"
     type: vless
     server: "3.38.1.152"
     port: 19179
@@ -128,7 +73,7 @@ proxies:
       public-key: "BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA"
       short-id: "fa1e592603c283"
     flow: "xtls-rprx-vision"
-  - name: "🇰🇷_42"
+  - name: "🇰🇷_32"
     type: vless
     server: "43.202.46.25"
     port: 28482
@@ -142,113 +87,7 @@ proxies:
       public-key: "8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s"
       short-id: "fa1e592603c283"
     flow: "xtls-rprx-vision"
-  - name: "🇰🇷_43"
-    type: vless
-    server: "13.209.26.68"
-    port: 8686
-    uuid: "1a17b19d-4896-4531-af79-6e91d8ef8228"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    reality-opts:
-      public-key: "A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw"
-      short-id: "628b3c90c98ead4f"
-  - name: "🇰🇷_44"
-    type: vless
-    server: "31.77.183.88"
-    port: 5001
-    uuid: "74f73fb2-49cc-4744-bd37-97c5f83963ab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "max.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "D-G2rTpSUTAF6Rj0C6Gxnk-uzsaGzM6MSbJX3jCyBBk"
-      short-id: "a1b2c3d4"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_45"
-    type: vless
-    server: "130.94.29.111"
-    port: 2087
-    uuid: "84da6391-1539-4583-a3d9-d6efd796b4d6"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/e17586a75123"
-  - name: "🇰🇷_46"
-    type: vless
-    server: "3.39.4.109"
-    port: 13672
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_47"
-    type: vless
-    server: "123.111.169.70"
-    port: 2053
-    uuid: "fb3db213-29ba-45b5-ac7f-beec1efce689"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "me.instll.filegear-sg.me"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/about"
-      headers:
-        Host: "me.instll.filegear-sg.me"
-  - name: "🇰🇷_48"
-    type: vless
-    server: "121.166.39.76"
-    port: 12259
-    uuid: "fb3db213-29ba-45b5-ac7f-beec1efce689"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "me.instll.filegear-sg.me"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/faq/doc/films"
-      headers:
-        Host: "me.instll.filegear-sg.me"
-  - name: "🇰🇷_49"
-    type: vless
-    server: "3.39.4.109"
-    port: 18967
-    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
-      short-id: "48050fab"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇷_50"
-    type: vless
-    server: "119.28.161.143"
-    port: 443
-    uuid: "1ebb0858-218a-4dee-8746-36a67bc64462"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs"
-      short-id: "0a427bc3"
-  - name: "🇰🇷_51"
+  - name: "🇰🇷_33"
     type: vless
     server: "kr.mkdir.kdns.fr"
     port: 443
@@ -263,7 +102,87 @@ proxies:
       path: "/"
       headers:
         Host: "ai-verps.pages.dev"
-  - name: "🇰🇷_52"
+  - name: "🇰🇷_34"
+    type: vless
+    server: "151.245.106.49"
+    port: 2053
+    uuid: "579ac5bd-a43d-49d4-b83e-a9e3ddd1f706"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "k9narlSK7fUqy94_p0rrqKl52W35QLNsp3W8xaGq_Go"
+      short-id: "37b4f3ae8bf23763"
+  - name: "🇰🇷_35"
+    type: vless
+    server: "3.39.4.109"
+    port: 13672
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇷_36"
+    type: vless
+    server: "152.67.211.233"
+    port: 8899
+    uuid: "ff334415-1a33-4c20-8301-07e1dd66fe8c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.lovelive-anime.jp"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk"
+      short-id: "11d27eb4"
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇷_37"
+    type: vless
+    server: "119.28.161.143"
+    port: 443
+    uuid: "1ebb0858-218a-4dee-8746-36a67bc64462"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs"
+      short-id: "0a427bc3"
+  - name: "🇰🇷_38"
+    type: vless
+    server: "13.209.68.68"
+    port: 8686
+    uuid: "1a17b19d-4896-4531-af79-6e91d8ef8228"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    reality-opts:
+      public-key: "A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw"
+      short-id: "628b3c90c98ead4f"
+  - name: "🇰🇷_39"
+    type: vless
+    server: "3.39.4.109"
+    port: 18967
+    uuid: "814bd064-544d-4255-a070-5705c03f6da9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0"
+      short-id: "48050fab"
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇷_40"
     type: trojan
     server: "154.90.62.70"
     port: 56127
@@ -271,19 +190,103 @@ proxies:
     sni: "154.90.62.70"
     skip-cert-verify: true
     udp: true
-  - name: "🇰🇷_53"
+  - name: "🇰🇷_41"
+    type: ss
+    server: "141.164.45.187"
+    port: 8008
+    cipher: "aes-256-gcm"
+    password: "XKFKl2rULjIp74"
+    udp: true
+  - name: "🇰🇷_42"
     type: ss
     server: "141.164.45.187"
     port: 6697
     cipher: "aes-256-gcm"
     password: "TEzjfAYq2IjtuoS"
     udp: true
-  - name: "🇰🇷_54"
+  - name: "🇰🇷_43"
+    type: ss
+    server: "141.164.45.187"
+    port: 5001
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+    udp: true
+  - name: "🇰🇷_44"
+    type: ss
+    server: "141.164.45.187"
+    port: 8000
+    cipher: "aes-256-gcm"
+    password: "KixLvKzwjekG00rm"
+    udp: true
+  - name: "🇰🇷_45"
+    type: ss
+    server: "141.164.45.187"
+    port: 9101
+    cipher: "aes-256-gcm"
+    password: "e4FCWrgpkji3QY"
+    udp: true
+  - name: "🇰🇷_46"
+    type: ss
+    server: "141.164.45.187"
+    port: 9090
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+    udp: true
+  - name: "🇰🇷_47"
+    type: ss
+    server: "141.164.45.187"
+    port: 8091
+    cipher: "aes-256-gcm"
+    password: "PCnnH6SQSnfoS27"
+    udp: true
+  - name: "🇰🇷_48"
     type: ss
     server: "141.164.45.187"
     port: 8008
     cipher: "aes-256-gcm"
     password: "XKFKl2rULjIp74"
+    udp: true
+  - name: "🇰🇷_49"
+    type: ss
+    server: "141.164.45.187"
+    port: 5001
+    cipher: "aes-256-gcm"
+    password: "Y6R9pAtvxxzmGC"
+    udp: true
+  - name: "🇰🇷_50"
+    type: ss
+    server: "141.164.45.187"
+    port: 5498
+    cipher: "aes-256-gcm"
+    password: "lGqs95QkFHo2NV"
+    udp: true
+  - name: "🇰🇷_51"
+    type: ss
+    server: "141.164.45.187"
+    port: 7001
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇰🇷_52"
+    type: ss
+    server: "141.164.45.187"
+    port: 2376
+    cipher: "aes-256-gcm"
+    password: "faBAoD54k87UJG7"
+    udp: true
+  - name: "🇰🇷_53"
+    type: ss
+    server: "141.164.45.187"
+    port: 6679
+    cipher: "aes-256-gcm"
+    password: "TEzjfAYq2IjtuoS"
+    udp: true
+  - name: "🇰🇷_54"
+    type: ss
+    server: "141.164.45.187"
+    port: 5498
+    cipher: "aes-256-gcm"
+    password: "lGqs95QkFHo2NV"
     udp: true
   - name: "🇰🇷_55"
     type: ss
@@ -295,121 +298,37 @@ proxies:
   - name: "🇰🇷_56"
     type: ss
     server: "141.164.45.187"
-    port: 9101
+    port: 8000
     cipher: "aes-256-gcm"
-    password: "e4FCWrgpkji3QY"
+    password: "KixLvKzwjekG00rm"
     udp: true
   - name: "🇰🇷_57"
-    type: ss
-    server: "141.164.45.187"
-    port: 8008
-    cipher: "aes-256-gcm"
-    password: "XKFKl2rULjIp74"
-    udp: true
-  - name: "🇰🇷_58"
-    type: ss
-    server: "141.164.45.187"
-    port: 8119
-    cipher: "aes-256-gcm"
-    password: "cdBIDV42DCwnfIN"
-    udp: true
-  - name: "🇰🇷_59"
-    type: ss
-    server: "141.164.45.187"
-    port: 7001
-    cipher: "aes-256-gcm"
-    password: "RexnBgU7EV5ADxG"
-    udp: true
-  - name: "🇰🇷_60"
-    type: ss
-    server: "141.164.45.187"
-    port: 5001
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-    udp: true
-  - name: "🇰🇷_61"
-    type: ss
-    server: "141.164.45.187"
-    port: 9101
-    cipher: "aes-256-gcm"
-    password: "e4FCWrgpkji3QY"
-    udp: true
-  - name: "🇰🇷_62"
-    type: ss
-    server: "141.164.45.187"
-    port: 9090
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-    udp: true
-  - name: "🇰🇷_63"
-    type: ss
-    server: "141.164.45.187"
-    port: 8888
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-    udp: true
-  - name: "🇰🇷_64"
-    type: ss
-    server: "141.164.45.187"
-    port: 5498
-    cipher: "aes-256-gcm"
-    password: "lGqs95QkFHo2NV"
-    udp: true
-  - name: "🇰🇷_65"
     type: ss
     server: "141.164.45.187"
     port: 7002
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
-  - name: "🇰🇷_66"
-    type: ss
-    server: "141.164.45.187"
-    port: 5001
-    cipher: "aes-256-gcm"
-    password: "Y6R9pAtvxxzmGC"
-    udp: true
-  - name: "🇰🇷_67"
+  - name: "🇰🇷_58"
     type: ss
     server: "141.164.45.187"
     port: 9090
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇰🇷_68"
+  - name: "🇰🇷_59"
     type: ss
     server: "141.164.45.187"
-    port: 8000
+    port: 8888
     cipher: "aes-256-gcm"
-    password: "KixLvKzwjekG00rm"
+    password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇰🇷_69"
+  - name: "🇰🇷_60"
     type: ss
     server: "141.164.45.187"
-    port: 2376
+    port: 9101
     cipher: "aes-256-gcm"
-    password: "faBAoD54k87UJG7"
-    udp: true
-  - name: "🇰🇷_70"
-    type: ss
-    server: "141.164.45.187"
-    port: 6679
-    cipher: "aes-256-gcm"
-    password: "TEzjfAYq2IjtuoS"
-    udp: true
-  - name: "🇰🇷_71"
-    type: ss
-    server: "141.164.45.187"
-    port: 5498
-    cipher: "aes-256-gcm"
-    password: "lGqs95QkFHo2NV"
-    udp: true
-  - name: "🇰🇷_72"
-    type: ss
-    server: "141.164.45.187"
-    port: 8091
-    cipher: "aes-256-gcm"
-    password: "PCnnH6SQSnfoS27"
+    password: "e4FCWrgpkji3QY"
     udp: true
 
 proxy-groups:
@@ -453,6 +372,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -477,18 +402,6 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
   - name: "LB-CDN"
     type: load-balance
@@ -498,6 +411,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -522,18 +441,6 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -543,6 +450,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -567,18 +480,6 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
   - name: "FAST-CDN"
     type: url-test
@@ -587,6 +488,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -611,18 +518,6 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -632,6 +527,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -656,23 +557,17 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇰🇷_31"
+      - "🇰🇷_32"
+      - "🇰🇷_33"
+      - "🇰🇷_34"
+      - "🇰🇷_35"
+      - "🇰🇷_36"
       - "🇰🇷_37"
       - "🇰🇷_38"
       - "🇰🇷_39"
@@ -697,18 +592,6 @@ proxy-groups:
       - "🇰🇷_58"
       - "🇰🇷_59"
       - "🇰🇷_60"
-      - "🇰🇷_61"
-      - "🇰🇷_62"
-      - "🇰🇷_63"
-      - "🇰🇷_64"
-      - "🇰🇷_65"
-      - "🇰🇷_66"
-      - "🇰🇷_67"
-      - "🇰🇷_68"
-      - "🇰🇷_69"
-      - "🇰🇷_70"
-      - "🇰🇷_71"
-      - "🇰🇷_72"
 
 rules:
   - MATCH,PROXY-BEST

@@ -59,37 +59,31 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇨_5"
+  - name: "🇸🇨_4"
     type: vless
-    server: "200.165.231.209"
-    port: 443
-    uuid: "ff0b6ba8-bed0-4c4d-bbc9-23af47582615"
+    server: "45.130.125.207"
+    port: 80
+    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "200.165.231.209"
     network: ws
     ws-opts:
-      path: "/api/connect"
+      path: "/http"
       headers:
-        Host: "wstg.datasynctrue.online"
-  - name: "🇸🇨_6"
-    type: vless
-    server: "200.165.235.43"
-    port: 2053
-    uuid: "41f33146-7eb4-11f1-855a-d60b69bb56c6"
-    udp: true
-    tls: true
+        Host: "de.vpnbase.net"
+  - name: "🇸🇨_5"
+    type: trojan
+    server: "45.130.125.190"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
-    servername: "dzen.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0"
-      short-id: "2c60309fa586eb60"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-direct"
-  - name: "🇸🇨_7"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
+  - name: "🇸🇨_6"
     type: trojan
     server: "45.130.125.160"
     port: 443
@@ -100,19 +94,6 @@ proxies:
     network: ws
     ws-opts:
       path: "/br-orcl"
-  - name: "🇸🇨_8"
-    type: trojan
-    server: "45.130.125.0"
-    port: 443
-    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
-    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/us-gllc"
-      headers:
-        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -155,10 +136,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -168,10 +148,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -181,10 +160,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -193,10 +171,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -206,19 +183,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇸🇨_4"
       - "🇸🇨_5"
       - "🇸🇨_6"
-      - "🇸🇨_7"
-      - "🇸🇨_8"
 
 rules:
   - MATCH,PROXY-BEST

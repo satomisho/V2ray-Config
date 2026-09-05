@@ -65,76 +65,6 @@ dns:
 proxies:
   - name: "🇮🇳_1"
     type: vless
-    server: "65.20.85.14"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇮🇳_2"
-    type: vless
-    server: "148.113.5.44"
-    port: 443
-    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
-      short-id: "221873918e0bb74d"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_3"
-    type: vless
-    server: "194.61.31.126"
-    port: 2053
-    uuid: "0bf89828-484f-4710-9581-12aa961e3bf1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Gy6W0bXf2bpxoG1k3szp8X0ekzoyXlEtzT8V4mYQ3EE"
-      short-id: "29fe4205ddc971a8"
-  - name: "🇮🇳_4"
-    type: vless
-    server: "preview.netraidly.ru"
-    port: 40443
-    uuid: "15fd22d1-8931-4d41-af37-8ba6711e93fe"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo"
-      short-id: "84fc"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_5"
-    type: vless
-    server: "172.237.44.80"
-    port: 19567
-    uuid: "0faaa1ee-f3d2-49ec-92af-3228329f3000"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.nvidia.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "tzm4xWHOerooioq4QQkI7VCvIapECgody_vJGDzX3UI"
-      short-id: "87714fc3c52a"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_6"
-    type: vless
     server: "5.253.42.164"
     port: 40443
     uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
@@ -147,7 +77,7 @@ proxies:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_7"
+  - name: "🇮🇳_2"
     type: vless
     server: "5.253.42.163"
     port: 40443
@@ -161,7 +91,34 @@ proxies:
       public-key: "d1gJntekIStCHyAwgJCuv-N4_BBx5dDQ7K6CeWmpMRo"
       short-id: "84fc"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_8"
+  - name: "🇮🇳_3"
+    type: vless
+    server: "148.113.5.44"
+    port: 443
+    uuid: "72ea5a91-ffcc-43d2-9297-5993c3abf186"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "QLjTpkXRB453R9fXhJzKkc_q_gSm2MZrIOuxW4uW-mI"
+      short-id: "221873918e0bb74d"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_4"
+    type: vless
+    server: "194.61.31.126"
+    port: 2053
+    uuid: "50ddfd92-dc79-4777-a256-41e34d56836e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "R06_DTSjzQI9DswvRz9OqSBECfSwlpCMPR4DCc9oXyw"
+      short-id: "c0cb7457deebbc70"
+  - name: "🇮🇳_5"
     type: vless
     server: "5.253.30.99"
     port: 40443
@@ -175,21 +132,13 @@ proxies:
       public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
       short-id: "88b6"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_9"
-    type: vless
-    server: "20.235.220.189"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+  - name: "🇮🇳_6"
+    type: ss
+    server: "172.105.39.124"
+    port: 7002
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -210,9 +159,6 @@ proxy-groups:
       - "🇮🇳_4"
       - "🇮🇳_5"
       - "🇮🇳_6"
-      - "🇮🇳_7"
-      - "🇮🇳_8"
-      - "🇮🇳_9"
 
 
 rules:

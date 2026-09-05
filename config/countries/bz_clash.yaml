@@ -65,7 +65,7 @@ dns:
 proxies:
   - name: "🇧🇿_1"
     type: vless
-    server: "45.131.6.123"
+    server: "45.131.7.123"
     port: 443
     uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
@@ -78,7 +78,18 @@ proxies:
       path: "/"
   - name: "🇧🇿_2"
     type: vless
-    server: "45.131.7.123"
+    server: "45.131.208.4"
+    port: 80
+    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "floral-thunder-10d3.82-67d.workers.dev"
+  - name: "🇧🇿_3"
+    type: vless
+    server: "45.131.6.123"
     port: 443
     uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
@@ -105,6 +116,7 @@ proxy-groups:
     proxies:
       - "🇧🇿_1"
       - "🇧🇿_2"
+      - "🇧🇿_3"
 
 
 rules:

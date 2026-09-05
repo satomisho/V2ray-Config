@@ -59,7 +59,60 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇰🇿_10"
+    type: vless
+    server: "77.73.232.61"
+    port: 19747
+    uuid: "2a9ed01e-5455-44b4-a66a-76ee8165f0ac"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM"
+      short-id: "2001"
   - name: "🇰🇿_11"
+    type: vless
+    server: "178.236.16.98"
+    port: 35728
+    uuid: "a00d89f6-ab7e-4e30-a5e5-54c701d62c93"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng"
+      short-id: "69a2"
+  - name: "🇰🇿_12"
+    type: vless
+    server: "83.222.23.81"
+    port: 38065
+    uuid: "4b9063e0-3288-44e9-9aac-80fbfce323a0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo"
+      short-id: "fa"
+  - name: "🇰🇿_13"
+    type: vless
+    server: "45.144.175.185"
+    port: 443
+    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kz-1.kihsuyhf8jkiugsxb.cfd"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "arLt1yI09Y_wf0u-CO1SrZ6FXlDkyC-CuvXMqeRZ_XU"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇿_14"
     type: vless
     server: "2.27.130.172"
     port: 443
@@ -74,102 +127,34 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇰🇿_12"
-    type: vless
-    server: "178.236.16.98"
-    port: 35728
-    uuid: "a00d89f6-ab7e-4e30-a5e5-54c701d62c93"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng"
-      short-id: "69a2"
-  - name: "🇰🇿_13"
-    type: vless
-    server: "77.73.232.61"
-    port: 19747
-    uuid: "2a9ed01e-5455-44b4-a66a-76ee8165f0ac"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM"
-      short-id: "2001"
-  - name: "🇰🇿_14"
-    type: vless
-    server: "5.180.43.233"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nordic.cendora.ru"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU"
-      short-id: "2186a755ed67b034"
-    flow: "xtls-rprx-vision"
   - name: "🇰🇿_15"
     type: vless
-    server: "111.88.143.139"
-    port: 8443
-    uuid: "2b8c0574-ff6f-4975-8a06-e24ebefa1d1c"
+    server: "82.41.30.112"
+    port: 443
+    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    servername: "kz.monkeyisland.xyz"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "Ao_imnCEIGAaL1DZnjOK1SSPpjQOw_XJcgMpNLEZwg0"
-      short-id: "ac4b582e"
+      public-key: "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4"
+      short-id: "ecca56e9a9963ed7"
     flow: "xtls-rprx-vision"
   - name: "🇰🇿_16"
     type: vless
-    server: "5.180.40.9"
-    port: 443
-    uuid: "5e19b3c8-c1dc-4163-95e2-895319c15d6c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cloud.mail.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE"
-      short-id: "dfbfa87e9f37f1f0"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇿_17"
-    type: vless
-    server: "83.222.23.81"
-    port: 38065
-    uuid: "4b9063e0-3288-44e9-9aac-80fbfce323a0"
+    server: "109.248.170.119"
+    port: 13447
+    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "yahoo.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo"
-      short-id: "fa"
-  - name: "🇰🇿_18"
-    type: vless
-    server: "5.180.42.85"
-    port: 443
-    uuid: "5e19b3c8-c1dc-4163-95e2-895319c15d6c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cloud.mail.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "06GvG7PU5F3Hgq-vUH24tU0tpsbGMCCt26BSvlaBNUE"
-      short-id: "dfbfa87e9f37f1f0"
-    flow: "xtls-rprx-vision"
-  - name: "🇰🇿_19"
+      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
+      short-id: "83"
+  - name: "🇰🇿_17"
     type: vless
     server: "111.88.143.139"
     port: 51940
@@ -185,14 +170,20 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: ""
-  - name: "🇰🇿_20"
-    type: trojan
-    server: "5.180.21.146"
-    port: 4443
-    password: "owefv0_92Z540k2F_nx83245_J9130oS_tY"
-    sni: "borat-hopp.bumbleshrimp.com"
-    skip-cert-verify: true
+  - name: "🇰🇿_18"
+    type: vless
+    server: "111.88.143.139"
+    port: 8443
+    uuid: "2b8c0574-ff6f-4975-8a06-e24ebefa1d1c"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "Ao_imnCEIGAaL1DZnjOK1SSPpjQOw_XJcgMpNLEZwg0"
+      short-id: "ac4b582e"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -235,6 +226,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -243,8 +235,6 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
   - name: "LB-CDN"
     type: load-balance
@@ -254,6 +244,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -262,8 +253,6 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -273,6 +262,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -281,8 +271,6 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
   - name: "FAST-CDN"
     type: url-test
@@ -291,6 +279,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -299,8 +288,6 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -310,6 +297,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -318,13 +306,12 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇰🇿_10"
       - "🇰🇿_11"
       - "🇰🇿_12"
       - "🇰🇿_13"
@@ -333,8 +320,6 @@ proxy-groups:
       - "🇰🇿_16"
       - "🇰🇿_17"
       - "🇰🇿_18"
-      - "🇰🇿_19"
-      - "🇰🇿_20"
 
 rules:
   - MATCH,PROXY-BEST

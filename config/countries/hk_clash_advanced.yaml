@@ -59,316 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇭🇰_39"
-    type: vless
-    server: "103.149.183.198"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tesla.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_40"
-    type: vless
-    server: "182.16.61.2"
-    port: 45647
-    uuid: "caec0d8d-ab2f-4247-b97d-7fb1a34ab195"
-    udp: true
-  - name: "🇭🇰_41"
-    type: vless
-    server: "35.241.98.220"
-    port: 443
-    uuid: "96563f88-f743-4395-a3b2-27ec462ae45e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo"
-      short-id: "ec2c7091fe76336c"
-  - name: "🇭🇰_42"
-    type: vless
-    server: "8.210.29.68"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_43"
-    type: vless
-    server: "156.226.168.221"
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_44"
-    type: vless
-    server: "209.9.200.202"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_45"
-    type: vless
-    server: "156.224.76.205"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_46"
-    type: vless
-    server: "hk3n.wxgqlfx.vip"
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_47"
-    type: vless
-    server: "212.192.13.233"
-    port: 443
-    uuid: "302cf77d-6fb7-4ac8-ae61-88e286340d59"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cathaypacific.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s"
-      short-id: "1bc2c1ef1c"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_48"
-    type: vless
-    server: "nian.001.url111.kcloud02.top"
-    port: 15003
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8"
-      short-id: "4c517b9e"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_49"
-    type: vless
-    server: "219.76.13.167"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_50"
-    type: vless
-    server: "103.192.179.132"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_51"
-    type: vless
-    server: "hks.008819.xyz"
-    port: 30701
-    uuid: "7aa3a024-e333-4b63-99a2-3db9d3b2054e"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "hks.008819.xyz"
-  - name: "🇭🇰_52"
-    type: vless
-    server: "82.38.46.66"
-    port: 15007
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.bing.com"
-    client-fingerprint: "ios"
-    reality-opts:
-      public-key: "qVNutDFjEp3v2wjeUl_Yy6l9TXawXfSjAsFj3iktmRA"
-      short-id: "2c4d005b"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_53"
-    type: vless
-    server: "47.239.6.251"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tesla.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_54"
-    type: vless
-    server: "nian.001.url111.kcloud02.top"
-    port: 15006
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.adobe.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg"
-      short-id: "029a6cc4"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_55"
-    type: vless
-    server: "hk.mkdir.kdns.fr"
-    port: 443
-    uuid: "2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pwdern.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "pwdern.pages.dev"
-  - name: "🇭🇰_56"
-    type: vless
-    server: "182.16.61.5"
-    port: 45647
-    uuid: "6f361c37-bc54-43dd-8c8b-0f59354745a5"
-    udp: true
-  - name: "🇭🇰_57"
-    type: vless
-    server: "176.98.181.6"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_58"
-    type: vless
-    server: "82.38.46.66"
-    port: 15006
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.adobe.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg"
-      short-id: "029a6cc4"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_59"
-    type: vless
-    server: "8.218.22.14"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_60"
-    type: vless
-    server: "82.38.46.66"
-    port: 15003
-    uuid: "399c4c9b-27e1-37f1-9dce-22ccc2727a86"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8"
-      short-id: "4c517b9e"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_61"
-    type: vless
-    server: "34.96.200.38"
-    port: 443
-    uuid: "2058418a-7718-4050-bdd5-db7487ffdb3b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "uoXBNYcBgR-h2YmU1NFhFyASr6qh9UghWOuo1WZIikw"
-      short-id: "17d824dd68e24aaf"
-  - name: "🇭🇰_62"
+  - name: "🇭🇰_108"
     type: vless
     server: "219.76.13.169"
     port: 443
@@ -383,37 +74,61 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_63"
+  - name: "🇭🇰_109"
     type: vless
-    server: "219.76.13.166"
+    server: "b8206d81-tl4g00-tmg311-141tv.hk3.hyhuawei.com"
     port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    uuid: "bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vp10.pages.dev"
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_110"
+    type: vless
+    server: "e94a36e2-tl4g00-trhks8-1c9em.hk3.hyhuawei.com"
+    port: 443
+    uuid: "336501b6-51d2-11ee-a993-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_111"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "8bb68d04-6973-11ee-b518-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_112"
+    type: vless
+    server: "27.50.48.8"
+    port: 443
+    uuid: "c98a16e4-0dc5-42f0-b3db-30f04525c123"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vless2-8vx.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_64"
-    type: vless
-    server: "219.76.13.177"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_65"
+        Host: "vless2-8vx.pages.dev"
+  - name: "🇭🇰_113"
     type: vless
     server: "156.239.245.134"
     port: 443
@@ -428,21 +143,88 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_66"
+  - name: "🇭🇰_114"
     type: vless
-    server: "162.128.157.164"
+    server: "219.77.167.19"
     port: 443
-    uuid: "5e8e81ac-a1c4-4543-b81e-651bf9872b54"
+    uuid: "d18bcaf4-1323-11ec-a0fc-f23c913c8d2b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.bing.com"
+    servername: "updates.cdn-apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0"
-      short-id: "14156e3ac23212cc"
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_115"
+    type: vless
+    server: "156.226.168.221"
+    port: 35193
+    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
+      short-id: "e8daed2d"
     flow: "xtls-rprx-vision"
-  - name: "🇭🇰_67"
+  - name: "🇭🇰_116"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "94d40708-8273-11ea-8fc9-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_117"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "336501b6-51d2-11ee-a993-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_118"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "c11ff50c-f582-11ee-94df-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_119"
+    type: vless
+    server: "8.210.29.68"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_120"
     type: vless
     server: "47.238.210.5"
     port: 13779
@@ -455,7 +237,272 @@ proxies:
     reality-opts:
       public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
       short-id: "af1bdd293097b664"
-  - name: "🇭🇰_68"
+  - name: "🇭🇰_121"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "0abd5d38-fdf1-11ed-bade-f23c91369f2d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_122"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "92bd8c68-6434-11ee-b644-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_123"
+    type: vless
+    server: "27.0.232.36"
+    port: 443
+    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hk.monkora.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU"
+      short-id: ""
+  - name: "🇭🇰_124"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "1cce7df2-251c-11ee-9409-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_125"
+    type: vless
+    server: "2574a867-tl4g00-ttx5yr-1j0y6.hk3.hyhuawei.com"
+    port: 443
+    uuid: "1cce7df2-251c-11ee-9409-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_126"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "8f99107c-f091-11ee-9935-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_127"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "5acc7a7c-d7ea-11eb-8673-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_128"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "d6abdbda-fe9d-11ec-bb74-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_129"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "88f6e3c4-1d01-11ef-812c-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_130"
+    type: vless
+    server: "b270b848-tl4g00-trg4wh-z65w.hk3.hyhuawei.com"
+    port: 443
+    uuid: "a2313fba-74a6-11ed-a8bf-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_131"
+    type: vless
+    server: "0d0fc751-tl4g00-tm23vf-1jk6u.hk3.hyhuawei.com"
+    port: 443
+    uuid: "45bc25b2-1a10-11ed-91c0-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_132"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "19dd9c70-e4a5-11ed-8347-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_133"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "3437f34e-1b77-11eb-8684-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_134"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "367e233c-2f54-11ee-9ae1-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_135"
+    type: vless
+    server: "209.9.201.101"
+    port: 46899
+    uuid: "f8738084-d3e4-457b-a15e-10d85709681f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "nbIa7R7_-I8T24U2C1Q3-wuiQVUmAahxdSo33AjKYiA"
+      short-id: "63bdbd0662a3da"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_136"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_137"
+    type: vless
+    server: "hk.monkora.org"
+    port: 443
+    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hk.monkora.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU"
+      short-id: ""
+  - name: "🇭🇰_138"
+    type: vless
+    server: "219.76.13.167"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_139"
+    type: vless
+    server: "f070a8ea-tl4g00-u5ip77-duku.hk3.hyhuawei.com"
+    port: 443
+    uuid: "8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_140"
+    type: vless
+    server: "219.76.13.177"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_141"
     type: vless
     server: "103.180.20.240"
     port: 8443
@@ -470,7 +517,377 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "🇭🇰_69"
+  - name: "🇭🇰_142"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "0da8651e-e1f6-11ec-bd7c-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_143"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "989aa406-ea9b-11ef-97da-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_144"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "9bfd0dde-957e-11ec-a8bf-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_145"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "d6e1207c-f41a-11ef-9495-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_146"
+    type: vless
+    server: "162.128.157.164"
+    port: 443
+    uuid: "5e8e81ac-a1c4-4543-b81e-651bf9872b54"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.bing.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "TP_bpIPUtjdxxGA9j7mpsHtSDfM2HMSZFNWW9MtDPT0"
+      short-id: "14156e3ac23212cc"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_147"
+    type: vless
+    server: "156.224.76.205"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_148"
+    type: vless
+    server: "5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com"
+    port: 443
+    uuid: "6d56436c-150d-11f0-b0c8-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_149"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "9d80dd14-ac44-11ee-a116-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_150"
+    type: vless
+    server: "49c3de25-tl4g00-tvgkxc-hrtf.hk3.hyhuawei.com"
+    port: 443
+    uuid: "0da8651e-e1f6-11ec-bd7c-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_151"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "a2313fba-74a6-11ed-a8bf-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_152"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "3be8cba8-b721-11ec-8b04-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_153"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "ecfab6c8-df5b-11ed-98a7-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_154"
+    type: vless
+    server: "c17a6c0c-tl4g00-tpaqgu-1smhu.hk3.hyhuawei.com"
+    port: 443
+    uuid: "62f2374c-891b-11ef-a3f6-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_155"
+    type: vless
+    server: "f429f2ca-tl4g00-twj07b-fm2v.hk3.hyhuawei.com"
+    port: 443
+    uuid: "3fed19ea-1671-11f0-bd2e-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_156"
+    type: vless
+    server: "c30359ed-tl4g00-tonrqx-1khwf.hk3.hyhuawei.com"
+    port: 443
+    uuid: "92bd8c68-6434-11ee-b644-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_157"
+    type: vless
+    server: "2126c0bf-tl4g00-u0aht1-1rz5s.hk3.hyhuawei.com"
+    port: 443
+    uuid: "40e084d6-0316-11f0-90e2-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_158"
+    type: vless
+    server: "8.210.124.162"
+    port: 443
+    uuid: "6f4d667f-c992-45c8-9114-cf3f2d722462"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.pixiv.co.jp"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "XtRoJGHudrJ4sMpzvzRPCvJCY60_IEINYB2osgN68AM"
+      short-id: "b19a9e0bf0dc3bcc"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_159"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "3ee091ca-ab9c-11ef-a791-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_160"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "f13f964e-f06c-11ec-a858-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_161"
+    type: vless
+    server: "f24f53f5-tl4g00-u093mf-1mina.hk3.hyhuawei.com"
+    port: 443
+    uuid: "367e233c-2f54-11ee-9ae1-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_162"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_163"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "6ddb6a68-d5f5-ca30-3943-cf0c9876d50c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_164"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "a305ac08-d136-11ee-b6db-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_165"
+    type: vless
+    server: "a50c61ee-tl4g00-tujecz-1qkeg.hk3.hyhuawei.com"
+    port: 443
+    uuid: "a305ac08-d136-11ee-b6db-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_166"
+    type: vless
+    server: "71b26306-tl4g00-tl42r3-1o8ak.hk3.hyhuawei.com"
+    port: 443
+    uuid: "8bb68d04-6973-11ee-b518-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_167"
+    type: vless
+    server: "nrt.xxxxxxxx.nyc.mn"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free.cndyw.ggff.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇭🇰_168"
+    type: vless
+    server: "103.192.179.132"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_169"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_170"
     type: vless
     server: "103.219.194.43"
     port: 443
@@ -485,72 +902,433 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_70"
+  - name: "🇭🇰_171"
+    type: vless
+    server: "43.161.226.55"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free.cndyw.ggff.net"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇭🇰_172"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "2c01eae6-0b6a-11ee-a058-f23c91369f2d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_173"
+    type: vless
+    server: "47.239.6.251"
+    port: 13779
+    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tesla.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
+      short-id: "af1bdd293097b664"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_174"
+    type: vless
+    server: "56022f9f-tl4g00-ttyjoe-ieln.hk3.hyhuawei.com"
+    port: 443
+    uuid: "f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_175"
+    type: vless
+    server: "273edc11-tl4g00-tlao2l-mv7m.hk3.hyhuawei.com"
+    port: 443
+    uuid: "94d40708-8273-11ea-8fc9-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_176"
+    type: vless
+    server: "8.218.22.14"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_177"
+    type: vless
+    server: "27.0.232.125"
+    port: 443
+    uuid: "603f2593-b20b-4103-8967-9c67eecfe6bd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "gateway.icloud.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "kdRZN4WiVlF32uFV6tMU8aMLFRHWw70oEqE3iKlnrl4"
+      short-id: "5b88be779393c536"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_178"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "c1785de0-212f-11ef-92aa-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_179"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "40e084d6-0316-11f0-90e2-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_180"
+    type: vless
+    server: "219.76.13.166"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_181"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "3fed19ea-1671-11f0-bd2e-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_182"
+    type: vless
+    server: "1a58b865-tl4g00-u1dz9j-12hj8.hk3.hyhuawei.com"
+    port: 443
+    uuid: "5acc7a7c-d7ea-11eb-8673-f23c9164ca5d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_183"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "bd77bfe8-e0f3-11ec-bd7c-f23c913c8d2b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_184"
+    type: vless
+    server: "219.77.167.19"
+    port: 443
+    uuid: "8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "updates.cdn-apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4"
+      short-id: ""
+  - name: "🇭🇰_185"
     type: trojan
-    server: "38.55.199.26"
+    server: "hk200m.jiasu.asia"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "28cfb353-72ba-44db-83a2-29c6c3177ed1"
     sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_71"
+  - name: "🇭🇰_186"
     type: trojan
-    server: "hk03.qianmoip.win"
-    port: 50222
-    password: "302cf77d-6fb7-4ac8-ae61-88e286340d59"
-    sni: "taobao.com"
+    server: "38.55.199.26"
+    port: 50000
+    password: "acaadfd9-629d-499d-88b6-d5bc1a3f6337"
+    sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_72"
+  - name: "🇭🇰_187"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "8f8c79fe-02b8-4a46-8cb6-657f7b130a17"
+    sni: "38.55.199.26"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_188"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "b5772a33-e151-4afa-b59c-7a7696f4819c"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_189"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "a1025bfc-209b-4e03-9a07-17ec498e630b"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_190"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "5cd930f7-0c06-4b52-90e4-977c3e7720bc"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_191"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "2824a319-79c7-4c31-84b7-6455c58fa1b7"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_192"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "91ab3ac8-2348-4012-b3ab-98324fd2ad06"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_193"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "707e90d9-75db-420b-88f5-ffb5c46eef1c"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_194"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "5cd930f7-0c06-4b52-90e4-977c3e7720bc"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_195"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "25b257e3-5d7b-47e8-af9d-1925e032196f"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_196"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "acf856e5-d697-439d-9552-ce2c1c9bbdbb"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_197"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "385f4df4-2fef-4d24-82d2-bb73eb9c1506"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_198"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "7bbaedf7-4b3c-4af8-9570-ab1528a9d865"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_199"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "c2f55b54-b7e9-4eca-b51c-d67cfd084256"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_200"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "bd1eca7a-856e-452e-b613-141fe830cd13"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_201"
     type: trojan
     server: "119.246.1.143"
     port: 443
     password: "BxceQaOe"
-    sni: "119.246.1.143"
+    sni: "t.me/ripaojiedian"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_73"
+  - name: "🇭🇰_202"
     type: trojan
-    server: "hk04.qianmoip.win"
-    port: 52224
-    password: "302cf77d-6fb7-4ac8-ae61-88e286340d59"
-    sni: "taobao.com"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇭🇰_74"
-    type: trojan
-    server: "hk200m.jiasu.asia"
+    server: "38.55.199.26"
     port: 50000
-    password: "8539b07d-4a48-46ca-8ce7-f961f4e35b0c"
+    password: "136a3686-892c-4d09-8937-eacdf688810d"
     sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_75"
+  - name: "🇭🇰_203"
     type: trojan
-    server: "58.152.46.127"
-    port: 28443
-    password: "0f3963f9-0530-434d-be2c-87e9b61143c8"
-    sni: "vpn-node.internal"
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "a159cf23-8f9b-4ecb-a7c5-4658b4161627"
+    sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-    network: ws
-    ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
-      headers:
-        Host: "vpn-node.internal"
-  - name: "🇭🇰_76"
+  - name: "🇭🇰_204"
     type: trojan
-    server: "152.175.28.15"
-    port: 28443
-    password: "04e30e9f-661a-4a40-9973-4f2961298e99"
-    sni: "vpn-node.internal"
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "bd1eca7a-856e-452e-b613-141fe830cd13"
+    sni: "hk200m.jiasu.asia"
     skip-cert-verify: true
     udp: true
-    network: ws
-    ws-opts:
-      path: "/xVpnTrojanWsSvc7f3a"
-      headers:
-        Host: "vpn-node.internal"
+  - name: "🇭🇰_205"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "bb75329a-2aeb-4958-a4b5-bab934e90294"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_206"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "acaadfd9-629d-499d-88b6-d5bc1a3f6337"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_207"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "6991f324-8414-4ed4-b333-633d7069b3e0"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_208"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "6dfb8a73-cfbb-4687-87df-c15d6fc39959"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_209"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "c2f55b54-b7e9-4eca-b51c-d67cfd084256"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_210"
+    type: trojan
+    server: "hk200m.jiasu.asia"
+    port: 50000
+    password: "a44adf5c-bdd7-47ba-8f0d-8942f6ea80d8"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_211"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "91ab3ac8-2348-4012-b3ab-98324fd2ad06"
+    sni: "38.55.199.26"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_212"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "bb75329a-2aeb-4958-a4b5-bab934e90294"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_213"
+    type: trojan
+    server: "38.55.199.26"
+    port: 50000
+    password: "b5772a33-e151-4afa-b59c-7a7696f4819c"
+    sni: "hk200m.jiasu.asia"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇭🇰_214"
+    type: ss
+    server: "ss.048.node-for-bigairport.win"
+    port: 19000
+    cipher: "chacha20-ietf-poly1305"
+    password: "792e0bdb-01db-450c-94c4-925151eb396e"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -593,44 +1371,113 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
   - name: "LB-CDN"
     type: load-balance
@@ -640,44 +1487,113 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -687,44 +1603,113 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
   - name: "FAST-CDN"
     type: url-test
@@ -733,44 +1718,113 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -780,87 +1834,225 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
-      - "🇭🇰_42"
-      - "🇭🇰_43"
-      - "🇭🇰_44"
-      - "🇭🇰_45"
-      - "🇭🇰_46"
-      - "🇭🇰_47"
-      - "🇭🇰_48"
-      - "🇭🇰_49"
-      - "🇭🇰_50"
-      - "🇭🇰_51"
-      - "🇭🇰_52"
-      - "🇭🇰_53"
-      - "🇭🇰_54"
-      - "🇭🇰_55"
-      - "🇭🇰_56"
-      - "🇭🇰_57"
-      - "🇭🇰_58"
-      - "🇭🇰_59"
-      - "🇭🇰_60"
-      - "🇭🇰_61"
-      - "🇭🇰_62"
-      - "🇭🇰_63"
-      - "🇭🇰_64"
-      - "🇭🇰_65"
-      - "🇭🇰_66"
-      - "🇭🇰_67"
-      - "🇭🇰_68"
-      - "🇭🇰_69"
-      - "🇭🇰_70"
-      - "🇭🇰_71"
-      - "🇭🇰_72"
-      - "🇭🇰_73"
-      - "🇭🇰_74"
-      - "🇭🇰_75"
-      - "🇭🇰_76"
+      - "🇭🇰_108"
+      - "🇭🇰_109"
+      - "🇭🇰_110"
+      - "🇭🇰_111"
+      - "🇭🇰_112"
+      - "🇭🇰_113"
+      - "🇭🇰_114"
+      - "🇭🇰_115"
+      - "🇭🇰_116"
+      - "🇭🇰_117"
+      - "🇭🇰_118"
+      - "🇭🇰_119"
+      - "🇭🇰_120"
+      - "🇭🇰_121"
+      - "🇭🇰_122"
+      - "🇭🇰_123"
+      - "🇭🇰_124"
+      - "🇭🇰_125"
+      - "🇭🇰_126"
+      - "🇭🇰_127"
+      - "🇭🇰_128"
+      - "🇭🇰_129"
+      - "🇭🇰_130"
+      - "🇭🇰_131"
+      - "🇭🇰_132"
+      - "🇭🇰_133"
+      - "🇭🇰_134"
+      - "🇭🇰_135"
+      - "🇭🇰_136"
+      - "🇭🇰_137"
+      - "🇭🇰_138"
+      - "🇭🇰_139"
+      - "🇭🇰_140"
+      - "🇭🇰_141"
+      - "🇭🇰_142"
+      - "🇭🇰_143"
+      - "🇭🇰_144"
+      - "🇭🇰_145"
+      - "🇭🇰_146"
+      - "🇭🇰_147"
+      - "🇭🇰_148"
+      - "🇭🇰_149"
+      - "🇭🇰_150"
+      - "🇭🇰_151"
+      - "🇭🇰_152"
+      - "🇭🇰_153"
+      - "🇭🇰_154"
+      - "🇭🇰_155"
+      - "🇭🇰_156"
+      - "🇭🇰_157"
+      - "🇭🇰_158"
+      - "🇭🇰_159"
+      - "🇭🇰_160"
+      - "🇭🇰_161"
+      - "🇭🇰_162"
+      - "🇭🇰_163"
+      - "🇭🇰_164"
+      - "🇭🇰_165"
+      - "🇭🇰_166"
+      - "🇭🇰_167"
+      - "🇭🇰_168"
+      - "🇭🇰_169"
+      - "🇭🇰_170"
+      - "🇭🇰_171"
+      - "🇭🇰_172"
+      - "🇭🇰_173"
+      - "🇭🇰_174"
+      - "🇭🇰_175"
+      - "🇭🇰_176"
+      - "🇭🇰_177"
+      - "🇭🇰_178"
+      - "🇭🇰_179"
+      - "🇭🇰_180"
+      - "🇭🇰_181"
+      - "🇭🇰_182"
+      - "🇭🇰_183"
+      - "🇭🇰_184"
+      - "🇭🇰_185"
+      - "🇭🇰_186"
+      - "🇭🇰_187"
+      - "🇭🇰_188"
+      - "🇭🇰_189"
+      - "🇭🇰_190"
+      - "🇭🇰_191"
+      - "🇭🇰_192"
+      - "🇭🇰_193"
+      - "🇭🇰_194"
+      - "🇭🇰_195"
+      - "🇭🇰_196"
+      - "🇭🇰_197"
+      - "🇭🇰_198"
+      - "🇭🇰_199"
+      - "🇭🇰_200"
+      - "🇭🇰_201"
+      - "🇭🇰_202"
+      - "🇭🇰_203"
+      - "🇭🇰_204"
+      - "🇭🇰_205"
+      - "🇭🇰_206"
+      - "🇭🇰_207"
+      - "🇭🇰_208"
+      - "🇭🇰_209"
+      - "🇭🇰_210"
+      - "🇭🇰_211"
+      - "🇭🇰_212"
+      - "🇭🇰_213"
+      - "🇭🇰_214"
 
 rules:
   - MATCH,PROXY-BEST

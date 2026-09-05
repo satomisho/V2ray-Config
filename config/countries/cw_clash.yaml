@@ -72,11 +72,10 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2"
-      headers:
-        Host: "notls.lukongtou.eu.org"
+      path: "/"
 
 proxy-groups:
   - name: "PROXY"

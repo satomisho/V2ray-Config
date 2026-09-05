@@ -59,11 +59,27 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇺🇦_9"
+  - name: "🇺🇦_12"
     type: vless
-    server: "91.224.87.22"
-    port: 9882
-    uuid: "76186f1e-3062-4a2b-98c2-fab3c61a9511"
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "2a650f3b-d95b-4bd6-aadf-16ccc0717155"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aabb"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_13"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "553e3253-c454-431d-a7e6-42bc06ea5e14"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -71,71 +87,91 @@ proxies:
     client-fingerprint: "firefox"
     reality-opts:
       public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
-      short-id: "aabb"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇺🇦_10"
-    type: vless
-    server: "213.111.149.58"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇺🇦_11"
-    type: vless
-    server: "45.135.235.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇺🇦_12"
-    type: vless
-    server: "91.224.86.107"
-    port: 9830
-    uuid: "76186f1e-3062-4a2b-98c2-fab3c61a9511"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
-      short-id: "aabbccdd"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
-  - name: "🇺🇦_13"
-    type: vless
-    server: "91.224.87.22"
-    port: 9873
-    uuid: "76186f1e-3062-4a2b-98c2-fab3c61a9511"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
       short-id: "aabbccdd"
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc-tunnel"
   - name: "🇺🇦_14"
+    type: vless
+    server: "78.159.240.41"
+    port: 443
+    uuid: "39d927a4-b8c7-4dc7-91f1-8b2e05d8b6b6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "id.vk.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless-grpc-reality"
+  - name: "🇺🇦_15"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "14777bd9-56a5-46f6-a94f-826b4800dc05"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aabbccdd"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_16"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "064a967e-0862-4cea-bdbd-9458cb7b6070"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aa"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_17"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "fd94a343-cb11-45e6-9882-72352d0a2b8f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aabbccdd"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_18"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "f4685d27-73e3-4588-9622-add50b84046a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aabbccdd"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_19"
     type: vless
     server: "91.218.212.223"
     port: 443
@@ -150,31 +186,50 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇺🇦_15"
+  - name: "🇺🇦_20"
     type: vless
-    server: "5.34.182.23"
+    server: "45.135.235.123"
     port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
+    servername: "notls.lukongtou.eu.org"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇺🇦_16"
-    type: trojan
-    server: "89.116.180.49"
-    port: 443
-    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
-    sni: "0403.infinityconfig4.workers.dev"
-    skip-cert-verify: true
-    udp: true
     network: ws
     ws-opts:
-      path: "/sync"
+      path: "/"
+  - name: "🇺🇦_21"
+    type: vless
+    server: "91.224.86.107"
+    port: 9830
+    uuid: "86221972-81a1-41f4-a48c-c512af05777c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "dl.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU"
+      short-id: "aa"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc-tunnel"
+  - name: "🇺🇦_22"
+    type: vless
+    server: "213.111.149.58"
+    port: 8443
+    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eded-52n.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -217,14 +272,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
   - name: "LB-CDN"
     type: load-balance
@@ -234,14 +292,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -251,14 +312,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
   - name: "FAST-CDN"
     type: url-test
@@ -267,14 +331,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -284,27 +351,33 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇺🇦_9"
-      - "🇺🇦_10"
-      - "🇺🇦_11"
       - "🇺🇦_12"
       - "🇺🇦_13"
       - "🇺🇦_14"
       - "🇺🇦_15"
       - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
+      - "🇺🇦_19"
+      - "🇺🇦_20"
+      - "🇺🇦_21"
+      - "🇺🇦_22"
 
 rules:
   - MATCH,PROXY-BEST

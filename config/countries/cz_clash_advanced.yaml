@@ -59,59 +59,44 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_9"
-    type: vless
-    server: "46.28.70.12"
-    port: 443
-    uuid: "aaf8343d-1e78-49f9-92a2-f33136d6f636"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "HlbEJFdMTNcNofda44mGt2RFxnWN0iO6toeMoqiwyF4"
-      short-id: "1c44e37b4134d40f"
-    flow: "xtls-rprx-vision"
   - name: "🇨🇿_10"
     type: vless
-    server: "193.124.57.19"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇨🇿_11"
-    type: vless
-    server: "cz1.kovsh.lol"
+    server: "5.39.202.127"
     port: 443
     uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cz1.kovsh.lol"
-    client-fingerprint: "chrome"
+    servername: "czek1.kovsh.lol"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
       short-id: "2cec07a8614696e5"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇿_11"
+    type: vless
+    server: "78.159.247.166"
+    port: 7444
+    uuid: "0764541b-3e57-4b47-954b-51e996fae5fc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "akamai.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇨🇿_12"
     type: vless
-    server: "5.39.202.130"
+    server: "czek1.kovsh.lol"
     port: 443
     uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cz1.kovsh.lol"
-    client-fingerprint: "ios"
+    servername: "czek1.kovsh.lol"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
       short-id: "2cec07a8614696e5"
@@ -133,21 +118,21 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇨🇿_14"
     type: vless
-    server: "212.102.38.25"
-    port: 443
-    uuid: "b34a52cb-cd52-49a8-9362-b8e97c151d49"
+    server: "78.159.247.123"
+    port: 7444
+    uuid: "0764541b-3e57-4b47-954b-51e996fae5fc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "udemy.com"
+    servername: "akamai.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "23cb4W9THzBKsrECsLh-A_FcKZfkAtUONoDze8-GnQE"
-      short-id: "e90360ec7cc61b20"
+      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
+      short-id: ""
     flow: "xtls-rprx-vision"
   - name: "🇨🇿_15"
     type: vless
-    server: "194.182.80.100"
+    server: "193.124.57.19"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
     udp: true
@@ -162,18 +147,32 @@ proxies:
         Host: "eded-52n.pages.dev"
   - name: "🇨🇿_16"
     type: vless
-    server: "188.127.247.129"
-    port: 443
-    uuid: "33aa2b47-484b-49f6-8f23-fb34602d221f"
+    server: "45.129.142.41"
+    port: 49325
+    uuid: "68f7465d-6edb-4317-a1a9-ffe87e3a7c38"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yahoo.com"
+    servername: "addons.mozilla.org"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "Kb0rDCu2kKhfnC6bsi0DMRxDej9S-Mu1vVza1H1l4U4"
-      short-id: "0c"
+      public-key: "T0RmoxSgAtx71kYW_ENHcU1cMHXpz0IzFJYHOn9WZm8"
+      short-id: "886921b120b2"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇿_17"
+    type: ss
+    server: "45.129.142.41"
+    port: 47425
+    cipher: "chacha20-ietf-poly1305"
+    password: "lIoNSMeYLX8QGHnOp0DTBR0W91/CHVDEjPqjMDuYcdQ="
+    udp: true
+  - name: "🇨🇿_18"
+    type: ss
+    server: "45.129.142.41"
+    port: 47425
+    cipher: "chacha20-ietf-poly1305"
+    password: "lIoNSMeYLX8QGHnOp0DTBR0W91/CHVDEjPqjMDuYcdQ="
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -216,7 +215,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -224,6 +222,8 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
   - name: "LB-CDN"
     type: load-balance
@@ -233,7 +233,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -241,6 +240,8 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -250,7 +251,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -258,6 +258,8 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
   - name: "FAST-CDN"
     type: url-test
@@ -266,7 +268,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -274,6 +275,8 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -283,7 +286,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -291,12 +293,13 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
@@ -304,6 +307,8 @@ proxy-groups:
       - "🇨🇿_14"
       - "🇨🇿_15"
       - "🇨🇿_16"
+      - "🇨🇿_17"
+      - "🇨🇿_18"
 
 rules:
   - MATCH,PROXY-BEST

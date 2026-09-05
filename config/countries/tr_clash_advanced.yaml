@@ -59,7 +59,32 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇹🇷_13"
+  - name: "🇹🇷_8"
+    type: vless
+    server: "185.123.100.56"
+    port: 8443
+    uuid: "78eb4455-0d07-4bc2-93e3-7c8654f11d74"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_9"
+    type: vless
+    server: "198.105.123.79"
+    port: 443
+    uuid: "5999a497-a2da-41d0-92cb-5b758082f83c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "parta3.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_10"
     type: vless
     server: "156.67.63.231"
     port: 443
@@ -68,12 +93,18 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "sync-bridge.org"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "PTqeBbbr2xJ1L3V1PyYjKjxanMKKqJHU-wtnpYmFQCI"
       short-id: "5606d4a25c99e7af"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇷_14"
+  - name: "🇹🇷_11"
+    type: vless
+    server: "91.228.227.172"
+    port: 8080
+    uuid: "367111be-17b4-4abc-aae0-3d7fe72aa3ec"
+    udp: true
+  - name: "🇹🇷_12"
     type: vless
     server: "138.124.107.35"
     port: 443
@@ -88,34 +119,7 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
-  - name: "🇹🇷_15"
-    type: vless
-    server: "201.50.115.175"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_16"
-    type: vless
-    server: "151.241.226.201"
-    port: 2053
-    uuid: "52b1aca9-a2ba-4249-9e9f-d488f89c1445"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "dUFJ3jZPMH9WvjtAnUc9wYhO_IX1czIi-CidF_HdFDA"
-      short-id: "c267be657e1539ea"
-  - name: "🇹🇷_17"
+  - name: "🇹🇷_13"
     type: vless
     server: "premium-tr.geodema.network"
     port: 8443
@@ -129,78 +133,19 @@ proxies:
       public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇹🇷_18"
+  - name: "🇹🇷_14"
     type: vless
-    server: "amator.mrgang.shop"
-    port: 8082
-    uuid: "bfb3f06c-e33f-41ac-b101-012c8325a689"
-    udp: true
-  - name: "🇹🇷_19"
-    type: vless
-    server: "212.87.199.122"
-    port: 58416
-    uuid: "5626ce32-dad0-468b-952c-e53d609100f1"
-    udp: true
-  - name: "🇹🇷_20"
-    type: vless
-    server: "144.225.65.111"
-    port: 46142
-    uuid: "255386a8-aec5-4425-bfe7-ca49b7448deb"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk"
-      short-id: "39feeba3085c"
-  - name: "🇹🇷_21"
-    type: vless
-    server: "138.249.20.37"
-    port: 443
-    uuid: "423b1d79-08c4-403f-9d5e-c541f791b55f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eu-central.cendora.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
-      short-id: "00bca5982f82d083"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_22"
-    type: vless
-    server: "turj2.surup.shop"
-    port: 46142
-    uuid: "255386a8-aec5-4425-bfe7-ca49b7448deb"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk"
-      short-id: "39feeba3085c"
-  - name: "🇹🇷_23"
-    type: vless
-    server: "185.123.100.56"
-    port: 8443
-    uuid: "78eb4455-0d07-4bc2-93e3-7c8654f11d74"
+    server: "151.241.226.201"
+    port: 2053
+    uuid: "e691b034-dfc9-4f22-80aa-6d4f6404a4df"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_24"
-    type: vless
-    server: "37.221.79.31"
-    port: 8082
-    uuid: "bfb3f06c-e33f-41ac-b101-012c8325a689"
-    udp: true
+      public-key: "k5COjpopVNGzEuMb457zCrrZegSdBX-d8bg0G6HDsE4"
+      short-id: "9bd613c48251f0db"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -243,18 +188,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
   - name: "LB-CDN"
     type: load-balance
@@ -264,18 +204,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -285,18 +220,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
   - name: "FAST-CDN"
     type: url-test
@@ -305,18 +235,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -326,35 +251,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
+      - "🇹🇷_12"
       - "🇹🇷_13"
       - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
-      - "🇹🇷_19"
-      - "🇹🇷_20"
-      - "🇹🇷_21"
-      - "🇹🇷_22"
-      - "🇹🇷_23"
-      - "🇹🇷_24"
 
 rules:
   - MATCH,PROXY-BEST

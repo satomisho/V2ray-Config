@@ -65,6 +65,15 @@ dns:
 proxies:
   - name: "🇦🇪_1"
     type: vless
+    server: "uae.unixzone.us"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇦🇪_2"
+    type: vless
     server: "84.235.250.237"
     port: 443
     uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
@@ -78,6 +87,30 @@ proxies:
       path: "/"
       headers:
         Host: "eded-52n.pages.dev"
+  - name: "🇦🇪_3"
+    type: vless
+    server: "84.235.244.108"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "uae.unixzone.us"
+  - name: "🇦🇪_4"
+    type: trojan
+    server: "94.140.0.100"
+    port: 8443
+    password: "5e5340e6-433d-b5f7-0062-d793046eb281"
+    sni: "blue-queen-d517.aaj1388324.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiMWphS1ZyYzRTbGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjoyM30="
+      headers:
+        Host: "blue-queen-d517.aaj1388324.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -93,6 +126,9 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇦🇪_1"
+      - "🇦🇪_2"
+      - "🇦🇪_3"
+      - "🇦🇪_4"
 
 
 rules:
