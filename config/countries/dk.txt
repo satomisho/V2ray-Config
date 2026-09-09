@@ -1,2 +1,2 @@
-vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@77.37.97.204:8443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%A9%F0%9F%87%B0
-vless://24916ad0-847d-4522-9e17-f4347dee57fd@193.181.212.80:443?type=ws&security=tls&fp=firefox&sni=kv.074167.xyz#%F0%9F%87%A9%F0%9F%87%B0
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@38.180.214.110:5600#%F0%9F%87%A9%F0%9F%87%B0
+ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M@38.180.214.110:5600?#%F0%9F%87%A9%F0%9F%87%B0

@@ -61,6 +61,39 @@ dns:
 proxies:
   - name: "🇦🇹_8"
     type: vless
+    server: "50.7.184.122"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at3.moritech.net"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_9"
+    type: vless
+    server: "212.183.88.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime23.workers.dev"
+  - name: "🇦🇹_10"
+    type: vless
+    server: "50.7.36.26"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at2.moritech.net"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_11"
+    type: vless
     server: "159.195.244.171"
     port: 2054
     uuid: "75079a7f-75b5-418b-8a65-f7b2f438cd4a"
@@ -75,79 +108,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc-tunnel"
-  - name: "🇦🇹_9"
-    type: vless
-    server: "147.45.41.193"
-    port: 8443
-    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "amazon.de"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "17riEzmqVZyqgLiJkEITsiJc0NcXDfPq6RzQJmH830c"
-      short-id: "ef01859eafef126d"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_10"
-    type: vless
-    server: "87.251.69.114"
-    port: 443
-    uuid: "cf80b5fc-c445-0008-87e6-f8a22ad10d81"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at.monkeyisland.xyz"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4"
-      short-id: "ecca56e9a9963ed7"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_11"
-    type: vless
-    server: "159.195.244.37"
-    port: 2054
-    uuid: "75079a7f-75b5-418b-8a65-f7b2f438cd4a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.ibm.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "l6_Nvc_H8uxGpNI3j3MxqlRoPBs313ENeVM4K3uP9BQ"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "grpc-tunnel"
   - name: "🇦🇹_12"
-    type: vless
-    server: "152.53.114.186"
-    port: 443
-    uuid: "ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "as.tunnelx.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA"
-      short-id: "4e9b0c2d1a3f5768"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_13"
-    type: vless
-    server: "141.227.164.161"
-    port: 443
-    uuid: "0bc31c7f-1ee2-4dd3-929b-b61ae780eb3c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at.sellflow.org"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_14"
     type: vless
     server: "152.53.1.40"
     port: 443
@@ -161,6 +122,30 @@ proxies:
       public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
       short-id: "43dcff53849b81e6"
     flow: "xtls-rprx-vision"
+  - name: "🇦🇹_13"
+    type: vless
+    server: "50.7.37.154"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at1.moritech.net"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_14"
+    type: trojan
+    server: "212.183.88.136"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

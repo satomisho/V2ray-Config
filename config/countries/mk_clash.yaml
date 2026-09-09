@@ -63,20 +63,13 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇳🇿_1"
-    type: vless
-    server: "114.129.43.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+  - name: "🇲🇰_1"
+    type: ss
+    server: "185.203.4.204"
+    port: 3
+    cipher: "chacha20-ietf-poly1305"
+    password: "816Efx8yiCSDDpvvpxXL8Q"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    network: ws
-    ws-opts:
-      path: "Telegram-WangCai2"
-      headers:
-        Host: "notls.lukongtou.eu.org"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,7 +84,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇳🇿_1"
+      - "🇲🇰_1"
 
 
 rules:

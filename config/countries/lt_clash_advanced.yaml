@@ -59,6 +59,59 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇱🇹_8"
+    type: vless
+    server: "144.31.243.220"
+    port: 443
+    uuid: "c09cfd91-b234-4998-9bed-a0211b7f5c3c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lt.yservice.help"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "-qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04"
+      short-id: "abcd1234"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_9"
+    type: vless
+    server: "2.56.124.241"
+    port: 443
+    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.amazon.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw"
+      short-id: "72104d27a0f5f62e"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_10"
+    type: vless
+    server: "88.216.69.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime06.workers.dev"
+  - name: "🇱🇹_11"
+    type: vless
+    server: "lit9.helper-internet.com"
+    port: 443
+    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lit9.helper-internet.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
+      short-id: "ff776ff77be48b88"
+    flow: "xtls-rprx-vision"
   - name: "🇱🇹_12"
     type: vless
     server: "88.119.176.24"
@@ -74,130 +127,17 @@ proxies:
       short-id: "ff776ff77be48b88"
     flow: "xtls-rprx-vision"
   - name: "🇱🇹_13"
-    type: vless
-    server: "194.135.83.166"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
+    type: trojan
+    server: "195.181.244.216"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
+    udp: true
     network: ws
     ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
+      path: "/assignment"
   - name: "🇱🇹_14"
-    type: vless
-    server: "lt-2.kihsuyhf8jkiugsxb.cfd"
-    port: 443
-    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt-2.kihsuyhf8jkiugsxb.cfd"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "9-CBTMmqCCu_jcCDWZxcWZbY10RwhW8_l-pX-ugJNEQ"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_15"
-    type: vless
-    server: "144.31.243.249"
-    port: 443
-    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt-1.kihsuyhf8jkiugsxb.cfd"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "L3AYjn3nBIBik5EikZLg0G6GcwWUx24AxZ5rNzxD8TM"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_16"
-    type: vless
-    server: "144.31.243.148"
-    port: 443
-    uuid: "9e1d737e-f3c1-4757-84b2-3dcf66a468ed"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dl.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "3wa3ZmMniymkL-58bPtY7baWPxdJ6n2UaJMG7YiLiGo"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_17"
-    type: vless
-    server: "144.31.243.186"
-    port: 443
-    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt.easyemploy.org"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_18"
-    type: vless
-    server: "5.199.171.91"
-    port: 443
-    uuid: "c6037cf7-d931-4027-af06-6bfb0f10684c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "apiv81.jarvesitw.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "m2b2LJrFWLTiy__FrxqnRKtnCK9g_eZPAz0Qnjdzbh4"
-      short-id: "784aedb3"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_19"
-    type: vless
-    server: "lit9.helper-internet.com"
-    port: 443
-    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lit9.helper-internet.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_20"
-    type: vless
-    server: "31.76.83.137"
-    port: 443
-    uuid: "0dc1fc26-b8e9-4296-9870-0996de3c2333"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lt-2.kihsuyhf8jkiugsxb.cfd"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "9-CBTMmqCCu_jcCDWZxcWZbY10RwhW8_l-pX-ugJNEQ"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_21"
-    type: vless
-    server: "5.199.171.91"
-    port: 443
-    uuid: "5d8cf280-e0f4-4539-b35c-7ff90659c0d0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "apiv81.jarvesitw.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "m2b2LJrFWLTiy__FrxqnRKtnCK9g_eZPAz0Qnjdzbh4"
-      short-id: "784aedb3"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_22"
     type: ss
     server: "144.31.243.2"
     port: 16015
@@ -246,17 +186,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
   - name: "LB-CDN"
     type: load-balance
@@ -266,17 +202,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -286,17 +218,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
   - name: "FAST-CDN"
     type: url-test
@@ -305,17 +233,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -325,33 +249,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
       - "🇱🇹_12"
       - "🇱🇹_13"
       - "🇱🇹_14"
-      - "🇱🇹_15"
-      - "🇱🇹_16"
-      - "🇱🇹_17"
-      - "🇱🇹_18"
-      - "🇱🇹_19"
-      - "🇱🇹_20"
-      - "🇱🇹_21"
-      - "🇱🇹_22"
 
 rules:
   - MATCH,PROXY-BEST

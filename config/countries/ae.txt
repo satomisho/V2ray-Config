@@ -1,4 +1,5 @@
-vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?type=ws&sni=uae.unixzone.us#%F0%9F%87%A6%F0%9F%87%AA
-vless://2eadb97f-bba4-4471-8d55-bd461525a2dc@84.235.250.237:443?&security=tls&fp=chrome&sni=eded-52n.pages.dev&type=ws&headerType=none&host=eded-52n.pages.dev&path=%2F#%F0%9F%87%A6%F0%9F%87%AA
-vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573/?type=ws&encryption=none&flow=&host=uae.unixzone.us&path=%2F#%F0%9F%87%A6%F0%9F%87%AA
-trojan://5e5340e6-433d-b5f7-0062-d793046eb281@94.140.0.100:8443?path=%2FeyJqdW5rIjoiMWphS1ZyYzRTbGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjoyM30%3D&security=tls&host=blue-queen-d517.aaj1388324.workers.dev&fp=chrome&type=ws&sni=blue-queen-d517.aaj1388324.workers.dev#%F0%9F%87%A6%F0%9F%87%AA
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@77.232.140.40:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime61.workers.dev&type=ws#%F0%9F%87%A6%F0%9F%87%AA
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=%2F&host=uae.unixzone.us#%F0%9F%87%A6%F0%9F%87%AA
+trojan://5e5340e6-433d-b5f7-0062-d793046eb281@94.140.0.100:8443?type=ws&host=blue-queen-d517.aaj1388324.workers.dev&path=/eyJqdW5rIjoiMWphS1ZyYzRTbGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjoyM30=&security=tls&fp=chrome&sni=blue-queen-d517.aaj1388324.workers.dev#%F0%9F%87%A6%F0%9F%87%AA
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtYXN0cm92cG5fb2ZmaWNpYWw@188.208.110.58:8444?#%F0%9F%87%A6%F0%9F%87%AA
+ss://chacha20-ietf-poly1305:tunnel-astrovpn_official@188.208.110.58:8444#%F0%9F%87%A6%F0%9F%87%AA

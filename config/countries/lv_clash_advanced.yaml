@@ -59,52 +59,50 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇱🇻_8"
-    type: vless
-    server: "45.43.76.227"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
   - name: "🇱🇻_9"
     type: vless
     server: "89.36.161.222"
-    port: 2053
+    port: 2083
     uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "vk.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg"
-      short-id: "d26f4703cdd30f4e"
-    flow: "xtls-rprx-vision"
+    servername: "laoye.in-gect.fun"
+    client-fingerprint: "ios"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "grpc"
   - name: "🇱🇻_10"
     type: vless
-    server: "85.159.228.223"
+    server: "138.124.180.137"
     port: 443
-    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "lv.monkeyisland.xyz"
+    servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4"
-      short-id: "ecca56e9a9963ed7"
+      public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
+      short-id: "33acba1b"
     flow: "xtls-rprx-vision"
   - name: "🇱🇻_11"
     type: vless
-    server: "89.36.161.222"
+    server: "nl.cloudtechone.org"
+    port: 443
+    uuid: "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nl.cloudtechone.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "_IBXb9NfhsnS21XbU9PIl73ExvrjXGXVLO0Za1ui5Fo"
+      short-id: "f93c9d5127e622e4"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇻_12"
+    type: vless
+    server: "laoye.in-gect.fun"
     port: 2083
     uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
     udp: true
@@ -115,16 +113,21 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "grpc"
-  - name: "🇱🇻_12"
+  - name: "🇱🇻_13"
     type: vless
     server: "laoye.in-gect.fun"
-    port: 2096
+    port: 2053
     uuid: "70e20b2e-3b1f-4c25-9a3d-9240570391bb"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇱🇻_13"
+    tls: true
+    skip-cert-verify: true
+    servername: "vk.ru"
+    client-fingerprint: "edge"
+    reality-opts:
+      public-key: "cGVu5j95KoeHBkWXveyTKolORbdvZm9g1T6yyo64ZBg"
+      short-id: "d26f4703cdd30f4e"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇻_14"
     type: vless
     server: "89.36.161.222"
     port: 2096
@@ -133,20 +136,31 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇱🇻_14"
+  - name: "🇱🇻_15"
     type: vless
-    server: "138.124.180.137"
+    server: "195.123.213.28"
     port: 443
-    uuid: "5234b2b7-5e07-422c-8159-d62a676c00c6"
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.apple.com"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
-      short-id: "33acba1b"
+      public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
+      short-id: "5c256336e3b673fa"
     flow: "xtls-rprx-vision"
+  - name: "🇱🇻_16"
+    type: trojan
+    server: "84.21.172.81"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -189,13 +203,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -205,13 +220,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -221,13 +237,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -236,13 +253,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -252,25 +270,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇱🇻_8"
       - "🇱🇻_9"
       - "🇱🇻_10"
       - "🇱🇻_11"
       - "🇱🇻_12"
       - "🇱🇻_13"
       - "🇱🇻_14"
+      - "🇱🇻_15"
+      - "🇱🇻_16"
 
 rules:
   - MATCH,PROXY-BEST

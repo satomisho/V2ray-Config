@@ -59,30 +59,17 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇪_5"
-    type: vless
-    server: "uae.unixzone.us"
-    port: 22573
-    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
   - name: "🇦🇪_6"
     type: vless
-    server: "84.235.250.237"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    server: "77.232.140.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed"
       headers:
-        Host: "eded-52n.pages.dev"
+        Host: "vms.lifetime61.workers.dev"
   - name: "🇦🇪_7"
     type: vless
     server: "84.235.244.108"
@@ -107,6 +94,20 @@ proxies:
       path: "/eyJqdW5rIjoiMWphS1ZyYzRTbGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjoyM30="
       headers:
         Host: "blue-queen-d517.aaj1388324.workers.dev"
+  - name: "🇦🇪_9"
+    type: ss
+    server: "188.208.110.58"
+    port: 8444
+    cipher: "chacha20-ietf-poly1305"
+    password: "tunnel-astrovpn_official"
+    udp: true
+  - name: "🇦🇪_10"
+    type: ss
+    server: "188.208.110.58"
+    port: 8444
+    cipher: "chacha20-ietf-poly1305"
+    password: "tunnel-astrovpn_official"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -149,10 +150,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -162,10 +164,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -175,10 +178,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -187,10 +191,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -200,19 +205,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇪_5"
       - "🇦🇪_6"
       - "🇦🇪_7"
       - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
 
 rules:
   - MATCH,PROXY-BEST

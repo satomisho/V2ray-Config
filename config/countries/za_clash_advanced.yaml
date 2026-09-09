@@ -60,20 +60,12 @@ dns:
 
 proxies:
   - name: "🇿🇦_6"
-    type: vless
-    server: "139.84.230.41"
+    type: ss
+    server: "102.37.156.224"
     port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    cipher: "chacha20-ietf-poly1305"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
   - name: "🇿🇦_7"
     type: ss
     server: "102.37.156.224"
@@ -83,10 +75,10 @@ proxies:
     udp: true
   - name: "🇿🇦_8"
     type: ss
-    server: "102.37.156.224"
+    server: "20.164.211.25"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "aduB9HGxQHjA2SBMRjkHX6"
+    password: "BhYMkBpjAjE6ixSw"
     udp: true
   - name: "🇿🇦_9"
     type: ss
@@ -97,10 +89,10 @@ proxies:
     udp: true
   - name: "🇿🇦_10"
     type: ss
-    server: "139.84.247.164"
-    port: 8388
+    server: "20.164.211.25"
+    port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "tfAcRikawhNoZAhu"
+    password: "BhYMkBpjAjE6ixSw"
     udp: true
 
 proxy-groups:

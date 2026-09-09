@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇷_5"
+  - name: "🇧🇷_3"
     type: vless
     server: "200.165.231.209"
     port: 443
@@ -67,53 +67,23 @@ proxies:
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "wstg.datasynctrue.online"
+    servername: "200.165.231.209"
     network: ws
     ws-opts:
       path: "/api/connect"
       headers:
         Host: "wstg.datasynctrue.online"
-  - name: "🇧🇷_6"
+  - name: "🇧🇷_4"
     type: vless
-    server: "br.monkora.org"
-    port: 443
-    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    server: "45.194.53.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "br.monkora.org"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU"
-      short-id: ""
-  - name: "🇧🇷_7"
-    type: vless
-    server: "216.238.110.198"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇧🇷_8"
-    type: vless
-    server: "109.104.155.119"
-    port: 443
-    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "br.monkora.org"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU"
-      short-id: ""
+        Host: "vms.lifetime19.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -156,10 +126,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -169,10 +137,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -182,10 +148,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -194,10 +158,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -207,19 +169,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇷_5"
-      - "🇧🇷_6"
-      - "🇧🇷_7"
-      - "🇧🇷_8"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
 rules:
   - MATCH,PROXY-BEST

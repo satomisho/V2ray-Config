@@ -59,43 +59,28 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
+  - name: "🇧🇿_3"
+    type: vless
+    server: "45.131.6.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime61.workers.dev"
   - name: "🇧🇿_4"
     type: vless
-    server: "45.131.7.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇧🇿_5"
-    type: vless
-    server: "45.131.208.4"
-    port: 80
-    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
+    server: "45.131.211.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      path: "/?ed=2560"
       headers:
-        Host: "floral-thunder-10d3.82-67d.workers.dev"
-  - name: "🇧🇿_6"
-    type: vless
-    server: "45.131.6.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
+        Host: "vms.lifetime06.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -138,9 +123,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -150,9 +134,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -162,9 +145,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -173,9 +155,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -185,17 +166,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇧🇿_3"
       - "🇧🇿_4"
-      - "🇧🇿_5"
-      - "🇧🇿_6"
 
 rules:
   - MATCH,PROXY-BEST

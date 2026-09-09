@@ -65,70 +65,18 @@ dns:
 proxies:
   - name: "🇧🇾_1"
     type: vless
-    server: "185.179.82.246"
+    server: "45.129.186.205"
     port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    uuid: "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
+    servername: "ru.oblaco.bet"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇧🇾_2"
-    type: vless
-    server: "144.31.129.2"
-    port: 443
-    uuid: "91eb52ec-e3f5-4ab9-90da-43104995aef7"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "by1.un1.pro"
-    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "y3EIsxDGDJrBGk3j4YmjI5R_8jiCsEDRDMeL4bv5TTI"
-      short-id: "6ba85179e30d4fc2"
+      public-key: "ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8"
+      short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇧🇾_3"
-    type: vless
-    server: "191.44.32.253"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇧🇾_4"
-    type: trojan
-    server: "by01.botovod.space"
-    port: 500
-    password: "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
-    sni: "by01.botovod.space"
-    skip-cert-verify: true
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ""
-  - name: "🇧🇾_5"
-    type: trojan
-    server: "178.172.227.178"
-    port: 500
-    password: "8qCNZU2XdtefT7uB4uPxgRR839btqMG8"
-    sni: "by01.botovod.space"
-    skip-cert-verify: true
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: ""
 
 proxy-groups:
   - name: "PROXY"
@@ -144,10 +92,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇧🇾_1"
-      - "🇧🇾_2"
-      - "🇧🇾_3"
-      - "🇧🇾_4"
-      - "🇧🇾_5"
 
 
 rules:

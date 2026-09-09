@@ -64,62 +64,18 @@ dns:
 
 proxies:
   - name: "🇦🇱_1"
-    type: vless
-    server: "45.82.13.150"
-    port: 8443
-    uuid: "51231507-67c3-4141-ab08-a69eb121c716"
+    type: ss
+    server: "130.49.189.158"
+    port: 43558
+    cipher: "chacha20-ietf-poly1305"
+    password: "/63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8="
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tradingview.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "B0S7A-ceRt0c3aRqbeQG69FVSkK-si6NWLBEM_QuC3U"
-      short-id: "1688"
-    flow: "xtls-rprx-vision"
   - name: "🇦🇱_2"
-    type: vless
-    server: "89.125.139.115"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇦🇱_3"
-    type: vless
-    server: "91.239.6.40"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇦🇱_4"
     type: ss
     server: "130.49.189.158"
     port: 43558
     cipher: "chacha20-ietf-poly1305"
-    password: "nEefHwLLpCcvZliayaa1+t/VHJgVt8nP7TxiPOJM6IE="
-    udp: true
-  - name: "🇦🇱_5"
-    type: ss
-    server: "130.49.189.158"
-    port: 43558
-    cipher: "chacha20-ietf-poly1305"
-    password: "nEefHwLLpCcvZliayaa1+t/VHJgVt8nP7TxiPOJM6IE="
+    password: "/63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8="
     udp: true
 
 proxy-groups:
@@ -137,9 +93,6 @@ proxy-groups:
     proxies:
       - "🇦🇱_1"
       - "🇦🇱_2"
-      - "🇦🇱_3"
-      - "🇦🇱_4"
-      - "🇦🇱_5"
 
 
 rules:

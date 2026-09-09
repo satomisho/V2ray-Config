@@ -63,21 +63,61 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇩🇴_1"
+  - name: "🇧🇬_1"
     type: vless
-    server: "181.36.229.212"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    server: "45.142.120.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "eded-52n.pages.dev"
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇧🇬_2"
+    type: vless
+    server: "45.142.120.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇧🇬_3"
+    type: vless
+    server: "89.117.112.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime11.workers.dev"
+  - name: "🇧🇬_4"
+    type: vless
+    server: "89.117.112.4"
+    port: 80
+    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @VPNine1"
+      headers:
+        Host: "floral-thunder-10d3.82-67d.workers.dev"
+  - name: "🇧🇬_5"
+    type: trojan
+    server: "193.239.160.134"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,7 +132,11 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇩🇴_1"
+      - "🇧🇬_1"
+      - "🇧🇬_2"
+      - "🇧🇬_3"
+      - "🇧🇬_4"
+      - "🇧🇬_5"
 
 
 rules:

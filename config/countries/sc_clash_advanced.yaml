@@ -59,18 +59,65 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇨_4"
+  - name: "🇸🇨_8"
     type: vless
-    server: "45.130.125.207"
-    port: 80
-    uuid: "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51"
+    server: "45.130.125.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/http"
+      path: "/?ed=2560"
       headers:
-        Host: "de.vpnbase.net"
-  - name: "🇸🇨_5"
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇸🇨_9"
+    type: vless
+    server: "45.130.125.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇸🇨_10"
+    type: vless
+    server: "45.130.125.126"
+    port: 443
+    uuid: "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+    network: ws
+    ws-opts:
+      path: "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
+      headers:
+        Host: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
+  - name: "🇸🇨_11"
+    type: trojan
+    server: "45.130.125.18"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_12"
+    type: trojan
+    server: "45.130.125.126"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+  - name: "🇸🇨_13"
     type: trojan
     server: "45.130.125.190"
     port: 443
@@ -83,17 +130,17 @@ proxies:
       path: "/assignment"
       headers:
         Host: "www.calmlunch.com"
-  - name: "🇸🇨_6"
+  - name: "🇸🇨_14"
     type: trojan
-    server: "45.130.125.160"
+    server: "45.130.125.112"
     port: 443
-    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
-    sni: "go.appsflyer.com.r3xxe.eu.cc"
+    password: "humanity"
+    sni: "www.calmlunch.com"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/br-orcl"
+      path: "/assignment"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -136,9 +183,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
   - name: "LB-CDN"
     type: load-balance
@@ -148,9 +199,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -160,9 +215,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
   - name: "FAST-CDN"
     type: url-test
@@ -171,9 +230,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -183,17 +246,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇸🇨_4"
-      - "🇸🇨_5"
-      - "🇸🇨_6"
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
+      - "🇸🇨_11"
+      - "🇸🇨_12"
+      - "🇸🇨_13"
+      - "🇸🇨_14"
 
 rules:
   - MATCH,PROXY-BEST

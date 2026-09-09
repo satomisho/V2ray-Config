@@ -63,21 +63,17 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇷🇸_1"
+  - name: "🇨🇳_1"
     type: vless
-    server: "89.46.236.118"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    server: "176.124.223.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "eded-52n.pages.dev"
+        Host: "vms.lifetime38.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,7 +88,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇷🇸_1"
+      - "🇨🇳_1"
 
 
 rules:

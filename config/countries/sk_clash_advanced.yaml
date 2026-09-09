@@ -59,22 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇰_3"
-    type: vless
-    server: "89.46.42.141"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇸🇰_4"
+  - name: "🇸🇰_2"
     type: vless
     server: "185.112.249.201"
     port: 8443
@@ -129,8 +114,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -140,8 +124,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -151,8 +134,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -161,8 +143,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -172,15 +153,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇸🇰_3"
-      - "🇸🇰_4"
+      - "🇸🇰_2"
 
 rules:
   - MATCH,PROXY-BEST

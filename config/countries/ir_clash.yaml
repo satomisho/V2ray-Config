@@ -65,61 +65,27 @@ dns:
 proxies:
   - name: "🇮🇷_1"
     type: vless
-    server: "bridge.kolhoz.fuck-rkn.xyz"
-    port: 443
-    uuid: "ef5f6054-61c7-4ce8-a35b-dbcec449f242"
+    server: "45.131.4.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime59.workers.dev"
   - name: "🇮🇷_2"
     type: vless
-    server: "bridge2.kolhoz.fuck-rkn.xyz"
-    port: 443
-    uuid: "ef5f6054-61c7-4ce8-a35b-dbcec449f242"
+    server: "45.131.4.192"
+    port: 80
+    uuid: "5f4845b4-11dc-41d6-9508-4ff6a02e36c1"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "silent-paper-fa57.fipiyag989.workers.dev"
   - name: "🇮🇷_3"
-    type: vless
-    server: "185.24.151.109"
-    port: 443
-    uuid: "ef5f6054-61c7-4ce8-a35b-dbcec449f242"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_4"
-    type: vless
-    server: "185.24.151.11"
-    port: 443
-    uuid: "ef5f6054-61c7-4ce8-a35b-dbcec449f242"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jobinvest.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇷_5"
     type: ss
     server: "193.29.139.168"
     port: 8080
@@ -143,8 +109,6 @@ proxy-groups:
       - "🇮🇷_1"
       - "🇮🇷_2"
       - "🇮🇷_3"
-      - "🇮🇷_4"
-      - "🇮🇷_5"
 
 
 rules:

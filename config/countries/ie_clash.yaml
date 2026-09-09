@@ -65,43 +65,13 @@ dns:
 proxies:
   - name: "🇮🇪_1"
     type: vless
-    server: "194.87.245.205"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇮🇪_2"
-    type: vless
-    server: "167.160.177.68"
-    port: 2096
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇮🇪_3"
-    type: vless
-    server: "86.54.83.75"
+    server: "50.7.5.163"
     port: 443
-    uuid: "cf80b5fc-c445-4373-87e6-f8a22ad10d81"
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ie.easyemploy.org"
+    servername: "ir-viper.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
 
@@ -119,8 +89,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇮🇪_1"
-      - "🇮🇪_2"
-      - "🇮🇪_3"
 
 
 rules:

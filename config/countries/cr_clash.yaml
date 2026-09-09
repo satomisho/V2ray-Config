@@ -63,36 +63,47 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇮🇱_1"
+  - name: "🇨🇷_1"
     type: vless
-    server: "64.176.170.68"
-    port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇮🇱_2"
-    type: vless
-    server: "192.71.27.237"
+    server: "190.93.245.176"
     port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    uuid: "7493883f-6047-46a7-8d95-f59e137ffaec"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
+    servername: "auto-749388.rohawmk.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
+      headers:
+        Host: "auto-749388.rohawmk.workers.dev"
+  - name: "🇨🇷_2"
+    type: vless
+    server: "190.93.244.164"
+    port: 443
+    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
+  - name: "🇨🇷_3"
+    type: vless
+    server: "190.93.246.87"
+    port: 443
+    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "gy-cffc3-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -107,8 +118,9 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇮🇱_1"
-      - "🇮🇱_2"
+      - "🇨🇷_1"
+      - "🇨🇷_2"
+      - "🇨🇷_3"
 
 
 rules:

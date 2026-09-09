@@ -1,0 +1,5 @@
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.142.120.30:8880?security=none&type=ws&path=/&host=vms.lifetime08.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%A7%F0%9F%87%AC
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.142.120.40:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime08.workers.dev&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%AC
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@89.117.112.40:8880?security=none&type=ws&path=/&host=vms.lifetime11.workers.dev&packetEncoding=xudp#%F0%9F%87%A7%F0%9F%87%AC
+vless://424fa201-3f94-479e-b533-d5257cf9a207@89.117.112.4:80?fp=chrome&host=floral-thunder-10d3.82-67d.workers.dev&path=/pyip=Telegram🇨🇳+@VPNine1&security=none&type=ws#%F0%9F%87%A7%F0%9F%87%AC
+trojan://humanity@193.239.160.134:443?sni=www.calmlunch.com&type=ws&path=%2Fassignment&fp=chrome#%F0%9F%87%A7%F0%9F%87%AC

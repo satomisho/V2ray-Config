@@ -65,29 +65,16 @@ dns:
 proxies:
   - name: "🇦🇪_1"
     type: vless
-    server: "uae.unixzone.us"
-    port: 22573
-    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    server: "77.232.140.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-  - name: "🇦🇪_2"
-    type: vless
-    server: "84.235.250.237"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
+      path: "/?ed"
       headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇦🇪_3"
+        Host: "vms.lifetime61.workers.dev"
+  - name: "🇦🇪_2"
     type: vless
     server: "84.235.244.108"
     port: 22573
@@ -98,7 +85,7 @@ proxies:
       path: "/"
       headers:
         Host: "uae.unixzone.us"
-  - name: "🇦🇪_4"
+  - name: "🇦🇪_3"
     type: trojan
     server: "94.140.0.100"
     port: 8443
@@ -111,6 +98,20 @@ proxies:
       path: "/eyJqdW5rIjoiMWphS1ZyYzRTbGsiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjoyM30="
       headers:
         Host: "blue-queen-d517.aaj1388324.workers.dev"
+  - name: "🇦🇪_4"
+    type: ss
+    server: "188.208.110.58"
+    port: 8444
+    cipher: "chacha20-ietf-poly1305"
+    password: "tunnel-astrovpn_official"
+    udp: true
+  - name: "🇦🇪_5"
+    type: ss
+    server: "188.208.110.58"
+    port: 8444
+    cipher: "chacha20-ietf-poly1305"
+    password: "tunnel-astrovpn_official"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -129,6 +130,7 @@ proxy-groups:
       - "🇦🇪_2"
       - "🇦🇪_3"
       - "🇦🇪_4"
+      - "🇦🇪_5"
 
 
 rules:

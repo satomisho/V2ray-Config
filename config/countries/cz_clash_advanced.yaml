@@ -59,21 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_10"
+  - name: "🇨🇿_7"
     type: vless
-    server: "5.39.202.127"
+    server: "78.159.247.213"
     port: 443
-    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    uuid: "0764541b-3e57-4b47-954b-51e996fae5fc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "czek1.kovsh.lol"
+    servername: "on.mcufa.pro"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
-      short-id: "2cec07a8614696e5"
+      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
+      short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_11"
+  - name: "🇨🇿_8"
     type: vless
     server: "78.159.247.166"
     port: 7444
@@ -87,36 +87,16 @@ proxies:
       public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_12"
+  - name: "🇨🇿_9"
     type: vless
-    server: "czek1.kovsh.lol"
-    port: 443
-    uuid: "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d"
+    server: "194.87.59.9"
+    port: 2085
+    uuid: "ffa722c8-da3f-4371-a0e0-6afcc9f3f93b"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "czek1.kovsh.lol"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "crRdG3Hd_QtGCJi9fd1rtHpDIB7vnCx1Yexfu6XkIzU"
-      short-id: "2cec07a8614696e5"
-    flow: "xtls-rprx-vision"
-  - name: "🇨🇿_13"
-    type: vless
-    server: "92.61.71.49"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇨🇿_14"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇨🇿_10"
     type: vless
     server: "78.159.247.123"
     port: 7444
@@ -130,49 +110,29 @@ proxies:
       public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_15"
+  - name: "🇨🇿_11"
     type: vless
-    server: "193.124.57.19"
+    server: "194.87.59.6"
+    port: 2085
+    uuid: "ffa722c8-da3f-4371-a0e0-6afcc9f3f93b"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇨🇿_12"
+    type: vless
+    server: "78.159.247.153"
     port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    uuid: "0764541b-3e57-4b47-954b-51e996fae5fc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
-  - name: "🇨🇿_16"
-    type: vless
-    server: "45.129.142.41"
-    port: 49325
-    uuid: "68f7465d-6edb-4317-a1a9-ffe87e3a7c38"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "addons.mozilla.org"
-    client-fingerprint: "chrome"
+    servername: "on.mcufa.pro"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "T0RmoxSgAtx71kYW_ENHcU1cMHXpz0IzFJYHOn9WZm8"
-      short-id: "886921b120b2"
+      public-key: "-P8DgKISSG4jnLuj6ihZDqZs1_zt-juBrhVhTylHiAo"
+      short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇨🇿_17"
-    type: ss
-    server: "45.129.142.41"
-    port: 47425
-    cipher: "chacha20-ietf-poly1305"
-    password: "lIoNSMeYLX8QGHnOp0DTBR0W91/CHVDEjPqjMDuYcdQ="
-    udp: true
-  - name: "🇨🇿_18"
-    type: ss
-    server: "45.129.142.41"
-    port: 47425
-    cipher: "chacha20-ietf-poly1305"
-    password: "lIoNSMeYLX8QGHnOp0DTBR0W91/CHVDEjPqjMDuYcdQ="
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -215,15 +175,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
   - name: "LB-CDN"
     type: load-balance
@@ -233,15 +190,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -251,15 +205,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
   - name: "FAST-CDN"
     type: url-test
@@ -268,15 +219,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -286,29 +234,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇨🇿_7"
+      - "🇨🇿_8"
+      - "🇨🇿_9"
       - "🇨🇿_10"
       - "🇨🇿_11"
       - "🇨🇿_12"
-      - "🇨🇿_13"
-      - "🇨🇿_14"
-      - "🇨🇿_15"
-      - "🇨🇿_16"
-      - "🇨🇿_17"
-      - "🇨🇿_18"
 
 rules:
   - MATCH,PROXY-BEST

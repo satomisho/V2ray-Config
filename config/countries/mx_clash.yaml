@@ -77,19 +77,16 @@ proxies:
       path: "/vless/"
   - name: "🇲🇽_2"
     type: vless
-    server: "216.238.88.154"
+    server: "UL-Mexico1.09vpn.com"
     port: 8443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
+    uuid: "a6d20e79-d326-42c1-bc20-f4cecc6dc42d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
+    servername: "UL-Mexico1.09vpn.com"
     network: ws
     ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
+      path: "/vless/"
   - name: "🇲🇽_3"
     type: vless
     server: "45.134.9.133"
@@ -105,21 +102,6 @@ proxies:
       path: "/vless/"
       headers:
         Host: "ul-mexico1.09vpn.com"
-  - name: "🇲🇽_4"
-    type: vless
-    server: "216.238.86.91"
-    port: 443
-    uuid: "2eadb97f-bba4-4471-8d55-bd461525a2dc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "eded-52n.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "eded-52n.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -137,7 +119,6 @@ proxy-groups:
       - "🇲🇽_1"
       - "🇲🇽_2"
       - "🇲🇽_3"
-      - "🇲🇽_4"
 
 
 rules:
