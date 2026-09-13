@@ -63,15 +63,47 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇺🇿_1"
+  - name: "🇲🇩_1"
     type: vless
-    server: "189.74.97.47"
-    port: 2087
-    uuid: "894fe9f0-b998-49c0-8003-a5007de921e1"
+    server: "md7.mediacorp.fyi"
+    port: 443
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "md7.mediacorp.fyi"
+    client-fingerprint: "firefox"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇲🇩_2"
+    type: vless
+    server: "217.156.67.86"
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
     network: ws
     ws-opts:
-      path: "/755276b33b6f"
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇲🇩_3"
+    type: vless
+    server: "md10.mediacorp.fyi"
+    port: 443
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "md10.mediacorp.fyi"
+    client-fingerprint: "safari"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
 
 proxy-groups:
   - name: "PROXY"
@@ -86,7 +118,9 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇺🇿_1"
+      - "🇲🇩_1"
+      - "🇲🇩_2"
+      - "🇲🇩_3"
 
 
 rules:

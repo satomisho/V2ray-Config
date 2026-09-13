@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇷_4"
+  - name: "🇨🇷_2"
     type: vless
     server: "190.93.245.176"
     port: 443
@@ -74,32 +74,6 @@ proxies:
       path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
       headers:
         Host: "auto-749388.rohawmk.workers.dev"
-  - name: "🇨🇷_5"
-    type: vless
-    server: "190.93.244.164"
-    port: 443
-    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇨🇷_6"
-    type: vless
-    server: "190.93.246.87"
-    port: 443
-    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "gy-cffc3-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -142,9 +116,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -154,9 +126,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -166,9 +136,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -177,9 +145,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -189,17 +155,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇷_4"
-      - "🇨🇷_5"
-      - "🇨🇷_6"
+      - "🇨🇷_2"
 
 rules:
   - MATCH,PROXY-BEST

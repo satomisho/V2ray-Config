@@ -68,18 +68,25 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_4"
-    type: ss
-    server: "15.235.75.71"
-    port: 8388
-    cipher: "chacha20-ietf-poly1305"
-    password: "FD3rCuOsxOay"
+    type: vless
+    server: "132.243.162.30"
+    port: 46280
+    uuid: "12af43c3-84b4-4248-878b-b75f35835487"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "amp-api-edge.apps.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "3xEvhIbjIvO9bJSqHEF3D91YZEYaA3fWzb2JpxW0XmQ"
+      short-id: "e53690af52736850"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

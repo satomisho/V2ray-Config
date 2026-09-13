@@ -1,3 +1,4 @@
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.131.4.30:8880?type=ws&host=vms.lifetime59.workers.dev#%F0%9F%87%AE%F0%9F%87%B7
 vless://5f4845b4-11dc-41d6-9508-4ff6a02e36c1@45.131.4.192:80?security=none&type=ws&path=/&host=silent-paper-fa57.fipiyag989.workers.dev&packetEncoding=none#%F0%9F%87%AE%F0%9F%87%B7
+trojan://f18d6149-e214-8554-e737-f7523c8b2eea@45.131.4.118:443?sni=0403.infinityconfig4.workers.dev&type=ws&path=/sync&fp=chrome#%F0%9F%87%AE%F0%9F%87%B7
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q@193.29.139.168:8080#%F0%9F%87%AE%F0%9F%87%B7

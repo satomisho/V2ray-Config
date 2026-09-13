@@ -78,32 +78,6 @@ proxies:
       path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
       headers:
         Host: "auto-749388.rohawmk.workers.dev"
-  - name: "🇨🇷_2"
-    type: vless
-    server: "190.93.244.164"
-    port: 443
-    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "gy-cffc6-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇨🇷_3"
-    type: vless
-    server: "190.93.246.87"
-    port: 443
-    uuid: "49b5c5d1-8fb0-4fd2-8129-01bd2178e8d1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "gy-cffc3-node-31z7yxejlog9qfu0.lancelot.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -119,8 +93,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇨🇷_1"
-      - "🇨🇷_2"
-      - "🇨🇷_3"
 
 
 rules:

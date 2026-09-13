@@ -86,6 +86,17 @@ proxies:
       headers:
         Host: "silent-paper-fa57.fipiyag989.workers.dev"
   - name: "🇮🇷_3"
+    type: trojan
+    server: "45.131.4.118"
+    port: 443
+    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
+    sni: "0403.infinityconfig4.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/sync"
+  - name: "🇮🇷_4"
     type: ss
     server: "193.29.139.168"
     port: 8080
@@ -109,6 +120,7 @@ proxy-groups:
       - "🇮🇷_1"
       - "🇮🇷_2"
       - "🇮🇷_3"
+      - "🇮🇷_4"
 
 
 rules:

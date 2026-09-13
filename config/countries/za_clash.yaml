@@ -65,10 +65,10 @@ dns:
 proxies:
   - name: "🇿🇦_1"
     type: ss
-    server: "102.37.156.224"
+    server: "102.37.108.75"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "aduB9HGxQHjA2SBMRjkHX6"
+    password: "FYGlWYggB4Akk6HP"
     udp: true
   - name: "🇿🇦_2"
     type: ss
@@ -79,10 +79,10 @@ proxies:
     udp: true
   - name: "🇿🇦_3"
     type: ss
-    server: "20.164.211.25"
+    server: "102.37.156.224"
     port: 443
     cipher: "chacha20-ietf-poly1305"
-    password: "BhYMkBpjAjE6ixSw"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
     udp: true
   - name: "🇿🇦_4"
     type: ss
@@ -93,10 +93,10 @@ proxies:
     udp: true
   - name: "🇿🇦_5"
     type: ss
-    server: "20.164.211.25"
-    port: 443
+    server: "139.84.247.164"
+    port: 8388
     cipher: "chacha20-ietf-poly1305"
-    password: "BhYMkBpjAjE6ixSw"
+    password: "tfAcRikawhNoZAhu"
     udp: true
 
 proxy-groups:

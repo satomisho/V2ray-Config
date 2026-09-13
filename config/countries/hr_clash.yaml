@@ -63,20 +63,26 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇧🇾_1"
+  - name: "🇭🇷_1"
     type: vless
-    server: "45.129.186.205"
+    server: "cr4.mediacorp.fyi"
     port: 443
-    uuid: "ca19c24a-e5ec-45f8-8cd1-c97d84da5e35"
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ru.oblaco.bet"
+    servername: "cr4.mediacorp.fyi"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "ntzKs0FMUCLOwBKYNbvzf9FZKEL6tZP6BXccNKJCcF8"
-      short-id: ""
-    flow: "xtls-rprx-vision"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇭🇷_2"
+    type: ss
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -91,7 +97,8 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇧🇾_1"
+      - "🇭🇷_1"
+      - "🇭🇷_2"
 
 
 rules:

@@ -63,12 +63,11 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇲🇰_1"
-    type: ss
-    server: "185.203.4.204"
-    port: 3
-    cipher: "chacha20-ietf-poly1305"
-    password: "816Efx8yiCSDDpvvpxXL8Q"
+  - name: "🇨🇴_1"
+    type: vless
+    server: "157.137.209.135"
+    port: 62145
+    uuid: "8fb65472-5957-4f64-ba2d-b5812b2f155a"
     udp: true
 
 proxy-groups:
@@ -84,7 +83,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇲🇰_1"
+      - "🇨🇴_1"
 
 
 rules:

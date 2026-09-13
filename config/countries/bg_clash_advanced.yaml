@@ -59,29 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇬_6"
-    type: vless
-    server: "45.142.120.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime08.workers.dev"
-  - name: "🇧🇬_7"
-    type: vless
-    server: "45.142.120.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime08.workers.dev"
-  - name: "🇧🇬_8"
+  - name: "🇧🇬_11"
     type: vless
     server: "89.117.112.40"
     port: 8880
@@ -92,7 +70,31 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime11.workers.dev"
-  - name: "🇧🇬_9"
+  - name: "🇧🇬_12"
+    type: vless
+    server: "45.142.120.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇧🇬_13"
+    type: vless
+    server: "bg3.mediacorp.fyi"
+    port: 443
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bg3.mediacorp.fyi"
+    client-fingerprint: "ios"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇧🇬_14"
     type: vless
     server: "89.117.112.4"
     port: 80
@@ -103,17 +105,84 @@ proxies:
       path: "/pyip=Telegram🇨🇳 @VPNine1"
       headers:
         Host: "floral-thunder-10d3.82-67d.workers.dev"
-  - name: "🇧🇬_10"
-    type: trojan
-    server: "193.239.160.134"
+  - name: "🇧🇬_15"
+    type: vless
+    server: "srv.mediahappy.org"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
+    udp: true
+    tls: true
     skip-cert-verify: true
+    servername: "srv.mediahappy.org"
+    client-fingerprint: "firefox"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "edge.v1.MetricsService"
+  - name: "🇧🇬_16"
+    type: vless
+    server: "108.165.233.223"
+    port: 443
+    uuid: "2388e166-3890-33ae-f77e-efac00000001"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "netlivpn4813.ddhshhshs.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
+      headers:
+        Host: "netlivpn4813.ddhshhshs.workers.dev"
+  - name: "🇧🇬_17"
+    type: vless
+    server: "89.117.112.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime11.workers.dev"
+  - name: "🇧🇬_18"
+    type: vless
+    server: "108.165.233.223"
+    port: 443
+    uuid: "2388e166-3890-33ae-f77e-efac00000003"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "netlivpn4813.ddhshhshs.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN"
+      headers:
+        Host: "netlivpn4813.ddhshhshs.workers.dev"
+  - name: "🇧🇬_19"
+    type: vless
+    server: "45.142.120.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇧🇬_20"
+    type: vless
+    server: "grid.mediahappy.org"
+    port: 443
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "grid.mediahappy.org"
+    client-fingerprint: "chrome"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "stats.v2.SyncService"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -156,11 +225,16 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
   - name: "LB-CDN"
     type: load-balance
@@ -170,11 +244,16 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -184,11 +263,16 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
   - name: "FAST-CDN"
     type: url-test
@@ -197,11 +281,16 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -211,21 +300,31 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇬_6"
-      - "🇧🇬_7"
-      - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
+      - "🇧🇬_11"
+      - "🇧🇬_12"
+      - "🇧🇬_13"
+      - "🇧🇬_14"
+      - "🇧🇬_15"
+      - "🇧🇬_16"
+      - "🇧🇬_17"
+      - "🇧🇬_18"
+      - "🇧🇬_19"
+      - "🇧🇬_20"
 
 rules:
   - MATCH,PROXY-BEST

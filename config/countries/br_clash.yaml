@@ -65,20 +65,6 @@ dns:
 proxies:
   - name: "🇧🇷_1"
     type: vless
-    server: "200.165.231.209"
-    port: 443
-    uuid: "ff0b6ba8-bed0-4c4d-bbc9-23af47582615"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "200.165.231.209"
-    network: ws
-    ws-opts:
-      path: "/api/connect"
-      headers:
-        Host: "wstg.datasynctrue.online"
-  - name: "🇧🇷_2"
-    type: vless
     server: "45.194.53.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
@@ -88,6 +74,33 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: "vms.lifetime19.workers.dev"
+  - name: "🇧🇷_2"
+    type: vless
+    server: "45.194.53.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇧🇷_3"
+    type: ss
+    server: "216.128.168.190"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "owVdNnQcdPgthSyX"
+    udp: true
+  - name: "🇧🇷_4"
+    type: ss
+    server: "216.128.168.190"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "owVdNnQcdPgthSyX"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -104,6 +117,8 @@ proxy-groups:
     proxies:
       - "🇧🇷_1"
       - "🇧🇷_2"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
 
 rules:

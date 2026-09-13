@@ -65,32 +65,33 @@ dns:
 proxies:
   - name: "🇱🇹_1"
     type: vless
-    server: "144.31.243.220"
+    server: "lit9.helper-internet.com"
     port: 443
-    uuid: "c09cfd91-b234-4998-9bed-a0211b7f5c3c"
+    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "lt.yservice.help"
-    client-fingerprint: "firefox"
+    servername: "lit9.helper-internet.com"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "-qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04"
-      short-id: "abcd1234"
+      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
+      short-id: "ff776ff77be48b88"
     flow: "xtls-rprx-vision"
   - name: "🇱🇹_2"
     type: vless
-    server: "2.56.124.241"
+    server: "88.216.69.144"
     port: 443
-    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
+    uuid: "50414e45-4c5f-5a45-5553-4d64f1370eeb"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.amazon.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw"
-      short-id: "72104d27a0f5f62e"
-    flow: "xtls-rprx-vision"
+    servername: "r5zenrelur2s.pqzdileiu8es.workers.dev"
+    client-fingerprint: "ios"
+    network: ws
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0"
+      headers:
+        Host: "r5zenrelur2s.pqzdileiu8es.workers.dev"
   - name: "🇱🇹_3"
     type: vless
     server: "88.216.69.30"
@@ -104,20 +105,6 @@ proxies:
         Host: "vms.lifetime06.workers.dev"
   - name: "🇱🇹_4"
     type: vless
-    server: "lit9.helper-internet.com"
-    port: 443
-    uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "lit9.helper-internet.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
-      short-id: "ff776ff77be48b88"
-    flow: "xtls-rprx-vision"
-  - name: "🇱🇹_5"
-    type: vless
     server: "88.119.176.24"
     port: 443
     uuid: "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8"
@@ -125,23 +112,68 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "lit9.helper-internet.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE"
       short-id: "ff776ff77be48b88"
     flow: "xtls-rprx-vision"
-  - name: "🇱🇹_6"
-    type: trojan
-    server: "195.181.244.216"
+  - name: "🇱🇹_5"
+    type: vless
+    server: "ltu-02.node.lumixnet.com"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
+    uuid: "8645697d-51c1-4e90-aca5-ba63a0392f11"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
+    tls: true
+    skip-cert-verify: true
+    servername: "ltu-02.node.lumixnet.com"
+    client-fingerprint: "hellochrome_120"
+    reality-opts:
+      public-key: "vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A"
+      short-id: "bd8a588cebc3395a"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_6"
+    type: vless
+    server: "181.214.147.216"
+    port: 443
+    uuid: "3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lith.2clash.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "66DIn_CbsE4-fWeWpy3vrRLP-XN8D-axun3jbZzuPmk"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇱🇹_7"
+    type: vless
+    server: "144.31.243.220"
+    port: 443
+    uuid: "c09cfd91-b234-4998-9bed-a0211b7f5c3c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lt.yservice.help"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "-qLezG1nUEtvOJi-Ra7WRYv-aHkv3PSefEuXpWV2G04"
+      short-id: "abcd1234"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_8"
+    type: vless
+    server: "2.56.124.241"
+    port: 443
+    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.amazon.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw"
+      short-id: "72104d27a0f5f62e"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_9"
     type: ss
     server: "144.31.243.2"
     port: 16015
@@ -169,6 +201,8 @@ proxy-groups:
       - "🇱🇹_5"
       - "🇱🇹_6"
       - "🇱🇹_7"
+      - "🇱🇹_8"
+      - "🇱🇹_9"
 
 
 rules:

@@ -64,13 +64,28 @@ dns:
 
 proxies:
   - name: "🇩🇰_1"
+    type: vless
+    server: "193.181.212.80"
+    port: 443
+    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kv.074167.xyz"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "kv.074167.xyz"
+  - name: "🇩🇰_2"
     type: ss
     server: "38.180.214.110"
     port: 5600
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇩🇰_2"
+  - name: "🇩🇰_3"
     type: ss
     server: "38.180.214.110"
     port: 5600
@@ -93,6 +108,7 @@ proxy-groups:
     proxies:
       - "🇩🇰_1"
       - "🇩🇰_2"
+      - "🇩🇰_3"
 
 
 rules:

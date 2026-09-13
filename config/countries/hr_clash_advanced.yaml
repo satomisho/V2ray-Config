@@ -59,19 +59,26 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇰_2"
+  - name: "🇭🇷_3"
     type: vless
-    server: "185.112.249.201"
-    port: 8443
-    uuid: "9b18ccef-b9e0-41d1-8990-9d970569e142"
+    server: "cr4.mediacorp.fyi"
+    port: 443
+    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "web-socket.tgdaosheng.ggff.net"
+    servername: "cr4.mediacorp.fyi"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "mobile.api.Event"
+  - name: "🇭🇷_4"
+    type: ss
+    server: "156.146.38.170"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -114,7 +121,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -124,7 +132,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -134,7 +143,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -143,7 +153,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -153,13 +164,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇸🇰_2"
+      - "🇭🇷_3"
+      - "🇭🇷_4"
 
 rules:
   - MATCH,PROXY-BEST

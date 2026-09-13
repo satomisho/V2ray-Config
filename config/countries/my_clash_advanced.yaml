@@ -59,20 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇾_5"
-    type: vless
-    server: "47.250.81.46"
-    port: 2087
-    uuid: "4376bba6-f54c-4e1f-a4c6-6e0be6d49042"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "8.ymx0516.kdns.fr"
-    client-fingerprint: "android"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇲🇾_6"
+  - name: "🇲🇾_3"
     type: vless
     server: "56.69.159.191"
     port: 53271
@@ -81,26 +68,12 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.tesla.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc"
       short-id: "0a9bd9db19578964"
     flow: "xtls-rprx-vision"
-  - name: "🇲🇾_7"
-    type: vless
-    server: "43.217.16.8"
-    port: 21874
-    uuid: "85dd8227-0f12-4826-a712-6313211774b5"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.amd.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "75sTDYJk8ylA97-aBhAlF1tU4OaCfdOaOSIBshPW7Bs"
-      short-id: "42e853a5559e1032"
-    flow: "xtls-rprx-vision"
-  - name: "🇲🇾_8"
+  - name: "🇲🇾_4"
     type: trojan
     server: "47.250.84.25"
     port: 443
@@ -150,10 +123,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -163,10 +134,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -176,10 +145,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -188,10 +155,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -201,19 +166,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇾_5"
-      - "🇲🇾_6"
-      - "🇲🇾_7"
-      - "🇲🇾_8"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
 
 rules:
   - MATCH,PROXY-BEST
