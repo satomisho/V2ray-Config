@@ -59,7 +59,22 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇪_2"
+  - name: "🇲🇪_3"
+    type: vless
+    server: "147.90.26.37"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/web?ed=2560"
+      headers:
+        Host: "cdn8848.776676.xyz"
+  - name: "🇲🇪_4"
     type: vless
     server: "178.83.110.32"
     port: 7443
@@ -116,7 +131,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -126,7 +142,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -136,7 +153,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -145,7 +163,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -155,13 +174,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇪_2"
+      - "🇲🇪_3"
+      - "🇲🇪_4"
 
 rules:
   - MATCH,PROXY-BEST

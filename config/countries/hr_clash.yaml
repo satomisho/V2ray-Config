@@ -64,25 +64,18 @@ dns:
 
 proxies:
   - name: "🇭🇷_1"
-    type: vless
-    server: "cr4.mediacorp.fyi"
+    type: trojan
+    server: "213.182.199.137"
     port: 443
-    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
-    udp: true
-    tls: true
+    password: "humanity"
+    sni: "www.pleadcourt.org"
     skip-cert-verify: true
-    servername: "cr4.mediacorp.fyi"
-    client-fingerprint: "chrome"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇭🇷_2"
-    type: ss
-    server: "156.146.38.170"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
     udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.pleadcourt.org"
 
 proxy-groups:
   - name: "PROXY"
@@ -98,7 +91,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇭🇷_1"
-      - "🇭🇷_2"
 
 
 rules:

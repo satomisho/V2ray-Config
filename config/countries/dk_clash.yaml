@@ -65,6 +65,21 @@ dns:
 proxies:
   - name: "🇩🇰_1"
     type: vless
+    server: "77.37.96.186"
+    port: 443
+    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "thus-k.netnode.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me/daily_free_vpn"
+      headers:
+        Host: "thus-k.netnode.cc.cd"
+  - name: "🇩🇰_2"
+    type: vless
     server: "193.181.212.80"
     port: 443
     uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
@@ -78,14 +93,14 @@ proxies:
       path: "/"
       headers:
         Host: "kv.074167.xyz"
-  - name: "🇩🇰_2"
+  - name: "🇩🇰_3"
     type: ss
     server: "38.180.214.110"
     port: 5600
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇩🇰_3"
+  - name: "🇩🇰_4"
     type: ss
     server: "38.180.214.110"
     port: 5600
@@ -109,6 +124,7 @@ proxy-groups:
       - "🇩🇰_1"
       - "🇩🇰_2"
       - "🇩🇰_3"
+      - "🇩🇰_4"
 
 
 rules:

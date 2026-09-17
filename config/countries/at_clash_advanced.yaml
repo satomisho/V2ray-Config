@@ -59,62 +59,18 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇹_8"
-    type: vless
-    server: "50.7.36.26"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at2.moritech.net"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_9"
-    type: vless
-    server: "50.7.37.154"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at1.moritech.net"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_10"
-    type: vless
-    server: "at.failspace.top"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at.failspace.top"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇹_11"
-    type: vless
-    server: "212.183.88.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime23.workers.dev"
-  - name: "🇦🇹_12"
-    type: vless
-    server: "50.7.36.27"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "at-new-ded2.moritech.net"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
   - name: "🇦🇹_13"
+    type: vless
+    server: "at-dedic-2.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at-dedic-2.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_14"
     type: vless
     server: "152.53.1.40"
     port: 443
@@ -128,7 +84,29 @@ proxies:
       public-key: "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc"
       short-id: "43dcff53849b81e6"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇹_14"
+  - name: "🇦🇹_15"
+    type: vless
+    server: "50.7.37.154"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at1.moritech.net"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_16"
+    type: vless
+    server: "50.7.36.28"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at-new-ded.failspace.top"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision-udp443"
+  - name: "🇦🇹_17"
     type: vless
     server: "50.7.184.122"
     port: 443
@@ -139,6 +117,89 @@ proxies:
     servername: "at3.moritech.net"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
+  - name: "🇦🇹_18"
+    type: vless
+    server: "50.7.36.26"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at2.moritech.net"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_19"
+    type: vless
+    server: "50.7.36.27"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at-new-ded2.moritech.net"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_20"
+    type: vless
+    server: "132.243.203.207"
+    port: 8443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/lives?ed=2560"
+      headers:
+        Host: "cdn8848.776676.xyz"
+  - name: "🇦🇹_21"
+    type: vless
+    server: "50.7.37.157"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at-dedic.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_22"
+    type: vless
+    server: "212.183.88.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime23.workers.dev"
+  - name: "🇦🇹_23"
+    type: vless
+    server: "50.7.36.29"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "at-dedic-2.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇹_24"
+    type: trojan
+    server: "212.183.88.136"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -181,13 +242,18 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
   - name: "LB-CDN"
     type: load-balance
@@ -197,13 +263,18 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -213,13 +284,18 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
   - name: "FAST-CDN"
     type: url-test
@@ -228,13 +304,18 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -244,25 +325,35 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇹_8"
-      - "🇦🇹_9"
-      - "🇦🇹_10"
-      - "🇦🇹_11"
-      - "🇦🇹_12"
       - "🇦🇹_13"
       - "🇦🇹_14"
+      - "🇦🇹_15"
+      - "🇦🇹_16"
+      - "🇦🇹_17"
+      - "🇦🇹_18"
+      - "🇦🇹_19"
+      - "🇦🇹_20"
+      - "🇦🇹_21"
+      - "🇦🇹_22"
+      - "🇦🇹_23"
+      - "🇦🇹_24"
 
 rules:
   - MATCH,PROXY-BEST

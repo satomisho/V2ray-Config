@@ -78,6 +78,81 @@ proxies:
       short-id: "0a9bd9db19578964"
     flow: "xtls-rprx-vision"
   - name: "🇲🇾_2"
+    type: vless
+    server: "47.250.212.59"
+    port: 2053
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "mia12.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/TG:@MiaChatChannel"
+      headers:
+        Host: "mia12.pages.dev"
+  - name: "🇲🇾_3"
+    type: vless
+    server: "47.254.251.37"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/archives?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇲🇾_4"
+    type: vless
+    server: "47.250.212.59"
+    port: 443
+    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "mia11.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/TG:@MiaChatChannel"
+      headers:
+        Host: "mia11.pages.dev"
+  - name: "🇲🇾_5"
+    type: vless
+    server: "23.27.28.131"
+    port: 443
+    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "thus-k.netnode.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me/daily_free_vpn"
+      headers:
+        Host: "thus-k.netnode.cc.cd"
+  - name: "🇲🇾_6"
+    type: vless
+    server: "56.69.45.182"
+    port: 443
+    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "thus-k.netnode.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me/daily_free_vpn"
+      headers:
+        Host: "thus-k.netnode.cc.cd"
+  - name: "🇲🇾_7"
     type: trojan
     server: "47.250.84.25"
     port: 443
@@ -101,6 +176,11 @@ proxy-groups:
     proxies:
       - "🇲🇾_1"
       - "🇲🇾_2"
+      - "🇲🇾_3"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
+      - "🇲🇾_7"
 
 
 rules:

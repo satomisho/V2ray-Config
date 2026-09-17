@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_2"
+  - name: "🇨🇿_3"
     type: vless
     server: "31.76.7.154"
     port: 7443
@@ -73,6 +73,19 @@ proxies:
       public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
       short-id: "d2061bb1"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇿_4"
+    type: vless
+    server: "cz1.zuoai.cf"
+    port: 443
+    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nb.lovecf.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -115,7 +128,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +139,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +150,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +160,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +171,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇿_2"
+      - "🇨🇿_3"
+      - "🇨🇿_4"
 
 rules:
   - MATCH,PROXY-BEST

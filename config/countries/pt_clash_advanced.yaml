@@ -59,63 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇵🇹_8"
-    type: vless
-    server: "171.22.129.56"
-    port: 8443
-    uuid: "b2744db0-1c64-4218-a93b-9eba0e5f811f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "de-two.quiet-rogue.site"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0"
-      short-id: "00a02855ba568c29"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇹_9"
-    type: vless
-    server: "171.22.129.56"
-    port: 8443
-    uuid: "9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "de-two.quiet-rogue.site"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "QMJRGTqZRbpeLpIAdvn6dhftuzrpwbtwmVG2s5IuuU0"
-      short-id: "00a02855ba568c29"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇹_10"
-    type: vless
-    server: "171.22.129.56"
-    port: 2083
-    uuid: "b2744db0-1c64-4218-a93b-9eba0e5f811f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "swe-one.quiet-rogue.site"
-    client-fingerprint: "edge"
-    reality-opts:
-      public-key: "40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc"
-      short-id: "32a37218722f0081"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇹_11"
-    type: vless
-    server: "171.22.129.56"
-    port: 2053
-    uuid: "9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "fi-one.quiet-rogue.site"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI"
-      short-id: "beff3ff061a64cfd"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇹_12"
+  - name: "🇵🇹_2"
     type: vless
     server: "156.243.83.30"
     port: 8880
@@ -126,34 +70,6 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime54.workers.dev"
-  - name: "🇵🇹_13"
-    type: vless
-    server: "171.22.129.56"
-    port: 2083
-    uuid: "9f5b9ca7-d0bb-4e50-a3ca-acf5968027fc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "swe-one.quiet-rogue.site"
-    client-fingerprint: "edge"
-    reality-opts:
-      public-key: "40eDnye2AHCQqgM2_ikKzRayZ4Vlu4rnnkHmLmNalQc"
-      short-id: "32a37218722f0081"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇹_14"
-    type: vless
-    server: "171.22.129.56"
-    port: 2053
-    uuid: "b2744db0-1c64-4218-a93b-9eba0e5f811f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "fi-one.quiet-rogue.site"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "AKUQO-fKsD19FFBxNq5XTFCRXWDZfes4zJjRINY1KUI"
-      short-id: "beff3ff061a64cfd"
-    flow: "xtls-rprx-vision"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -196,13 +112,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -212,13 +122,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -228,13 +132,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -243,13 +141,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -259,25 +151,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇵🇹_8"
-      - "🇵🇹_9"
-      - "🇵🇹_10"
-      - "🇵🇹_11"
-      - "🇵🇹_12"
-      - "🇵🇹_13"
-      - "🇵🇹_14"
+      - "🇵🇹_2"
 
 rules:
   - MATCH,PROXY-BEST

@@ -65,77 +65,76 @@ dns:
 proxies:
   - name: "🇳🇴_1"
     type: vless
-    server: "151.242.169.119"
+    server: "31.76.5.2"
     port: 443
-    uuid: "a34ecff0-a6bc-4bac-94ad-25e1f82afcbe"
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yidio.com"
+    servername: "viper-25.moriarty-web.com"
     client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_2"
     type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "d2a3fdbd-386c-485c-a6d4-74dea3f970d8"
+    server: "89.185.81.95"
+    port: 8765
+    uuid: "df9f5aca-eda0-428f-a752-e53866153d12"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yidio.com"
+    servername: "r-b8a34c.vless.monster"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
+      public-key: "Da_s-Cgqm5kqaIbCgXVJdrq_KF7fCQveRByRhKUzonc"
+      short-id: "7bf47eabf939728b"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_3"
     type: vless
-    server: "31.76.5.159"
+    server: "46.29.238.32"
+    port: 40443
+    uuid: "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4"
+      short-id: "7606"
+  - name: "🇳🇴_4"
+    type: vless
+    server: "viper-25.moriarty-web.com"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "norway-4.moritech.net"
+    servername: "viper-25.moriarty-web.com"
     client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_4"
-    type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "403c3476-202d-4471-b615-40c8a2b503be"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yidio.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_5"
     type: vless
-    server: "31.76.5.158"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    server: "151.242.168.125"
+    port: 390
+    uuid: "7b363f9c-3df9-4b60-a789-9cd36be0bdfe"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "norway-3.moritech.net"
-    client-fingerprint: "firefox"
+    servername: "bowandbead.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8"
+      short-id: "b545fe8c5e22f92d"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_6"
     type: vless
-    server: "viper-24.moriarty-web.com"
+    server: "31.76.5.0"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-24.moriarty-web.com"
+    servername: "viper-23.moriarty-web.com"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_7"
@@ -151,84 +150,16 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_8"
     type: vless
-    server: "151.242.168.125"
-    port: 390
-    uuid: "7b363f9c-3df9-4b60-a789-9cd36be0bdfe"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "bowandbead.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8"
-      short-id: "b545fe8c5e22f92d"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_9"
-    type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "0d4e04b1-5ab5-4525-bbd4-ffce30149bee"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yidio.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_10"
-    type: vless
-    server: "46.29.238.88"
-    port: 40443
-    uuid: "db320947-adfb-400d-b60b-383b8324bffe"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc"
-      short-id: "f7b2"
-  - name: "🇳🇴_11"
-    type: vless
-    server: "89.185.81.65"
-    port: 40443
-    uuid: "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4"
-      short-id: "7606"
-  - name: "🇳🇴_12"
-    type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "1859decf-1af7-4a75-a461-221f5d2df6f5"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yidio.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_13"
-    type: vless
-    server: "31.76.5.2"
+    server: "31.76.5.156"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-25.moriarty-web.com"
+    servername: "norw.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
-  - name: "🇳🇴_14"
+  - name: "🇳🇴_9"
     type: vless
     server: "151.242.168.125"
     port: 390
@@ -242,53 +173,60 @@ proxies:
       public-key: "5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8"
       short-id: "b545fe8c5e22f92d"
     flow: "xtls-rprx-vision"
-  - name: "🇳🇴_15"
+  - name: "🇳🇴_10"
     type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "95900b48-01b8-44a1-a871-756ec65cb57e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yidio.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_16"
-    type: vless
-    server: "151.242.169.119"
-    port: 443
-    uuid: "10de5732-5d62-43bd-80a2-ec678100824a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yidio.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_17"
-    type: vless
-    server: "31.76.5.0"
+    server: "31.76.5.124"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-23.moriarty-web.com"
+    servername: "norway-2.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
-  - name: "🇳🇴_18"
+  - name: "🇳🇴_11"
+    type: vless
+    server: "46.29.238.88"
+    port: 40443
+    uuid: "db320947-adfb-400d-b60b-383b8324bffe"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc"
+      short-id: "f7b2"
+  - name: "🇳🇴_12"
+    type: vless
+    server: "31.76.5.123"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "norway.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_13"
+    type: vless
+    server: "31.76.5.42"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "norw-2.failspace.top"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_14"
     type: ss
     server: "185.213.23.63"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇳🇴_19"
+  - name: "🇳🇴_15"
     type: ss
     server: "185.213.23.63"
     port: 990
@@ -324,10 +262,6 @@ proxy-groups:
       - "🇳🇴_13"
       - "🇳🇴_14"
       - "🇳🇴_15"
-      - "🇳🇴_16"
-      - "🇳🇴_17"
-      - "🇳🇴_18"
-      - "🇳🇴_19"
 
 
 rules:

@@ -59,20 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇩_4"
-    type: vless
-    server: "md7.mediacorp.fyi"
-    port: 443
-    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "md7.mediacorp.fyi"
-    client-fingerprint: "firefox"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇲🇩_5"
+  - name: "🇲🇩_2"
     type: vless
     server: "217.156.67.86"
     port: 443
@@ -87,19 +74,6 @@ proxies:
       path: "/"
       headers:
         Host: "kv.074167.xyz"
-  - name: "🇲🇩_6"
-    type: vless
-    server: "md10.mediacorp.fyi"
-    port: 443
-    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "md10.mediacorp.fyi"
-    client-fingerprint: "safari"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -142,9 +116,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -154,9 +126,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -166,9 +136,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -177,9 +145,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -189,17 +155,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇩_4"
-      - "🇲🇩_5"
-      - "🇲🇩_6"
+      - "🇲🇩_2"
 
 rules:
   - MATCH,PROXY-BEST

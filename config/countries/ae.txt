@@ -1,4 +1,4 @@
-vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@89.47.55.8:8443?mode=gun&security=reality&encryption=none&pbk=WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY&fp=chrome&type=grpc&serviceName=TunService&sni=download.nvidia.com#%F0%9F%87%A6%F0%9F%87%AA
+vless://39947382-3212-41c9-bc3a-589574ac8b23@uae.unixzone.us:22573?security=none&type=ws&path=%2F&host=uae.unixzone.us&encryption=none#%F0%9F%87%A6%F0%9F%87%AA
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@77.232.140.40:8880?path=/?ed&security=none&encryption=none&host=vms.lifetime61.workers.dev&type=ws#%F0%9F%87%A6%F0%9F%87%AA
-vless://4350213a-b4e7-262a-0bd7-bd16957cf71a@89.47.55.9:8443?type=grpc&security=reality&fp=chrome&pbk=TWaatavWGcWV-E7c4AXmBXypLKJzm6eR3FGG61spayQ&sni=www.sony.com&mode=gun&serviceName=TunService#%F0%9F%87%A6%F0%9F%87%AA
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@185.225.195.30:8880?security=none&type=ws&path=/&host=vms.lifetime18.workers.dev&packetEncoding=xudp&encryption=none#%F0%9F%87%A6%F0%9F%87%AA
+vless://39947382-3212-41c9-bc3a-589574ac8b23@84.235.244.108:22573?security=none&type=ws&path=%2F&host=uae.unixzone.us&encryption=none#%F0%9F%87%A6%F0%9F%87%AA

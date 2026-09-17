@@ -59,47 +59,413 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇬🇧_166"
+  - name: "🇬🇧_169"
     type: vless
-    server: "91.193.58.13"
+    server: "109.176.239.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇬🇧_170"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "a140d049-3016-4ead-aa21-27a41e1de8b1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+  - name: "🇬🇧_171"
+    type: vless
+    server: "91.193.58.166"
+    port: 80
+    uuid: "d566d849-ab28-4695-b01f-dcd284b67f5c"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "dry-frog-8793.454-dc4.workers.dev"
+  - name: "🇬🇧_172"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "04d2aebd-246f-4348-805f-a8e6840365fc"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+  - name: "🇬🇧_173"
+    type: vless
+    server: "91.193.58.40"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_174"
+    type: vless
+    server: "57.129.130.200"
+    port: 52014
+    uuid: "b1ecd06b-a931-47a2-8f48-d1d133d2b4f3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+  - name: "🇬🇧_175"
+    type: vless
+    server: "50.7.226.173"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "viper-21.moriarty-web.com"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_176"
+    type: vless
+    server: "185.155.235.35"
+    port: 40649
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/news/friends?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇬🇧_177"
+    type: vless
+    server: "91.193.58.247"
     port: 80
     uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram@WangCai2"
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
       headers:
         Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_167"
+  - name: "🇬🇧_178"
     type: vless
-    server: "91.193.58.93"
-    port: 443
-    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "439e5caa-5122-4215-bd6a-0d226af6496e"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "jamph131-1228.pages.dev"
+    servername: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
+      path: "/@Marisa_kristi"
       headers:
-        Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_168"
+        Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+  - name: "🇬🇧_179"
     type: vless
-    server: "102.177.189.30"
+    server: "45.12.30.40"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
-        Host: "vms.lifetime29.workers.dev"
-  - name: "🇬🇧_169"
+        Host: "vms.lifetime28.workers.dev"
+  - name: "🇬🇧_180"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "ac4f0d22-8032-4932-9d75-3df629d57f42"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+  - name: "🇬🇧_181"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "bd01efed-f999-41a5-bbb1-3d2357647f11"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+  - name: "🇬🇧_182"
+    type: vless
+    server: "91.193.58.8"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_183"
     type: vless
     server: "57.129.130.57"
     port: 52014
-    uuid: "9befc0d2-22e5-4836-9f8b-92b5b26d6c7d"
+    uuid: "82fc8761-470b-4022-89da-ce5412e8bb0a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+  - name: "🇬🇧_184"
+    type: vless
+    server: "91.193.58.243"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_185"
+    type: vless
+    server: "31.76.39.253"
+    port: 443
+    uuid: "24b84bd3-baa3-4192-9625-23c9690ae6f6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "eng.jokervpn.space"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Hbbi45lhaIjHmcZoXD84dVlGhHnVOTM8LvC3_kh3dis"
+      short-id: "ff3f36afdec470"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_186"
+    type: vless
+    server: "57.129.130.200"
+    port: 52014
+    uuid: "93c53b59-1523-4621-9528-77b016a28304"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+  - name: "🇬🇧_187"
+    type: vless
+    server: "139.59.189.127"
+    port: 443
+    uuid: "8525fe74-67e6-4a55-8a26-95f227bd1384"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shy-fog-af06.alvlirm333.workers.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/proxyip=104.223.62.204,99.254.66.219,45.133.17.106,40.233.87.120,40.233.110.251,40.233.68.138,68.233.122.42,144.217.76.62"
+      headers:
+        Host: "shy-fog-af06.alvlirm333.workers.dev"
+  - name: "🇬🇧_188"
+    type: vless
+    server: "46.33.8.21"
+    port: 443
+    uuid: "fe64e0af-e39b-4335-874e-5bb6993e465a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "filesconvert.org"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "U_E3xSI6QY_Mj-3zjkB4esvMj0aVvYH6W6oHOR50XBs"
+      short-id: "10debbdf94767541"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_189"
+    type: vless
+    server: "91.193.58.10"
+    port: 8880
+    uuid: "bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram@WangCai2"
+      headers:
+        Host: "yellow-mouse-fcce.400-318.workers.dev"
+  - name: "🇬🇧_190"
+    type: vless
+    server: "91.193.58.69"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_191"
+    type: vless
+    server: "91.193.17.156"
+    port: 9460
+    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "TunService"
+  - name: "🇬🇧_192"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "9b71c9bd-6418-462b-82b4-4a30690e0d47"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+  - name: "🇬🇧_193"
+    type: vless
+    server: "91.193.58.197"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_194"
+    type: vless
+    server: "91.193.59.191"
+    port: 2087
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso5.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/socks5=888:888@hkip.1d.mom:1080"
+      headers:
+        Host: "vlso5.1d.mom"
+  - name: "🇬🇧_195"
+    type: vless
+    server: "95.154.196.61"
+    port: 443
+    uuid: "e5d917f5-fc78-455e-bbb5-81d08715f3d6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "strapi.io"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "2ATxqiR22wlo3yXOHc43LFHM5NzWCdSGZLdBay_vJgM"
+      short-id: "e4a1b53b03eff60d"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_196"
+    type: vless
+    server: "78.129.208.44"
+    port: 421
+    uuid: "a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "chistomat.dry.care"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg"
+      short-id: "a1facbc8575701ae"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_197"
+    type: vless
+    server: "91.193.58.198"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_198"
+    type: vless
+    server: "5.152.223.97"
+    port: 443
+    uuid: "be5b6ad6-8184-4b63-82ac-3bc00c09c98c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "strapi.io"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs"
+      short-id: "1aa9f3c9021280c0"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_199"
+    type: vless
+    server: "57.129.130.10"
+    port: 52014
+    uuid: "395bab7e-302a-42b4-bac7-8acb7d36fdf3"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -110,9 +476,23 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇬🇧_170"
+  - name: "🇬🇧_200"
     type: vless
-    server: "45.12.30.30"
+    server: "78.129.208.44"
+    port: 421
+    uuid: "a9900333-444b-4a36-a2f0-0567946c47cd"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "chistomat.dry.care"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg"
+      short-id: "a1facbc8575701ae"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_201"
+    type: vless
+    server: "45.85.118.50"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
@@ -120,24 +500,109 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime28.workers.dev"
-  - name: "🇬🇧_171"
+        Host: "vms.lifetime55.workers.dev"
+  - name: "🇬🇧_202"
     type: vless
-    server: "31.76.39.135"
-    port: 443
-    uuid: "3b6a9df3-f1d1-4bc1-94a5-0d8f2d5512b1"
+    server: "91.193.58.20"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram@WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_203"
+    type: vless
+    server: "46.250.250.149"
+    port: 2053
+    uuid: "b4caaf57-ad77-4948-a6f5-51b3513799bf"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "lond.2clash.ru"
+    servername: "www.apple.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "F_ws7uB6_86TsgsC2wUnVT0Jp1qqTgmR0ucRwPRhETg"
-      short-id: "32434434567654"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_172"
+      public-key: "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M"
+      short-id: "9922313fffed1c63"
+  - name: "🇬🇧_204"
     type: vless
-    server: "91.193.58.74"
+    server: "91.193.58.21"
+    port: 2087
+    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "whitecreeper.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
+      headers:
+        Host: "whitecreeper.pages.dev"
+  - name: "🇬🇧_205"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "cdn8848.776676.xyz"
+  - name: "🇬🇧_206"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "c290d7f3-8399-43c9-9a1b-4977f380d65b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+  - name: "🇬🇧_207"
+    type: vless
+    server: "91.193.58.217"
+    port: 2053
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vlso200.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/socks5=888:888"
+      headers:
+        Host: "vlso200.1d.mom"
+  - name: "🇬🇧_208"
+    type: vless
+    server: "141.101.123.76"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇬🇧_209"
+    type: vless
+    server: "91.193.58.151"
     port: 80
     uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
     udp: true
@@ -146,47 +611,184 @@ proxies:
       path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
         Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_173"
+  - name: "🇬🇧_210"
     type: vless
-    server: "82.39.171.142"
-    port: 443
-    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
-      short-id: "c39cc7310a"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_174"
-    type: vless
-    server: "91.193.58.244"
+    server: "91.193.58.25"
     port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳@WangCai2"
+      path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_175"
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_211"
     type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "98286408-b683-4c0f-96c5-7e00da649d90"
+    server: "91.193.58.162"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_212"
+    type: vless
+    server: "83.147.18.3"
+    port: 443
+    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
+      short-id: "fd8cf7e1173f0edb"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_213"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "112c9db0-af6f-48b0-a59f-7677bed8e2d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-  - name: "🇬🇧_176"
+        Host: "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
+  - name: "🇬🇧_214"
+    type: vless
+    server: "91.193.58.145"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=telegram-wangcai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_215"
+    type: vless
+    server: "91.193.58.220"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_216"
+    type: vless
+    server: "91.193.58.90"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_217"
+    type: vless
+    server: "50.7.197.204"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hub.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_218"
+    type: vless
+    server: "91.193.58.205"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_219"
+    type: vless
+    server: "138.124.125.211"
+    port: 443
+    uuid: "1996007c-e7bc-464b-999b-cac28cec6c3e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo"
+      short-id: "72cceb78"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_220"
+    type: vless
+    server: "91.193.58.23"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_221"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "5cf5ed7b-6032-44a6-b008-f33fbc82530a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
+  - name: "🇬🇧_222"
+    type: vless
+    server: "141.101.121.158"
+    port: 443
+    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/sync"
+      headers:
+        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
+  - name: "🇬🇧_223"
+    type: vless
+    server: "91.193.17.234"
+    port: 9460
+    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "TunService"
+  - name: "🇬🇧_224"
     type: vless
     server: "82.39.171.12"
     port: 443
@@ -200,9 +802,9 @@ proxies:
       public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
       short-id: "c39cc7310a"
     flow: "xtls-rprx-vision"
-  - name: "🇬🇧_177"
+  - name: "🇬🇧_225"
     type: vless
-    server: "91.193.58.209"
+    server: "91.193.58.196"
     port: 80
     uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
     udp: true
@@ -211,7 +813,29 @@ proxies:
       path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
         Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_178"
+  - name: "🇬🇧_226"
+    type: vless
+    server: "91.193.58.79"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_227"
+    type: vless
+    server: "91.193.58.203"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_228"
     type: vless
     server: "149.248.79.235"
     port: 17301
@@ -227,117 +851,7 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: ""
-  - name: "🇬🇧_179"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "bd01efed-f999-41a5-bbb1-3d2357647f11"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-  - name: "🇬🇧_180"
-    type: vless
-    server: "5.152.223.97"
-    port: 443
-    uuid: "be5b6ad6-8184-4b63-82ac-3bc00c09c98c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "strapi.io"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "IFEZmwpGK7VCuDj3kmVdyMn7vUIG8Sntc6TG4eIS3xs"
-      short-id: "1aa9f3c9021280c0"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_181"
-    type: vless
-    server: "109.176.239.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "notls.lukongtou.eu.org"
-  - name: "🇬🇧_182"
-    type: vless
-    server: "186.190.211.188"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "186.190.211.188"
-    client-fingerprint: "chrome"
-  - name: "🇬🇧_183"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "3ab412c8-fe1a-44a2-a1c3-8b6d916cbc29"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-  - name: "🇬🇧_184"
-    type: vless
-    server: "91.193.58.130"
-    port: 2087
-    uuid: "8666ab45-8e3d-4988-841b-2561d91e32d5"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mianfei-73q.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=154.3.33.43"
-      headers:
-        Host: "mianfei-73q.pages.dev"
-  - name: "🇬🇧_185"
-    type: vless
-    server: "91.193.58.93"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_186"
-    type: vless
-    server: "91.193.58.217"
-    port: 2053
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlso200.1d.mom"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/socks5=888:888"
-      headers:
-        Host: "vlso200.1d.mom"
-  - name: "🇬🇧_187"
+  - name: "🇬🇧_229"
     type: vless
     server: "66.90.104.42"
     port: 2083
@@ -346,170 +860,10 @@ proxies:
     network: grpc
     grpc-opts:
       grpc-service-name: "vless"
-  - name: "🇬🇧_188"
+  - name: "🇬🇧_230"
     type: vless
-    server: "91.193.58.247"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_189"
-    type: vless
-    server: "91.193.58.196"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_190"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "0ff1bcdb-8dcc-4b05-93df-09f028330184"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
-  - name: "🇬🇧_191"
-    type: vless
-    server: "57.129.130.10"
-    port: 52014
-    uuid: "395bab7e-302a-42b4-bac7-8acb7d36fdf3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇬🇧_192"
-    type: vless
-    server: "91.193.58.24"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_193"
-    type: vless
-    server: "139.59.189.127"
-    port: 443
-    uuid: "8525fe74-67e6-4a55-8a26-95f227bd1384"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "shy-fog-af06.alvlirm333.workers.dev"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "/proxyip=104.223.62.204,99.254.66.219,45.133.17.106,40.233.87.120,40.233.110.251,40.233.68.138,68.233.122.42,144.217.76.62"
-      headers:
-        Host: "shy-fog-af06.alvlirm333.workers.dev"
-  - name: "🇬🇧_194"
-    type: vless
-    server: "91.193.17.234"
-    port: 9460
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "TunService"
-  - name: "🇬🇧_195"
-    type: vless
-    server: "78.129.208.44"
-    port: 421
-    uuid: "a9900333-444b-4a36-a2f0-0567946c47cd"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "chistomat.dry.care"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg"
-      short-id: "a1facbc8575701ae"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_196"
-    type: vless
-    server: "91.193.58.92"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_197"
-    type: vless
-    server: "141.101.121.158"
-    port: 443
-    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/sync"
-      headers:
-        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
-  - name: "🇬🇧_198"
-    type: vless
-    server: "91.193.58.220"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_199"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "82fc8761-470b-4022-89da-ce5412e8bb0a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-  - name: "🇬🇧_200"
-    type: vless
-    server: "91.193.59.191"
-    port: 2087
+    server: "91.193.58.125"
+    port: 2053
     uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
     udp: true
     tls: true
@@ -518,303 +872,12 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080"
+      path: "/"
       headers:
         Host: "vlso5.1d.mom"
-  - name: "🇬🇧_201"
+  - name: "🇬🇧_231"
     type: vless
-    server: "46.250.240.80"
-    port: 2053
-    uuid: "948df76f-505d-4608-9c76-a933ee3ccc76"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E"
-      short-id: "4cc9dc65f7770115"
-  - name: "🇬🇧_202"
-    type: vless
-    server: "185.248.86.218"
-    port: 443
-    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "decf.xzdq.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/api/v1/539e86"
-      headers:
-        Host: "decf.xzdq.eu.org"
-  - name: "🇬🇧_203"
-    type: vless
-    server: "91.193.59.255"
-    port: 2096
-    uuid: "42c62a5a-cd31-4551-80ef-908732370287"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "fq.jp188.dpdns.org"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇬🇧_204"
-    type: vless
-    server: "57.129.130.200"
-    port: 52014
-    uuid: "b1ecd06b-a931-47a2-8f48-d1d133d2b4f3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-  - name: "🇬🇧_205"
-    type: vless
-    server: "57.128.177.198"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp58.cc.cd"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/Telegram🇨🇳@VPNine1fp=chrome"
-      headers:
-        Host: "vp58.cc.cd"
-  - name: "🇬🇧_206"
-    type: vless
-    server: "91.193.58.145"
-    port: 2083
-    uuid: "9f534ac4-3c58-4a16-8b74-13dff09a0cf1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "d39333476.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/help"
-      headers:
-        Host: "d39333476.pages.dev"
-  - name: "🇬🇧_207"
-    type: vless
-    server: "91.193.58.40"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_208"
-    type: vless
-    server: "91.193.58.8"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_209"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "73f96511-d245-4334-a34f-9d7a8551e656"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-  - name: "🇬🇧_210"
-    type: vless
-    server: "91.193.58.79"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_211"
-    type: vless
-    server: "91.193.58.246"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_212"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "112c9db0-af6f-48b0-a59f-7677bed8e2d7"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
-  - name: "🇬🇧_213"
-    type: vless
-    server: "91.193.58.198"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_214"
-    type: vless
-    server: "50.7.226.174"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "en-new.moriarty-web.com"
-    client-fingerprint: "edge"
-    flow: "xtls-rprx-vision-udp443"
-  - name: "🇬🇧_215"
-    type: vless
-    server: "45.152.65.157"
-    port: 30521
-    uuid: "e6752712-f10c-4c8c-8308-d80b70a2b87a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "aws.amazon.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "TsiUxIyOUQqEhPYWJ2HAlM-ecuOiHbH5ZTnaFdGdNU8"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_216"
-    type: vless
-    server: "45.152.64.9"
-    port: 11763
-    uuid: "fe564b09-1fd8-4053-934b-3106350e4272"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.amazon.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "V3mjjvp5OFn8TNw7WK0RR2p7l9sVX2v7Zr56ag3QkiQ"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_217"
-    type: vless
-    server: "138.124.125.211"
-    port: 443
-    uuid: "1996007c-e7bc-464b-999b-cac28cec6c3e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "RVj8E6YuWeOq9XzIVLQCKM39qa-Cknp-GYvVAA1UPFo"
-      short-id: "72cceb78"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_218"
-    type: vless
-    server: "57.129.130.10"
-    port: 52014
-    uuid: "bca740c6-6704-48ba-99da-7d7a31768d73"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
-  - name: "🇬🇧_219"
-    type: vless
-    server: "91.193.58.25"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_220"
-    type: vless
-    server: "57.129.130.200"
-    port: 52014
-    uuid: "93c53b59-1523-4621-9528-77b016a28304"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-  - name: "🇬🇧_221"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "04d2aebd-246f-4348-805f-a8e6840365fc"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
-  - name: "🇬🇧_222"
-    type: vless
-    server: "91.193.58.203"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_223"
-    type: vless
-    server: "91.193.58.195"
+    server: "91.193.58.93"
     port: 443
     uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
     udp: true
@@ -826,311 +889,7 @@ proxies:
       path: "Telegram-WangCai2🇨🇳"
       headers:
         Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_224"
-    type: vless
-    server: "185.162.229.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_225"
-    type: vless
-    server: "91.193.58.159"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_226"
-    type: vless
-    server: "78.129.208.44"
-    port: 421
-    uuid: "a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "chistomat.dry.care"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg"
-      short-id: "a1facbc8575701ae"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_227"
-    type: vless
-    server: "91.193.17.156"
-    port: 9458
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "TunService"
-  - name: "🇬🇧_228"
-    type: vless
-    server: "95.154.196.61"
-    port: 443
-    uuid: "e5d917f5-fc78-455e-bbb5-81d08715f3d6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "strapi.io"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "2ATxqiR22wlo3yXOHc43LFHM5NzWCdSGZLdBay_vJgM"
-      short-id: "e4a1b53b03eff60d"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_229"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "4c6609bf-8457-4260-b4fa-321379e57a4e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-  - name: "🇬🇧_230"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "609b0d70-e2d0-4a48-95b1-02754e9b249a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
-  - name: "🇬🇧_231"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "982ea9f8-f92f-4fa6-93e6-55892383bc68"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
   - name: "🇬🇧_232"
-    type: vless
-    server: "50.7.226.172"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "viper-21.moriarty-web.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_233"
-    type: vless
-    server: "185.49.33.34"
-    port: 443
-    uuid: "4ec2c66e-becd-4c51-9d6d-9ef74b27c95a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "decf.xzdq.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/api/v1/539e86"
-      headers:
-        Host: "decf.xzdq.eu.org"
-  - name: "🇬🇧_234"
-    type: vless
-    server: "46.250.250.149"
-    port: 2053
-    uuid: "b4caaf57-ad77-4948-a6f5-51b3513799bf"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M"
-      short-id: "9922313fffed1c63"
-  - name: "🇬🇧_235"
-    type: vless
-    server: "57.129.130.63"
-    port: 52014
-    uuid: "d731cf09-79a6-4647-aabe-8e0fda4fe3be"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-  - name: "🇬🇧_236"
-    type: vless
-    server: "91.193.59.32"
-    port: 2083
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlsovip.1d.mom"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080"
-      headers:
-        Host: "vlsovip.1d.mom"
-  - name: "🇬🇧_237"
-    type: vless
-    server: "51.38.82.1"
-    port: 443
-    uuid: "9343f183-7a16-4bdd-9c65-b0c21feca40b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "play.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M"
-      short-id: "98fa0b00d09419f7"
-  - name: "🇬🇧_238"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "af9bbaac-efc1-48d3-ac0e-0b75f4de36ca"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
-  - name: "🇬🇧_239"
-    type: vless
-    server: "91.193.58.243"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_240"
-    type: vless
-    server: "91.193.58.14"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_241"
-    type: vless
-    server: "91.193.58.204"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_242"
-    type: vless
-    server: "91.193.58.151"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_243"
-    type: vless
-    server: "91.193.17.156"
-    port: 9460
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "rAHMmpeUJ6uOoGgk31dTF4-1RTtLZFnOEs_li2AYQWc"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "TunService"
-  - name: "🇬🇧_244"
-    type: vless
-    server: "3.9.135.156"
-    port: 51847
-    uuid: "391a01e9-b664-407b-9158-610fab3f5920"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.tesla.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc"
-      short-id: "0eec442e7b34d2f2"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_245"
-    type: vless
-    server: "91.193.58.116"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_246"
-    type: vless
-    server: "91.193.58.22"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳@WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_247"
     type: vless
     server: "91.193.58.207"
     port: 80
@@ -1141,77 +900,22 @@ proxies:
       path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
         Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_248"
-    type: vless
-    server: "91.193.58.210"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_249"
-    type: vless
-    server: "91.193.58.117"
-    port: 443
-    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jamph131-1228.pages.dev"
-    network: ws
-    ws-opts:
-      path: "Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_250"
+  - name: "🇬🇧_233"
     type: vless
     server: "57.129.130.57"
     port: 52014
-    uuid: "afc0b2cb-164a-4311-99c6-2379fa5aab04"
+    uuid: "2c190197-fdb7-41c3-9bd6-76476cfcaa5d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    servername: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-  - name: "🇬🇧_251"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "5cf5ed7b-6032-44a6-b008-f33fbc82530a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev"
-  - name: "🇬🇧_252"
-    type: vless
-    server: "91.193.58.21"
-    port: 2087
-    uuid: "099244b9-2168-4dbd-870e-cbbe9d6eb573"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "whitecreeper.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=ProxyIP.SG.CMLiussss.Net"
-      headers:
-        Host: "whitecreeper.pages.dev"
-  - name: "🇬🇧_253"
+        Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
+  - name: "🇬🇧_234"
     type: vless
     server: "57.129.130.57"
     port: 52014
@@ -1226,62 +930,96 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-  - name: "🇬🇧_254"
+  - name: "🇬🇧_235"
     type: vless
-    server: "91.193.58.184"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_255"
-    type: vless
-    server: "91.193.58.162"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_256"
-    type: vless
-    server: "91.193.58.178"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_257"
-    type: vless
-    server: "91.193.58.42"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_258"
-    type: vless
-    server: "50.7.226.171"
-    port: 443
+    server: "66.90.105.210"
+    port: 2083
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇬🇧_236"
+    type: vless
+    server: "57.129.130.10"
+    port: 52014
+    uuid: "bca740c6-6704-48ba-99da-7d7a31768d73"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-21.moriarty-web.com"
+    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
     client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_259"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+  - name: "🇬🇧_237"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "afc0b2cb-164a-4311-99c6-2379fa5aab04"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+  - name: "🇬🇧_238"
+    type: vless
+    server: "185.162.229.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime61.workers.dev"
+  - name: "🇬🇧_239"
+    type: vless
+    server: "57.128.177.198"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp58.cc.cd"
+    network: ws
+    ws-opts:
+      path: "/Telegram🇨🇳 fp=chrome"
+      headers:
+        Host: "vp58.cc.cd"
+  - name: "🇬🇧_240"
+    type: vless
+    server: "91.193.58.117"
+    port: 443
+    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jamph131-1228.pages.dev"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "jamph131-1228.pages.dev"
+  - name: "🇬🇧_241"
+    type: vless
+    server: "91.193.58.14"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_242"
     type: vless
     server: "46.101.46.169"
     port: 486
@@ -1296,80 +1034,23 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-  - name: "🇬🇧_260"
+  - name: "🇬🇧_243"
     type: vless
-    server: "91.193.58.117"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=telegram-wangcai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_261"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "9b71c9bd-6418-462b-82b4-4a30690e0d47"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-  - name: "🇬🇧_262"
-    type: vless
-    server: "141.101.121.196"
+    server: "82.39.171.142"
     port: 443
-    uuid: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    uuid: "d65cc14c-f53f-4fe2-b262-97856601319c"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "blackshadow.dpdns.org"
+    servername: "yahoo.com"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/44.209.52.7-443"
-      headers:
-        Host: "blackshadow.dpdns.org"
-  - name: "🇬🇧_263"
+    reality-opts:
+      public-key: "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg"
+      short-id: "c39cc7310a"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_244"
     type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "bc01a49f-78dd-4bf0-994f-b86897e39a68"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_264"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "e8494262-7032-4d63-bde7-6bae8cdd0fa6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
-  - name: "🇬🇧_265"
-    type: vless
-    server: "91.193.58.69"
+    server: "91.193.58.42"
     port: 80
     uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
     udp: true
@@ -1378,100 +1059,7 @@ proxies:
       path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
         Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_266"
-    type: vless
-    server: "185.162.229.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_267"
-    type: vless
-    server: "91.193.58.166"
-    port: 80
-    uuid: "d566d849-ab28-4695-b01f-dcd284b67f5c"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳@WangCai2"
-      headers:
-        Host: "dry-frog-8793.454-dc4.workers.dev"
-  - name: "🇬🇧_268"
-    type: vless
-    server: "91.193.58.179"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_269"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "ec7f1e33-f34e-451e-b069-0692f0c091e1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-  - name: "🇬🇧_270"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "ccaa5bd3-ce49-4188-bf7e-078bbd421712"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev"
-  - name: "🇬🇧_271"
-    type: vless
-    server: "159.65.48.114"
-    port: 74
-    uuid: "587fe27b-aced-4cbf-8283-ad4647f01a8c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
-  - name: "🇬🇧_272"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "47ba5dc6-8961-48a0-8b54-f57ec524627a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
-  - name: "🇬🇧_273"
+  - name: "🇬🇧_245"
     type: vless
     server: "57.129.130.57"
     port: 52014
@@ -1486,64 +1074,9 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
-  - name: "🇬🇧_274"
+  - name: "🇬🇧_246"
     type: vless
-    server: "91.193.58.205"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_275"
-    type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "7459f61c-00f6-459f-8f36-989674e55d5c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-  - name: "🇬🇧_276"
-    type: vless
-    server: "5.254.4.131"
-    port: 443
-    uuid: "bd89bec6-43a4-4cf7-9484-d70adeb2853c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn3-42.taobao.com"
-    client-fingerprint: "edge"
-    reality-opts:
-      public-key: "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw"
-      short-id: "dc124373ff9327cf"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_277"
-    type: vless
-    server: "57.129.130.57"
-    port: 52014
-    uuid: "c290d7f3-8399-43c9-9a1b-4977f380d65b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/@Marisa_kristi"
-      headers:
-        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-  - name: "🇬🇧_278"
-    type: vless
-    server: "91.193.58.90"
+    server: "91.193.58.116"
     port: 80
     uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
     udp: true
@@ -1552,7 +1085,7 @@ proxies:
       path: "/pyip=Telegram-WangCai2🇨🇳"
       headers:
         Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_279"
+  - name: "🇬🇧_247"
     type: vless
     server: "57.129.130.57"
     port: 52014
@@ -1567,93 +1100,22 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "5iv93opy8jus9z.bjo5si35c9i9ud4242fado49188obkoiermjuxj7zgxu.workers.dev"
-  - name: "🇬🇧_280"
+  - name: "🇬🇧_248"
     type: vless
-    server: "91.193.58.208"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=telegram-wangcai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_281"
-    type: vless
-    server: "91.193.58.20"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳@WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_282"
-    type: vless
-    server: "91.193.58.23"
-    port: 80
-    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "plain-darkness-90ea.259.workers.dev"
-  - name: "🇬🇧_283"
-    type: vless
-    server: "91.193.58.226"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_284"
-    type: vless
-    server: "50.7.226.173"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "3ab412c8-fe1a-44a2-a1c3-8b6d916cbc29"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-21.moriarty-web.com"
+    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
     client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_285"
-    type: vless
-    server: "66.90.105.210"
-    port: 2083
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇬🇧_286"
-    type: vless
-    server: "45.85.118.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/@Marisa_kristi"
       headers:
-        Host: "vms.lifetime55.workers.dev"
-  - name: "🇬🇧_287"
-    type: vless
-    server: "91.193.58.180"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_288"
+        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+  - name: "🇬🇧_249"
     type: vless
     server: "185.162.229.30"
     port: 8880
@@ -1664,150 +1126,48 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime61.workers.dev"
-  - name: "🇬🇧_289"
+  - name: "🇬🇧_250"
     type: vless
-    server: "51.89.194.151"
-    port: 2053
-    uuid: "f019a186-1161-4fba-b341-5228f1096c91"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "enBl2wEce6XC6Uqr-de5L-aA9mb18xmlGh8D0uY98QE"
-      short-id: "6579be6b4b4e108e"
-  - name: "🇬🇧_290"
-    type: vless
-    server: "91.193.58.145"
+    server: "91.193.58.93"
     port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=telegram-wangcai2🇨🇳"
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
       headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_291"
-    type: vless
-    server: "83.147.18.3"
-    port: 443
-    uuid: "9f61cdf4-810d-4052-bbc7-2da0c8e20104"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "3iVJAIGPx6JMlhlRmfpGrHkSmLpHJ4CPvBBH7KsFrFA"
-      short-id: "fd8cf7e1173f0edb"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_292"
-    type: vless
-    server: "91.193.58.125"
-    port: 2053
-    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vlso5.1d.mom"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/socks5=888:888@hkip.1d.mom:1080"
-      headers:
-        Host: "vlso5.1d.mom"
-  - name: "🇬🇧_293"
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_251"
     type: vless
     server: "57.129.130.57"
     port: 52014
-    uuid: "b30c54d5-315f-428c-80d0-83b4f423abb2"
+    uuid: "609b0d70-e2d0-4a48-95b1-02754e9b249a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+    servername: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-  - name: "🇬🇧_294"
-    type: vless
-    server: "gr015.techinyab.ir"
-    port: 443
-    uuid: "9343f183-7a16-4bdd-9c65-b0c21feca40b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "play.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M"
-      short-id: "98fa0b00d09419f7"
-  - name: "🇬🇧_295"
+        Host: "3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev"
+  - name: "🇬🇧_252"
     type: vless
     server: "129.151.64.169"
     port: 31867
-    uuid: "aef1baec-9f54-4f2b-9120-46bbd850bf63"
+    uuid: "bc01a49f-78dd-4bf0-994f-b86897e39a68"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    servername: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
-  - name: "🇬🇧_296"
-    type: vless
-    server: "45.12.30.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime28.workers.dev"
-  - name: "🇬🇧_297"
-    type: vless
-    server: "91.193.58.25"
-    port: 8880
-    uuid: "12cebf33-2f96-48a3-af37-c2231e5cef75"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram @VPNine1"
-      headers:
-        Host: "throbbing-moon-a07c.90-ec4.workers.dev"
-  - name: "🇬🇧_298"
-    type: vless
-    server: "91.193.58.197"
-    port: 80
-    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "twilight-poetry-2bfe.218-699.workers.dev"
-  - name: "🇬🇧_299"
-    type: vless
-    server: "87.117.234.19"
-    port: 443
-    uuid: "4d583b2c-2f5a-47d0-8181-e95217fe8cd9"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "strapi.io"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
-      short-id: "fd55b698ee8c3629"
-    flow: "xtls-rprx-vision"
-  - name: "🇬🇧_300"
+        Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
+  - name: "🇬🇧_253"
     type: vless
     server: "57.129.130.200"
     port: 52014
@@ -1822,48 +1182,305 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev"
-  - name: "🇬🇧_301"
+  - name: "🇬🇧_254"
     type: vless
-    server: "129.151.64.169"
-    port: 31867
-    uuid: "ac4f0d22-8032-4932-9d75-3df629d57f42"
+    server: "91.193.58.184"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_255"
+    type: vless
+    server: "91.193.58.179"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_256"
+    type: vless
+    server: "91.193.59.32"
+    port: 2083
+    uuid: "a1de0630-5786-48a0-84f6-dc6f2de10d6d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+    servername: "vlsovip.1d.mom"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/socks5=888:888@hkip.1d.mom:1080"
+      headers:
+        Host: "vlsovip.1d.mom"
+  - name: "🇬🇧_257"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "a351220c-f8dc-4c52-8a2d-f4470f886a53"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/@Marisa_kristi"
       headers:
-        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
-  - name: "🇬🇧_302"
+        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+  - name: "🇬🇧_258"
     type: vless
-    server: "91.193.58.10"
+    server: "91.193.58.24"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_259"
+    type: vless
+    server: "91.193.58.92"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_260"
+    type: vless
+    server: "91.193.58.209"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_261"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "ec7f1e33-f34e-451e-b069-0692f0c091e1"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇬🇧_262"
+    type: vless
+    server: "50.7.226.174"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "en-new.moriarty-web.com"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_263"
+    type: vless
+    server: "91.193.58.178"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_264"
+    type: vless
+    server: "102.177.189.30"
     port: 8880
-    uuid: "bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa"
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime29.workers.dev"
+  - name: "🇬🇧_265"
+    type: vless
+    server: "91.193.58.180"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_266"
+    type: vless
+    server: "91.193.58.244"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
     udp: true
     network: ws
     ws-opts:
       path: "/pyip=Telegram@WangCai2"
       headers:
-        Host: "yellow-mouse-fcce.400-318.workers.dev"
-  - name: "🇬🇧_303"
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_267"
     type: vless
-    server: "141.101.123.76"
+    server: "186.190.211.188"
     port: 443
-    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
+    servername: "186.190.211.188"
+  - name: "🇬🇧_268"
+    type: vless
+    server: "91.193.58.13"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram@WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_269"
+    type: vless
+    server: "50.7.227.251"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "uk-dedic-new-1.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_270"
+    type: vless
+    server: "91.193.17.156"
+    port: 9458
+    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.google.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
+      short-id: ""
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "TunService"
+  - name: "🇬🇧_271"
+    type: vless
+    server: "91.193.58.226"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_272"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "627d0676-3ec6-427a-b4e6-91dd1138e694"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/sync"
+      path: "/@Marisa_kristi"
       headers:
-        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
-  - name: "🇬🇧_304"
+        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+  - name: "🇬🇧_273"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "52ea9acf-8c78-4589-9e10-824bdbd3f121"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wkytah9k8oggj60.qzfi0skkopy875xhtc0l9pwds.workers.dev"
+  - name: "🇬🇧_274"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "995647dd-614b-4efd-8147-5937f962e806"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "sxyyvihkektlx4rjxsdj.pkc73phpweu4rbxbatm444.workers.dev"
+  - name: "🇬🇧_275"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "47ba5dc6-8961-48a0-8b54-f57ec524627a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev"
+  - name: "🇬🇧_276"
+    type: vless
+    server: "91.193.58.246"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_277"
+    type: vless
+    server: "87.117.234.19"
+    port: 443
+    uuid: "4d583b2c-2f5a-47d0-8181-e95217fe8cd9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "strapi.io"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY"
+      short-id: "fd55b698ee8c3629"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_278"
     type: vless
     server: "57.129.130.57"
     port: 52014
@@ -1878,7 +1495,173 @@ proxies:
       path: "/@Marisa_kristi"
       headers:
         Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
-  - name: "🇬🇧_305"
+  - name: "🇬🇧_279"
+    type: vless
+    server: "3.9.135.156"
+    port: 51847
+    uuid: "391a01e9-b664-407b-9158-610fab3f5920"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.tesla.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc"
+      short-id: "0eec442e7b34d2f2"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_280"
+    type: vless
+    server: "141.101.122.147"
+    port: 443
+    uuid: "c4edb87e-8544-4fa4-bd1c-b0cda9a34b46"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "a.cwvps.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "a.cwvps.eu.org"
+  - name: "🇬🇧_281"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "98286408-b683-4c0f-96c5-7e00da649d90"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+  - name: "🇬🇧_282"
+    type: vless
+    server: "91.193.58.159"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_283"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "b30c54d5-315f-428c-80d0-83b4f423abb2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev"
+  - name: "🇬🇧_284"
+    type: vless
+    server: "91.193.58.204"
+    port: 80
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_285"
+    type: vless
+    server: "91.193.58.210"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_286"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "e8494262-7032-4d63-bde7-6bae8cdd0fa6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev"
+  - name: "🇬🇧_287"
+    type: vless
+    server: "91.193.58.195"
+    port: 443
+    uuid: "9419f782-b18e-4c4b-ae95-a7a279fd021f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "jamph131-1228.pages.dev"
+    network: ws
+    ws-opts:
+      path: "Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "jamph131-1228.pages.dev"
+  - name: "🇬🇧_288"
+    type: vless
+    server: "57.129.130.63"
+    port: 52014
+    uuid: "d731cf09-79a6-4647-aabe-8e0fda4fe3be"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+  - name: "🇬🇧_289"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "982ea9f8-f92f-4fa6-93e6-55892383bc68"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "kqjifhg9rw.tradsc8p9xp7wxyqmc1wy0ah.workers.dev"
+  - name: "🇬🇧_290"
+    type: vless
+    server: "159.65.48.114"
+    port: 74
+    uuid: "587fe27b-aced-4cbf-8283-ad4647f01a8c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
+  - name: "🇬🇧_291"
     type: vless
     server: "91.193.58.141"
     port: 443
@@ -1892,186 +1675,398 @@ proxies:
       path: "Telegram-WangCai2🇨🇳"
       headers:
         Host: "jamph131-1228.pages.dev"
-  - name: "🇬🇧_306"
+  - name: "🇬🇧_292"
     type: vless
-    server: "51.38.70.192"
-    port: 443
-    uuid: "9343f183-7a16-4bdd-9c65-b0c21feca40b"
+    server: "91.193.58.117"
+    port: 80
+    uuid: "26beb784-a664-4c3e-becf-0f0c12568b62"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=telegram-wangcai2🇨🇳"
+      headers:
+        Host: "twilight-poetry-2bfe.218-699.workers.dev"
+  - name: "🇬🇧_293"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "play.google.com"
-    client-fingerprint: "random"
-    reality-opts:
-      public-key: "YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M"
-      short-id: "98fa0b00d09419f7"
-  - name: "🇬🇧_307"
-    type: ss
-    server: "149.102.132.184"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "g5h5jleTRSyO3Rk4"
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/travel?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇬🇧_294"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "0ff1bcdb-8dcc-4b05-93df-09f028330184"
     udp: true
-  - name: "🇬🇧_308"
-    type: ss
-    server: "149.102.132.184"
+    tls: true
+    skip-cert-verify: true
+    servername: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev"
+  - name: "🇬🇧_295"
+    type: vless
+    server: "141.101.121.196"
+    port: 443
+    uuid: "2bcfbfba-b446-4ad5-93ad-72af9e008f61"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "blackshadow.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/44.209.52.7-443"
+      headers:
+        Host: "blackshadow.dpdns.org"
+  - name: "🇬🇧_296"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "aef1baec-9f54-4f2b-9120-46bbd850bf63"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+  - name: "🇬🇧_297"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "73f96511-d245-4334-a34f-9d7a8551e656"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "2-gys60wmzb6bqzd.qpsjn114hh3vlph9z60sesz0agjawpwroneg.workers.dev"
+  - name: "🇬🇧_298"
+    type: vless
+    server: "50.7.226.171"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "viper-21.moriarty-web.com"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_299"
+    type: vless
+    server: "129.151.64.169"
+    port: 31867
+    uuid: "7459f61c-00f6-459f-8f36-989674e55d5c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev"
+  - name: "🇬🇧_300"
+    type: vless
+    server: "91.193.58.22"
     port: 80
-    cipher: "aes-256-gcm"
-    password: "g5h5jleTRSyO3Rk4"
+    uuid: "f2d55510-fa3c-4e3b-adfc-2d96fa399c19"
     udp: true
-  - name: "🇬🇧_309"
-    type: ss
-    server: "158.173.24.73"
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram@WangCai2"
+      headers:
+        Host: "plain-darkness-90ea.259.workers.dev"
+  - name: "🇬🇧_301"
+    type: vless
+    server: "57.129.130.57"
+    port: 52014
+    uuid: "4c6609bf-8457-4260-b4fa-321379e57a4e"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/@Marisa_kristi"
+      headers:
+        Host: "3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev"
+  - name: "🇬🇧_302"
+    type: vless
+    server: "46.250.240.80"
+    port: 2053
+    uuid: "948df76f-505d-4608-9c76-a933ee3ccc76"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "CYFeysLf--_IVhxQOCd3ZxLrAVWFFOkJzvIGHOVXN3E"
+      short-id: "4cc9dc65f7770115"
+  - name: "🇬🇧_303"
+    type: vless
+    server: "50.7.226.172"
     port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
-  - name: "🇬🇧_310"
+    tls: true
+    skip-cert-verify: true
+    servername: "viper-21.moriarty-web.com"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇬🇧_304"
     type: ss
     server: "185.164.175.81"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
-  - name: "🇬🇧_311"
+  - name: "🇬🇧_305"
     type: ss
-    server: "149.102.149.207"
-    port: 443
+    server: "149.102.132.184"
+    port: 80
     cipher: "aes-256-gcm"
-    password: "LXchLsIwtCeUAUgu"
+    password: "g5h5jleTRSyO3Rk4"
     udp: true
-  - name: "🇬🇧_312"
+  - name: "🇬🇧_306"
     type: ss
-    server: "149.102.149.207"
-    port: 443
-    cipher: "aes-256-gcm"
-    password: "LXchLsIwtCeUAUgu"
+    server: "51.38.71.51"
+    port: 2083
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
     udp: true
-  - name: "🇬🇧_313"
+  - name: "🇬🇧_307"
     type: ss
     server: "141.98.101.181"
     port: 443
     cipher: "aes-128-gcm"
     password: "shadowsocks"
     udp: true
-  - name: "🇬🇧_314"
+  - name: "🇬🇧_308"
     type: ss
-    server: "129.151.70.226"
+    server: "134.65.58.241"
     port: 61312
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "sGqcjLKeviTZ/pnU5/7q5crrIFQ7TwUufY/i6iG9+8E="
+    password: "tvpBo/Hcvix3GwQ1duILnBX2njevG6/K/mhs9ow4vuI="
     udp: true
-  - name: "🇬🇧_315"
+  - name: "🇬🇧_309"
+    type: ss
+    server: "129.151.64.102"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "bZtYdV6c3t+mqgvUvrzHYYjN01dNa77xEXsSCg+IlNs="
+    udp: true
+  - name: "🇬🇧_310"
+    type: ss
+    server: "129.151.85.1"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "at+GEMal4AsAk4+oajqhEt3nedx4u4q3LortN2CcY3A="
+    udp: true
+  - name: "🇬🇧_311"
+    type: ss
+    server: "141.98.101.181"
+    port: 443
+    cipher: "aes-128-gcm"
+    password: "shadowsocks"
+    udp: true
+  - name: "🇬🇧_312"
+    type: ss
+    server: "51.38.71.51"
+    port: 2083
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
+    udp: true
+  - name: "🇬🇧_313"
+    type: ss
+    server: "51.38.71.51"
+    port: 2083
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
+    udp: true
+  - name: "🇬🇧_314"
     type: ss
     server: "82.110.60.9"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
-  - name: "🇬🇧_316"
-    type: ss
-    server: "129.151.70.226"
-    port: 61312
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "sGqcjLKeviTZ/pnU5/7q5crrIFQ7TwUufY/i6iG9+8E="
-    udp: true
-  - name: "🇬🇧_317"
+  - name: "🇬🇧_315"
     type: ss
     server: "149.102.149.207"
     port: 80
     cipher: "aes-256-gcm"
     password: "LXchLsIwtCeUAUgu"
     udp: true
+  - name: "🇬🇧_316"
+    type: ss
+    server: "149.102.132.184"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "g5h5jleTRSyO3Rk4"
+    udp: true
+  - name: "🇬🇧_317"
+    type: ss
+    server: "82.110.60.9"
+    port: 19999
+    cipher: "aes-256-gcm"
+    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    udp: true
   - name: "🇬🇧_318"
     type: ss
-    server: "51.38.71.51"
-    port: 2083
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
+    server: "129.151.91.115"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ktsunSg4AnlcqH3JiVv7JWSHpbDjDfTvldDgDpApNHw="
     udp: true
   - name: "🇬🇧_319"
+    type: ss
+    server: "149.102.149.207"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "LXchLsIwtCeUAUgu"
+    udp: true
+  - name: "🇬🇧_320"
+    type: ss
+    server: "149.102.149.207"
+    port: 443
+    cipher: "aes-256-gcm"
+    password: "LXchLsIwtCeUAUgu"
+    udp: true
+  - name: "🇬🇧_321"
     type: ss
     server: "185.164.175.81"
     port: 19999
     cipher: "aes-256-gcm"
     password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
     udp: true
-  - name: "🇬🇧_320"
-    type: ss
-    server: "51.38.71.51"
-    port: 2083
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
-    udp: true
-  - name: "🇬🇧_321"
-    type: ss
-    server: "149.102.132.184"
-    port: 80
-    cipher: "aes-256-gcm"
-    password: "g5h5jleTRSyO3Rk4"
-    udp: true
   - name: "🇬🇧_322"
     type: ss
-    server: "129.151.70.226"
+    server: "129.151.91.115"
     port: 61312
     cipher: "2022-blake3-chacha20-poly1305"
-    password: "sGqcjLKeviTZ/pnU5/7q5crrIFQ7TwUufY/i6iG9+8E="
+    password: "ktsunSg4AnlcqH3JiVv7JWSHpbDjDfTvldDgDpApNHw="
     udp: true
   - name: "🇬🇧_323"
-    type: ss
-    server: "51.38.71.51"
-    port: 2083
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
-    udp: true
-  - name: "🇬🇧_324"
     type: ss
     server: "94.156.250.148"
     port: 7001
     cipher: "aes-256-gcm"
     password: "RexnBgU7EV5ADxG"
     udp: true
+  - name: "🇬🇧_324"
+    type: ss
+    server: "129.151.93.112"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ickRBICRxdmsaKABp5uG/m0SnlVLeqN8mbTVhqrJ/Mk="
+    udp: true
   - name: "🇬🇧_325"
-    type: ss
-    server: "51.38.71.51"
-    port: 2083
-    cipher: "2022-blake3-aes-256-gcm"
-    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
-    udp: true
-  - name: "🇬🇧_326"
-    type: ss
-    server: "141.98.101.181"
-    port: 443
-    cipher: "aes-128-gcm"
-    password: "shadowsocks"
-    udp: true
-  - name: "🇬🇧_327"
     type: ss
     server: "149.102.132.184"
     port: 443
     cipher: "aes-256-gcm"
     password: "g5h5jleTRSyO3Rk4"
     udp: true
-  - name: "🇬🇧_328"
-    type: ss
-    server: "129.151.70.226"
-    port: 61312
-    cipher: "2022-blake3-chacha20-poly1305"
-    password: "sGqcjLKeviTZ/pnU5/7q5crrIFQ7TwUufY/i6iG9+8E="
-    udp: true
-  - name: "🇬🇧_329"
+  - name: "🇬🇧_326"
     type: ss
     server: "149.102.149.207"
     port: 80
     cipher: "aes-256-gcm"
     password: "LXchLsIwtCeUAUgu"
     udp: true
+  - name: "🇬🇧_327"
+    type: ss
+    server: "51.38.71.51"
+    port: 2083
+    cipher: "2022-blake3-aes-256-gcm"
+    password: "cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:2tFqykGqZ101XW11f6iRiERnPycFAjjYq0y2zUYhKho="
+    udp: true
+  - name: "🇬🇧_328"
+    type: ss
+    server: "134.65.61.31"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "56rd6sxghyMun+TJalHZVSJtzjFYPDEBhn6dUXJ4IVg="
+    udp: true
+  - name: "🇬🇧_329"
+    type: ss
+    server: "134.65.61.31"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "56rd6sxghyMun+TJalHZVSJtzjFYPDEBhn6dUXJ4IVg="
+    udp: true
   - name: "🇬🇧_330"
     type: ss
-    server: "82.110.60.9"
-    port: 19999
+    server: "149.102.132.184"
+    port: 80
     cipher: "aes-256-gcm"
-    password: "ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4="
+    password: "g5h5jleTRSyO3Rk4"
+    udp: true
+  - name: "🇬🇧_331"
+    type: ss
+    server: "129.151.77.196"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ogzqyljZNyMjc7OF7aDzKaQO21eW9jaLK3b7wdot4hk="
+    udp: true
+  - name: "🇬🇧_332"
+    type: ss
+    server: "144.24.225.195"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "+USQg0EtDGWako1JYfnp7wjswdFw/HSuX3kZwOsFxpU="
+    udp: true
+  - name: "🇬🇧_333"
+    type: ss
+    server: "134.65.63.79"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "Jzj07HQI64SzM0hsx0pGCWTw+v9KY0G1IrOh/BXdPpc="
+    udp: true
+  - name: "🇬🇧_334"
+    type: ss
+    server: "134.65.58.241"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "tvpBo/Hcvix3GwQ1duILnBX2njevG6/K/mhs9ow4vuI="
+    udp: true
+  - name: "🇬🇧_335"
+    type: ss
+    server: "129.151.77.196"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "ogzqyljZNyMjc7OF7aDzKaQO21eW9jaLK3b7wdot4hk="
+    udp: true
+  - name: "🇬🇧_336"
+    type: ss
+    server: "134.65.58.241"
+    port: 61312
+    cipher: "2022-blake3-chacha20-poly1305"
+    password: "tvpBo/Hcvix3GwQ1duILnBX2njevG6/K/mhs9ow4vuI="
     udp: true
 
 proxy-groups:
@@ -2115,9 +2110,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -2280,6 +2272,12 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
   - name: "LB-CDN"
     type: load-balance
@@ -2289,9 +2287,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -2454,6 +2449,12 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -2463,9 +2464,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -2628,6 +2626,12 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
   - name: "FAST-CDN"
     type: url-test
@@ -2636,9 +2640,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -2801,6 +2802,12 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -2810,9 +2817,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -2975,14 +2979,17 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇬🇧_166"
-      - "🇬🇧_167"
-      - "🇬🇧_168"
       - "🇬🇧_169"
       - "🇬🇧_170"
       - "🇬🇧_171"
@@ -3145,6 +3152,12 @@ proxy-groups:
       - "🇬🇧_328"
       - "🇬🇧_329"
       - "🇬🇧_330"
+      - "🇬🇧_331"
+      - "🇬🇧_332"
+      - "🇬🇧_333"
+      - "🇬🇧_334"
+      - "🇬🇧_335"
+      - "🇬🇧_336"
 
 rules:
   - MATCH,PROXY-BEST

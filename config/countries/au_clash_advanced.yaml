@@ -59,16 +59,22 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇺_6"
+  - name: "🇦🇺_7"
     type: vless
-    server: "172.105.169.70"
-    port: 443
-    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    server: "152.67.101.72"
+    port: 23010
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "172.105.169.70"
-  - name: "🇦🇺_7"
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/books?ed=2560"
+      headers:
+        Host: "cdn8848.776676.xyz"
+  - name: "🇦🇺_8"
     type: vless
     server: "192.65.217.30"
     port: 8880
@@ -79,31 +85,20 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime37.workers.dev"
-  - name: "🇦🇺_8"
+  - name: "🇦🇺_9"
     type: vless
-    server: "51.161.204.242"
-    port: 443
-    uuid: "a14b736b-a92a-48d6-a596-5d31f7378ded"
+    server: "au1.gsafevpnapi.com"
+    port: 20270
+    uuid: "2bf192f1-7d86-43a3-88b3-8f72b7eb5ad9"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "www.yahoo.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE"
-      short-id: "d15c17cef9b2e456"
+      public-key: "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE"
+      short-id: "e6a5a4a9115456de"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇺_9"
-    type: vless
-    server: "103.169.142.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime38.workers.dev"
   - name: "🇦🇺_10"
     type: vless
     server: "192.65.217.123"
@@ -117,6 +112,26 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
+  - name: "🇦🇺_11"
+    type: vless
+    server: "172.105.169.70"
+    port: 443
+    uuid: "03fcc618-b93d-6796-6aed-8a38c975d581"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "172.105.169.70"
+  - name: "🇦🇺_12"
+    type: vless
+    server: "103.169.142.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime38.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -159,11 +174,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -173,11 +189,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -187,11 +204,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -200,11 +218,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -214,21 +233,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇺_6"
       - "🇦🇺_7"
       - "🇦🇺_8"
       - "🇦🇺_9"
       - "🇦🇺_10"
+      - "🇦🇺_11"
+      - "🇦🇺_12"
 
 rules:
   - MATCH,PROXY-BEST

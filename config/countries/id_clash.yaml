@@ -64,13 +64,20 @@ dns:
 
 proxies:
   - name: "🇮🇩_1"
-    type: trojan
-    server: "qfdfsg.wsone.icu"
+    type: vless
+    server: "15.232.155.235"
     port: 443
-    password: "M7v%w11Se*"
-    sni: "qfdfsg.wsone.icu"
-    skip-cert-verify: true
+    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "thus-k.netnode.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me/daily_free_vpn"
+      headers:
+        Host: "thus-k.netnode.cc.cd"
   - name: "🇮🇩_2"
     type: trojan
     server: "34.101.126.150"

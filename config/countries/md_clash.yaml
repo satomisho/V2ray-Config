@@ -65,19 +65,6 @@ dns:
 proxies:
   - name: "🇲🇩_1"
     type: vless
-    server: "md7.mediacorp.fyi"
-    port: 443
-    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "md7.mediacorp.fyi"
-    client-fingerprint: "firefox"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
-  - name: "🇲🇩_2"
-    type: vless
     server: "217.156.67.86"
     port: 443
     uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
@@ -91,19 +78,6 @@ proxies:
       path: "/"
       headers:
         Host: "kv.074167.xyz"
-  - name: "🇲🇩_3"
-    type: vless
-    server: "md10.mediacorp.fyi"
-    port: 443
-    uuid: "c623d17f-6f69-4c32-9edc-919da41fe21a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "md10.mediacorp.fyi"
-    client-fingerprint: "safari"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "mobile.api.Event"
 
 proxy-groups:
   - name: "PROXY"
@@ -119,8 +93,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇲🇩_1"
-      - "🇲🇩_2"
-      - "🇲🇩_3"
 
 
 rules:
