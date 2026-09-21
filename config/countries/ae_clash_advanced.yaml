@@ -59,18 +59,22 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇪_5"
+  - name: "🇦🇪_9"
     type: vless
-    server: "uae.unixzone.us"
-    port: 22573
-    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    server: "146.70.37.253"
+    port: 443
+    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kkkk-xcd.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2048"
       headers:
-        Host: "uae.unixzone.us"
-  - name: "🇦🇪_6"
+        Host: "kkkk-xcd.pages.dev"
+  - name: "🇦🇪_10"
     type: vless
     server: "77.232.140.40"
     port: 8880
@@ -81,7 +85,32 @@ proxies:
       path: "/?ed"
       headers:
         Host: "vms.lifetime61.workers.dev"
-  - name: "🇦🇪_7"
+  - name: "🇦🇪_11"
+    type: vless
+    server: "146.70.102.82"
+    port: 443
+    uuid: "31fd2fde-ca69-450e-8c03-eaad819b06b9"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.datadoghq.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "GDer6NQYXdbccrFI0tLn2671PjCvrcSy0R7TKY8vG1k"
+      short-id: "002fb4ec7b3088cc"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇪_12"
+    type: vless
+    server: "94.140.0.100"
+    port: 8880
+    uuid: "78e6619e-e82a-cd8d-b482-0973d8498305"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "silent-pine-a674.jfadwkglaugul.workers.dev"
+  - name: "🇦🇪_13"
     type: vless
     server: "185.225.195.30"
     port: 8880
@@ -92,9 +121,33 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime18.workers.dev"
-  - name: "🇦🇪_8"
+  - name: "🇦🇪_14"
     type: vless
     server: "84.235.244.108"
+    port: 22573
+    uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "uae.unixzone.us"
+  - name: "🇦🇪_15"
+    type: vless
+    server: "188.72.103.4"
+    port: 443
+    uuid: "1f959100-a98b-47fb-84fa-359246dc458a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "apicdn.4subnodes.com"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/apiv1/esa1-asda2jcvnbpseflkn-kjweksad"
+  - name: "🇦🇪_16"
+    type: vless
+    server: "uae.unixzone.us"
     port: 22573
     uuid: "39947382-3212-41c9-bc3a-589574ac8b23"
     udp: true
@@ -145,10 +198,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -158,10 +215,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -171,10 +232,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -183,10 +248,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -196,19 +265,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇪_5"
-      - "🇦🇪_6"
-      - "🇦🇪_7"
-      - "🇦🇪_8"
+      - "🇦🇪_9"
+      - "🇦🇪_10"
+      - "🇦🇪_11"
+      - "🇦🇪_12"
+      - "🇦🇪_13"
+      - "🇦🇪_14"
+      - "🇦🇪_15"
+      - "🇦🇪_16"
 
 rules:
   - MATCH,PROXY-BEST

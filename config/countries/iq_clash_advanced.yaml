@@ -59,35 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇴_3"
+  - name: "🇮🇶_2"
     type: vless
-    server: "45.202.247.152"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    server: "193.56.135.212"
+    port: 9543
+    uuid: "ff6d2dda-7b90-404e-9951-34b3124bfdfa"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    network: ws
-    ws-opts:
-      path: "/jump.html/star?ed=2560fp=chrome"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇲🇴_4"
-    type: vless
-    server: "45.202.247.198"
-    port: 443
-    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mia6.pages.dev"
+    servername: "storage.yandexcloud.net"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/TG:@MiaChatChannel"
-      headers:
-        Host: "mia6.pages.dev"
+    reality-opts:
+      public-key: "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc"
+      short-id: "123abcde"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -130,8 +115,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -141,8 +125,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -152,8 +135,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -162,8 +144,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -173,15 +154,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇴_3"
-      - "🇲🇴_4"
+      - "🇮🇶_2"
 
 rules:
   - MATCH,PROXY-BEST

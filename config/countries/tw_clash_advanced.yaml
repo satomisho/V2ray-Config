@@ -59,48 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇹🇼_26"
-    type: vless
-    server: "35.201.163.218"
-    port: 30837
-    uuid: "85a6bd94-83a9-4e80-849f-c06d7011d1a4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.sony.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo"
-      short-id: "97101ba788915e5a"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_27"
-    type: vless
-    server: "103.137.22.71"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇹🇼_28"
-    type: vless
-    server: "60.248.219.78"
-    port: 443
-    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ty986gfazs.cainiaohub.xyz"
-    network: ws
-    ws-opts:
-      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
-      headers:
-        Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "🇹🇼_29"
+  - name: "🇹🇼_16"
     type: vless
     server: "130.94.36.232"
     port: 443
@@ -115,22 +74,7 @@ proxies:
       path: "/?ed=2048"
       headers:
         Host: "kkkk-8oc.pages.dev"
-  - name: "🇹🇼_30"
-    type: vless
-    server: "60.248.219.52"
-    port: 443
-    uuid: "f265b49a-70a3-407a-b17b-e45dfb9f255c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ty986gfazs.cainiaohub.xyz"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
-      headers:
-        Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "🇹🇼_31"
+  - name: "🇹🇼_17"
     type: vless
     server: "60.248.219.53"
     port: 443
@@ -145,35 +89,7 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "🇹🇼_32"
-    type: vless
-    server: "35.229.136.113"
-    port: 35412
-    uuid: "5d3cbdb2-b82d-4078-82b8-5dd413cca82b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.amd.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "eg6DfbLnWtz7PubkXRYvSuQx6QWIRxUsn4l7QEO3Cg4"
-      short-id: "0630b874d595"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_33"
-    type: vless
-    server: "104.199.219.172"
-    port: 40800
-    uuid: "5859f6a7-cda1-47c2-8353-fcdee281f31d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.intel.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo"
-      short-id: "186e4c2732d61a3d"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_34"
+  - name: "🇹🇼_18"
     type: vless
     server: "59.125.69.19"
     port: 443
@@ -188,35 +104,36 @@ proxies:
       path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
       headers:
         Host: "ty986gfazs.cainiaohub.xyz"
-  - name: "🇹🇼_35"
+  - name: "🇹🇼_19"
     type: vless
-    server: "35.194.157.16"
-    port: 43450
-    uuid: "64d77a12-ad6b-4d85-a349-bd287535af1c"
+    server: "35.201.163.218"
+    port: 30837
+    uuid: "85a6bd94-83a9-4e80-849f-c06d7011d1a4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.amd.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o"
-      short-id: "e65d010354bdad73"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_36"
-    type: vless
-    server: "34.80.164.239"
-    port: 21776
-    uuid: "b0399730-1618-4727-8ddd-2baf94ab90d6"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.tesla.com"
+    servername: "www.sony.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "nm6jFiI7_auZ15UMqpeEbiITrK4OR2rfFTqXhe5pMFA"
-      short-id: "79b6f82800c68925"
+      public-key: "LXPNhrAGxr_QE4YCdJfKE40ebsPNIHnLbydhl6bipCo"
+      short-id: "97101ba788915e5a"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇼_37"
+  - name: "🇹🇼_20"
+    type: vless
+    server: "45.221.115.3"
+    port: 443
+    uuid: "c92e12ca-ea66-4785-8675-652b35134117"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "thus-k.netnode.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/t.me/daily_free_vpn"
+      headers:
+        Host: "thus-k.netnode.cc.cd"
+  - name: "🇹🇼_21"
     type: vless
     server: "35.201.230.136"
     port: 443
@@ -225,26 +142,25 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "Uq9Q8VXK9VkVOJ1M5PfORTqMhjjGoIS40-V0tAG_1FM"
       short-id: "5e13a6d43d0644c9"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇼_38"
+  - name: "🇹🇼_22"
     type: vless
-    server: "34.81.129.171"
-    port: 34376
-    uuid: "bf8cc771-51a0-4395-810f-1f135325cfc1"
+    server: "103.137.22.71"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.sony.com"
+    servername: "cdn8848.776676.xyz"
     client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Atq4Fo_Mg48QtKXagBW9jnhaQSDUCiKgnATB2EU6OHU"
-      short-id: "8dbafb690450d8a9"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_39"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇹🇼_23"
     type: vless
     server: "104.199.134.231"
     port: 28364
@@ -258,34 +174,76 @@ proxies:
       public-key: "NPhCET0GkjSZuKg4vWsPHLvjYGHW9w99Ucxvavu0-1I"
       short-id: "7241c359c2dfab"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇼_40"
+  - name: "🇹🇼_24"
     type: vless
-    server: "207.56.137.51"
+    server: "60.248.219.78"
     port: 443
-    uuid: "01ada9fb-fa2f-45da-a0d0-bce80cdf433b"
+    uuid: "c1c04450-bf71-4049-ad0c-9cf6d94d9f1f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0"
-      short-id: "f713561d"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇼_41"
+    servername: "ty986gfazs.cainiaohub.xyz"
+    network: ws
+    ws-opts:
+      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
+      headers:
+        Host: "ty986gfazs.cainiaohub.xyz"
+  - name: "🇹🇼_25"
     type: vless
-    server: "118.167.212.163"
+    server: "35.194.157.16"
+    port: 43450
+    uuid: "64d77a12-ad6b-4d85-a349-bd287535af1c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.amd.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "HNPJBiUbqYVC3ylvu1GA7fCHLTaHO7S13Bex1nm0O1o"
+      short-id: "e65d010354bdad73"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇼_26"
+    type: vless
+    server: "151.242.189.162"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇹🇼_27"
+    type: vless
+    server: "118.167.246.43"
     port: 24215
     uuid: "19d5a678-8396-4e3b-93da-ece618d0e83a"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "addons.mozilla.org"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE"
       short-id: ""
-  - name: "🇹🇼_42"
+  - name: "🇹🇼_28"
+    type: vless
+    server: "60.248.219.52"
+    port: 443
+    uuid: "f265b49a-70a3-407a-b17b-e45dfb9f255c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ty986gfazs.cainiaohub.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/81574b6b-c9d7-44a0-b83d-dad56e8cb530"
+      headers:
+        Host: "ty986gfazs.cainiaohub.xyz"
+  - name: "🇹🇼_29"
     type: vless
     server: "35.221.158.209"
     port: 32981
@@ -299,78 +257,9 @@ proxies:
       public-key: "JSn0GPz1WOSTUDBxN_XYnhgb2Jpjc2LpfBTzX1j3V2E"
       short-id: "70f4b7a4c40636"
     flow: "xtls-rprx-vision"
-  - name: "🇹🇼_43"
-    type: vless
-    server: "83.147.12.252"
-    port: 443
-    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/t.me/daily_free_vpn"
-      headers:
-        Host: "thus-k.netnode.cc.cd"
-  - name: "🇹🇼_44"
-    type: vless
-    server: "213.210.4.48"
-    port: 443
-    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/t.me/daily_free_vpn"
-      headers:
-        Host: "thus-k.netnode.cc.cd"
-  - name: "🇹🇼_45"
-    type: trojan
-    server: "125.227.86.46"
-    port: 443
-    password: "3f5bc61547b1f0d9"
-    sni: "TG.freecodes"
-    skip-cert-verify: true
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "db"
-  - name: "🇹🇼_46"
-    type: ss
-    server: "R3MRCG00129437X.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    udp: true
-  - name: "🇹🇼_47"
-    type: ss
-    server: "R3MRCG00129437X.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "b1ae0fce-9340-4f2e-882d-fdb2218e2e2b"
-    udp: true
-  - name: "🇹🇼_48"
+  - name: "🇹🇼_30"
     type: ss
     server: "r3mrcg001286ek2.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    udp: true
-  - name: "🇹🇼_49"
-    type: ss
-    server: "r3mrcg00129437x.cybervena.com"
-    port: 50099
-    cipher: "chacha20-ietf-poly1305"
-    password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
-    udp: true
-  - name: "🇹🇼_50"
-    type: ss
-    server: "r3mrcg00129437x.cybervena.com"
     port: 50099
     cipher: "chacha20-ietf-poly1305"
     password: "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
@@ -417,31 +306,21 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
   - name: "LB-CDN"
     type: load-balance
@@ -451,31 +330,21 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -485,31 +354,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
   - name: "FAST-CDN"
     type: url-test
@@ -518,31 +377,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -552,61 +401,41 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇹🇼_16"
+      - "🇹🇼_17"
+      - "🇹🇼_18"
+      - "🇹🇼_19"
+      - "🇹🇼_20"
+      - "🇹🇼_21"
+      - "🇹🇼_22"
+      - "🇹🇼_23"
+      - "🇹🇼_24"
+      - "🇹🇼_25"
       - "🇹🇼_26"
       - "🇹🇼_27"
       - "🇹🇼_28"
       - "🇹🇼_29"
       - "🇹🇼_30"
-      - "🇹🇼_31"
-      - "🇹🇼_32"
-      - "🇹🇼_33"
-      - "🇹🇼_34"
-      - "🇹🇼_35"
-      - "🇹🇼_36"
-      - "🇹🇼_37"
-      - "🇹🇼_38"
-      - "🇹🇼_39"
-      - "🇹🇼_40"
-      - "🇹🇼_41"
-      - "🇹🇼_42"
-      - "🇹🇼_43"
-      - "🇹🇼_44"
-      - "🇹🇼_45"
-      - "🇹🇼_46"
-      - "🇹🇼_47"
-      - "🇹🇼_48"
-      - "🇹🇼_49"
-      - "🇹🇼_50"
 
 rules:
   - MATCH,PROXY-BEST

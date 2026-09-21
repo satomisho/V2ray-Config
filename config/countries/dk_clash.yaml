@@ -65,42 +65,70 @@ dns:
 proxies:
   - name: "🇩🇰_1"
     type: vless
-    server: "77.37.96.186"
-    port: 443
-    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
+    server: "193.181.216.117"
+    port: 2053
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
+    servername: "cdn8848.776676.xyz"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/t.me/daily_free_vpn"
+      path: "/payment?ed=2560"
       headers:
-        Host: "thus-k.netnode.cc.cd"
+        Host: "cdn8848.776676.xyz"
   - name: "🇩🇰_2"
     type: vless
-    server: "193.181.212.80"
-    port: 443
-    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    server: "den-khad-nxt.ramzshadi.ir"
+    port: 43312
+    uuid: "8124ddbb-bf22-49d9-945d-2e72c554deb2"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "kv.074167.xyz"
-    client-fingerprint: "random"
+    servername: "play.google.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "06vBWFA7tgljTVI9N1pY6L6Ls88me171hrKzeH9-7EQ"
+      short-id: "194eb312877c9c35"
+    flow: "xtls-rprx-vision"
+  - name: "🇩🇰_3"
+    type: vless
+    server: "den-khad-nxt.ramzshadi.ir"
+    port: 31770
+    uuid: "8124ddbb-bf22-49d9-945d-2e72c554deb2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "sheets.google.com"
+    client-fingerprint: "ios"
+    reality-opts:
+      public-key: "GZqmhFHyMfIyRUi1k-2UDeJtjUakgZRhyXLhGLfL3Ws"
+      short-id: "6a2a03e809012832"
+    flow: "xtls-rprx-vision"
+  - name: "🇩🇰_4"
+    type: vless
+    server: "45.148.30.11"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/season/classify?ed=2560"
       headers:
-        Host: "kv.074167.xyz"
-  - name: "🇩🇰_3"
+        Host: "cdn8848.776676.xyz"
+  - name: "🇩🇰_5"
     type: ss
     server: "38.180.214.110"
     port: 5600
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇩🇰_4"
+  - name: "🇩🇰_6"
     type: ss
     server: "38.180.214.110"
     port: 5600
@@ -125,6 +153,8 @@ proxy-groups:
       - "🇩🇰_2"
       - "🇩🇰_3"
       - "🇩🇰_4"
+      - "🇩🇰_5"
+      - "🇩🇰_6"
 
 
 rules:

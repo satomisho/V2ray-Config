@@ -59,40 +59,33 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇾_15"
+  - name: "🇨🇾_14"
     type: vless
-    server: "77.75.199.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "195.26.229.235"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "vms.lifetime59.workers.dev"
+  - name: "🇨🇾_15"
+    type: vless
+    server: "195.26.229.127"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
   - name: "🇨🇾_16"
-    type: vless
-    server: "154.92.9.2"
-    port: 8880
-    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "old-violet-a5ce.29-440.workers.dev"
-  - name: "🇨🇾_17"
-    type: vless
-    server: "195.85.59.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
-  - name: "🇨🇾_18"
     type: vless
     server: "195.26.229.120"
     port: 443
@@ -103,80 +96,10 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_19"
-    type: vless
-    server: "195.26.229.131"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_20"
-    type: vless
-    server: "195.26.229.127"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_21"
-    type: vless
-    server: "195.26.229.32"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_22"
-    type: vless
-    server: "195.26.229.148"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_23"
-    type: vless
-    server: "195.26.229.86"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_24"
+  - name: "🇨🇾_17"
     type: vless
     server: "195.26.229.157"
     port: 443
@@ -187,23 +110,12 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_25"
+  - name: "🇨🇾_18"
     type: vless
-    server: "195.85.59.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
-  - name: "🇨🇾_26"
-    type: vless
-    server: "195.26.229.235"
+    server: "195.26.229.86"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
@@ -212,10 +124,21 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_27"
+  - name: "🇨🇾_19"
+    type: vless
+    server: "195.85.59.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇨🇾_20"
     type: vless
     server: "195.26.229.156"
     port: 443
@@ -224,12 +147,50 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇨🇾_21"
+    type: vless
+    server: "195.26.229.148"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_22"
+    type: vless
+    server: "195.26.229.32"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇨🇾_23"
+    type: vless
+    server: "77.75.199.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_28"
+        Host: "vms.lifetime59.workers.dev"
+  - name: "🇨🇾_24"
     type: vless
     server: "195.26.229.222"
     port: 443
@@ -240,9 +201,34 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_25"
+    type: vless
+    server: "195.26.229.131"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_26"
+    type: vless
+    server: "154.92.9.2"
+    port: 8880
+    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "old-violet-a5ce.29-440.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -285,6 +271,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -297,8 +284,6 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
   - name: "LB-CDN"
     type: load-balance
@@ -308,6 +293,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -320,8 +306,6 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -331,6 +315,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -343,8 +328,6 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
   - name: "FAST-CDN"
     type: url-test
@@ -353,6 +336,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -365,8 +349,6 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -376,6 +358,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -388,13 +371,12 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇨🇾_14"
       - "🇨🇾_15"
       - "🇨🇾_16"
       - "🇨🇾_17"
@@ -407,8 +389,6 @@ proxy-groups:
       - "🇨🇾_24"
       - "🇨🇾_25"
       - "🇨🇾_26"
-      - "🇨🇾_27"
-      - "🇨🇾_28"
 
 rules:
   - MATCH,PROXY-BEST

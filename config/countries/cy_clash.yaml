@@ -65,38 +65,31 @@ dns:
 proxies:
   - name: "🇨🇾_1"
     type: vless
-    server: "77.75.199.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "195.26.229.235"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "vms.lifetime59.workers.dev"
   - name: "🇨🇾_2"
     type: vless
-    server: "154.92.9.2"
-    port: 8880
-    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    server: "195.26.229.127"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "old-violet-a5ce.29-440.workers.dev"
+      path: "/"
   - name: "🇨🇾_3"
-    type: vless
-    server: "195.85.59.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
-  - name: "🇨🇾_4"
     type: vless
     server: "195.26.229.120"
     port: 443
@@ -107,80 +100,10 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_5"
-    type: vless
-    server: "195.26.229.131"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_6"
-    type: vless
-    server: "195.26.229.127"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_7"
-    type: vless
-    server: "195.26.229.32"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_8"
-    type: vless
-    server: "195.26.229.148"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_9"
-    type: vless
-    server: "195.26.229.86"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_10"
+  - name: "🇨🇾_4"
     type: vless
     server: "195.26.229.157"
     port: 443
@@ -191,23 +114,12 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_11"
+  - name: "🇨🇾_5"
     type: vless
-    server: "195.85.59.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
-  - name: "🇨🇾_12"
-    type: vless
-    server: "195.26.229.235"
+    server: "195.26.229.86"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
@@ -216,10 +128,21 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip"
       headers:
         Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_13"
+  - name: "🇨🇾_6"
+    type: vless
+    server: "195.85.59.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇨🇾_7"
     type: vless
     server: "195.26.229.156"
     port: 443
@@ -228,12 +151,50 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇨🇾_8"
+    type: vless
+    server: "195.26.229.148"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_9"
+    type: vless
+    server: "195.26.229.32"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇨🇾_10"
+    type: vless
+    server: "77.75.199.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇨🇾_14"
+        Host: "vms.lifetime59.workers.dev"
+  - name: "🇨🇾_11"
     type: vless
     server: "195.26.229.222"
     port: 443
@@ -244,9 +205,34 @@ proxies:
     servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=us.xiabibi.cf"
       headers:
         Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_12"
+    type: vless
+    server: "195.26.229.131"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇨🇾_13"
+    type: vless
+    server: "154.92.9.2"
+    port: 8880
+    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "old-violet-a5ce.29-440.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -274,7 +260,6 @@ proxy-groups:
       - "🇨🇾_11"
       - "🇨🇾_12"
       - "🇨🇾_13"
-      - "🇨🇾_14"
 
 
 rules:

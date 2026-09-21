@@ -80,6 +80,94 @@ proxies:
         Host: "notls.lukongtou.eu.org"
   - name: "🇧🇿_2"
     type: vless
+    server: "45.131.5.241"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_3"
+    type: vless
+    server: "45.131.5.33"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_4"
+    type: vless
+    server: "nl4.zuoai.cf"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇧🇿_5"
+    type: vless
+    server: "45.131.6.205"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_6"
+    type: vless
+    server: "45.131.6.249"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_7"
+    type: vless
+    server: "45.131.5.80"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_8"
+    type: vless
     server: "45.131.211.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
@@ -89,7 +177,7 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: "vms.lifetime06.workers.dev"
-  - name: "🇧🇿_3"
+  - name: "🇧🇿_9"
     type: vless
     server: "45.131.6.30"
     port: 8880
@@ -100,7 +188,7 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime61.workers.dev"
-  - name: "🇧🇿_4"
+  - name: "🇧🇿_10"
     type: vless
     server: "45.131.7.123"
     port: 443
@@ -109,10 +197,56 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇧🇿_5"
+  - name: "🇧🇿_11"
+    type: vless
+    server: "45.131.5.35"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_12"
+    type: vless
+    server: "45.131.7.162"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_13"
+    type: vless
+    server: "45.131.5.248"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
+  - name: "🇧🇿_14"
     type: vless
     server: "45.131.208.4"
     port: 80
@@ -120,7 +254,7 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      path: "/"
       headers:
         Host: "floral-thunder-10d3.82-67d.workers.dev"
 
@@ -142,6 +276,15 @@ proxy-groups:
       - "🇧🇿_3"
       - "🇧🇿_4"
       - "🇧🇿_5"
+      - "🇧🇿_6"
+      - "🇧🇿_7"
+      - "🇧🇿_8"
+      - "🇧🇿_9"
+      - "🇧🇿_10"
+      - "🇧🇿_11"
+      - "🇧🇿_12"
+      - "🇧🇿_13"
+      - "🇧🇿_14"
 
 
 rules:

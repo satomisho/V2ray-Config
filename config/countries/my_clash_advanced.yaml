@@ -59,51 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇾_8"
-    type: vless
-    server: "56.69.159.191"
-    port: 53271
-    uuid: "e8358eb5-7210-4cf8-982f-68af141b7694"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.tesla.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "1P58ZYmo81kPDnL4U7SnEUA-aT2R86l-o6dbFXoeDjc"
-      short-id: "0a9bd9db19578964"
-    flow: "xtls-rprx-vision"
-  - name: "🇲🇾_9"
-    type: vless
-    server: "47.250.212.59"
-    port: 2053
-    uuid: "3db635e4-f9ec-42d6-8aba-e23df8b0e6da"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mia12.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/TG:@MiaChatChannel"
-      headers:
-        Host: "mia12.pages.dev"
-  - name: "🇲🇾_10"
-    type: vless
-    server: "47.254.251.37"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/archives?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇲🇾_11"
+  - name: "🇲🇾_4"
     type: vless
     server: "47.250.212.59"
     port: 443
@@ -118,37 +74,22 @@ proxies:
       path: "/TG:@MiaChatChannel"
       headers:
         Host: "mia11.pages.dev"
-  - name: "🇲🇾_12"
+  - name: "🇲🇾_5"
     type: vless
-    server: "23.27.28.131"
+    server: "47.254.251.37"
     port: 443
-    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
+    servername: "edg-2oo.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/t.me/daily_free_vpn"
+      path: "/archives?ed=2560"
       headers:
-        Host: "thus-k.netnode.cc.cd"
-  - name: "🇲🇾_13"
-    type: vless
-    server: "56.69.45.182"
-    port: 443
-    uuid: "1864223a-8797-4244-8e72-4d2801d040e1"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/t.me/daily_free_vpn"
-      headers:
-        Host: "thus-k.netnode.cc.cd"
-  - name: "🇲🇾_14"
+        Host: "edg-2oo.pages.dev"
+  - name: "🇲🇾_6"
     type: trojan
     server: "47.250.84.25"
     port: 443
@@ -198,13 +139,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -214,13 +151,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -230,13 +163,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -245,13 +174,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -261,25 +186,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇾_8"
-      - "🇲🇾_9"
-      - "🇲🇾_10"
-      - "🇲🇾_11"
-      - "🇲🇾_12"
-      - "🇲🇾_13"
-      - "🇲🇾_14"
+      - "🇲🇾_4"
+      - "🇲🇾_5"
+      - "🇲🇾_6"
 
 rules:
   - MATCH,PROXY-BEST

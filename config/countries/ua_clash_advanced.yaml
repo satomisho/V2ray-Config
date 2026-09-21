@@ -59,7 +59,64 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇺🇦_5"
+  - name: "🇺🇦_7"
+    type: vless
+    server: "104.143.223.56"
+    port: 2085
+    uuid: "9912a5ca-3ee1-45ac-b182-46fec2610ee0"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇺🇦_8"
+    type: vless
+    server: "213.111.149.58"
+    port: 8443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free.cndyw.ggff.net"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "pyip=bpb.yousef.isegaro.com"
+      headers:
+        Host: "free.cndyw.ggff.net"
+  - name: "🇺🇦_9"
+    type: vless
+    server: "89.116.180.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime09.workers.dev"
+  - name: "🇺🇦_10"
+    type: vless
+    server: "45.135.235.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime07.workers.dev"
+  - name: "🇺🇦_11"
+    type: vless
+    server: "89.116.180.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime09.workers.dev"
+  - name: "🇺🇦_12"
     type: vless
     server: "45.135.235.123"
     port: 443
@@ -71,44 +128,7 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/Telegram-WangCai2🇨🇳"
-      headers:
-        Host: "notls.lukongtou.eu.org"
-  - name: "🇺🇦_6"
-    type: vless
-    server: "89.116.180.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
       path: "/"
-      headers:
-        Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_7"
-    type: vless
-    server: "89.116.180.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_8"
-    type: trojan
-    server: "89.116.180.49"
-    port: 443
-    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
-    sni: "0403.infinityconfig4.workers.dev"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/sync"
-      headers:
-        Host: "0403.infinityconfig4.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -151,10 +171,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -164,10 +186,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -177,10 +201,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -189,10 +215,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -202,19 +230,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇺🇦_5"
-      - "🇺🇦_6"
       - "🇺🇦_7"
       - "🇺🇦_8"
+      - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
+      - "🇺🇦_12"
 
 rules:
   - MATCH,PROXY-BEST

@@ -65,7 +65,7 @@ dns:
 proxies:
   - name: "🇹🇭_1"
     type: vless
-    server: "V2rAy.SiMsPeEdUp.CoM"
+    server: "103.86.49.57"
     port: 80
     uuid: "3c52e091-6714-4915-949f-2149fe69951b"
     udp: true
@@ -89,15 +89,17 @@ proxies:
       path: "/"
   - name: "🇹🇭_3"
     type: vless
-    server: "103.86.49.57"
-    port: 80
-    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
+    server: "34.15.162.1"
+    port: 443
+    uuid: "2b1d0c2a-9c80-4b72-892e-93d0500b9210"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "aIs.SpEeDtEsT.nEt"
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "LklWoqMQz_TWiuLCUNRwHAKX1adVRSGMhtbo98fbDxw"
+      short-id: "ca672c53fbbac555"
 
 proxy-groups:
   - name: "PROXY"

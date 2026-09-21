@@ -65,20 +65,20 @@ dns:
 proxies:
   - name: "🇰🇿_1"
     type: vless
-    server: "77.73.232.61"
-    port: 19747
-    uuid: "2a9ed01e-5455-44b4-a66a-76ee8165f0ac"
+    server: "31.43.179.8"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "yahoo.com"
+    servername: "xi.tbv.ccwu.cc"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM"
-      short-id: "2001"
+    network: ws
+    ws-opts:
+      path: "/"
   - name: "🇰🇿_2"
     type: vless
-    server: "kz3.zuoai.cf"
+    server: "31.43.179.106"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
@@ -91,29 +91,30 @@ proxies:
       path: "/"
   - name: "🇰🇿_3"
     type: vless
-    server: "109.248.170.119"
-    port: 13447
-    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
+    server: "185.176.26.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
-      short-id: "83"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime06.workers.dev"
   - name: "🇰🇿_4"
     type: vless
-    server: "31.43.179.109"
+    server: "31.43.179.25"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/proxyip=us.xiabibi.cf"
+      headers:
+        Host: "xi.tbv.ccwu.cc"
   - name: "🇰🇿_5"
     type: vless
     server: "31.43.179.87"
@@ -123,134 +124,24 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
+      path: "/"
   - name: "🇰🇿_6"
     type: vless
-    server: "5.35.81.60"
-    port: 4443
-    uuid: "246b101b-4e4a-451f-8e9c-5e8d3b64b4ef"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "maps.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM"
-      short-id: "e5f6a1b2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "snob-grpc-de"
-  - name: "🇰🇿_7"
-    type: vless
-    server: "31.43.179.36"
+    server: "31.43.179.109"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_8"
-    type: vless
-    server: "31.43.179.25"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_9"
-    type: vless
-    server: "31.43.179.170"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_10"
-    type: vless
-    server: "31.43.179.20"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_11"
-    type: vless
-    server: "194.76.18.2"
-    port: 8880
-    uuid: "bb5f4b63-0b91-4f2c-8a02-66c3f99c1aaa"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram@WangCai2"
-      headers:
-        Host: "yellow-mouse-fcce.400-318.workers.dev"
-  - name: "🇰🇿_12"
-    type: vless
-    server: "31.43.179.137"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_13"
-    type: vless
-    server: "83.222.23.81"
-    port: 38065
-    uuid: "4b9063e0-3288-44e9-9aac-80fbfce323a0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "yahoo.com"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo"
-      short-id: "fa"
-  - name: "🇰🇿_14"
-    type: vless
-    server: "31.43.179.200"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_15"
-    type: vless
-    server: "31.43.179.8"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_16"
+      path: "/"
+  - name: "🇰🇿_7"
     type: vless
     server: "178.236.16.98"
     port: 35728
@@ -263,34 +154,138 @@ proxies:
     reality-opts:
       public-key: "vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng"
       short-id: "69a2"
-  - name: "🇰🇿_17"
+  - name: "🇰🇿_8"
     type: vless
-    server: "31.43.179.106"
+    server: "31.43.179.36"
     port: 443
     uuid: "b2593749-691c-428c-9481-14979cba3446"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-  - name: "🇰🇿_18"
+      path: "/"
+  - name: "🇰🇿_9"
     type: vless
-    server: "5.35.81.60"
-    port: 4443
-    uuid: "cabd9303-ae32-4d25-86b9-26b312d0f044"
+    server: "109.248.170.119"
+    port: 13447
+    uuid: "b573cefb-7bc7-4a42-b407-b8b534e66773"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "maps.apple.com"
+    servername: "yahoo.com"
     client-fingerprint: "chrome"
     reality-opts:
-      public-key: "nhvyI4KrKDUSgw9Fa63SDeNATaTsAu9bRZ4qaraydRM"
-      short-id: "e5f6a1b2"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "snob-grpc-de"
+      public-key: "_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE"
+      short-id: "83"
+  - name: "🇰🇿_10"
+    type: vless
+    server: "31.43.179.137"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇰🇿_11"
+    type: vless
+    server: "5.180.42.57"
+    port: 443
+    uuid: "416b35f4-7cba-4023-a915-b22af73cd0c2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edge-kz1.lovely.my"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24"
+      short-id: "24fc325b440818ce"
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇿_12"
+    type: vless
+    server: "edge-kz1.lovely.my"
+    port: 443
+    uuid: "416b35f4-7cba-4023-a915-b22af73cd0c2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edge-kz1.lovely.my"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "nNeAdcF__Tg3jBFRRPgpmKPNJGfqMGy4rG3Z3eO-T24"
+      short-id: "24fc325b440818ce"
+    flow: "xtls-rprx-vision"
+  - name: "🇰🇿_13"
+    type: vless
+    server: "31.43.179.170"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇰🇿_14"
+    type: vless
+    server: "83.222.23.81"
+    port: 38065
+    uuid: "4b9063e0-3288-44e9-9aac-80fbfce323a0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "dSSDPTK6AHfAdRAXD9i4rzqcNIY65RxlF25UyCKdiyo"
+      short-id: "fa"
+  - name: "🇰🇿_15"
+    type: vless
+    server: "77.73.232.61"
+    port: 19747
+    uuid: "2a9ed01e-5455-44b4-a66a-76ee8165f0ac"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "ZO9dTeg1slvTXgVsBsaJ1BDvz_YUImTLJjbHs-GdVyM"
+      short-id: "2001"
+  - name: "🇰🇿_16"
+    type: vless
+    server: "31.43.179.200"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇰🇿_17"
+    type: vless
+    server: "31.43.179.20"
+    port: 443
+    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "xi.tbv.ccwu.cc"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   - name: "PROXY"
@@ -322,7 +317,6 @@ proxy-groups:
       - "🇰🇿_15"
       - "🇰🇿_16"
       - "🇰🇿_17"
-      - "🇰🇿_18"
 
 
 rules:

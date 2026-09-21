@@ -65,19 +65,18 @@ dns:
 proxies:
   - name: "🇲🇩_1"
     type: vless
-    server: "217.156.67.86"
-    port: 443
-    uuid: "24916ad0-847d-4522-9e17-f4347dee57fd"
+    server: "moldova.cdn-europe.org"
+    port: 4443
+    uuid: "d7c94b82-657a-4bb7-9b24-2ae566669835"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "kv.074167.xyz"
+    servername: "moldova.cdn-europe.org"
     client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "kv.074167.xyz"
+    reality-opts:
+      public-key: "cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8"
+      short-id: "694ee64512cfcbef"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"

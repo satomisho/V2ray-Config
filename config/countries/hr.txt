@@ -1,1 +1,0 @@
-trojan://humanity@213.182.199.137:443?alpn=http/1.1&allowInsecure=0&sni=www.pleadcourt.org&security=tls&path=/assignment&type=ws&host=www.pleadcourt.org&insecure=0&fp=chrome#%F0%9F%87%AD%F0%9F%87%B7

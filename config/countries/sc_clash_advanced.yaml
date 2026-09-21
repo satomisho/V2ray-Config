@@ -59,32 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇸🇨_11"
-    type: vless
-    server: "45.130.125.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime58.workers.dev"
-  - name: "🇸🇨_12"
-    type: vless
-    server: "45.130.125.126"
-    port: 443
-    uuid: "b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-    network: ws
-    ws-opts:
-      path: "/eyJqdW5rIjoiY0U2T212Y21yeEhUZHRKYSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
-      headers:
-        Host: "BItter-CreDIT-61b8.b76EbA0aBb.wORkerS.dEv"
-  - name: "🇸🇨_13"
+  - name: "🇸🇨_8"
     type: vless
     server: "45.130.125.207"
     port: 8443
@@ -99,7 +74,18 @@ proxies:
       path: "/eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0"
       headers:
         Host: "square-salad-ebde.zdfgvccfguuyggg.workers.dev"
-  - name: "🇸🇨_14"
+  - name: "🇸🇨_9"
+    type: vless
+    server: "45.130.125.50"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime58.workers.dev"
+  - name: "🇸🇨_10"
     type: vless
     server: "45.130.125.73"
     port: 80
@@ -110,21 +96,7 @@ proxies:
       path: "/api/ws"
       headers:
         Host: "web-app-aug8yr.app-f1qsy1.workers.dev"
-  - name: "🇸🇨_15"
-    type: vless
-    server: "45.130.125.0"
-    port: 443
-    uuid: "75dd6c7d-b5a2-44f3-843c-812facb22c5e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "dfsuporte.garena.com.ex33r.eu.cc"
-    network: ws
-    ws-opts:
-      path: "/sg-melbi"
-      headers:
-        Host: "dfsuporte.garena.com.ex33r.eu.cc"
-  - name: "🇸🇨_16"
+  - name: "🇸🇨_11"
     type: vless
     server: "45.130.125.73"
     port: 443
@@ -139,54 +111,41 @@ proxies:
       path: "/api/ws"
       headers:
         Host: "web-app-aug8yr.app-f1qsy1.workers.dev"
-  - name: "🇸🇨_17"
+  - name: "🇸🇨_12"
     type: vless
-    server: "45.130.125.50"
+    server: "45.130.125.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
         Host: "vms.lifetime58.workers.dev"
-  - name: "🇸🇨_18"
+  - name: "🇸🇨_13"
     type: trojan
-    server: "45.130.125.112"
+    server: "45.130.125.160"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "ff5aeddc-8fea-4d17-b504-1a9fdacca802"
+    sni: "go.appsflyer.com.r3xxe.eu.cc"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
-  - name: "🇸🇨_19"
+      path: "/br-orcl"
+  - name: "🇸🇨_14"
     type: trojan
-    server: "45.130.125.190"
+    server: "45.130.125.0"
     port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
+    password: "Telegram-Config0plus-983ced63-fcf0-4d15-b81b-432e32e9b932"
+    sni: "api24-normal.tiktokv.com.r3xxe.eu.cc"
     skip-cert-verify: true
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/us-gllc"
       headers:
-        Host: "www.calmlunch.com"
-  - name: "🇸🇨_20"
-    type: trojan
-    server: "45.130.125.75"
-    port: 443
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/assignment"
-      headers:
-        Host: "www.calmlunch.com"
+        Host: "api24-normal.tiktokv.com.r3xxe.eu.cc"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -229,16 +188,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
   - name: "LB-CDN"
     type: load-balance
@@ -248,16 +204,13 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -267,16 +220,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
   - name: "FAST-CDN"
     type: url-test
@@ -285,16 +235,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -304,31 +251,25 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇸🇨_8"
+      - "🇸🇨_9"
+      - "🇸🇨_10"
       - "🇸🇨_11"
       - "🇸🇨_12"
       - "🇸🇨_13"
       - "🇸🇨_14"
-      - "🇸🇨_15"
-      - "🇸🇨_16"
-      - "🇸🇨_17"
-      - "🇸🇨_18"
-      - "🇸🇨_19"
-      - "🇸🇨_20"
 
 rules:
   - MATCH,PROXY-BEST

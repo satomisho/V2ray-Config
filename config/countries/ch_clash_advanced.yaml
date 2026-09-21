@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇭_4"
+  - name: "🇨🇭_9"
     type: vless
     server: "45.90.59.15"
     port: 443
@@ -73,32 +73,85 @@ proxies:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
     flow: "xtls-rprx-vision"
-  - name: "🇨🇭_5"
+  - name: "🇨🇭_10"
     type: vless
-    server: "ch1.h1cloud.net"
-    port: 25720
-    uuid: "be83425f-74c5-4b03-9c4b-20aa16322698"
+    server: "ch.cache-4d8a.com"
+    port: 443
+    uuid: "ddf09ad0-02dc-485b-9048-1038de5bebf0"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.samsung.com"
+    servername: "ch.cache-4d8a.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY"
+      short-id: "9d84de9d9f7b85e9"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_11"
+    type: vless
+    server: "45.140.205.2"
+    port: 443
+    uuid: "c795bdd5-0460-42bd-927b-fbff154d2ab5"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "promo.ch.iki-servers.com"
+    reality-opts:
+      public-key: "he6F0xhRgRSY0qekzzUoFHroztc6V06CpJ5UfSSlxmg"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_12"
+    type: vless
+    server: "179.43.162.252"
+    port: 443
+    uuid: "ddf09ad0-02dc-485b-9048-1038de5bebf0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ch.cache-4d8a.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "OueudVX2rTpyeEb2bNW3Jx3WtgSX4zFERs6yt8Szv0E"
-      short-id: "fddf99d4a4f55a48"
-  - name: "🇨🇭_6"
-    type: trojan
-    server: "91.245.225.79"
-    port: 2053
-    password: "humanity"
-    sni: "www.calmlunch.com"
-    skip-cert-verify: true
+      public-key: "lYVz8iVZI2XjTCw_XS9wi08P1DLXO0c7jQo-_xyw2xY"
+      short-id: "9d84de9d9f7b85e9"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_13"
+    type: vless
+    server: "131.123.34.145"
+    port: 8081
+    uuid: "54ee5e59-55a3-4599-83ff-0c67b3f411b2"
     udp: true
     network: ws
     ws-opts:
-      path: "/assignment"
+      path: "/vless-test"
+  - name: "🇨🇭_14"
+    type: vless
+    server: "194.154.29.139"
+    port: 8443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cdn8848.776676.xyz"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/retrieve/txt?ed=2560"
       headers:
-        Host: "www.calmlunch.com"
+        Host: "cdn8848.776676.xyz"
+  - name: "🇨🇭_15"
+    type: ss
+    server: "132.243.175.144"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    udp: true
+  - name: "🇨🇭_16"
+    type: ss
+    server: "132.243.175.144"
+    port: 8388
+    cipher: "chacha20-ietf-poly1305"
+    password: "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -141,9 +194,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -153,9 +211,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -165,9 +228,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -176,9 +244,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -188,17 +261,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇭_4"
-      - "🇨🇭_5"
-      - "🇨🇭_6"
+      - "🇨🇭_9"
+      - "🇨🇭_10"
+      - "🇨🇭_11"
+      - "🇨🇭_12"
+      - "🇨🇭_13"
+      - "🇨🇭_14"
+      - "🇨🇭_15"
+      - "🇨🇭_16"
 
 rules:
   - MATCH,PROXY-BEST

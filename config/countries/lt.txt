@@ -1,5 +1,4 @@
-vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?security=none&type=ws&path=/&host=vms.lifetime06.workers.dev&packetEncoding=xudp#%F0%9F%87%B1%F0%9F%87%B9
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@88.216.69.30:8880?type=ws&host=vms.lifetime06.workers.dev#%F0%9F%87%B1%F0%9F%87%B9
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.5:443?security=reality&type=tcp&sni=lt.aether-runet.top&fp=chrome&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#%F0%9F%87%B1%F0%9F%87%B9
 vless://eec2f6a7-c10f-43b0-b133-61f9bf9bbc27@2.56.124.241:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw&sid=72104d27a0f5f62e&sni=www.amazon.com#%F0%9F%87%B1%F0%9F%87%B9
-vless://50414e45-4c5f-5a45-5553-4d64f1370eeb@88.216.69.144:443?security=tls&type=ws&path=/stream/PANEL_ZEUS/4d64f1370eeb/loc-0&host=r5zenrelur2s.pqzdileiu8es.workers.dev&packetEncoding=xudp&sni=r5zenrelur2s.pqzdileiu8es.workers.dev&fp=ios&encryption=none#%F0%9F%87%B1%F0%9F%87%B9
-vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.117:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=lt.aether-runet.top&allowInsecure=1&fp=firefox&security=reality&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk&sid=4fa44664f6a566d3#%F0%9F%87%B1%F0%9F%87%B9
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKMUludVU2UVJUNUpPaDFtUWZralUy@144.31.243.2:16015#%F0%9F%87%B1%F0%9F%87%B9
+vless://c5694dc5-39fd-4a92-8430-3837baa522a3@84.32.215.94:443?security=reality&type=tcp&packetEncoding=none&sni=lt.aether-runet.top&fp=firefox&flow=xtls-rprx-vision&sid=4fa44664f6a566d3&pbk=vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk#%F0%9F%87%B1%F0%9F%87%B9

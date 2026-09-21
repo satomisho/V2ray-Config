@@ -61,7 +61,7 @@ dns:
 proxies:
   - name: "🇸🇦_11"
     type: vless
-    server: "91.209.253.229"
+    server: "91.209.253.216"
     port: 443
     uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
     udp: true
@@ -71,12 +71,10 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
+      path: "/"
   - name: "🇸🇦_12"
     type: vless
-    server: "91.209.253.119"
+    server: "91.209.253.229"
     port: 443
     uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
     udp: true
@@ -89,7 +87,7 @@ proxies:
       path: "/"
   - name: "🇸🇦_13"
     type: vless
-    server: "91.209.253.25"
+    server: "91.209.253.42"
     port: 443
     uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
     udp: true
@@ -99,9 +97,7 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
+      path: "/"
   - name: "🇸🇦_14"
     type: vless
     server: "91.209.253.244"
@@ -114,23 +110,8 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇸🇦_15"
-    type: vless
-    server: "91.209.253.250"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
       path: "/"
-  - name: "🇸🇦_16"
+  - name: "🇸🇦_15"
     type: vless
     server: "91.209.253.68"
     port: 443
@@ -143,22 +124,7 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇸🇦_17"
-    type: vless
-    server: "91.209.253.216"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇸🇦_18"
+  - name: "🇸🇦_16"
     type: vless
     server: "91.209.253.243"
     port: 443
@@ -170,10 +136,8 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇸🇦_19"
+      path: "/"
+  - name: "🇸🇦_17"
     type: vless
     server: "91.209.253.109"
     port: 443
@@ -185,12 +149,10 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇸🇦_20"
+      path: "/"
+  - name: "🇸🇦_18"
     type: vless
-    server: "91.209.253.42"
+    server: "91.209.253.25"
     port: 443
     uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
     udp: true
@@ -200,9 +162,35 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
+      path: "/"
       headers:
         Host: "nb.lovecf.ggff.net"
+  - name: "🇸🇦_19"
+    type: vless
+    server: "91.209.253.250"
+    port: 443
+    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nb.lovecf.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇸🇦_20"
+    type: vless
+    server: "91.209.253.119"
+    port: 443
+    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "nb.lovecf.ggff.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

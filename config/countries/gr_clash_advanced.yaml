@@ -59,15 +59,6 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇬🇷_3"
-    type: vless
-    server: "185.126.238.87"
-    port: 2083
-    uuid: "7668f678-faee-40cc-9b56-9c39dc773388"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "security.debian.org"
   - name: "🇬🇷_4"
     type: vless
     server: "85.90.197.220"
@@ -82,6 +73,30 @@ proxies:
       public-key: "biNcdU5mywtNw-KyPpLHindBxdEyAolT1WJ26N0b7y4"
       short-id: "94acb54627612d43"
     flow: "xtls-rprx-vision"
+  - name: "🇬🇷_5"
+    type: vless
+    server: "38.54.29.210"
+    port: 2053
+    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "kkkk-xcd.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/?ed=2048"
+      headers:
+        Host: "kkkk-xcd.pages.dev"
+  - name: "🇬🇷_6"
+    type: vless
+    server: "185.126.238.87"
+    port: 2083
+    uuid: "7668f678-faee-40cc-9b56-9c39dc773388"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "security.debian.org"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -124,8 +139,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -135,8 +151,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -146,8 +163,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -156,8 +174,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -167,15 +186,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇬🇷_3"
       - "🇬🇷_4"
+      - "🇬🇷_5"
+      - "🇬🇷_6"
 
 rules:
   - MATCH,PROXY-BEST
