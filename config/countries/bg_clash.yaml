@@ -65,6 +65,50 @@ dns:
 proxies:
   - name: "🇧🇬_1"
     type: vless
+    server: "89.117.112.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇧🇬_2"
+    type: vless
+    server: "45.142.120.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇧🇬_3"
+    type: vless
+    server: "136.175.82.85"
+    port: 18775
+    uuid: "9ae5940b-0278-403d-a1e1-9dddc47bdcf6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "addons.mozilla.org"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "oR75S6pg_RDAKIuzv_WrCiwaUqqFoek2iuo5N22llQQ"
+      short-id: "6ba85179e30d4fc2"
+    flow: "xtls-rprx-vision"
+  - name: "🇧🇬_4"
+    type: vless
     server: "89.117.112.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
@@ -74,7 +118,7 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime11.workers.dev"
-  - name: "🇧🇬_2"
+  - name: "🇧🇬_5"
     type: vless
     server: "89.117.112.40"
     port: 8880
@@ -85,86 +129,7 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime11.workers.dev"
-  - name: "🇧🇬_3"
-    type: vless
-    server: "45.9.156.103"
-    port: 443
-    uuid: "e633de28-bfc0-4aca-aa67-e2e12e2c9e58"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mzone.bg.3cloudhost.com"
-    client-fingerprint: "safari"
-    reality-opts:
-      public-key: "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇧🇬_4"
-    type: vless
-    server: "103.249.134.29"
-    port: 443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
-  - name: "🇧🇬_5"
-    type: vless
-    server: "89.117.112.4"
-    port: 80
-    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @VPNine1"
-      headers:
-        Host: "floral-thunder-10d3.82-67d.workers.dev"
   - name: "🇧🇬_6"
-    type: vless
-    server: "45.142.120.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime08.workers.dev"
-  - name: "🇧🇬_7"
-    type: vless
-    server: "45.141.235.191"
-    port: 443
-    uuid: "6db6b948-655f-4f68-a9e7-865050e05b31"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cats-n-dogs.rumainco.cl"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "mGPCrFElfsioK3y3nOyW66ahpIocDnnyzfUnoN7ULFc"
-      short-id: "c2cdd5"
-    flow: "xtls-rprx-vision"
-  - name: "🇧🇬_8"
-    type: vless
-    server: "131.123.39.29"
-    port: 443
-    uuid: "54ee5e59-55a3-4599-83ff-0c67b3f411b2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sheetpeek.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo"
-      short-id: "84be686ea1d16478"
-    flow: "xtls-rprx-vision"
-  - name: "🇧🇬_9"
     type: vless
     server: "131.123.41.18"
     port: 443
@@ -178,22 +143,18 @@ proxies:
       public-key: "pX9uknHGLC9I26TT5kq4bIAljtX2AGWLK23EMgn6xFo"
       short-id: "84be686ea1d16478"
     flow: "xtls-rprx-vision"
-  - name: "🇧🇬_10"
+  - name: "🇧🇬_7"
     type: vless
-    server: "104.152.48.248"
-    port: 443
-    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
+    server: "45.142.120.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "kkkk-8oc.pages.dev"
-    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/?ed=2048"
+      path: "/"
       headers:
-        Host: "kkkk-8oc.pages.dev"
-  - name: "🇧🇬_11"
+        Host: "vms.lifetime08.workers.dev"
+  - name: "🇧🇬_8"
     type: vless
     server: "45.142.120.40"
     port: 8880
@@ -201,7 +162,7 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
         Host: "vms.lifetime08.workers.dev"
 
@@ -226,9 +187,6 @@ proxy-groups:
       - "🇧🇬_6"
       - "🇧🇬_7"
       - "🇧🇬_8"
-      - "🇧🇬_9"
-      - "🇧🇬_10"
-      - "🇧🇬_11"
 
 
 rules:

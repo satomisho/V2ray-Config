@@ -59,72 +59,14 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇩🇰_7"
-    type: vless
-    server: "193.181.216.117"
-    port: 2053
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/payment?ed=2560"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇩🇰_8"
-    type: vless
-    server: "den-khad-nxt.ramzshadi.ir"
-    port: 43312
-    uuid: "8124ddbb-bf22-49d9-945d-2e72c554deb2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "play.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "06vBWFA7tgljTVI9N1pY6L6Ls88me171hrKzeH9-7EQ"
-      short-id: "194eb312877c9c35"
-    flow: "xtls-rprx-vision"
-  - name: "🇩🇰_9"
-    type: vless
-    server: "den-khad-nxt.ramzshadi.ir"
-    port: 31770
-    uuid: "8124ddbb-bf22-49d9-945d-2e72c554deb2"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "sheets.google.com"
-    client-fingerprint: "ios"
-    reality-opts:
-      public-key: "GZqmhFHyMfIyRUi1k-2UDeJtjUakgZRhyXLhGLfL3Ws"
-      short-id: "6a2a03e809012832"
-    flow: "xtls-rprx-vision"
-  - name: "🇩🇰_10"
-    type: vless
-    server: "45.148.30.11"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/season/classify?ed=2560"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇩🇰_11"
+  - name: "🇩🇰_3"
     type: ss
     server: "38.180.214.110"
     port: 5600
     cipher: "aes-256-gcm"
     password: "Y6R9pAtvxxzmGC"
     udp: true
-  - name: "🇩🇰_12"
+  - name: "🇩🇰_4"
     type: ss
     server: "38.180.214.110"
     port: 5600
@@ -173,12 +115,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -188,12 +126,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -203,12 +137,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -217,12 +147,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -232,23 +158,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇩🇰_7"
-      - "🇩🇰_8"
-      - "🇩🇰_9"
-      - "🇩🇰_10"
-      - "🇩🇰_11"
-      - "🇩🇰_12"
+      - "🇩🇰_3"
+      - "🇩🇰_4"
 
 rules:
   - MATCH,PROXY-BEST

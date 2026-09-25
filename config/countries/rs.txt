@@ -1,1 +1,2 @@
 vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@185.48.250.113:443?&security=tls&fp=random&sni=free.cndyw.ggff.net&type=ws&headerType=none&host=free.cndyw.ggff.net&path=pyip%3Dbpb.yousef.isegaro.com#%F0%9F%87%B7%F0%9F%87%B8
+vless://04c808e2-0b59-47b0-a54b-32fc7ef1c902@130.49.163.54:8443?&security=tls&fp=random&sni=free.cndyw.ggff.net&type=ws&headerType=none&host=free.cndyw.ggff.net&path=pyip%3Dbpb.yousef.isegaro.com#%F0%9F%87%B7%F0%9F%87%B8

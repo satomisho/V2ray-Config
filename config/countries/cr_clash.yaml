@@ -75,7 +75,7 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512"
+      path: "/?TELEGRAM-TOOTFFARANGI?ed=2560"
       headers:
         Host: "auto-749388.rohawmk.workers.dev"
 

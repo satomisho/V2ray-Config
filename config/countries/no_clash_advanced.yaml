@@ -59,15 +59,74 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇳🇴_17"
+  - name: "🇳🇴_12"
     type: vless
-    server: "31.76.5.0"
+    server: "89.185.81.95"
+    port: 8765
+    uuid: "df9f5aca-eda0-428f-a752-e53866153d12"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "r-b8a34c.vless.monster"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "Da_s-Cgqm5kqaIbCgXVJdrq_KF7fCQveRByRhKUzonc"
+      short-id: "7bf47eabf939728b"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_13"
+    type: vless
+    server: "31.76.5.124"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-23.moriarty-web.com"
+    servername: "norway-2.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_14"
+    type: vless
+    server: "31.76.5.42"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "norw-2.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_15"
+    type: vless
+    server: "viper-24.moriarty-web.com"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "viper-24.moriarty-web.com"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_16"
+    type: vless
+    server: "31.76.5.137"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "norw-mori-3.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇳🇴_17"
+    type: vless
+    server: "norway-2.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "norway-2.failspace.top"
+    client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_18"
     type: vless
@@ -82,17 +141,15 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇳🇴_19"
     type: vless
-    server: "46.29.238.32"
-    port: 40443
-    uuid: "ed91e79c-f6bf-4fba-8cc0-6d45acaec22b"
+    server: "31.76.5.3"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "deepl.com"
+    servername: "viper-26.moriarty-web.com"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "dvx6zPztKbgHpYaW6J4OZQC74Uy0JS6HUVdDfbjG5V4"
-      short-id: "7606"
+    flow: "xtls-rprx-vision"
   - name: "🇳🇴_20"
     type: vless
     server: "46.29.238.88"
@@ -107,126 +164,13 @@ proxies:
       public-key: "aZOpodpnifoxDqTzWgxJRffgsiGnG9-h-EZd4SvOImc"
       short-id: "f7b2"
   - name: "🇳🇴_21"
-    type: vless
-    server: "31.76.5.124"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norway-2.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_22"
-    type: vless
-    server: "viper-26.moriarty-web.com"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "viper-26.moriarty-web.com"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_23"
-    type: vless
-    server: "89.185.81.95"
-    port: 8765
-    uuid: "df9f5aca-eda0-428f-a752-e53866153d12"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "r-b8a34c.vless.monster"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "Da_s-Cgqm5kqaIbCgXVJdrq_KF7fCQveRByRhKUzonc"
-      short-id: "7bf47eabf939728b"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_24"
-    type: vless
-    server: "norw-mori-3.failspace.top"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norw-mori-3.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_25"
-    type: vless
-    server: "31.76.5.156"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norw.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_26"
-    type: vless
-    server: "31.76.5.3"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "viper-26.moriarty-web.com"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_27"
-    type: vless
-    server: "31.76.5.42"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norw-2.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_28"
-    type: vless
-    server: "norway.failspace.top"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norway.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_29"
-    type: vless
-    server: "viper-25.moriarty-web.com"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "viper-25.moriarty-web.com"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_30"
-    type: vless
-    server: "31.76.5.123"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "norway.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇳🇴_31"
     type: ss
     server: "185.213.23.63"
     port: 990
     cipher: "chacha20-ietf-poly1305"
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
     udp: true
-  - name: "🇳🇴_32"
+  - name: "🇳🇴_22"
     type: ss
     server: "185.213.23.63"
     port: 990
@@ -275,22 +219,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
   - name: "LB-CDN"
     type: load-balance
@@ -300,22 +239,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -325,22 +259,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
   - name: "FAST-CDN"
     type: url-test
@@ -349,22 +278,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -374,43 +298,33 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇳🇴_12"
+      - "🇳🇴_13"
+      - "🇳🇴_14"
+      - "🇳🇴_15"
+      - "🇳🇴_16"
       - "🇳🇴_17"
       - "🇳🇴_18"
       - "🇳🇴_19"
       - "🇳🇴_20"
       - "🇳🇴_21"
       - "🇳🇴_22"
-      - "🇳🇴_23"
-      - "🇳🇴_24"
-      - "🇳🇴_25"
-      - "🇳🇴_26"
-      - "🇳🇴_27"
-      - "🇳🇴_28"
-      - "🇳🇴_29"
-      - "🇳🇴_30"
-      - "🇳🇴_31"
-      - "🇳🇴_32"
 
 rules:
   - MATCH,PROXY-BEST

@@ -59,31 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇺🇦_7"
-    type: vless
-    server: "104.143.223.56"
-    port: 2085
-    uuid: "9912a5ca-3ee1-45ac-b182-46fec2610ee0"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇺🇦_8"
-    type: vless
-    server: "213.111.149.58"
-    port: 8443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
-  - name: "🇺🇦_9"
+  - name: "🇺🇦_10"
     type: vless
     server: "89.116.180.40"
     port: 8880
@@ -94,7 +70,21 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_10"
+  - name: "🇺🇦_11"
+    type: vless
+    server: "13.143.170.24"
+    port: 8443
+    uuid: "4558ed07-e2ea-4780-bbb9-a157e949934b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "maple-press.justext.space"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "c6sXoN-Iq37ftYdhPGHT5TX3bvteDr29XvMH3Te0JWM"
+      short-id: "a3426d50514b9af8"
+    flow: "xtls-rprx-vision"
+  - name: "🇺🇦_12"
     type: vless
     server: "45.135.235.30"
     port: 8880
@@ -102,10 +92,47 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
         Host: "vms.lifetime07.workers.dev"
-  - name: "🇺🇦_11"
+  - name: "🇺🇦_13"
+    type: vless
+    server: "45.135.235.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇺🇦_14"
+    type: vless
+    server: "194.152.44.2"
+    port: 8880
+    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      headers:
+        Host: "old-violet-a5ce.29-440.workers.dev"
+  - name: "🇺🇦_15"
+    type: vless
+    server: "13.143.170.24"
+    port: 2096
+    uuid: "04e22546-96b6-4d43-8301-c098d822789b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "maple-press.justext.space"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇺🇦_16"
     type: vless
     server: "89.116.180.30"
     port: 8880
@@ -116,7 +143,7 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_12"
+  - name: "🇺🇦_17"
     type: vless
     server: "45.135.235.123"
     port: 443
@@ -128,7 +155,20 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/Telegram-WangCai2🇨🇳"
+      headers:
+        Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇦_18"
+    type: trojan
+    server: "89.116.180.49"
+    port: 443
+    password: "f18d6149-e214-8554-e737-f7523c8b2eea"
+    sni: "0403.infinityconfig4.workers.dev"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/sync"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -171,12 +211,15 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
   - name: "LB-CDN"
     type: load-balance
@@ -186,12 +229,15 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -201,12 +247,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
   - name: "FAST-CDN"
     type: url-test
@@ -215,12 +264,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -230,23 +282,29 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇺🇦_7"
-      - "🇺🇦_8"
-      - "🇺🇦_9"
       - "🇺🇦_10"
       - "🇺🇦_11"
       - "🇺🇦_12"
+      - "🇺🇦_13"
+      - "🇺🇦_14"
+      - "🇺🇦_15"
+      - "🇺🇦_16"
+      - "🇺🇦_17"
+      - "🇺🇦_18"
 
 rules:
   - MATCH,PROXY-BEST

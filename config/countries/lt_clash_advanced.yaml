@@ -59,7 +59,35 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇱🇹_5"
+  - name: "🇱🇹_9"
+    type: vless
+    server: "84.32.215.94"
+    port: 443
+    uuid: "c5694dc5-39fd-4a92-8430-3837baa522a3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lt.aether-runet.top"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk"
+      short-id: "4fa44664f6a566d3"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_10"
+    type: vless
+    server: "lt.aether-runet.top"
+    port: 443
+    uuid: "c5694dc5-39fd-4a92-8430-3837baa522a3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "lt.aether-runet.top"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk"
+      short-id: "4fa44664f6a566d3"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇹_11"
     type: vless
     server: "88.216.69.30"
     port: 8880
@@ -70,7 +98,36 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime06.workers.dev"
-  - name: "🇱🇹_6"
+  - name: "🇱🇹_12"
+    type: vless
+    server: "89.116.250.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2fp=chrome"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇱🇹_13"
+    type: vless
+    server: "88.216.69.144"
+    port: 443
+    uuid: "50414e45-4c5f-5a45-5553-4d64f1370eeb"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "r5zenrelur2s.pqzdileiu8es.workers.dev"
+    client-fingerprint: "ios"
+    network: ws
+    ws-opts:
+      path: "/stream/PANEL_ZEUS/4d64f1370eeb/loc-0"
+      headers:
+        Host: "r5zenrelur2s.pqzdileiu8es.workers.dev"
+  - name: "🇱🇹_14"
     type: vless
     server: "84.32.215.5"
     port: 443
@@ -84,33 +141,33 @@ proxies:
       public-key: "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk"
       short-id: "4fa44664f6a566d3"
     flow: "xtls-rprx-vision"
-  - name: "🇱🇹_7"
+  - name: "🇱🇹_15"
     type: vless
-    server: "2.56.124.241"
+    server: "94.176.234.161"
     port: 443
-    uuid: "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27"
+    uuid: "d448490d-4ee6-442f-80e1-5e1c186c4ce1"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.amazon.com"
+    servername: "www.intel.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "bPbAdn6ogLbiv5cRe5d12EL7FhooAIVrC3-fg90P-Bw"
-      short-id: "72104d27a0f5f62e"
+      public-key: "UpI0XKNUsMJ24XawPQ8g7br1faEsO7BOvmIIGg9Wrm8"
+      short-id: "dbb2ef1c7c"
     flow: "xtls-rprx-vision"
-  - name: "🇱🇹_8"
+  - name: "🇱🇹_16"
     type: vless
-    server: "84.32.215.94"
+    server: "ltu-02.node.lumixnet.com"
     port: 443
-    uuid: "c5694dc5-39fd-4a92-8430-3837baa522a3"
+    uuid: "8645697d-51c1-4e90-aca5-ba63a0392f11"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "lt.aether-runet.top"
-    client-fingerprint: "firefox"
+    servername: "ltu-02.node.lumixnet.com"
+    client-fingerprint: "hellochrome_120"
     reality-opts:
-      public-key: "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk"
-      short-id: "4fa44664f6a566d3"
+      public-key: "vEXgvoW9iQo6iiKT71cNt1CC3cAB4IWswAn-cScDz1A"
+      short-id: "bd8a588cebc3395a"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -154,10 +211,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
   - name: "LB-CDN"
     type: load-balance
@@ -167,10 +228,14 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -180,10 +245,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
   - name: "FAST-CDN"
     type: url-test
@@ -192,10 +261,14 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -205,19 +278,27 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇱🇹_5"
-      - "🇱🇹_6"
-      - "🇱🇹_7"
-      - "🇱🇹_8"
+      - "🇱🇹_9"
+      - "🇱🇹_10"
+      - "🇱🇹_11"
+      - "🇱🇹_12"
+      - "🇱🇹_13"
+      - "🇱🇹_14"
+      - "🇱🇹_15"
+      - "🇱🇹_16"
 
 rules:
   - MATCH,PROXY-BEST

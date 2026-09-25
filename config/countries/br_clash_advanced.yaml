@@ -59,7 +59,7 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇷_8"
+  - name: "🇧🇷_3"
     type: vless
     server: "45.194.53.123"
     port: 443
@@ -72,20 +72,7 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇧🇷_9"
-    type: vless
-    server: "35.199.90.53"
-    port: 443
-    uuid: "e9c2ed7f-79ab-40a8-8910-24468f5da712"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "0WXz3PJQnr-KprrwiO5BlKVRdqA4ZS6U5jGHc_aeJnw"
-      short-id: "4b414f69a06e1e81"
-  - name: "🇧🇷_10"
+  - name: "🇧🇷_4"
     type: vless
     server: "45.194.53.30"
     port: 8880
@@ -93,51 +80,9 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
         Host: "vms.lifetime19.workers.dev"
-  - name: "🇧🇷_11"
-    type: vless
-    server: "104.64.59.22"
-    port: 443
-    uuid: "b940be1b-3998-45d2-bf7b-06e7b6c4987a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "kkkk-8oc.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/?ed=2048"
-      headers:
-        Host: "kkkk-8oc.pages.dev"
-  - name: "🇧🇷_12"
-    type: vless
-    server: "34.39.174.220"
-    port: 443
-    uuid: "5e517b94-e207-47ee-be3c-3020a57594e8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs"
-      short-id: "b62a4da6cd1c4dd6"
-  - name: "🇧🇷_13"
-    type: ss
-    server: "216.128.168.190"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "owVdNnQcdPgthSyX"
-    udp: true
-  - name: "🇧🇷_14"
-    type: ss
-    server: "216.128.168.190"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "owVdNnQcdPgthSyX"
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -180,13 +125,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -196,13 +136,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -212,13 +147,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -227,13 +157,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -243,25 +168,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇷_8"
-      - "🇧🇷_9"
-      - "🇧🇷_10"
-      - "🇧🇷_11"
-      - "🇧🇷_12"
-      - "🇧🇷_13"
-      - "🇧🇷_14"
+      - "🇧🇷_3"
+      - "🇧🇷_4"
 
 rules:
   - MATCH,PROXY-BEST

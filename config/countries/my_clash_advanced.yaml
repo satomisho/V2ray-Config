@@ -59,7 +59,22 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇾_4"
+  - name: "🇲🇾_5"
+    type: vless
+    server: "149.118.144.163"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "free.cndyw.ggff.net"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "pyip=bpb.yousef.isegaro.com"
+      headers:
+        Host: "free.cndyw.ggff.net"
+  - name: "🇲🇾_6"
     type: vless
     server: "47.250.212.59"
     port: 443
@@ -74,7 +89,7 @@ proxies:
       path: "/TG:@MiaChatChannel"
       headers:
         Host: "mia11.pages.dev"
-  - name: "🇲🇾_5"
+  - name: "🇲🇾_7"
     type: vless
     server: "47.254.251.37"
     port: 443
@@ -89,7 +104,7 @@ proxies:
       path: "/archives?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
-  - name: "🇲🇾_6"
+  - name: "🇲🇾_8"
     type: trojan
     server: "47.250.84.25"
     port: 443
@@ -139,9 +154,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -151,9 +167,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -163,9 +180,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -174,9 +192,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -186,17 +205,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇾_4"
       - "🇲🇾_5"
       - "🇲🇾_6"
+      - "🇲🇾_7"
+      - "🇲🇾_8"
 
 rules:
   - MATCH,PROXY-BEST

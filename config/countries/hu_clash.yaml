@@ -76,6 +76,47 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
+  - name: "🇭🇺_2"
+    type: vless
+    server: "74.49.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺_3"
+    type: vless
+    server: "141.11.202.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺_4"
+    type: trojan
+    server: "185.225.68.232"
+    port: 443
+    password: "humanity"
+    sni: "www.calmlunch.com"
+    skip-cert-verify: true
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/assignment"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,6 +132,9 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇭🇺_1"
+      - "🇭🇺_2"
+      - "🇭🇺_3"
+      - "🇭🇺_4"
 
 
 rules:

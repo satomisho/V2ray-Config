@@ -59,19 +59,42 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇩_2"
+  - name: "🇲🇩_4"
     type: vless
-    server: "moldova.cdn-europe.org"
-    port: 4443
-    uuid: "d7c94b82-657a-4bb7-9b24-2ae566669835"
+    server: "185.153.198.86"
+    port: 443
+    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "moldova.cdn-europe.org"
+    servername: "free.cndyw.ggff.net"
     client-fingerprint: "random"
-    reality-opts:
-      public-key: "cYwrRCz_hKgT_JE8WywuLE3XOkAEqCTuBiUvXAaEjn8"
-      short-id: "694ee64512cfcbef"
+    network: ws
+    ws-opts:
+      path: "pyip=bpb.yousef.isegaro.com"
+      headers:
+        Host: "free.cndyw.ggff.net"
+  - name: "🇲🇩_5"
+    type: vless
+    server: "80.96.109.15"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "moldova.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇲🇩_6"
+    type: vless
+    server: "moldova.failspace.top"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "moldova.failspace.top"
+    client-fingerprint: "chrome"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -115,7 +138,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +150,9 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +162,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +173,9 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +185,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇩_2"
+      - "🇲🇩_4"
+      - "🇲🇩_5"
+      - "🇲🇩_6"
 
 rules:
   - MATCH,PROXY-BEST

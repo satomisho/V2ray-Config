@@ -65,17 +65,15 @@ dns:
 proxies:
   - name: "🇦🇺_1"
     type: vless
-    server: "34.87.229.148"
-    port: 443
-    uuid: "4f865f35-cf47-4e7f-a7e6-8882511a1b36"
+    server: "103.169.142.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4"
-      short-id: "8a7d5e0248cdb1b1"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime38.workers.dev"
   - name: "🇦🇺_2"
     type: vless
     server: "172.105.169.70"
@@ -87,59 +85,19 @@ proxies:
     servername: "172.105.169.70"
   - name: "🇦🇺_3"
     type: vless
-    server: "152.67.101.72"
-    port: 23010
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    server: "au1.gsafevpnapi.com"
+    port: 20270
+    uuid: "6eef3a79-22bc-4086-b5e6-95e07db73016"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    network: ws
-    ws-opts:
-      path: "/books?ed=2560fp=chrome"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇦🇺_4"
-    type: vless
-    server: "192.65.217.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime37.workers.dev"
-  - name: "🇦🇺_5"
-    type: vless
-    server: "123.51.23.113"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
+    servername: "www.yahoo.com"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/event/link?ed=2560"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇦🇺_6"
-    type: vless
-    server: "103.136.146.73"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    network: ws
-    ws-opts:
-      path: "/url/archives?ed=2560fp=chrome"
-      headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇦🇺_7"
+    reality-opts:
+      public-key: "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE"
+      short-id: "e6a5a4a9115456de"
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇺_4"
     type: vless
     server: "51.161.204.244"
     port: 443
@@ -153,22 +111,9 @@ proxies:
       public-key: "gCAazs5uxNuMZIxfDdw8wPE0nwKY4QfBfBkQveKAkEk"
       short-id: "0ad08b47f498efd2"
     flow: "xtls-rprx-vision"
-  - name: "🇦🇺_8"
+  - name: "🇦🇺_5"
     type: vless
-    server: "34.87.244.111"
-    port: 443
-    uuid: "325bc1be-0cb7-4cf7-bd35-a79ded91bbbd"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E"
-      short-id: "d725f0dd8cce210f"
-  - name: "🇦🇺_9"
-    type: vless
-    server: "103.169.142.30"
+    server: "192.65.217.30"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
@@ -176,8 +121,8 @@ proxies:
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime38.workers.dev"
-  - name: "🇦🇺_10"
+        Host: "vms.lifetime37.workers.dev"
+  - name: "🇦🇺_6"
     type: vless
     server: "192.65.217.123"
     port: 443
@@ -190,21 +135,20 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇦🇺_11"
+  - name: "🇦🇺_7"
     type: vless
-    server: "202.166.187.132"
-    port: 443
-    uuid: "8be20011-59b1-4118-91ed-83e8e6b662cd"
+    server: "au1.gsafevpnapi.com"
+    port: 20270
+    uuid: "38b8e2fb-b9a0-40a6-b42c-335def2765cf"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "f.yoptybla.ru"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "f.yoptybla.ru"
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "RHLiKldLu3DONcQoX4Kjs7Xmd2K25ndVbw4pwxe45XE"
+      short-id: "e6a5a4a9115456de"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -226,10 +170,6 @@ proxy-groups:
       - "🇦🇺_5"
       - "🇦🇺_6"
       - "🇦🇺_7"
-      - "🇦🇺_8"
-      - "🇦🇺_9"
-      - "🇦🇺_10"
-      - "🇦🇺_11"
 
 
 rules:

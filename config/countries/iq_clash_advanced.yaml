@@ -59,16 +59,30 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇶_2"
+  - name: "🇮🇶_3"
     type: vless
-    server: "193.56.135.212"
+    server: "193.56.135.233"
     port: 9543
     uuid: "ff6d2dda-7b90-404e-9951-34b3124bfdfa"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "storage.yandexcloud.net"
-    client-fingerprint: "chrome"
+    client-fingerprint: "safari"
+    reality-opts:
+      public-key: "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc"
+      short-id: "123abcde"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇶_4"
+    type: vless
+    server: "193.56.135.137"
+    port: 9543
+    uuid: "ff6d2dda-7b90-404e-9951-34b3124bfdfa"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "storage.yandexcloud.net"
+    client-fingerprint: "safari"
     reality-opts:
       public-key: "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc"
       short-id: "123abcde"
@@ -115,7 +129,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +140,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +151,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +161,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +172,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇶_2"
+      - "🇮🇶_3"
+      - "🇮🇶_4"
 
 rules:
   - MATCH,PROXY-BEST

@@ -65,13 +65,13 @@ dns:
 proxies:
   - name: "🇮🇪_1"
     type: vless
-    server: "50.7.5.164"
+    server: "50.7.5.163"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ir.failspace.top"
+    servername: "ir-viper.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇮🇪_2"
@@ -87,6 +87,27 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇮🇪_3"
     type: vless
+    server: "50.7.5.165"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ir-new1.failspace.top"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_4"
+    type: vless
+    server: "50.7.5.164"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ir.failspace.top"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_5"
+    type: vless
     server: "50.7.5.166"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
@@ -96,24 +117,6 @@ proxies:
     servername: "ir-new.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇪_4"
-    type: vless
-    server: "50.7.5.163"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ir-viper.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇪_5"
-    type: ss
-    server: "128.251.10.166"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "fz0bBBPUiKFgPDvJ"
-    udp: true
 
 proxy-groups:
   - name: "PROXY"

@@ -79,11 +79,10 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
-      headers:
-        Host: "notls.lukongtou.eu.org"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

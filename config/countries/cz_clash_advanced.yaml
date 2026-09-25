@@ -59,195 +59,25 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇿_16"
+  - name: "🇨🇿_10"
     type: vless
-    server: "195.85.23.252"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_17"
-    type: vless
-    server: "195.85.23.111"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_18"
-    type: vless
-    server: "195.85.23.248"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_19"
-    type: vless
-    server: "109.172.8.37"
-    port: 443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
-  - name: "🇨🇿_20"
-    type: vless
-    server: "195.85.23.219"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_21"
-    type: vless
-    server: "195.85.23.88"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_22"
-    type: vless
-    server: "195.85.23.45"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_23"
-    type: vless
-    server: "153.76.185.186"
+    server: "153.76.185.154"
     port: 3090
-    uuid: "9912a5ca-3ee1-45ac-b182-46fec2610ee0"
+    uuid: "caa8d499-c303-4aa7-96a0-45a07bb47de5"
     udp: true
     network: grpc
     grpc-opts:
       grpc-service-name: "vless"
-  - name: "🇨🇿_24"
+  - name: "🇨🇿_11"
     type: vless
-    server: "153.76.185.188"
-    port: 3090
-    uuid: "9912a5ca-3ee1-45ac-b182-46fec2610ee0"
+    server: "194.87.59.8"
+    port: 2085
+    uuid: "43202c3e-466c-4dce-b834-c6f4378ba217"
     udp: true
     network: grpc
     grpc-opts:
       grpc-service-name: "vless"
-  - name: "🇨🇿_25"
-    type: vless
-    server: "195.85.23.217"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_26"
-    type: vless
-    server: "195.85.23.47"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_27"
-    type: vless
-    server: "153.76.185.189"
-    port: 3090
-    uuid: "5ebdc9ee-8b41-4487-93af-231cb0b47d60"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇨🇿_28"
-    type: vless
-    server: "195.85.23.75"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_29"
-    type: vless
-    server: "195.85.23.29"
-    port: 443
-    uuid: "b09dfed1-90fa-4353-8bdf-de1edb2e2d79"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nb.lovecf.ggff.net"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "nb.lovecf.ggff.net"
-  - name: "🇨🇿_30"
+  - name: "🇨🇿_12"
     type: vless
     server: "31.76.7.154"
     port: 7443
@@ -261,6 +91,66 @@ proxies:
       public-key: "1MLoHw7RVkGefh7XUyuGg4ndxwv4vDU9en-f9JxpXRQ"
       short-id: "d2061bb1"
     flow: "xtls-rprx-vision"
+  - name: "🇨🇿_13"
+    type: vless
+    server: "188.124.59.145"
+    port: 18443
+    uuid: "8df7343e-2427-41fb-aad1-6c563296faf6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "github.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "1KY_jqa2yPLBEBa-3TG77zs4ak2zQLGul4eexxCueyI"
+      short-id: "f087eb07da743e94"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_14"
+    type: vless
+    server: "153.76.185.99"
+    port: 3090
+    uuid: "8a258586-34ed-461c-bc95-26dfb49a7aa9"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇨🇿_15"
+    type: vless
+    server: "31.76.7.227"
+    port: 443
+    uuid: "d0e771c5-024e-4393-bb90-4a3e3c561656"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "origin.vpnoodles.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "nIL5EeUo2XUkCaLJGbzgRm6zhF-96kWvV2VmhEt3CX4"
+      short-id: "4af4102cb26e59"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇿_16"
+    type: vless
+    server: "153.76.185.187"
+    port: 3090
+    uuid: "8a258586-34ed-461c-bc95-26dfb49a7aa9"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇨🇿_17"
+    type: ss
+    server: "141.227.134.63"
+    port: 17000
+    cipher: "aes-256-gcm"
+    password: "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
+    udp: true
+  - name: "🇨🇿_18"
+    type: ss
+    server: "141.227.134.63"
+    port: 17000
+    cipher: "aes-256-gcm"
+    password: "pX0uhU3ZjUcLWYs0Vez55BO3JoQrRlL"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -303,21 +193,15 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
   - name: "LB-CDN"
     type: load-balance
@@ -327,21 +211,15 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -351,21 +229,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
   - name: "FAST-CDN"
     type: url-test
@@ -374,21 +246,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -398,41 +264,29 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
+      - "🇨🇿_10"
+      - "🇨🇿_11"
+      - "🇨🇿_12"
+      - "🇨🇿_13"
+      - "🇨🇿_14"
+      - "🇨🇿_15"
       - "🇨🇿_16"
       - "🇨🇿_17"
       - "🇨🇿_18"
-      - "🇨🇿_19"
-      - "🇨🇿_20"
-      - "🇨🇿_21"
-      - "🇨🇿_22"
-      - "🇨🇿_23"
-      - "🇨🇿_24"
-      - "🇨🇿_25"
-      - "🇨🇿_26"
-      - "🇨🇿_27"
-      - "🇨🇿_28"
-      - "🇨🇿_29"
-      - "🇨🇿_30"
 
 rules:
   - MATCH,PROXY-BEST

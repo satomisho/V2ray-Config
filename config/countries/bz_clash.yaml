@@ -65,6 +65,30 @@ dns:
 proxies:
   - name: "🇧🇿_1"
     type: vless
+    server: "45.131.210.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime05.workers.dev"
+  - name: "🇧🇿_2"
+    type: vless
+    server: "45.131.7.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇧🇿_3"
+    type: vless
     server: "45.131.6.123"
     port: 443
     uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
@@ -78,106 +102,7 @@ proxies:
       path: "/Telegram-WangCai2🇨🇳"
       headers:
         Host: "notls.lukongtou.eu.org"
-  - name: "🇧🇿_2"
-    type: vless
-    server: "45.131.5.241"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_3"
-    type: vless
-    server: "45.131.5.33"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
   - name: "🇧🇿_4"
-    type: vless
-    server: "nl4.zuoai.cf"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇧🇿_5"
-    type: vless
-    server: "45.131.6.205"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_6"
-    type: vless
-    server: "45.131.6.249"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_7"
-    type: vless
-    server: "45.131.5.80"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_8"
-    type: vless
-    server: "45.131.211.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime06.workers.dev"
-  - name: "🇧🇿_9"
     type: vless
     server: "45.131.6.30"
     port: 8880
@@ -188,75 +113,58 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime61.workers.dev"
-  - name: "🇧🇿_10"
+  - name: "🇧🇿_5"
     type: vless
-    server: "45.131.7.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    server: "45.131.6.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
+    servername: "speed.dulacloud.store"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
-  - name: "🇧🇿_11"
-    type: vless
-    server: "45.131.5.35"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
+      path: "/dula?Telegram-WangCai2"
       headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_12"
+        Host: "speed.dulacloud.store"
+  - name: "🇧🇿_6"
     type: vless
-    server: "45.131.7.162"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
+    server: "45.131.7.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
+    servername: "speed.dulacloud.store"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
+      path: "/dula?Telegram-WangCai2"
       headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_13"
+        Host: "speed.dulacloud.store"
+  - name: "🇧🇿_7"
     type: vless
-    server: "45.131.5.248"
-    port: 443
-    uuid: "b2593749-691c-428c-9481-14979cba3446"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "xi.tbv.ccwu.cc"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=us.xiabibi.cf"
-      headers:
-        Host: "xi.tbv.ccwu.cc"
-  - name: "🇧🇿_14"
-    type: vless
-    server: "45.131.208.4"
-    port: 80
-    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
+    server: "45.131.211.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "floral-thunder-10d3.82-67d.workers.dev"
+        Host: "vms.lifetime06.workers.dev"
+  - name: "🇧🇿_8"
+    type: vless
+    server: "45.131.209.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime04.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -279,12 +187,6 @@ proxy-groups:
       - "🇧🇿_6"
       - "🇧🇿_7"
       - "🇧🇿_8"
-      - "🇧🇿_9"
-      - "🇧🇿_10"
-      - "🇧🇿_11"
-      - "🇧🇿_12"
-      - "🇧🇿_13"
-      - "🇧🇿_14"
 
 
 rules:

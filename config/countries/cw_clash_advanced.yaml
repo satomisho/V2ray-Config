@@ -59,40 +59,31 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇨🇼_6"
+  - name: "🇨🇼_11"
     type: vless
-    server: "88.216.66.30"
+    server: "92.60.74.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇨🇼_12"
+    type: vless
+    server: "88.216.67.50"
     port: 8880
     uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime04.workers.dev"
-  - name: "🇨🇼_7"
-    type: vless
-    server: "5.10.246.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime05.workers.dev"
-  - name: "🇨🇼_8"
-    type: vless
-    server: "88.216.67.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
         Host: "vms.lifetime05.workers.dev"
-  - name: "🇨🇼_9"
+  - name: "🇨🇼_13"
     type: vless
     server: "62.72.166.30"
     port: 8880
@@ -103,19 +94,99 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime40.workers.dev"
-  - name: "🇨🇼_10"
+  - name: "🇨🇼_14"
     type: vless
-    server: "92.60.74.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    server: "88.216.67.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
+    servername: "speed.dulacloud.store"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇨🇼_15"
+    type: vless
+    server: "5.10.244.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇨🇼_16"
+    type: vless
+    server: "5.10.246.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
       path: "/"
+      headers:
+        Host: "vms.lifetime05.workers.dev"
+  - name: "🇨🇼_17"
+    type: vless
+    server: "62.72.166.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇨🇼_18"
+    type: vless
+    server: "88.216.66.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇨🇼_19"
+    type: vless
+    server: "88.216.66.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime04.workers.dev"
+  - name: "🇨🇼_20"
+    type: vless
+    server: "88.216.67.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime05.workers.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -158,11 +229,16 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
   - name: "LB-CDN"
     type: load-balance
@@ -172,11 +248,16 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -186,11 +267,16 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
   - name: "FAST-CDN"
     type: url-test
@@ -199,11 +285,16 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -213,21 +304,31 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇨🇼_6"
-      - "🇨🇼_7"
-      - "🇨🇼_8"
-      - "🇨🇼_9"
-      - "🇨🇼_10"
+      - "🇨🇼_11"
+      - "🇨🇼_12"
+      - "🇨🇼_13"
+      - "🇨🇼_14"
+      - "🇨🇼_15"
+      - "🇨🇼_16"
+      - "🇨🇼_17"
+      - "🇨🇼_18"
+      - "🇨🇼_19"
+      - "🇨🇼_20"
 
 rules:
   - MATCH,PROXY-BEST

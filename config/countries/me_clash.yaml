@@ -65,32 +65,19 @@ dns:
 proxies:
   - name: "🇲🇪_1"
     type: vless
-    server: "147.90.229.204"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    server: "178.83.110.32"
+    port: 7443
+    uuid: "9bb71136-2380-4b6a-97be-1d4ba11d5a55"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
+    servername: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/sort/outbound/redirect.php?ed=2560"
+      path: "/@Marisa_kristi"
       headers:
-        Host: "cdn8848.776676.xyz"
-  - name: "🇲🇪_2"
-    type: vless
-    server: "147.90.26.37"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "cdn8848.776676.xyz"
-    client-fingerprint: "firefox"
-    network: ws
-    ws-opts:
-      path: "/"
+        Host: "9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -106,7 +93,6 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇲🇪_1"
-      - "🇲🇪_2"
 
 
 rules:
