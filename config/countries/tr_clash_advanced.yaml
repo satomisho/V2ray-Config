@@ -59,7 +59,82 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇹🇷_4"
+  - name: "🇹🇷_12"
+    type: vless
+    server: "107.161.174.200"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda06.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_13"
+    type: vless
+    server: "130.94.0.228"
+    port: 443
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edgetunnel-4uw.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edgetunnel-4uw.pages.dev"
+  - name: "🇹🇷_14"
+    type: vless
+    server: "93.190.8.89"
+    port: 3090
+    uuid: "7809f866-9f42-43ae-ae11-34729db23236"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_15"
+    type: vless
+    server: "64.49.15.177"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda07.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_16"
+    type: vless
+    server: "93.190.9.172"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_17"
+    type: vless
+    server: "198.105.123.146"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda010.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_18"
+    type: vless
+    server: "93.190.9.38"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_19"
     type: vless
     server: "151.241.226.201"
     port: 2053
@@ -72,22 +147,7 @@ proxies:
     reality-opts:
       public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
       short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷_5"
-    type: vless
-    server: "86.38.214.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇹🇷_6"
+  - name: "🇹🇷_20"
     type: vless
     server: "78.135.73.47"
     port: 443
@@ -101,6 +161,26 @@ proxies:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
     flow: "xtls-rprx-vision"
+  - name: "🇹🇷_21"
+    type: vless
+    server: "204.10.192.228"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda08.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_22"
+    type: vless
+    server: "93.190.8.84"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -143,9 +223,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
   - name: "LB-CDN"
     type: load-balance
@@ -155,9 +243,17 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -167,9 +263,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
   - name: "FAST-CDN"
     type: url-test
@@ -178,9 +282,17 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -190,17 +302,33 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇹🇷_4"
-      - "🇹🇷_5"
-      - "🇹🇷_6"
+      - "🇹🇷_12"
+      - "🇹🇷_13"
+      - "🇹🇷_14"
+      - "🇹🇷_15"
+      - "🇹🇷_16"
+      - "🇹🇷_17"
+      - "🇹🇷_18"
+      - "🇹🇷_19"
+      - "🇹🇷_20"
+      - "🇹🇷_21"
+      - "🇹🇷_22"
 
 rules:
   - MATCH,PROXY-BEST

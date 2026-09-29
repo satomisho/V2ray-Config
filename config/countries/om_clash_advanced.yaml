@@ -59,21 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇾_2"
-    type: vless
-    server: "62.182.102.93"
-    port: 443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+  - name: "🇴🇲_3"
+    type: ss
+    server: "130.94.81.180"
+    port: 18415
+    cipher: "aes-128-gcm"
+    password: "b667234b8d2e7eb34444857ea3a9b18a"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
+  - name: "🇴🇲_4"
+    type: ss
+    server: "130.94.81.180"
+    port: 18415
+    cipher: "aes-128-gcm"
+    password: "b667234b8d2e7eb34444857ea3a9b18a"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -116,7 +115,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -126,7 +126,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -136,7 +137,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -145,7 +147,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -155,13 +158,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇾_2"
+      - "🇴🇲_3"
+      - "🇴🇲_4"
 
 rules:
   - MATCH,PROXY-BEST

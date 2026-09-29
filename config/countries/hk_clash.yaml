@@ -65,6 +65,66 @@ dns:
 proxies:
   - name: "🇭🇰_1"
     type: vless
+    server: "27.50.48.8"
+    port: 443
+    uuid: "c98a16e4-0dc5-42f0-b3db-30f04525c123"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vless2-8vx.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vless2-8vx.pages.dev"
+  - name: "🇭🇰_2"
+    type: vless
+    server: "219.76.13.169"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_3"
+    type: vless
+    server: "47.86.103.60"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/task/pic/channels?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇭🇰_4"
+    type: vless
+    server: "43.168.16.112"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_5"
+    type: vless
     server: "47.239.241.168"
     port: 443
     uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
@@ -78,69 +138,9 @@ proxies:
       path: "/order/members/mall?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_2"
-    type: vless
-    server: "8.210.40.146"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/knowledge/data/film?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_3"
-    type: vless
-    server: "68.64.182.74"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/shows/temp/go.php?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_4"
-    type: vless
-    server: "154.218.15.250"
-    port: 2083
-    uuid: "40af9131-d540-448a-bc56-5bba147a1dc3"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "proxy-1cu.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "proxy-1cu.pages.dev"
-  - name: "🇭🇰_5"
-    type: vless
-    server: "219.76.13.167"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
   - name: "🇭🇰_6"
     type: vless
-    server: "47.242.162.186"
+    server: "43.100.53.46"
     port: 443
     uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
@@ -150,12 +150,41 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/home?ed=2560"
+      path: "/channels/trade?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
   - name: "🇭🇰_7"
     type: vless
-    server: "47.238.155.3"
+    server: "141.11.90.160"
+    port: 443
+    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shephe.dpdns.org"
+    network: ws
+    ws-opts:
+      path: "/fp=chrome"
+      headers:
+        Host: "shephe.dpdns.org"
+  - name: "🇭🇰_8"
+    type: vless
+    server: "2.27.109.236"
+    port: 443
+    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shephe.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shephe.dpdns.org"
+  - name: "🇭🇰_9"
+    type: vless
+    server: "8.218.228.242"
     port: 443
     uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
@@ -165,50 +194,10 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/avatar/about/blogs?ed=2560"
+      path: "/channel/channels?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_8"
-    type: vless
-    server: "27.50.49.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇭🇰_9"
-    type: vless
-    server: "hk3n.wxgqlfx.vip"
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
   - name: "🇭🇰_10"
-    type: vless
-    server: "154.218.15.50"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime47.workers.dev"
-  - name: "🇭🇰_11"
     type: vless
     server: "103.192.179.132"
     port: 443
@@ -223,7 +212,52 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
+  - name: "🇭🇰_11"
+    type: vless
+    server: "23.175.201.2"
+    port: 8443
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edgetunnel-4uw.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edgetunnel-4uw.pages.dev"
   - name: "🇭🇰_12"
+    type: vless
+    server: "47.75.125.163"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/go.php/group?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇭🇰_13"
+    type: vless
+    server: "47.238.155.3"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/avatar/about/blogs?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇭🇰_14"
     type: vless
     server: "43.154.131.189"
     port: 443
@@ -238,22 +272,7 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_13"
-    type: vless
-    server: "43.168.16.112"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/lessons/intro/library?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_14"
+  - name: "🇭🇰_15"
     type: vless
     server: "156.239.245.134"
     port: 443
@@ -268,30 +287,21 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_15"
-    type: vless
-    server: "47.239.6.251"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "tesla.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
-    flow: "xtls-rprx-vision"
   - name: "🇭🇰_16"
     type: vless
-    server: "195.58.144.56"
-    port: 11907
-    uuid: "07cb07b9-0c4d-46c1-a15a-b147511b6b07"
+    server: "219.76.13.177"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "195.58.144.56"
+    servername: "vp10.pages.dev"
     client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vp10.pages.dev"
   - name: "🇭🇰_17"
     type: vless
     server: "8.210.29.68"
@@ -309,20 +319,36 @@ proxies:
         Host: "vp10.pages.dev"
   - name: "🇭🇰_18"
     type: vless
-    server: "47.238.210.5"
-    port: 13779
-    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    server: "143.20.156.116"
+    port: 443
+    uuid: "4e4f1f70-5e56-4a76-bb9d-db087f4690c4"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "tesla.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
-      short-id: "af1bdd293097b664"
+    servername: "jp3.yohototo.top"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/tyxyws"
+      headers:
+        Host: "jp3.yohototo.top"
   - name: "🇭🇰_19"
     type: vless
-    server: "8.218.228.242"
+    server: "hk-1.gsafevpnapi.com"
+    port: 20270
+    uuid: "e3a14b3d-8995-4031-a207-32ba5707c1ba"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.yahoo.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "0MIamX22OTB4zDokZ5WN_GHBVYs7MkFceuipUvql9Q8"
+      short-id: "d5b538acf8a93540"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_20"
+    type: vless
+    server: "8.210.40.146"
     port: 443
     uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
@@ -332,130 +358,25 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/channel/channels?ed=2560"
+      path: "/knowledge/data/film?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_20"
-    type: vless
-    server: "hk3.mfm-oss.top"
-    port: 60013
-    uuid: "2dd387bd-6d19-473a-8d5e-ecbca573b0f9"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.xiaohongshu.com"
-    client-fingerprint: "safari"
-    reality-opts:
-      public-key: "nzwLXAhU6QUZGQfzHACFSxc0T1YHfBxZs9Rlc2jXews"
-      short-id: "7a91fe90e1d176fc"
-    flow: "xtls-rprx-vision"
   - name: "🇭🇰_21"
     type: vless
-    server: "154.218.15.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "8.218.22.14"
+    port: 443
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "vp10.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime47.workers.dev"
+        Host: "vp10.pages.dev"
   - name: "🇭🇰_22"
-    type: vless
-    server: "34.92.145.185"
-    port: 443
-    uuid: "75d38591-267e-4d89-98bc-164f25b50880"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "HV_4dmK3rwzqhWP1yOpC1L8BObd5lpZRYTzUflsi2x4"
-      short-id: "64b3f192fc0669e1"
-  - name: "🇭🇰_23"
-    type: vless
-    server: "27.50.48.8"
-    port: 443
-    uuid: "c98a16e4-0dc5-42f0-b3db-30f04525c123"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vless2-8vx.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vless2-8vx.pages.dev"
-  - name: "🇭🇰_24"
-    type: vless
-    server: "104.129.167.4"
-    port: 80
-    uuid: "424fa201-3f94-479e-b533-d5257cf9a207"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "floral-thunder-10d3.82-67d.workers.dev"
-  - name: "🇭🇰_25"
-    type: vless
-    server: "219.76.13.169"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_26"
-    type: vless
-    server: "219.76.13.177"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_27"
-    type: vless
-    server: "43.168.16.112"
-    port: 443
-    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "vp10.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vp10.pages.dev"
-  - name: "🇭🇰_28"
-    type: vless
-    server: "45.192.224.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime17.workers.dev"
-  - name: "🇭🇰_29"
     type: vless
     server: "156.224.76.205"
     port: 443
@@ -470,53 +391,23 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_30"
+  - name: "🇭🇰_23"
     type: vless
-    server: "47.75.104.211"
+    server: "139.28.168.201"
     port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    uuid: "a368752a-32fc-42f3-980a-6b049218b23f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/course/wenku?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_31"
-    type: vless
-    server: "43.100.53.46"
-    port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/channels/trade?ed=2560"
-      headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_32"
-    type: vless
-    server: "185.227.154.226"
-    port: 443
-    uuid: "b0e3d7fe-0ff5-470d-9c69-4f624a35d683"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.samsung.com"
-    client-fingerprint: "ios"
+    servername: "china.letsconnectpoint.com"
+    client-fingerprint: "firefox"
     reality-opts:
-      public-key: "qxcpzDbypXaxsvsvzvebnyHxc0BTQdz7LvIkBXZ0TUc"
-      short-id: "3246e72c"
+      public-key: "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI"
+      short-id: "3b74d85e"
     flow: "xtls-rprx-vision"
-  - name: "🇭🇰_33"
+  - name: "🇭🇰_24"
     type: vless
-    server: "47.86.103.60"
+    server: "47.242.162.186"
     port: 443
     uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
     udp: true
@@ -526,10 +417,53 @@ proxies:
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/task/pic/channels?ed=2560"
+      path: "/home?ed=2560"
       headers:
         Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_34"
+  - name: "🇭🇰_25"
+    type: vless
+    server: "43.168.16.112"
+    port: 443
+    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edg-2oo.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/lessons/intro/library?ed=2560"
+      headers:
+        Host: "edg-2oo.pages.dev"
+  - name: "🇭🇰_26"
+    type: vless
+    server: "139.28.168.201"
+    port: 443
+    uuid: "914f3806-07a1-4158-9624-e183de065a38"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "china.letsconnectpoint.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "4ubYp4HaBJgn1qXwfo0hiejncurXCckII-O_FMDXTgI"
+      short-id: "3b74d85e"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_27"
+    type: vless
+    server: "156.226.168.221"
+    port: 35193
+    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
+      short-id: "e8daed2d"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_28"
     type: vless
     server: "38.190.210.250"
     port: 443
@@ -544,36 +478,32 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_35"
+  - name: "🇭🇰_29"
     type: vless
-    server: "47.75.125.163"
+    server: "219.76.13.167"
     port: 443
-    uuid: "d342d11e-d424-4583-b36e-524ab1f0afa4"
+    uuid: "7b102311-43fd-4e8f-877e-8090623c101d"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "edg-2oo.pages.dev"
-    client-fingerprint: "chrome"
+    servername: "vp10.pages.dev"
     network: ws
     ws-opts:
-      path: "/go.php/group?ed=2560"
+      path: "/"
       headers:
-        Host: "edg-2oo.pages.dev"
-  - name: "🇭🇰_36"
+        Host: "vp10.pages.dev"
+  - name: "🇭🇰_30"
     type: vless
-    server: "156.226.168.221"
-    port: 35193
-    uuid: "35cbae61-ee10-4cb9-abb8-4950b35e9851"
+    server: "45.192.224.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE"
-      short-id: "e8daed2d"
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇰_37"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime17.workers.dev"
+  - name: "🇭🇰_31"
     type: vless
     server: "219.76.13.166"
     port: 443
@@ -588,21 +518,36 @@ proxies:
       path: "/"
       headers:
         Host: "vp10.pages.dev"
-  - name: "🇭🇰_38"
+  - name: "🇭🇰_32"
     type: vless
-    server: "27.50.49.154"
-    port: 2083
-    uuid: "40af9131-d540-448a-bc56-5bba147a1dc3"
+    server: "54.46.72.234"
+    port: 8030
+    uuid: "37665857-8b6e-4daa-8231-3e2927221558"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "proxy-34l.pages.dev"
+    servername: "spjd.cbc.qzz.io"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "proxy-34l.pages.dev"
-  - name: "🇭🇰_39"
+        Host: "spjd.cbc.qzz.io"
+  - name: "🇭🇰_33"
+    type: vless
+    server: "47.239.6.251"
+    port: 13779
+    uuid: "928e6cce-8ced-4243-9a48-a6642edd09b0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tesla.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg"
+      short-id: "af1bdd293097b664"
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇰_34"
     type: trojan
     server: "2.27.109.179"
     port: 45464
@@ -610,7 +555,7 @@ proxies:
     sni: "2.27.109.179.sslip.io"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_40"
+  - name: "🇭🇰_35"
     type: trojan
     server: "47.240.80.220"
     port: 2052
@@ -618,13 +563,12 @@ proxies:
     sni: "vpn.12169.top"
     skip-cert-verify: true
     udp: true
-  - name: "🇭🇰_41"
-    type: trojan
-    server: "119.246.1.143"
-    port: 443
-    password: "BxceQaOe"
-    sni: "t.me/ripaojiedian"
-    skip-cert-verify: true
+  - name: "🇭🇰_36"
+    type: ss
+    server: "212.192.13.143"
+    port: 10090
+    cipher: "aes-256-gcm"
+    password: "72553320ae6bcc8f"
     udp: true
 
 proxy-groups:
@@ -676,11 +620,6 @@ proxy-groups:
       - "🇭🇰_34"
       - "🇭🇰_35"
       - "🇭🇰_36"
-      - "🇭🇰_37"
-      - "🇭🇰_38"
-      - "🇭🇰_39"
-      - "🇭🇰_40"
-      - "🇭🇰_41"
 
 
 rules:

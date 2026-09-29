@@ -74,6 +74,20 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime54.workers.dev"
+  - name: "🇵🇹_2"
+    type: vless
+    server: "171.22.129.93"
+    port: 443
+    uuid: "87838381-724e-4637-935a-3c74ad655991"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ae93.layer.tel"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "1mbH_m6yUCtJzgC_f25LOE7nexg7uTQMaUAgIbo_-2s"
+      short-id: "eaf543e7ff60ea78"
+    flow: "xtls-rprx-vision"
 
 proxy-groups:
   - name: "PROXY"
@@ -89,6 +103,7 @@ proxy-groups:
     lazy: true
     proxies:
       - "🇵🇹_1"
+      - "🇵🇹_2"
 
 
 rules:

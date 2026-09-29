@@ -71,7 +71,7 @@ proxies:
     udp: true
     network: ws
     ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
+      path: "/"
       headers:
         Host: "old-violet-a5ce.29-440.workers.dev"
 

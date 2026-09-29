@@ -63,21 +63,19 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇻🇳_1"
+  - name: "🇧🇪_1"
     type: vless
-    server: "160.25.75.40"
+    server: "207.175.190.56"
     port: 443
-    uuid: "c92e12ca-ea66-4785-8675-652b35134117"
+    uuid: "51e493d4-b275-45e0-a714-e014f40b3c32"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "thus-k.netnode.cc.cd"
+    servername: "www.cloudflare.com"
     client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/t.me/daily_free_vpn"
-      headers:
-        Host: "thus-k.netnode.cc.cd"
+    reality-opts:
+      public-key: "nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA"
+      short-id: "95ae4a39d3933191"
 
 proxy-groups:
   - name: "PROXY"
@@ -92,7 +90,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇻🇳_1"
+      - "🇧🇪_1"
 
 
 rules:

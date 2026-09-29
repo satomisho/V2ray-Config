@@ -65,18 +65,18 @@ dns:
 proxies:
   - name: "🇮🇪_1"
     type: vless
-    server: "50.7.5.163"
+    server: "50.7.5.164"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ir-viper.failspace.top"
+    servername: "ir.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
   - name: "🇮🇪_2"
     type: vless
-    server: "ir-new.failspace.top"
+    server: "50.7.5.166"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
@@ -97,24 +97,39 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇮🇪_4"
     type: vless
-    server: "50.7.5.164"
+    server: "45.141.234.138"
     port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ir.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
+    servername: "edgetunnel-4uw.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edgetunnel-4uw.pages.dev"
   - name: "🇮🇪_5"
     type: vless
-    server: "50.7.5.166"
+    server: "87.192.47.10"
+    port: 52006
+    uuid: "bc659d88-a1e0-4c65-a49a-7b51b26a7a7f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "grok.setlisting.ru"
+    client-fingerprint: "chrome"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_6"
+    type: vless
+    server: "50.7.5.163"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ir-new.failspace.top"
+    servername: "ir-viper.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
 
@@ -136,6 +151,7 @@ proxy-groups:
       - "🇮🇪_3"
       - "🇮🇪_4"
       - "🇮🇪_5"
+      - "🇮🇪_6"
 
 
 rules:

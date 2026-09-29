@@ -59,34 +59,19 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇶_3"
+  - name: "🇧🇪_2"
     type: vless
-    server: "193.56.135.233"
-    port: 9543
-    uuid: "ff6d2dda-7b90-404e-9951-34b3124bfdfa"
+    server: "207.175.190.56"
+    port: 443
+    uuid: "51e493d4-b275-45e0-a714-e014f40b3c32"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "storage.yandexcloud.net"
-    client-fingerprint: "safari"
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc"
-      short-id: "123abcde"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇶_4"
-    type: vless
-    server: "193.56.135.137"
-    port: 9543
-    uuid: "ff6d2dda-7b90-404e-9951-34b3124bfdfa"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "storage.yandexcloud.net"
-    client-fingerprint: "safari"
-    reality-opts:
-      public-key: "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc"
-      short-id: "123abcde"
-    flow: "xtls-rprx-vision"
+      public-key: "nTLhc6e5HMgO-hpD8RUMp0cd2t6p2_RqHLHM0P39_xA"
+      short-id: "95ae4a39d3933191"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -129,8 +114,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -140,8 +124,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -151,8 +134,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -161,8 +143,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -172,15 +153,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇶_3"
-      - "🇮🇶_4"
+      - "🇧🇪_2"
 
 rules:
   - MATCH,PROXY-BEST

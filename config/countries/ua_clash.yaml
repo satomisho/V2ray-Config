@@ -65,78 +65,20 @@ dns:
 proxies:
   - name: "🇺🇦_1"
     type: vless
-    server: "89.116.180.40"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "103.71.23.244"
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shin-ra.ccwu.cc"
+    client-fingerprint: "firefox"
     network: ws
     ws-opts:
       path: "/"
       headers:
-        Host: "vms.lifetime09.workers.dev"
+        Host: "shin-ra.ccwu.cc"
   - name: "🇺🇦_2"
-    type: vless
-    server: "13.143.170.24"
-    port: 8443
-    uuid: "4558ed07-e2ea-4780-bbb9-a157e949934b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "maple-press.justext.space"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "c6sXoN-Iq37ftYdhPGHT5TX3bvteDr29XvMH3Te0JWM"
-      short-id: "a3426d50514b9af8"
-    flow: "xtls-rprx-vision"
-  - name: "🇺🇦_3"
-    type: vless
-    server: "45.135.235.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "vms.lifetime07.workers.dev"
-  - name: "🇺🇦_4"
-    type: vless
-    server: "45.135.235.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇺🇦_5"
-    type: vless
-    server: "194.152.44.2"
-    port: 8880
-    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/pyip=Telegram🇨🇳 @WangCai2"
-      headers:
-        Host: "old-violet-a5ce.29-440.workers.dev"
-  - name: "🇺🇦_6"
-    type: vless
-    server: "13.143.170.24"
-    port: 2096
-    uuid: "04e22546-96b6-4d43-8301-c098d822789b"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "maple-press.justext.space"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇺🇦_7"
     type: vless
     server: "89.116.180.30"
     port: 8880
@@ -147,7 +89,30 @@ proxies:
       path: "/"
       headers:
         Host: "vms.lifetime09.workers.dev"
-  - name: "🇺🇦_8"
+  - name: "🇺🇦_3"
+    type: vless
+    server: "13.143.186.29"
+    port: 443
+    uuid: "3e2591b2-4739-4c59-b540-344f0b6505ac"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "st2.megabitvpn.org"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "YTO2eLUPj_pLJijheLCvxg3d53o5BTNSjRSpJKCAa3k"
+      short-id: "f54ec8b46381247f"
+    flow: "xtls-rprx-vision"
+  - name: "🇺🇦_4"
+    type: vless
+    server: "104.143.223.82"
+    port: 2085
+    uuid: "86f50dfb-b153-4aef-a723-d77bc4cf8ee3"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇺🇦_5"
     type: vless
     server: "45.135.235.123"
     port: 443
@@ -162,7 +127,66 @@ proxies:
       path: "/Telegram-WangCai2🇨🇳"
       headers:
         Host: "notls.lukongtou.eu.org"
+  - name: "🇺🇦_6"
+    type: vless
+    server: "179.254.109.54"
+    port: 443
+    uuid: "d0f0a880-0df1-0003-bdf1-5669fb9483ce"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cosw.ggisopi.su"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇺🇦_7"
+    type: vless
+    server: "194.152.44.2"
+    port: 8880
+    uuid: "fb5058f5-a9ed-424e-9ed7-33d455438286"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "old-violet-a5ce.29-440.workers.dev"
+  - name: "🇺🇦_8"
+    type: vless
+    server: "179.254.109.54"
+    port: 443
+    uuid: "d0f0a880-0df1-0005-bdf1-5669fb9483ce"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cosw.ggisopi.su"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇺🇦_9"
+    type: vless
+    server: "89.116.180.40"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime09.workers.dev"
+  - name: "🇺🇦_10"
+    type: vless
+    server: "104.143.223.83"
+    port: 2085
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇺🇦_11"
     type: trojan
     server: "89.116.180.49"
     port: 443
@@ -196,6 +220,8 @@ proxy-groups:
       - "🇺🇦_7"
       - "🇺🇦_8"
       - "🇺🇦_9"
+      - "🇺🇦_10"
+      - "🇺🇦_11"
 
 
 rules:

@@ -63,36 +63,21 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇷🇸_1"
+  - name: "🇸🇰_1"
     type: vless
-    server: "185.48.250.113"
-    port: 443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
-  - name: "🇷🇸_2"
-    type: vless
-    server: "130.49.163.54"
+    server: "185.112.249.201"
     port: 8443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
-    client-fingerprint: "random"
+    servername: "edgetunnel-4uw.pages.dev"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
+      path: "/"
       headers:
-        Host: "free.cndyw.ggff.net"
+        Host: "edgetunnel-4uw.pages.dev"
 
 proxy-groups:
   - name: "PROXY"
@@ -107,8 +92,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇷🇸_1"
-      - "🇷🇸_2"
+      - "🇸🇰_1"
 
 
 rules:

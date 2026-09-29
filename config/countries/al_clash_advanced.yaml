@@ -59,22 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇦🇱_3"
+  - name: "🇦🇱_5"
     type: vless
-    server: "89.125.139.115"
+    server: "85.155.228.185"
     port: 443
-    uuid: "04c808e2-0b59-47b0-a54b-32fc7ef1c902"
+    uuid: "ca5ffe64-81e0-42f0-a136-03cc4f662a4f"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "free.cndyw.ggff.net"
+    servername: "avsal.krusofiya.fun"
     client-fingerprint: "random"
-    network: ws
-    ws-opts:
-      path: "pyip=bpb.yousef.isegaro.com"
-      headers:
-        Host: "free.cndyw.ggff.net"
-  - name: "🇦🇱_4"
+    reality-opts:
+      public-key: "9M294WArTUZ9m1fMmvlHauSb5wZo68SkCW_lEgBVAF8"
+      short-id: "4d5faa03b738bd3b"
+  - name: "🇦🇱_6"
     type: vless
     server: "144.31.131.38"
     port: 443
@@ -88,6 +86,20 @@ proxies:
       public-key: "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI"
       short-id: "db04ce8bdb8900f1"
     flow: "xtls-rprx-vision"
+  - name: "🇦🇱_7"
+    type: ss
+    server: "130.49.189.158"
+    port: 43558
+    cipher: "chacha20-ietf-poly1305"
+    password: "ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I="
+    udp: true
+  - name: "🇦🇱_8"
+    type: ss
+    server: "130.49.189.158"
+    port: 43558
+    cipher: "chacha20-ietf-poly1305"
+    password: "ziOeKejhhw+fmWet+xvuJsVJH7U9DvSWq1hlqtaKv+I="
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -130,8 +142,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
   - name: "LB-CDN"
     type: load-balance
@@ -141,8 +155,10 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -152,8 +168,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
   - name: "FAST-CDN"
     type: url-test
@@ -162,8 +180,10 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -173,15 +193,19 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇦🇱_3"
-      - "🇦🇱_4"
+      - "🇦🇱_5"
+      - "🇦🇱_6"
+      - "🇦🇱_7"
+      - "🇦🇱_8"
 
 rules:
   - MATCH,PROXY-BEST

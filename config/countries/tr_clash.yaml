@@ -65,6 +65,81 @@ dns:
 proxies:
   - name: "🇹🇷_1"
     type: vless
+    server: "107.161.174.200"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda06.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_2"
+    type: vless
+    server: "130.94.0.228"
+    port: 443
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "edgetunnel-4uw.pages.dev"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "edgetunnel-4uw.pages.dev"
+  - name: "🇹🇷_3"
+    type: vless
+    server: "93.190.8.89"
+    port: 3090
+    uuid: "7809f866-9f42-43ae-ae11-34729db23236"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_4"
+    type: vless
+    server: "64.49.15.177"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda07.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_5"
+    type: vless
+    server: "93.190.9.172"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_6"
+    type: vless
+    server: "198.105.123.146"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda010.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_7"
+    type: vless
+    server: "93.190.9.38"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_8"
+    type: vless
     server: "151.241.226.201"
     port: 2053
     uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
@@ -76,22 +151,7 @@ proxies:
     reality-opts:
       public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
       short-id: "9e419c0759b54d6f"
-  - name: "🇹🇷_2"
-    type: vless
-    server: "86.38.214.7"
-    port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "speed.dulacloud.store"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/dula?Telegram-WangCai2"
-      headers:
-        Host: "speed.dulacloud.store"
-  - name: "🇹🇷_3"
+  - name: "🇹🇷_9"
     type: vless
     server: "78.135.73.47"
     port: 443
@@ -105,6 +165,26 @@ proxies:
       public-key: "sZAJkAu23wp1WKY-qeaeiwR38izP5OyfhumoE9xhbB8"
       short-id: "f46cd3ea3d1eb72d"
     flow: "xtls-rprx-vision"
+  - name: "🇹🇷_10"
+    type: vless
+    server: "204.10.192.228"
+    port: 443
+    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "myda08.api3-max.ru"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_11"
+    type: vless
+    server: "93.190.8.84"
+    port: 3090
+    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
 
 proxy-groups:
   - name: "PROXY"
@@ -122,6 +202,14 @@ proxy-groups:
       - "🇹🇷_1"
       - "🇹🇷_2"
       - "🇹🇷_3"
+      - "🇹🇷_4"
+      - "🇹🇷_5"
+      - "🇹🇷_6"
+      - "🇹🇷_7"
+      - "🇹🇷_8"
+      - "🇹🇷_9"
+      - "🇹🇷_10"
+      - "🇹🇷_11"
 
 
 rules:

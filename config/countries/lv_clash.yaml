@@ -65,18 +65,19 @@ dns:
 proxies:
   - name: "🇱🇻_1"
     type: vless
-    server: "195.123.213.28"
+    server: "62.60.234.29"
     port: 443
-    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
+    servername: "shephe.dpdns.org"
     client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
-      short-id: "5c256336e3b673fa"
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shephe.dpdns.org"
   - name: "🇱🇻_2"
     type: vless
     server: "138.124.180.137"
@@ -90,6 +91,34 @@ proxies:
     reality-opts:
       public-key: "GBdkyDLfr0LIZo_94Xv8ycAKOmkjArYzwJAEMhuXX2c"
       short-id: "33acba1b"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇻_3"
+    type: vless
+    server: "195.123.213.28"
+    port: 443
+    uuid: "02fcc1a4-ee90-4970-8bbb-4ffaa8109d24"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "NMgy1XgCSXExOg6Tg8xG9lCWttMF6sjdpB41lZy6FWo"
+      short-id: "5c256336e3b673fa"
+    flow: "xtls-rprx-vision"
+  - name: "🇱🇻_4"
+    type: vless
+    server: "31.57.28.147"
+    port: 443
+    uuid: "2412bd96-925b-43f2-81d1-0ed4f0793699"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "download-cdn.jetbrains.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "d7yg69dK4DkaV1EPpQcgd4GBncMN9u1o1Nk9u-i7wGc"
+      short-id: "7a18a196e730e1d5"
     flow: "xtls-rprx-vision"
 
 proxy-groups:
@@ -107,6 +136,8 @@ proxy-groups:
     proxies:
       - "🇱🇻_1"
       - "🇱🇻_2"
+      - "🇱🇻_3"
+      - "🇱🇻_4"
 
 
 rules:

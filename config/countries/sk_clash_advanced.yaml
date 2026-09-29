@@ -59,21 +59,21 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇲🇹_2"
+  - name: "🇸🇰_2"
     type: vless
-    server: "46.202.30.7"
+    server: "185.112.249.201"
     port: 8443
-    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "speed.dulacloud.store"
+    servername: "edgetunnel-4uw.pages.dev"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/dula?Telegram-WangCai2"
+      path: "/"
       headers:
-        Host: "speed.dulacloud.store"
+        Host: "edgetunnel-4uw.pages.dev"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -116,7 +116,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
   - name: "LB-CDN"
     type: load-balance
@@ -126,7 +126,7 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -136,7 +136,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
   - name: "FAST-CDN"
     type: url-test
@@ -145,7 +145,7 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -155,13 +155,13 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇲🇹_2"
+      - "🇸🇰_2"
 
 rules:
   - MATCH,PROXY-BEST
