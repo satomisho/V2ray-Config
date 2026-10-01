@@ -61,147 +61,93 @@ dns:
 proxies:
   - name: "🇵🇱_27"
     type: vless
-    server: "64.176.65.207"
-    port: 80
-    uuid: "844d9834-4f16-479f-b36b-911b75a830fd"
+    server: "83.168.95.145"
+    port: 443
+    uuid: "82f37352-85e5-49bb-9edc-a80997065659"
     udp: true
-    network: ws
-    ws-opts:
-      path: "/"
+    tls: true
+    skip-cert-verify: true
+    servername: "google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "AcuvO982QLzf76fVydfSuJIiF5520rmj7AxpaxyRwUg"
+      short-id: "d345ad4657adeef9"
+    flow: "xtls-rprx-vision"
   - name: "🇵🇱_28"
     type: vless
-    server: "145.239.30.17"
-    port: 2053
-    uuid: "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    server: "94.183.157.156"
+    port: 443
+    uuid: "4abdfe42-aec7-4b66-974d-3f891e2e8184"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pl.gaz-service.shop"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go"
+      short-id: ""
+    flow: "xtls-rprx-vision"
   - name: "🇵🇱_29"
     type: vless
-    server: "64.176.77.247"
+    server: "34.118.43.106"
+    port: 443
+    uuid: "16e310b7-659e-45ee-a4b0-10e0289b8621"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "-bjPqNKxxGTKCmH6dwsdGRTUzuatAowBWxyOPW4BiVQ"
+      short-id: "7e7623474d41f032"
+  - name: "🇵🇱_30"
+    type: vless
+    server: "50.7.248.234"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "viper-22.moriarty-web.com"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇵🇱_31"
+    type: vless
+    server: "70.34.255.101"
     port: 80
-    uuid: "19a21d16-4df8-4f63-b53b-83e05b4e321c"
+    uuid: "a889262f-5fe3-4c93-9aaa-3721318dd389"
     udp: true
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇵🇱_30"
-    type: vless
-    server: "83.168.71.216"
-    port: 443
-    uuid: "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ads.x5.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho"
-      short-id: "2f49bccf11150ef2"
-  - name: "🇵🇱_31"
-    type: vless
-    server: "185.223.57.16"
-    port: 33743
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "TunService"
   - name: "🇵🇱_32"
     type: vless
-    server: "tg.riotvpn.eu"
+    server: "bober.nightfall.best"
     port: 443
-    uuid: "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a"
+    uuid: "af2bf319-ba88-4fec-8317-2b6a8cee96d1"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "ads.x5.ru"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho"
-      short-id: "2f49bccf11150ef2"
+    servername: "bober.nightfall.best"
+    client-fingerprint: "firefox"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "rdamrwhuacfl"
   - name: "🇵🇱_33"
     type: vless
-    server: "31.41.33.28"
+    server: "149.86.227.16"
     port: 443
-    uuid: "5dff1842-c02f-4dd4-b1ad-2e597b99dc31"
+    uuid: "733b2a78-9306-4bbc-a3a0-b8bfb55f430a"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "cdn.oculon.online"
+    servername: "pmv.raketa-balance.com"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "LoNdOt7VfAYaPYIIZVqRb8ZkZf1PwKZOiJ93kn5SlTM"
-      short-id: "503f1935"
+      public-key: "JaP4bhvIMW-l7T0_RkLra59DeBYI6W9XemKa8MyRPSY"
+      short-id: "6c6082a2223c1d03"
     flow: "xtls-rprx-vision"
   - name: "🇵🇱_34"
-    type: vless
-    server: "45.194.66.238"
-    port: 443
-    uuid: "5dff1842-c02f-4dd4-b1ad-2e597b99dc31"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl238.mech-pro.online"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "IpIQVFjMfPawsv21a7wYOmTU2vX42ZGaYVBMJ98GZCQ"
-      short-id: "b67ffe05"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇱_35"
-    type: vless
-    server: "141.101.120.129"
-    port: 80
-    uuid: "3087ca05-1a7c-45fa-aec9-805adeaedb1b"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/?ed=2560"
-      headers:
-        Host: "tianshu.kevqwkt451.workers.dev"
-  - name: "🇵🇱_36"
-    type: vless
-    server: "pl3.moritech.net"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl3.moritech.net"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇱_37"
-    type: vless
-    server: "144.31.2.33"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl3.moritech.net"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇱_38"
-    type: vless
-    server: "141.101.120.231"
-    port: 443
-    uuid: "3bb6fd82-3a15-eaea-6168-4dac2b70079e"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "nahan-fog-af01.dfghttr2012.workers.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/sync"
-      headers:
-        Host: "nahan-fog-af01.dfghttr2012.workers.dev"
-  - name: "🇵🇱_39"
     type: vless
     server: "54.37.136.194"
     port: 2053
@@ -214,21 +160,18 @@ proxies:
     reality-opts:
       public-key: "Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A"
       short-id: "50ba05992b05c1c3"
-  - name: "🇵🇱_40"
+  - name: "🇵🇱_35"
     type: vless
-    server: "150.251.113.34"
+    server: "144.31.2.33"
     port: 443
-    uuid: "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1"
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8"
-      short-id: "150a627d15154cf2"
+    servername: "pl3.moritech.net"
+    client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
-  - name: "🇵🇱_41"
+  - name: "🇵🇱_36"
     type: vless
     server: "2.59.253.251"
     port: 443
@@ -242,32 +185,105 @@ proxies:
       public-key: "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI"
       short-id: "db04ce8bdb8900f1"
     flow: "xtls-rprx-vision"
+  - name: "🇵🇱_37"
+    type: vless
+    server: "83.168.71.216"
+    port: 443
+    uuid: "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ads.x5.ru"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho"
+      short-id: "2f49bccf11150ef2"
+  - name: "🇵🇱_38"
+    type: vless
+    server: "50.7.249.66"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pl-new-ded2.moritech.net"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇵🇱_39"
+    type: vless
+    server: "82.118.22.161"
+    port: 443
+    uuid: "05488656-d4bf-4634-8b2e-e4ff5a56c7e2"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.cloudflare.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E"
+      short-id: "fa3ea655619a3e78"
+    flow: "xtls-rprx-vision"
+  - name: "🇵🇱_40"
+    type: vless
+    server: "185.193.31.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇵🇱_41"
+    type: vless
+    server: "83.168.68.59"
+    port: 443
+    uuid: "8dbcb4ef-65bf-4890-a257-c32073689ee8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "smotret.tv"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "UmiO58uvMjH4a9DIkUbLCy5EJYncSsraFFtiJS_oinU"
+      short-id: "4e85d77e533afc1c"
+    flow: "xtls-rprx-vision"
   - name: "🇵🇱_42"
     type: vless
-    server: "pl4.moritech.net"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    server: "144.31.4.193"
+    port: 444
+    uuid: "318c935d-c195-41d3-99ad-9bbcfdab3386"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "pl4.moritech.net"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision"
+    servername: "pl.srv.vbuste-bot.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08"
+      short-id: "4be4110078ebed4a"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
   - name: "🇵🇱_43"
     type: vless
-    server: "polka-dot.failspace.top"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    server: "185.193.30.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "polka-dot.failspace.top"
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime09.workers.dev"
   - name: "🇵🇱_44"
     type: vless
     server: "83.168.95.145"
     port: 443
-    uuid: "82f37352-85e5-49bb-9edc-a80997065659"
+    uuid: "f28e0ce1-ed75-4e90-b069-5215a80dfb4a"
     udp: true
     tls: true
     skip-cert-verify: true
@@ -279,100 +295,96 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇵🇱_45"
     type: vless
-    server: "185.223.57.10"
-    port: 33743
-    uuid: "b3a11068-1a7e-4643-85de-7c82cce46943"
+    server: "pl3.moritech.net"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "wGMBs7bvzyzA0-OUiwSkOOTDEMdxEOsSdRzxiP8GGQY"
-      short-id: ""
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "TunService"
+    servername: "pl3.moritech.net"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
   - name: "🇵🇱_46"
     type: vless
-    server: "50.7.249.162"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "polka-dot.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇱_47"
-    type: vless
-    server: "50.7.249.66"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl-new-ded2.moritech.net"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇵🇱_48"
-    type: vless
-    server: "185.193.30.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    server: "141.101.120.129"
+    port: 80
+    uuid: "3087ca05-1a7c-45fa-aec9-805adeaedb1b"
     udp: true
     network: ws
     ws-opts:
-      path: "/"
+      path: "/?ed=2560"
       headers:
-        Host: "vms.lifetime09.workers.dev"
-  - name: "🇵🇱_49"
+        Host: "tianshu.kevqwkt451.workers.dev"
+  - name: "🇵🇱_47"
     type: vless
-    server: "144.31.5.3"
+    server: "83.168.107.220"
     port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    uuid: "b1813cbd-831f-4cb3-baf8-5bc0cc8298bc"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "pl4.moritech.net"
+    servername: "google.com"
     client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "s0lbZ5BO3ctZjE8DzsXkNL0NvLl6FgLG6532NQzXigo"
+      short-id: "c56d4f1c"
     flow: "xtls-rprx-vision"
-  - name: "🇵🇱_50"
+  - name: "🇵🇱_48"
     type: vless
-    server: "82.118.22.161"
+    server: "150.251.113.34"
     port: 443
-    uuid: "05488656-d4bf-4634-8b2e-e4ff5a56c7e2"
+    uuid: "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "safari"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "xY1KpNxaIGmi6jfeudYQ_aaLGQqWK_uHStnwUFd2_2E"
-      short-id: "fa3ea655619a3e78"
+      public-key: "8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8"
+      short-id: "150a627d15154cf2"
     flow: "xtls-rprx-vision"
+  - name: "🇵🇱_49"
+    type: vless
+    server: "95.85.253.202"
+    port: 443
+    uuid: "4314a583-3a39-45e1-883e-70bf570d252a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pl0001.kubservice.icu"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇵🇱_50"
+    type: vless
+    server: "145.239.30.17"
+    port: 2053
+    uuid: "9ef61079-6f7d-4911-9608-943da85d8e6f"
+    udp: true
   - name: "🇵🇱_51"
     type: vless
-    server: "50.7.248.234"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    server: "95.81.75.9"
+    port: 57160
+    uuid: "68ad9a6d-2463-4c31-92a7-31547b9d4783"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "viper-22.moriarty-web.com"
-    client-fingerprint: "firefox"
+    servername: "funpay.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "Tbu7sr_pvHngDWFIa0ApL5UL9vEGxlHESd9g53KQehw"
+      short-id: "77b5"
     flow: "xtls-rprx-vision"
   - name: "🇵🇱_52"
-    type: vless
-    server: "50.7.249.182"
+    type: trojan
+    server: "cheerful-swan.rooster465.autos"
     port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
+    password: "UX82473651"
+    sni: "cheerful-swan.rooster465.autos"
     skip-cert-verify: true
-    servername: "poland-ded-new-one.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
+    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────

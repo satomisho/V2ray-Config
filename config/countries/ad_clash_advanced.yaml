@@ -61,6 +61,20 @@ dns:
 proxies:
   - name: "🇦🇩_3"
     type: vless
+    server: "conge.ggisopi.su"
+    port: 443
+    uuid: "d0f0a880-0df1-48c9-bdf1-5669fb9483ce"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "conge.ggisopi.su"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇦🇩_4"
+    type: vless
     server: "31.76.249.174"
     port: 443
     uuid: "d0f0a880-0df1-48c9-bdf1-5669fb9483ce"
@@ -69,20 +83,6 @@ proxies:
     skip-cert-verify: true
     servername: "conge.ggisopi.su"
     client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇦🇩_4"
-    type: vless
-    server: "conge.ggisopi.su"
-    port: 443
-    uuid: "d0f0a880-0df1-48c9-bdf1-5669fb9483ce"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "conge.ggisopi.su"
-    client-fingerprint: "ios"
     reality-opts:
       public-key: "SB1uC0OEveYjSiS_Nuw9Ld-uVVXWqi794OGnldthY3I"
       short-id: ""

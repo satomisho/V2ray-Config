@@ -59,22 +59,22 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇧🇷_5"
+  - name: "🇧🇷_6"
     type: vless
-    server: "146.235.59.153"
-    port: 2053
-    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    server: "172.237.60.225"
+    port: 443
+    uuid: "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "shin-ra.ccwu.cc"
-    client-fingerprint: "firefox"
+    servername: "cf3.schzyc.cc.cd"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/"
+      path: "/proxyip=ProxyIP.CMLiussss.net"
       headers:
-        Host: "shin-ra.ccwu.cc"
-  - name: "🇧🇷_6"
+        Host: "cf3.schzyc.cc.cd"
+  - name: "🇧🇷_7"
     type: vless
     server: "45.194.53.30"
     port: 8880
@@ -85,7 +85,37 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: "vms.lifetime19.workers.dev"
-  - name: "🇧🇷_7"
+  - name: "🇧🇷_8"
+    type: vless
+    server: "146.235.59.153"
+    port: 2053
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shin-ra.ccwu.cc"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇧🇷_9"
+    type: vless
+    server: "152.67.41.217"
+    port: 443
+    uuid: "2fdf56f7-7bd0-43c5-8c57-a505a74c61b0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "fm3.pages.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "fm3.pages.dev"
+  - name: "🇧🇷_10"
     type: vless
     server: "45.194.53.123"
     port: 443
@@ -98,13 +128,6 @@ proxies:
     network: ws
     ws-opts:
       path: "/"
-  - name: "🇧🇷_8"
-    type: ss
-    server: "216.128.168.190"
-    port: 8388
-    cipher: "aes-256-gcm"
-    password: "owVdNnQcdPgthSyX"
-    udp: true
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -147,10 +170,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
   - name: "LB-CDN"
     type: load-balance
@@ -160,10 +184,11 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -173,10 +198,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
   - name: "FAST-CDN"
     type: url-test
@@ -185,10 +211,11 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -198,19 +225,21 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇧🇷_5"
       - "🇧🇷_6"
       - "🇧🇷_7"
       - "🇧🇷_8"
+      - "🇧🇷_9"
+      - "🇧🇷_10"
 
 rules:
   - MATCH,PROXY-BEST

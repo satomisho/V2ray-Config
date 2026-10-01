@@ -61,6 +61,21 @@ dns:
 proxies:
   - name: "🇲🇩_4"
     type: vless
+    server: "194.180.191.249"
+    port: 443
+    uuid: "817b61c8-9bf0-4365-8a52-e43dfad274a6"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shin-ra.ccwu.cc"
+    client-fingerprint: "unsafe"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shin-ra.ccwu.cc"
+  - name: "🇲🇩_5"
+    type: vless
     server: "80.96.109.15"
     port: 443
     uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
@@ -70,17 +85,6 @@ proxies:
     servername: "moldova.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
-  - name: "🇲🇩_5"
-    type: vless
-    server: "80.96.109.8"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "md-new.failspace.top"
-    client-fingerprint: "chrome"
-    flow: "xtls-rprx-vision-udp443"
   - name: "🇲🇩_6"
     type: vless
     server: "moldova.failspace.top"

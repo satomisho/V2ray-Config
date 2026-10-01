@@ -72,12 +72,89 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "P7S4UPFlQbmiBr4txyy8NZIMTrmO3UdxyH16WBU-YzY"
       short-id: "19253fae84102271"
     flow: "xtls-rprx-vision"
   - name: "🇨🇭_2"
+    type: vless
+    server: "83.228.222.203"
+    port: 443
+    uuid: "0b21158e-00f5-4a2f-b242-e3e5574f68a0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bunny.net"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "B-q_vYkpKjiiaHyUfr7NutnusdvsmoWEeyr0QJfTfmw"
+      short-id: "447abeb4fb111a9c"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
+  - name: "🇨🇭_3"
+    type: vless
+    server: "89.127.196.71"
+    port: 443
+    uuid: "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cf3.schzyc.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.CMLiussss.net"
+      headers:
+        Host: "cf3.schzyc.cc.cd"
+  - name: "🇨🇭_4"
+    type: vless
+    server: "179.237.103.152"
+    port: 443
+    uuid: "e0bd9dfa-0cf9-47c0-92ac-7dba08ebcff8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.google.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "8PZTYkhNhSgagVdaI-iqSCPXJwDhHU23IUwZIu08zH4"
+      short-id: "9de8ae53dabf1dc2"
+    flow: "xtls-rprx-vision"
+  - name: "🇨🇭_5"
+    type: vless
+    server: "83.228.246.83"
+    port: 443
+    uuid: "0b21158e-00f5-4a2f-b242-e3e5574f68a0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bunny.net"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "B-q_vYkpKjiiaHyUfr7NutnusdvsmoWEeyr0QJfTfmw"
+      short-id: "447abeb4fb111a9c"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
+  - name: "🇨🇭_6"
+    type: vless
+    server: "ch.zango.tech"
+    port: 443
+    uuid: "0b21158e-00f5-4a2f-b242-e3e5574f68a0"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "bunny.net"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "B-q_vYkpKjiiaHyUfr7NutnusdvsmoWEeyr0QJfTfmw"
+      short-id: "447abeb4fb111a9c"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: ""
+  - name: "🇨🇭_7"
     type: vless
     server: "208.69.78.217"
     port: 2053
@@ -90,14 +167,14 @@ proxies:
     reality-opts:
       public-key: "A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0"
       short-id: "ad86e2d52ff40ebd"
-  - name: "🇨🇭_3"
+  - name: "🇨🇭_8"
     type: ss
     server: "132.243.175.144"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3"
     udp: true
-  - name: "🇨🇭_4"
+  - name: "🇨🇭_9"
     type: ss
     server: "132.243.175.144"
     port: 8388
@@ -122,6 +199,11 @@ proxy-groups:
       - "🇨🇭_2"
       - "🇨🇭_3"
       - "🇨🇭_4"
+      - "🇨🇭_5"
+      - "🇨🇭_6"
+      - "🇨🇭_7"
+      - "🇨🇭_8"
+      - "🇨🇭_9"
 
 
 rules:

@@ -59,20 +59,28 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇬🇪_2"
+  - name: "🇹🇭_3"
     type: vless
-    server: "185.143.179.179"
-    port: 25026
-    uuid: "441a29b2-d9aa-47d5-9209-0a9191479f9f"
+    server: "V2rAy.SiMsPeEdUp.CoM"
+    port: 80
+    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
     udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.google.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "RVh0D446O5pKnOqlNkJNxSGGbmzl8swn4YBXYce1HSw"
-      short-id: "34c465417d7ebca0"
-    flow: "xtls-rprx-vision"
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "aIs.SpEeDtEsT.nEt"
+  - name: "🇹🇭_4"
+    type: vless
+    server: "103.86.49.57"
+    port: 80
+    uuid: "3c52e091-6714-4915-949f-2149fe69951b"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "aIs.SpEeDtEsT.nEt"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -115,7 +123,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
   - name: "LB-CDN"
     type: load-balance
@@ -125,7 +134,8 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -135,7 +145,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
   - name: "FAST-CDN"
     type: url-test
@@ -144,7 +155,8 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -154,13 +166,15 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇬🇪_2"
+      - "🇹🇭_3"
+      - "🇹🇭_4"
 
 rules:
   - MATCH,PROXY-BEST

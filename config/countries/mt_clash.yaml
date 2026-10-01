@@ -63,20 +63,21 @@ dns:
     - https://freedns.controld.com/family
 
 proxies:
-  - name: "🇴🇲_1"
-    type: ss
-    server: "130.94.81.180"
-    port: 18415
-    cipher: "aes-128-gcm"
-    password: "b667234b8d2e7eb34444857ea3a9b18a"
+  - name: "🇲🇹_1"
+    type: vless
+    server: "46.202.30.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
-  - name: "🇴🇲_2"
-    type: ss
-    server: "130.94.81.180"
-    port: 18415
-    cipher: "aes-128-gcm"
-    password: "b667234b8d2e7eb34444857ea3a9b18a"
-    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
 
 proxy-groups:
   - name: "PROXY"
@@ -91,8 +92,7 @@ proxy-groups:
     tolerance: 30
     lazy: true
     proxies:
-      - "🇴🇲_1"
-      - "🇴🇲_2"
+      - "🇲🇹_1"
 
 
 rules:

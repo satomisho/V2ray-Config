@@ -1,2 +1,4 @@
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@156.243.83.30:8880?type=ws&host=vms.lifetime54.workers.dev#%F0%9F%87%B5%F0%9F%87%B9
-vless://87838381-724e-4637-935a-3c74ad655991@171.22.129.93:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=random&pbk=1mbH_m6yUCtJzgC_f25LOE7nexg7uTQMaUAgIbo_-2s&sid=eaf543e7ff60ea78&sni=ae93.layer.tel#%F0%9F%87%B5%F0%9F%87%B9
+vless://4abdfe42-aec7-4b66-974d-3f891e2e8184@171.22.129.158:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=kk7OIl7fsEKSuCTWKb8pSgWQbZuJurc4qGYMBYSd5hA&sid=3bdedfbb43fe4637&sni=mail.ru#%F0%9F%87%B5%F0%9F%87%B9
+ss://YWVzLTEyOC1nY206Y2E0MzgwNTQ3NzE4MjEyNTAwODkzOTlhMmYzMzI3NWU@185.231.233.91:17167?#%F0%9F%87%B5%F0%9F%87%B9
+ss://YWVzLTEyOC1nY206Y2E0MzgwNTQ3NzE4MjEyNTAwODkzOTlhMmYzMzI3NWU=@185.231.233.91:17167#%F0%9F%87%B5%F0%9F%87%B9

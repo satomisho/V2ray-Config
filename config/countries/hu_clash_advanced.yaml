@@ -59,7 +59,64 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇭🇺_5"
+  - name: "🇭🇺_7"
+    type: vless
+    server: "141.11.202.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺_8"
+    type: vless
+    server: "141.11.202.123"
+    port: 443
+    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "notls.lukongtou.eu.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+  - name: "🇭🇺_9"
+    type: vless
+    server: "74.49.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺_10"
+    type: vless
+    server: "31.76.249.87"
+    port: 443
+    uuid: "dc9e93bc-b53a-11f1-91d3-52540030ba36"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.akamai.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇭🇺_11"
     type: vless
     server: "37.221.210.113"
     port: 443
@@ -74,34 +131,7 @@ proxies:
       path: "/cdn/packages/runtime-core.tar.gz"
       headers:
         Host: "hk.152568.xyz"
-  - name: "🇭🇺_6"
-    type: vless
-    server: "141.11.202.123"
-    port: 443
-    uuid: "1d16c6e0-1bbe-435b-b661-90043fee999c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "notls.lukongtou.eu.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-  - name: "🇭🇺_7"
-    type: vless
-    server: "45.9.168.211"
-    port: 443
-    uuid: "7de5e70d-b95e-4019-affb-636151647b52"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "mzone.hu.3cloudhost.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇭🇺_8"
+  - name: "🇭🇺_12"
     type: trojan
     server: "185.225.68.232"
     port: 443
@@ -112,6 +142,8 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
 
 proxy-groups:
   # ── Top-level selector ────────────────────────────────────────────────────
@@ -154,10 +186,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
   - name: "LB-CDN"
     type: load-balance
@@ -167,10 +201,12 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -180,10 +216,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
   - name: "FAST-CDN"
     type: url-test
@@ -192,10 +230,12 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -205,19 +245,23 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇭🇺_5"
-      - "🇭🇺_6"
       - "🇭🇺_7"
       - "🇭🇺_8"
+      - "🇭🇺_9"
+      - "🇭🇺_10"
+      - "🇭🇺_11"
+      - "🇭🇺_12"
 
 rules:
   - MATCH,PROXY-BEST

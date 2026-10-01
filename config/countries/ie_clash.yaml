@@ -65,38 +65,6 @@ dns:
 proxies:
   - name: "🇮🇪_1"
     type: vless
-    server: "50.7.5.164"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ir.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇪_2"
-    type: vless
-    server: "50.7.5.166"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ir-new.failspace.top"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇪_3"
-    type: vless
-    server: "50.7.5.165"
-    port: 443
-    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "ir-new1.failspace.top"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇪_4"
-    type: vless
     server: "45.141.234.138"
     port: 443
     uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
@@ -110,7 +78,18 @@ proxies:
       path: "/"
       headers:
         Host: "edgetunnel-4uw.pages.dev"
-  - name: "🇮🇪_5"
+  - name: "🇮🇪_2"
+    type: vless
+    server: "50.7.5.164"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ekb.eg"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_3"
     type: vless
     server: "87.192.47.10"
     port: 52006
@@ -121,7 +100,17 @@ proxies:
     servername: "grok.setlisting.ru"
     client-fingerprint: "chrome"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇪_6"
+  - name: "🇮🇪_4"
+    type: vless
+    server: "50.7.5.165"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ir-new1.failspace.top"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_5"
     type: vless
     server: "50.7.5.163"
     port: 443
@@ -132,6 +121,24 @@ proxies:
     servername: "ir-viper.failspace.top"
     client-fingerprint: "firefox"
     flow: "xtls-rprx-vision"
+  - name: "🇮🇪_6"
+    type: vless
+    server: "50.7.5.166"
+    port: 443
+    uuid: "cd3bb7d9-7df3-4644-ac05-c260990ac277"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "ekb.eg"
+    client-fingerprint: "firefox"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇪_7"
+    type: ss
+    server: "20.166.59.119"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "gJe7umStIck5Mieg"
+    udp: true
 
 proxy-groups:
   - name: "PROXY"
@@ -152,6 +159,7 @@ proxy-groups:
       - "🇮🇪_4"
       - "🇮🇪_5"
       - "🇮🇪_6"
+      - "🇮🇪_7"
 
 
 rules:

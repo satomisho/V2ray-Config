@@ -64,12 +64,20 @@ dns:
 
 proxies:
   - name: "🇿🇦_1"
-    type: ss
-    server: "102.37.156.224"
-    port: 443
-    cipher: "chacha20-ietf-poly1305"
-    password: "aduB9HGxQHjA2SBMRjkHX6"
+    type: vless
+    server: "156.38.157.171"
+    port: 8443
+    uuid: "2fdf56f7-7bd0-43c5-8c57-a505a74c61b0"
     udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "fm3.pages.dev"
+    client-fingerprint: "random"
+    network: ws
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: "fm3.pages.dev"
   - name: "🇿🇦_2"
     type: ss
     server: "102.37.156.224"
@@ -79,17 +87,31 @@ proxies:
     udp: true
   - name: "🇿🇦_3"
     type: ss
+    server: "102.37.156.224"
+    port: 443
+    cipher: "chacha20-ietf-poly1305"
+    password: "aduB9HGxQHjA2SBMRjkHX6"
+    udp: true
+  - name: "🇿🇦_4"
+    type: ss
     server: "102.133.165.160"
     port: 16233
     cipher: "chacha20-ietf-poly1305"
     password: "Xsy8Ox4yOV3xLlpxtjzs3X"
     udp: true
-  - name: "🇿🇦_4"
+  - name: "🇿🇦_5"
     type: ss
     server: "139.84.247.164"
     port: 8388
     cipher: "chacha20-ietf-poly1305"
     password: "tfAcRikawhNoZAhu"
+    udp: true
+  - name: "🇿🇦_6"
+    type: ss
+    server: "102.133.165.160"
+    port: 16233
+    cipher: "chacha20-ietf-poly1305"
+    password: "Xsy8Ox4yOV3xLlpxtjzs3X"
     udp: true
 
 proxy-groups:
@@ -109,6 +131,8 @@ proxy-groups:
       - "🇿🇦_2"
       - "🇿🇦_3"
       - "🇿🇦_4"
+      - "🇿🇦_5"
+      - "🇿🇦_6"
 
 
 rules:

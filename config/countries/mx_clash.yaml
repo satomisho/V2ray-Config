@@ -65,17 +65,17 @@ dns:
 proxies:
   - name: "🇲🇽_1"
     type: vless
-    server: "34.51.29.171"
+    server: "34.51.119.243"
     port: 443
-    uuid: "9ad81959-02c6-4679-a419-2af6a16ca07a"
+    uuid: "79bc7b01-6e4e-4365-a120-fefac8182bd9"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "www.cloudflare.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "edge"
     reality-opts:
-      public-key: "8vHditYTXXNZ37iNTraU4w129svOplF0QUhZwX2n3FA"
-      short-id: "dcabbf24adf88abc"
+      public-key: "vFcM44RcbcO5jcrSWHLd_0exXAnnJLhpCNnMrWCwlzI"
+      short-id: "65f01b4b99e52015"
   - name: "🇲🇽_2"
     type: vless
     server: "45.134.9.133"
@@ -85,18 +85,6 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "ul-mexico1.09vpn.com"
-    network: ws
-    ws-opts:
-      path: "/vless/"
-  - name: "🇲🇽_3"
-    type: vless
-    server: "UL-Mexico1.09vpn.com"
-    port: 8443
-    uuid: "a6d20e79-d326-42c1-bc20-f4cecc6dc42d"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "UL-Mexico1.09vpn.com"
     network: ws
     ws-opts:
       path: "/vless/"
@@ -116,7 +104,6 @@ proxy-groups:
     proxies:
       - "🇲🇽_1"
       - "🇲🇽_2"
-      - "🇲🇽_3"
 
 
 rules:

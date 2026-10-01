@@ -59,161 +59,95 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇮🇳_26"
-    type: vless
-    server: "5.253.28.218"
-    port: 2443
-    uuid: "5e679ccd-1586-4d5f-b87b-48251046cad8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg"
-      short-id: "92c32de179e5d908"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "rex-eb0bf76b710ce763"
   - name: "🇮🇳_27"
     type: vless
-    server: "151.241.138.240"
-    port: 443
-    uuid: "5dff1842-c02f-4dd4-b1ad-2e597b99dc31"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl240.mech-pro.online"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI"
-      short-id: "16e0f049"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_28"
-    type: vless
-    server: "108.165.152.30"
-    port: 8880
-    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
-    udp: true
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "vms.lifetime61.workers.dev"
-  - name: "🇮🇳_29"
-    type: vless
-    server: "139.84.177.239"
-    port: 443
-    uuid: "d90087c3-54f5-4283-a13f-615260c8b0c7"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "googleapis.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "hTweFDvbSucrGERtiiwDfoqD3vo_Z9cuaqboff3FTXQ"
-      short-id: ""
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_30"
-    type: vless
-    server: "5.253.28.242"
+    server: "5.253.28.224"
     port: 40443
     uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
-    client-fingerprint: "chrome"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
       short-id: "68a8"
     flow: "xtls-rprx-vision"
+  - name: "🇮🇳_28"
+    type: vless
+    server: "india.letsconnectpoint.com"
+    port: 443
+    uuid: "a368752a-32fc-42f3-980a-6b049218b23f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "india.letsconnectpoint.com"
+    client-fingerprint: "random"
+    reality-opts:
+      public-key: "erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0"
+      short-id: "c1e3d5d4"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_29"
+    type: vless
+    server: "139.84.150.190"
+    port: 8443
+    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shephe.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shephe.dpdns.org"
+  - name: "🇮🇳_30"
+    type: vless
+    server: "20.219.46.208"
+    port: 8443
+    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "shephe.dpdns.org"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "shephe.dpdns.org"
   - name: "🇮🇳_31"
     type: vless
-    server: "5.253.28.218"
-    port: 40443
-    uuid: "405b964e-a2d2-454f-aaaa-711cc218897c"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_32"
-    type: vless
-    server: "194.61.31.126"
-    port: 2053
-    uuid: "1d4e18bd-1f26-4915-b35a-7ace4826e76a"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "www.apple.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
-      short-id: "9980e0609b0d3891"
-  - name: "🇮🇳_33"
-    type: vless
-    server: "5.253.42.164"
-    port: 40443
-    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_34"
-    type: vless
-    server: "5.253.30.99"
-    port: 40443
-    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "qq"
-    reality-opts:
-      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
-      short-id: "88b6"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_35"
-    type: vless
-    server: "pl240.mech-pro.online"
-    port: 443
-    uuid: "5dff1842-c02f-4dd4-b1ad-2e597b99dc31"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "pl240.mech-pro.online"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "jbiddtGRgeBvlkjbuA3aU-WPjKgEX87tOVh1mFfvOUI"
-      short-id: "16e0f049"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_36"
-    type: vless
-    server: "hydra.yokkastars.com"
+    server: "5.253.28.240"
     port: 2443
     uuid: "5e679ccd-1586-4d5f-b87b-48251046cad8"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
-    client-fingerprint: "qq"
+    client-fingerprint: "firefox"
     reality-opts:
       public-key: "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg"
       short-id: "92c32de179e5d908"
     network: grpc
     grpc-opts:
       grpc-service-name: "rex-eb0bf76b710ce763"
-  - name: "🇮🇳_37"
+  - name: "🇮🇳_32"
+    type: vless
+    server: "5.253.42.159"
+    port: 443
+    uuid: "a368752a-32fc-42f3-980a-6b049218b23f"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "india.letsconnectpoint.com"
+    client-fingerprint: "qq"
+    reality-opts:
+      public-key: "erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0"
+      short-id: "c1e3d5d4"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_33"
     type: vless
     server: "5.253.42.159"
     port: 443
@@ -227,7 +161,46 @@ proxies:
       public-key: "erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0"
       short-id: "c1e3d5d4"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_38"
+  - name: "🇮🇳_34"
+    type: vless
+    server: "108.165.152.30"
+    port: 8880
+    uuid: "6202b230-417c-4d8e-b624-0f71afa9c75d"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "vms.lifetime61.workers.dev"
+  - name: "🇮🇳_35"
+    type: vless
+    server: "151.241.166.178"
+    port: 443
+    uuid: "4abdfe42-aec7-4b66-974d-3f891e2e8184"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pl.gaz-service.shop"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go"
+      short-id: ""
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_36"
+    type: vless
+    server: "5.253.30.99"
+    port: 40443
+    uuid: "511c1563-2cb6-4064-abc6-a59ee49818a8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "chrome"
+    reality-opts:
+      public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
+      short-id: "88b6"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_37"
     type: vless
     server: "5.253.28.240"
     port: 40443
@@ -236,10 +209,24 @@ proxies:
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "chrome"
     reality-opts:
       public-key: "cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0"
       short-id: "88b6"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_38"
+    type: vless
+    server: "151.241.166.72"
+    port: 443
+    uuid: "4abdfe42-aec7-4b66-974d-3f891e2e8184"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "pl.gaz-service.shop"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "SoMfQzFhE5QfKWMZA7ZNkYP63P5hiyWEbE9fsPIP4Go"
+      short-id: ""
     flow: "xtls-rprx-vision"
   - name: "🇮🇳_39"
     type: vless
@@ -257,18 +244,20 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇮🇳_40"
     type: vless
-    server: "5.253.29.16"
-    port: 40443
-    uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
+    server: "hydra.yokkastars.com"
+    port: 2443
+    uuid: "5e679ccd-1586-4d5f-b87b-48251046cad8"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "deepl.com"
     client-fingerprint: "qq"
     reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-    flow: "xtls-rprx-vision"
+      public-key: "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg"
+      short-id: "92c32de179e5d908"
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "rex-eb0bf76b710ce763"
   - name: "🇮🇳_41"
     type: vless
     server: "148.113.5.44"
@@ -285,19 +274,61 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇮🇳_42"
     type: vless
-    server: "5.253.42.159"
+    server: "154.198.173.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2fp=chrome"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇮🇳_43"
+    type: vless
+    server: "india.letsconnectpoint.com"
     port: 443
-    uuid: "a368752a-32fc-42f3-980a-6b049218b23f"
+    uuid: "914f3806-07a1-4158-9624-e183de065a38"
     udp: true
     tls: true
     skip-cert-verify: true
     servername: "india.letsconnectpoint.com"
-    client-fingerprint: "firefox"
+    client-fingerprint: "random"
     reality-opts:
       public-key: "erUEmyU1QK8y2corQh9bOjk0oHl2Mo6Z9WgoyKg_rC0"
       short-id: "c1e3d5d4"
     flow: "xtls-rprx-vision"
-  - name: "🇮🇳_43"
+  - name: "🇮🇳_44"
+    type: vless
+    server: "194.61.31.126"
+    port: 2053
+    uuid: "1d4e18bd-1f26-4915-b35a-7ace4826e76a"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU"
+      short-id: "9980e0609b0d3891"
+  - name: "🇮🇳_45"
+    type: vless
+    server: "5.253.42.164"
+    port: 40443
+    uuid: "e99ba96d-dec8-42eb-be53-19e71eef7cab"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "deepl.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
+      short-id: "68a8"
+    flow: "xtls-rprx-vision"
+  - name: "🇮🇳_46"
     type: vless
     server: "4.240.110.47"
     port: 443
@@ -312,60 +343,7 @@ proxies:
       path: "/vws/"
       headers:
         Host: "bab-6.site"
-  - name: "🇮🇳_44"
-    type: vless
-    server: "5.253.28.224"
-    port: 40443
-    uuid: "af5eac96-e478-488a-bc8c-45269d7e8847"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "firefox"
-    reality-opts:
-      public-key: "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw"
-      short-id: "68a8"
-    flow: "xtls-rprx-vision"
-  - name: "🇮🇳_45"
-    type: vless
-    server: "5.253.28.240"
-    port: 2443
-    uuid: "5e679ccd-1586-4d5f-b87b-48251046cad8"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "deepl.com"
-    client-fingerprint: "chrome"
-    reality-opts:
-      public-key: "h85e28MxBgNyT9d9cNeOLVtWfHq6cT_1_oxZOTajtTg"
-      short-id: "92c32de179e5d908"
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "rex-eb0bf76b710ce763"
-  - name: "🇮🇳_46"
-    type: vless
-    server: "139.84.150.190"
-    port: 8443
-    uuid: "9e3132b8-b595-444a-833a-2de44789f9d7"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "shephe.dpdns.org"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "shephe.dpdns.org"
   - name: "🇮🇳_47"
-    type: trojan
-    server: "tttyder.wsone.icu"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "tttyder.wsone.icu"
-    skip-cert-verify: true
-    udp: true
-  - name: "🇮🇳_48"
     type: trojan
     server: "34.131.228.210"
     port: 443
@@ -373,7 +351,23 @@ proxies:
     sni: "hyfuuf6.wsone.icu"
     skip-cert-verify: true
     udp: true
+  - name: "🇮🇳_48"
+    type: trojan
+    server: "tttyder.wsone.icu"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "tttyder.wsone.icu"
+    skip-cert-verify: true
+    udp: true
   - name: "🇮🇳_49"
+    type: trojan
+    server: "35.244.28.130"
+    port: 443
+    password: "M7v%w11Se*"
+    sni: "tttyder.wsone.icu"
+    skip-cert-verify: true
+    udp: true
+  - name: "🇮🇳_50"
     type: trojan
     server: "hyfuuf6.wsone.icu"
     port: 443
@@ -381,13 +375,19 @@ proxies:
     sni: "hyfuuf6.wsone.icu"
     skip-cert-verify: true
     udp: true
-  - name: "🇮🇳_50"
-    type: trojan
-    server: "35.244.28.130"
-    port: 443
-    password: "M7v%w11Se*"
-    sni: "tttyder.wsone.icu"
-    skip-cert-verify: true
+  - name: "🇮🇳_51"
+    type: ss
+    server: "172.105.39.124"
+    port: 7002
+    cipher: "aes-256-gcm"
+    password: "RexnBgU7EV5ADxG"
+    udp: true
+  - name: "🇮🇳_52"
+    type: ss
+    server: "139.84.166.47"
+    port: 8388
+    cipher: "aes-256-gcm"
+    password: "GEdoeeqLZtkJRgSa"
     udp: true
 
 proxy-groups:
@@ -431,7 +431,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -456,6 +455,8 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
   - name: "LB-CDN"
     type: load-balance
@@ -465,7 +466,6 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -490,6 +490,8 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -499,7 +501,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -524,6 +525,8 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
   - name: "FAST-CDN"
     type: url-test
@@ -532,7 +535,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -557,6 +559,8 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -566,7 +570,6 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -591,12 +594,13 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇮🇳_26"
       - "🇮🇳_27"
       - "🇮🇳_28"
       - "🇮🇳_29"
@@ -621,6 +625,8 @@ proxy-groups:
       - "🇮🇳_48"
       - "🇮🇳_49"
       - "🇮🇳_50"
+      - "🇮🇳_51"
+      - "🇮🇳_52"
 
 rules:
   - MATCH,PROXY-BEST

@@ -65,19 +65,19 @@ dns:
 proxies:
   - name: "🇭🇺_1"
     type: vless
-    server: "37.221.210.113"
-    port: 443
-    uuid: "0250424c-ae75-4b6b-890f-3fe26fae36c3"
+    server: "141.11.202.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "hk.152568.xyz"
-    client-fingerprint: "edge"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/cdn/packages/runtime-core.tar.gz"
+      path: "/dula?Telegram-WangCai2"
       headers:
-        Host: "hk.152568.xyz"
+        Host: "speed.dulacloud.store"
   - name: "🇭🇺_2"
     type: vless
     server: "141.11.202.123"
@@ -93,19 +93,49 @@ proxies:
       path: "/"
   - name: "🇭🇺_3"
     type: vless
-    server: "45.9.168.211"
-    port: 443
-    uuid: "7de5e70d-b95e-4019-affb-636151647b52"
+    server: "74.49.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "mzone.hu.3cloudhost.com"
-    client-fingerprint: "firefox"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇭🇺_4"
+    type: vless
+    server: "31.76.249.87"
+    port: 443
+    uuid: "dc9e93bc-b53a-11f1-91d3-52540030ba36"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.akamai.com"
+    client-fingerprint: "chrome"
     reality-opts:
-      public-key: "SARDrN_d46PsugT2k5ILoQAJqaA1eCOZhe1BjKMonj8"
+      public-key: "gydLdekl4sNcE2j7vueKJJhpYWTBxlGs_VQ6-ZH55iQ"
       short-id: ""
     flow: "xtls-rprx-vision"
-  - name: "🇭🇺_4"
+  - name: "🇭🇺_5"
+    type: vless
+    server: "37.221.210.113"
+    port: 443
+    uuid: "0250424c-ae75-4b6b-890f-3fe26fae36c3"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "hk.152568.xyz"
+    client-fingerprint: "edge"
+    network: ws
+    ws-opts:
+      path: "/cdn/packages/runtime-core.tar.gz"
+      headers:
+        Host: "hk.152568.xyz"
+  - name: "🇭🇺_6"
     type: trojan
     server: "185.225.68.232"
     port: 443
@@ -116,6 +146,8 @@ proxies:
     network: ws
     ws-opts:
       path: "/assignment"
+      headers:
+        Host: "www.calmlunch.com"
 
 proxy-groups:
   - name: "PROXY"
@@ -134,6 +166,8 @@ proxy-groups:
       - "🇭🇺_2"
       - "🇭🇺_3"
       - "🇭🇺_4"
+      - "🇭🇺_5"
+      - "🇭🇺_6"
 
 
 rules:

@@ -59,94 +59,20 @@ dns:
     - tls://94.140.14.14:853
 
 proxies:
-  - name: "🇹🇷_12"
-    type: vless
-    server: "107.161.174.200"
-    port: 443
-    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "myda06.api3-max.ru"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_13"
-    type: vless
-    server: "130.94.0.228"
-    port: 443
-    uuid: "fdc48be3-a615-41ac-8bd1-ed844c931048"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "edgetunnel-4uw.pages.dev"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/"
-      headers:
-        Host: "edgetunnel-4uw.pages.dev"
-  - name: "🇹🇷_14"
-    type: vless
-    server: "93.190.8.89"
-    port: 3090
-    uuid: "7809f866-9f42-43ae-ae11-34729db23236"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇹🇷_15"
-    type: vless
-    server: "64.49.15.177"
-    port: 443
-    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "myda07.api3-max.ru"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_16"
-    type: vless
-    server: "93.190.9.172"
-    port: 3090
-    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
-  - name: "🇹🇷_17"
-    type: vless
-    server: "198.105.123.146"
-    port: 443
-    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
-    udp: true
-    tls: true
-    skip-cert-verify: true
-    servername: "myda010.api3-max.ru"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_18"
-    type: vless
-    server: "93.190.9.38"
-    port: 3090
-    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
-    udp: true
-    network: grpc
-    grpc-opts:
-      grpc-service-name: "vless"
   - name: "🇹🇷_19"
     type: vless
-    server: "151.241.226.201"
-    port: 2053
-    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    server: "83.217.9.140"
+    port: 43000
+    uuid: "85163fd9-6f73-4eea-b1df-3b327dacbabf"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "www.apple.com"
+    servername: "83.217.9.140"
     client-fingerprint: "firefox"
     reality-opts:
-      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
-      short-id: "9e419c0759b54d6f"
+      public-key: "ptE_QnAka3pXNEf8BYKpA9CHdgj4U4xXTixjYWOji0U"
+      short-id: "68d2eb23"
+    flow: "xtls-rprx-vision"
   - name: "🇹🇷_20"
     type: vless
     server: "78.135.73.47"
@@ -163,20 +89,170 @@ proxies:
     flow: "xtls-rprx-vision"
   - name: "🇹🇷_21"
     type: vless
-    server: "204.10.192.228"
-    port: 443
-    uuid: "cdd6bfce-781a-4454-b7d5-4778abb5c24f"
+    server: "185.87.24.169"
+    port: 2085
+    uuid: "ddceeb62-b629-4163-b4fb-a6fab21054b4"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_22"
+    type: vless
+    server: "93.190.8.91"
+    port: 3090
+    uuid: "eb95d26f-2200-4780-9986-cc4960c665f2"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_23"
+    type: vless
+    server: "86.38.214.7"
+    port: 8443
+    uuid: "7967bf59-57e3-4cde-9898-527b0fe60022"
     udp: true
     tls: true
     skip-cert-verify: true
-    servername: "myda08.api3-max.ru"
-    client-fingerprint: "firefox"
-    flow: "xtls-rprx-vision"
-  - name: "🇹🇷_22"
+    servername: "speed.dulacloud.store"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/dula?Telegram-WangCai2"
+      headers:
+        Host: "speed.dulacloud.store"
+  - name: "🇹🇷_24"
     type: vless
-    server: "93.190.8.84"
+    server: "130.94.1.150"
+    port: 443
+    uuid: "51a0af77-a60c-4d9b-81a4-f50e1b38d90b"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "cf3.schzyc.cc.cd"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=ProxyIP.CMLiussss.net"
+      headers:
+        Host: "cf3.schzyc.cc.cd"
+  - name: "🇹🇷_25"
+    type: vless
+    server: "93.190.9.225"
     port: 3090
-    uuid: "d0054d2b-3fea-486e-9592-ea6ce8d7b380"
+    uuid: "a641fd38-0ad7-40bf-9a56-6715c1787be3"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_26"
+    type: vless
+    server: "93.190.8.118"
+    port: 3090
+    uuid: "ddceeb62-b629-4163-b4fb-a6fab21054b4"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_27"
+    type: vless
+    server: "155.103.70.53"
+    port: 30303
+    uuid: "d18c6897-2849-456a-8c46-d7ecece47c20"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "wzs.echo.net.eu.org"
+    client-fingerprint: "firefox"
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "wzs.echo.net.eu.org"
+  - name: "🇹🇷_28"
+    type: vless
+    server: "93.190.8.117"
+    port: 3090
+    uuid: "6d5e5e29-0cc1-433c-bd3f-03821db54e5c"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_29"
+    type: vless
+    server: "helixgaming.ir"
+    port: 80
+    uuid: "0687359b-61f4-459f-949c-085b3dfc7f34"
+    udp: true
+    network: ws
+    ws-opts:
+      path: "/"
+      headers:
+        Host: "play.google.com"
+  - name: "🇹🇷_30"
+    type: vless
+    server: "93.190.9.25"
+    port: 3090
+    uuid: "eb95d26f-2200-4780-9986-cc4960c665f2"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_31"
+    type: vless
+    server: "93.190.9.35"
+    port: 3090
+    uuid: "eb95d26f-2200-4780-9986-cc4960c665f2"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_32"
+    type: vless
+    server: "45.74.158.103"
+    port: 443
+    uuid: "46e62b9b-f9db-4310-8f18-7d6e449cfd5c"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "tr2.gigobingo.ru"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "Aj6Op88j_eYXxoBw095KS_NnKCBm5uwa874uumXdiDQ"
+      short-id: "ef7c4e4302bd52d7"
+    flow: "xtls-rprx-vision"
+  - name: "🇹🇷_33"
+    type: vless
+    server: "109.230.196.66"
+    port: 208
+    uuid: "8d89622f-3150-424e-8446-06866a3d6b66"
+    udp: true
+  - name: "🇹🇷_34"
+    type: vless
+    server: "151.241.226.201"
+    port: 2053
+    uuid: "0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8"
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: "www.apple.com"
+    client-fingerprint: "firefox"
+    reality-opts:
+      public-key: "bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104"
+      short-id: "9e419c0759b54d6f"
+  - name: "🇹🇷_35"
+    type: vless
+    server: "93.190.9.10"
+    port: 3090
+    uuid: "ddceeb62-b629-4163-b4fb-a6fab21054b4"
+    udp: true
+    network: grpc
+    grpc-opts:
+      grpc-service-name: "vless"
+  - name: "🇹🇷_36"
+    type: vless
+    server: "93.190.8.148"
+    port: 3090
+    uuid: "ddceeb62-b629-4163-b4fb-a6fab21054b4"
     udp: true
     network: grpc
     grpc-opts:
@@ -223,17 +299,24 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
   - name: "LB-CDN"
     type: load-balance
@@ -243,17 +326,24 @@ proxy-groups:
     tolerance: 150
     lazy: true
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
   # ── Fastest-proxy groups ──────────────────────────────────────────────────
   - name: "FAST-ALL"
@@ -263,17 +353,24 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
   - name: "FAST-CDN"
     type: url-test
@@ -282,17 +379,24 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
   # ── UDP group ─────────────────────────────────────────────────────────────
   - name: "UDP-BEST"
@@ -302,33 +406,47 @@ proxy-groups:
     tolerance: 50
     lazy: true
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
   # ── Manual selector ───────────────────────────────────────────────────────
   - name: "MANUAL"
     type: select
     proxies:
-      - "🇹🇷_12"
-      - "🇹🇷_13"
-      - "🇹🇷_14"
-      - "🇹🇷_15"
-      - "🇹🇷_16"
-      - "🇹🇷_17"
-      - "🇹🇷_18"
       - "🇹🇷_19"
       - "🇹🇷_20"
       - "🇹🇷_21"
       - "🇹🇷_22"
+      - "🇹🇷_23"
+      - "🇹🇷_24"
+      - "🇹🇷_25"
+      - "🇹🇷_26"
+      - "🇹🇷_27"
+      - "🇹🇷_28"
+      - "🇹🇷_29"
+      - "🇹🇷_30"
+      - "🇹🇷_31"
+      - "🇹🇷_32"
+      - "🇹🇷_33"
+      - "🇹🇷_34"
+      - "🇹🇷_35"
+      - "🇹🇷_36"
 
 rules:
   - MATCH,PROXY-BEST
